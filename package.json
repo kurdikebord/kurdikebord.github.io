@@ -1,17 +1,21 @@
 {
   "name": "kurdikeyboard",
-  "description": "KurdiKeyBoard | تەختەکلیلی کوردی",
-  "version": "1.3.0",
-  "homepage": "http://kurdikeyboard.github.io",
+  "version": "1.0.0",
+  "description": "Gulp environment for running HTML themes by goran",
+  "keywords": [
+    "gulp",
+    "frontend"
+  ],
   "author": "GoRaN",
-  "license": "Kurdroid <www.facebook.com/kurddroid>",
+  "license": "MIT",
   "devDependencies": {
+    "browser-sync": "^2.24.5",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
-    "gulp-clean": "^0.4.0",
-    "gulp-install": "^1.1.0",
+    "gulp-file-include": "^2.0.1",
+    "gulp-rimraf": "^0.2.2",
     "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.6.4",
-    "gulp-open": "^3.0.1"
+    "run-sequence": "^2.2.1"
   }
 }
