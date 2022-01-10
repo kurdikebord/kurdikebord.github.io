@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+
+
+
+
+.whatsapp_float {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+        font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+        z-index:100;
+}
+
+.whatsapp-icon {
+	margin-top:16px;
+    font-size: 30px;
+}
+/* for mobile */
+@media screen and (max-width: 767px){
+     .whatsapp-icon {
+	 margin-top:15px;
+     }
+    .whatsapp_float {
+        width: 60px;
+        height: 60px;
+        bottom: 20px;
+        right: 10px;
+        font-size: 22px;
+    }
+}
+.whatsapp_float:hover{
+    box-shadow: 1px 1px 8px #0e9642!important; 
+    color: white;  
+}
+
+
+.img-slide{
+    min-width: 800px;
+}
+
+
+
+     
+.heading{
+    font-size: 3rem;
+    font-weight: 450;
+    color: #2EB9D5;
+}
+
+
+
+.btn-registration{
+    border: 1px solid lightskyblue;
+    background-color: lightskyblue;
+    border-radius: 20px;
+    box-shadow: -2px -1px 7px 2px rgba(236, 213, 213, 0.75);
+    font-size: 18px;
+}
+.btn-registration:hover{
+    background-color: lightskyblue!important; 
+    box-shadow: 1px 1px 8px #888888!important;
+    border-radius: 20px!important;
+    
+    
+}
+
+.nav-item {
+    font-size: 18px;
+    font-family: sans-serif;
+    
+}
+.nav-item:hover{
+     background-color: rgb(188, 224, 233); 
+     border-radius: 4px;
+  
+}
+
+
+
+
+
+
+.pera-one{
+    font-size: 20px;
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+
+.p-head{
+    font-size: larger;
+    color: rgb(75, 61, 61);
+    font-weight: 500;
+}
+.head{
+    color: hsl(190, 81%, 42%);
+    font-size: 40px;
+    font-style: italic;
+    
+}
+.heading-one{
+    color: teal;
+    font-size: 43px;
+    
+}
+
+
+.btn-1{
+    height: 50px;
+    width: 35%;
+    border: none;
+    outline: none;
+    
+    color: black;
+    font-weight: bold;
+    border-radius: 60px;
+    margin: auto;
+    border:2px solid rgb(54, 149, 284) ;
+    background-color: transparent;
+}
+.btn-1:hover{
+    
+    transition: 0.5s;
+    background: transparent;
+    border: 0px solid transparent;
+    
+    
+    background-color: #77DDF1 ;
+    border: 0px solid transparent;
+    box-shadow: 1px 1px 8px #888888;
+    
+    
+   
+}
+
+.btn-2{
+    height: 50px;
+    width: 35%;
+ 
+    outline: none;
+    
+    border:2px solid rgb(54, 149, 284) ;
+    border-radius: 60px;
+    font-weight: bold;
+   margin: auto;
+   background: transparent;
+
+}
+.btn-2:hover{
+    color: rgb(4, 4, 70);
+    border: 2px solid black;
+    transition: 0.5s;
+    background-color: #77DDF1 ;
+    border: 0px solid transparent;
+    box-shadow: 1px 1px 8px #888888;
+}
+
+
+.item{
+    font-weight: bold;
+    color: #3E555A;
+    font-size: 25px;
+   
+    
+} 
+
+.head-two{
+    color: black;
+    
+}
+.box-img{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+   /* .card:hover{
+    box-shadow: -2px -1px 7px 2px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 7px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 7px 2px rgba(0,0,0,0.75);
+cursor: pointer; 
+} */
+
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.slidee{
+    background-color: white!important;
+    display: none;
+    border-radius: 20px!important;
+    border: 2px solid white!important;
+
+} 
+
+
+.new{
+
+    display: none;
+    
+   
+}
+
+
+.span{
+    float:right;
+   
+    font-size: 22px;
+    color: blanchedalmond;
+} 
+.containter{
+    background-color: rgb(177, 39, 39);
+    height: 110px;
+}
+
+.fa-color{
+    color: whitesmoke;
+}
+
+.fa-color:hover{
+    color: brown;
+}
+
+.footer-link:hover{
+    cursor: pointer;
+    color: rgb(125, 202, 202)!important;
+}

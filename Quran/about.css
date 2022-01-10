@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+
+
+
+
+.whatsapp_float {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+        font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+        z-index:100;
+}
+
+.whatsapp-icon {
+	margin-top:16px;
+    font-size: 30px;
+}
+/* for mobile */
+@media screen and (max-width: 767px){
+     .whatsapp-icon {
+	 margin-top:15px;
+     }
+    .whatsapp_float {
+        width: 60px;
+        height: 60px;
+        bottom: 20px;
+        right: 10px;
+        font-size: 22px;
+    }
+}
+.whatsapp_float:hover{
+    box-shadow: 1px 1px 8px #0e9642!important; 
+    color: white;  
+}
+
+
+
+.slidee{
+    background-color: white!important;
+    display: none;
+    border-radius: 20px!important;
+    border: 2px solid white!important;
+
+} 
+
+
+
+.new{
+
+    display: none;
+    
+   
+}
+
+.btn-registration{
+    border: 1px solid lightskyblue;
+    background-color: lightskyblue;
+    border-radius: 20px;
+    box-shadow: -2px -1px 7px 2px rgba(236, 213, 213, 0.75);
+    font-size: 18px;
+}
+.btn-registration:hover{
+    background-color: lightskyblue!important; 
+    box-shadow: 1px 1px 8px #888888;
+    border-radius: 20px!important;
+    
+}
+
+
+.nav-item {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.nav-item:hover{
+    background-color: rgb(188, 224, 233);
+border-radius: 6px;
+
+
+}
+
+
+
+
+
+
+
+.li_item{
+    color: brown;
+
+    font-weight: bold;
+    
+}
+.li-item-one{
+    color: brown;
+}
+.items{
+    color: black;
+    
+}
+
+.heading {
+    color: lightskyblue;
+}
+
+.head-two{
+    color: goldenrod;
+}
+
+.footer-hoever:hover{
+    color: rgb(68, 172, 241);
+    cursor: pointer;
+    
+}
+
+.footer-link:hover{
+    cursor: pointer!important;
+    color: rgb(125, 202, 202)!important;
+}
