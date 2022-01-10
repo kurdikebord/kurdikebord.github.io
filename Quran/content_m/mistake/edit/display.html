@@ -1,0 +1,33 @@
+{%extends 'content_m/layout.html'%}
+
+
+{%block pageContent%}
+  <div class="justify-center f">
+   <form method="post" class="c5 m6 s12" autocomplete="off">
+    <div class="cbox">
+      {{block('ititle')}}
+
+      {{block('isave')}}
+    </div>
+   </form>
+  </div>
+{%endblock%}
+
+
+
+{% block ititle %}
+<label for="title">{%trans "Title"%} <small class="fc-red">* {%trans "Require"%}</small></label>
+<div class="input">
+  <input type="text" name="title" id="title" placeholder='{%trans "Level title"%} *' value="{{dataRow.title}}" autofocus required maxlength='150' minlength="1" pattern=".{1,150}">
+</div>
+{% endblock %}
+
+
+
+
+
+{%block isave%}
+<button class="btn primary block mT20">{%trans "Save"%}</button>
+{%endblock%}
+
+

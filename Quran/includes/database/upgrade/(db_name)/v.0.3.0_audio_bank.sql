@@ -1,0 +1,1 @@
+ALTER TABLE `audiobank` ADD `addr` varchar(1000) NULL DEFAULT NULL AFTER `type`;

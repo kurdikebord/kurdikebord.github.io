@@ -1,0 +1,28 @@
+{%extends 'content_lms/group/layout.html'%}
+
+
+
+{%block pageContent%}
+
+
+<div class="f justify-center">
+  <div class="c9 s12">
+    <div class="cbox">
+{%if loadLevel.file%}
+      <video width="100%" controls>
+        <source src="{{loadLevel.file}}" type="video/mp4">
+      </video>
+{%endif%}
+{%if loadLevel.desc%}
+      <p class="msg mT20 txtB fs11">{{loadLevel.desc}}</p>
+{%endif%}
+      <div class="txtC">
+        <a href="{{url.here}}/level/{{loadLevel.type}}?id={{loadLevel.id}}" class="btn mT10 primary lg">{%trans "Continue"%}</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+{%endblock%}
+
+

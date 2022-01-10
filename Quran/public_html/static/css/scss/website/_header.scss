@@ -1,0 +1,168 @@
+#header{
+	-webkit-touch-callout:none;
+	-webkit-user-select:none;
+	-khtml-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	cursor:default;
+	font-size: 1.3em;
+	position: relative;
+	z-index: 10;
+  	// background-color: rgba(0,0,0,0.2);
+	color: #fff;
+}
+#header .topnav{
+	padding: 20px 0 10px;
+}
+#header .topnav h1{
+	display: inline-block;
+	line-height: 40px;
+	margin: 0 10px;
+	font-weight: 900;
+	transition: color 0.3s;
+	color: #fff;
+	display: none;
+}
+body[data-page="home"] #header .topnav h2{
+	font-weight: 900;
+	font-size: 2em;
+}
+#header .topnav h2{
+	display: inline-block;
+	line-height: 40px;
+	height: 40px;
+	margin: 0 10px;
+	font-weight: 100;
+	transition: color 0.3s;
+	color: #fff;
+	max-width: 70%;
+	vertical-align: middle;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 1.6em;
+}
+#header .topnav h3{
+	display: inline-block;
+	line-height: 40px;
+	margin: 0 10px;
+	font-weight: 100;
+	transition: color 0.3s;
+	color: #fff;
+}
+#header .topnav a img{
+	width: 40px;
+	height: 40px;
+	margin: 0 5px;
+	vertical-align: middle;
+}
+#header .topnav .links a{
+	display: inline-block;
+	line-height: 40px;
+	padding: 0 1em;
+	margin: 0 5px;
+	transition: 0.3s;
+	color: rgba(255,255,255,0.8);
+	border-radius: 3px;
+}
+#header .topnav .links a.special{
+	background-color: rgba(255, 255, 255, 0.07);
+	border: 1px solid #fff;
+	font-weight: 900;
+	line-height: 38px;
+}
+#header .topnav .links a:hover{
+	background-color: rgba(255, 255, 255, 0.1);
+	color: rgba(255,255,255,1);
+}
+#header .topnav h1 a:focus{
+	color: rgba(255,255,255,0.9);
+}
+#header .topTitle{
+	padding: 80px 0 40px;
+	text-align: center;
+	overflow:hidden;
+	display: none;
+}
+body[data-page="home"] #header .topTitle{
+	display: block;
+}
+#header .topTitle h2{
+	font-weight: 900;
+	font-size: 6em;
+	line-height: 100px;
+}
+#header .topTitle h3{
+	font-size: 1.4em;
+	line-height: 30px;
+	font-weight: 100;
+	margin: 0;
+}
+
+
+// mag design for header
+body[data-in='mag'] #header{
+	min-height: initial;
+	height: 80px;
+}
+body[data-in='mag'] #header .topnav{
+	padding-top: 20px;
+}
+
+
+
+
+// sidenavHandler
+.sidenavHandler{
+	width: 40px;
+	min-width: 40px!important;
+	max-width: 40px!important;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	color: #eee;
+	padding: 1rem 1rem;
+	transition: 0.3s;
+	cursor: pointer !important;
+	vertical-align: middle;
+}
+.sidenavHandler:hover{
+	color: #fff;
+	background-color: rgba(0,0,0,0.5);
+}
+.sidenavHandler:before,
+.sidenavHandler:after
+{
+	content: '';
+	display: block;
+	background: #eee;
+	height: 2px;
+}
+.sidenavHandler span{
+	background: #eee;
+	display: block;
+	height: 2px;
+	margin: 6px 0;
+}
+#header .sidenavHandler{
+	display: none;
+	background-color: rgba(255,255,255,0.1);
+	border-radius: 0.25rem;
+}
+
+
+// custom nav bar
+#nprogress .bar {
+  background: #d22;
+}
+#nprogress .peg {
+  box-shadow: 0 0 10px #d22, 0 0 5px #d22;
+}
+#nprogress .spinner-icon {
+  border-top-color: #d22;
+  border-left-color: #d22;
+}
+.rtl #nprogress .spinner-icon {
+  border-right-color: #d22;
+}

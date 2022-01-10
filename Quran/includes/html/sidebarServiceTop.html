@@ -1,0 +1,15 @@
+{%if perm('contentM')%}
+<li>
+	<a href="{{url.kingdom}}/m" {%if url.content == "m"%} class="activeContent"{%endif%}><i class='sf-gauge'></i> <span>{% trans "Manage"%}</span></a>
+</li>
+{%endif%}
+
+
+  <li><a href="{{url.kingdom}}/lms"><i class='sf-info'></i> <span>{%trans "Learn Mechanism system"%}</span></a></li>
+
+
+
+
+{%if login%}
+        <li><a href="{{url.kingdom}}/a" {%if url.content == "a"%} class="activeContent"{%endif%}><i class='sf-user'></i> <span>{% trans "Users Panel"%}</span></a></li>
+{%endif%}

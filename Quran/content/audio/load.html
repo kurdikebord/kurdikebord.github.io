@@ -1,0 +1,48 @@
+{%extends display.main%}
+
+
+
+{%block page%}
+
+	<div class="f align-center mB10">
+		<div class="cauto"><img src="{{loadAudioFolder.image}}"></div>
+		<div class="cauto pLa10">
+			<h3><a href="{{url.this}}?qari={{loadAudioFolder.qari}}">{{loadAudioFolder.name}}</a></h3>
+
+			<div>{%trans "Country"%}
+				<a href="{{url.this}}?country={{loadAudioFolder.flag}}"><i class="flag {{loadAudioFolder.flag}}"></i> <span>{{loadAudioFolder.country_name}}</span></a>
+			</div>
+			<div>{%trans "Audio Quality"%} <a href="{{url.this}}?quality={{loadAudioFolder.quality}}" class="txtB">{{loadAudioFolder.quality | fitNumber}} {%trans "kbps"%}</a></div>
+			<div>{%trans "Qiraat type"%} <a href="{{url.this}}?type={{loadAudioFolder.type}}" class="txtB">{%set myType = loadAudioFolder.type%}{%trans myType%}</a></div>
+			<div>
+				<a class="btn secondary outline sm" href="{{url.this}}">{%trans "Return to audio center"%}</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="tblBox audioList">
+		<table class="tbl1 v5">
+			<tbody>
+	{%for itemIndex, itemDetail in audioList%}
+	{%set myDownloadLink%}{{dlLink}}/{{loadAudioFolder.addr}}/{{itemDetail.sura_index}}.mp3{%endset%}
+
+				<tr>
+					<td class="s0 collapsing">{{itemDetail.index | fitNumber}}</td>
+					<td class="itemName pLa5">{{itemDetail.name}}</td>
+					<td class="surahFName s0 txtR"><span class="icon-surah{{itemDetail.index}}"></span></td>
+					<td class="playerCell">
+						<audio controls controlsList="nodownload" preload="none">
+							<source src="{{myDownloadLink}}" type="audio/mpeg">
+						</audio>
+					</td>
+					<td class="collapsing s0">{{((loadAudioFolder.meta[itemDetail.sura_index]['size']) / (1024 * 1024)) | fitNumber}} {%trans "Mb"%}</td>
+					<td class="collapsing"><a href="{{url.kingdom}}/s{{itemDetail.index}}"><i class="sf-book mRa5"></i><span class="s0">{%trans "Read"%}</span></a></td>
+					<td class="collapsing"><a href="{{myDownloadLink}}" download><i class="sf-cloud-download mRa5"></i><span class="s0">{%trans "Download"%}</span></a></td>
+				</tr>
+	{%endfor%}
+			</tbody>
+		</table>
+	</div>
+
+{%endblock%}
+

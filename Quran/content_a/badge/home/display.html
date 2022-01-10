@@ -1,0 +1,106 @@
+{%extends 'content_a/layout.html'%}
+
+
+
+
+
+
+
+
+
+
+
+
+{%block pageContent%}
+
+
+
+{%if dataTable%}
+ {%if dataFilter%}
+
+
+  {{block('htmlTable')}}
+  {{block('htmlFilter')}}
+
+ {%else%}
+
+
+  {{block('htmlTable')}}
+
+ {%endif%}
+{%else%}
+ {%if dataFilter%}
+
+
+  {{block('htmlFilterNoResult')}}
+
+ {%else%}
+
+  {{block('htmlStartAddNew')}}
+
+ {%endif%}
+{%endif%}
+
+
+
+{%if myScore%}
+<div class="f justify-center txtC">
+
+    <div class="msg fs50 warn2">
+      {%trans "Your total score"%}
+      {{myScore | fitNumber}}
+    </div>
+</div>
+{%endif%}
+{%endblock%}
+
+
+
+{%block htmlTable%}
+
+  <table class="tbl1 v10 cbox fs12">
+    <thead>
+      <tr>
+          <th>{%trans "Badge"%}</th>
+          <th>{%trans "Description"%}</th>
+          <th>{%trans "Date"%}</th>
+
+
+      </tr>
+    </thead>
+
+    <tbody>
+      {%for key, value in dataTable%}
+        <td><span class="badge {{value.badge_detail.class}}">{{value.badge}}</span></td>
+        <td>{{value.badge_detail.title}}</td>
+        <td>{{value.datecreated | dt('human', 'year')}}</td>
+
+      </tr>
+      {%endfor%}
+    </tbody>
+  </table>
+  {%include display.pagination%}
+
+{%endblock%}
+
+
+{%block htmlFilter%}
+<p class="f fs14 msg info2">
+  <span class="c">{{dataFilter | raw}}</span>
+  <a class="cauto" href="{{url.this}}">{%trans "Clear filters"%}</a>
+</p>
+{%endblock%}
+
+
+{%block htmlFilterNoResult%}
+<p class="f fs14 msg warn2">
+  <span class="c">{%trans "Result not found!"%} {%trans "Search with new keywords."%}</span>
+  <a class="cauto" href="{{url.this}}">{%trans "Clear filters"%}</a>
+</p>
+{%endblock%}
+
+
+{%block htmlStartAddNew%}
+<p class="fs14 msg success2 pTB20">{%trans "No audio file founded!"%}</p>
+{%endblock%}
+

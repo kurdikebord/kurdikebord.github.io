@@ -1,0 +1,166 @@
+{%extends display.main%}
+
+
+{%block page%}
+
+
+{%if datarow.type == 'post' or datarow.type == 'page' %}
+  {{block('posts')}}
+{%else%}
+  {{block('terms')}}
+{%endif%}
+
+{%endblock%}
+
+
+
+{%block posts%}
+  <div class="postListPreview">
+    <div class="postMainContent">
+
+{%if datarow.type == 'post' %}
+{%if datarow.meta.thumb%}
+     <img src="{{datarow.meta.thumb}}" alt="{{datarow.title | raw}}">
+{%endif%}
+	<h2><a href="{{datarow.url}}">{{datarow.title | raw}}</a></h2>
+{%if datarow.subtitle%}
+    <div class="mB10 fs09">{{datarow.subtitle}}</div>
+{%endif%}
+    <p class="msg">{{datarow.excerpt}}</p>
+{%endif%}
+    <div class="mB20">
+      {{datarow.content | raw}}
+    </div>
+    </div>
+    {{block('imagegallery')}}
+
+    {{block('imagList')}}
+
+    <div class="tagBox msg simple">{{tags({"format" : 'html'})}}</div>
+
+{%if datarow.type == 'post' and datarow.datemodified%}
+    <div class='msg simple f mT20'>
+      <div class="c"><time datetime="{{datarow.datemodified}}">{{datarow.publishdate | dt(true)}}</time></div>
+      <div class="cauto os"><a href="{{url.base}}/n/{{datarow.id}}" title='{%trans "For share via social networks"%}'>{%trans "News Code"%} <span class="txtB">{{datarow.id}}</span></a></div>
+    </div>
+{%endif%}
+
+<div class="msg">
+{%include 'content/template/shareBox.html'%}
+</div>
+
+{{block('postSimilar')}}
+{{block('setPostComment')}}
+
+  </div>
+{%endblock%}
+
+{%block imagList%}
+{%if datarow.maglist %}
+
+<div class="f">
+  {%for key, value in datarow.maglist%}
+    <div class="pRa5 c6 s12">
+      <div class="msg">
+        <a href="{{value.quran_link}}">{{value.quran_title}}</a>
+      </div>
+    </div>
+  {%endfor%}
+</div>
+
+{%endif%}
+
+{%endblock%}
+
+{%block postSimilar%}
+    {%set myPostSimilar = posts({"mode" : "similar", "post_id" : datarow.id})%}
+
+    {%if myPostSimilar%}
+      <nav class="msg">
+        <h4 class="mB20-f">{%trans "Recommended for you"%}</h4>
+
+        {%for key, value in myPostSimilar%}
+        <a class="block" href="{{url.kingdom}}/n/{{value.id}}">{{value.title}}</a>
+
+        {%endfor%}
+      </nav>
+    {%endif%}
+{%endblock%}
+
+
+{%block terms%}
+    {{block('datatablePosts')}}
+{%endblock%}
+
+
+
+{%block imagegallery%}
+  {%if datarow.meta.gallery%}
+    <div id="lightgallery">
+      {%for key, myUrl in datarow.meta.gallery%}
+        {%if myUrl ends with '.jpg' or myUrl ends with '.png' or myUrl ends with '.gif'%}
+          <a data-action href="{{myUrl}}"><img src="{{myUrl}}" alt="{{datarow.title | raw}}"></a>
+        {%endif%}
+      {%endfor%}
+    </div>
+  {%endif%}
+
+
+    <div class="gallery2">
+      {%for key, myUrl in datarow.meta.gallery%}
+        {%if myUrl ends with '.mp4' %}
+        <video controls>
+            <source src="{{myUrl}}" type="video/mp4">
+        </video>
+        {%elseif myUrl ends with '.mp3' %}
+          <audio controls><source src="{{myUrl}}" type="audio/mpeg"></audio>
+        {%elseif myUrl ends with '.pdf' %}
+        <a href="{{myUrl}}" class="btn lg mT25 primary">{%trans "Download"%} {%trans "PDF"%}</a>
+        {%else%}
+        {%endif%}
+      {%endfor%}
+    </div>
+
+{%endblock%}
+
+
+{%block datatablePosts%}
+
+{%if datarow.type == 'cat'%}
+
+  {%set myPostByThisCat = posts({"cat" : datarow.slug})%}
+
+{%elseif datarow.type == 'tag' %}
+
+  {%set myPostByThisCat = posts({"tag" : datarow.slug})%}
+
+{%endif%}
+
+{%if myPostByThisCat %}
+<article class="postListPreview">
+  {%for key, value in myPostByThisCat%}
+    <section class="f">
+{%if value.meta.thumb%}
+      <div class="cauto s12 pRa10 txtC">
+        <a href="{{value.link}}"><img src="{{value.meta.thumb}}" alt="{{value.title}}" width="150px"></a>
+      </div>
+{%endif%}
+      <div class="c s12">
+        <h3><a href="{{value.link}}">{{value.title}}</a></h3>
+        <p>{{value.excerpt}}</p>
+      </div>
+    </section>
+  {%endfor%}
+</article>
+{%endif%}
+
+
+{%endblock%}
+
+
+
+{%block setPostComment%}
+{%include display.commentadd%}
+{%include display.commentlist%}
+{%endblock%}
+

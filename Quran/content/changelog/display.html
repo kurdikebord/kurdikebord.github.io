@@ -1,0 +1,108 @@
+{%extends display.main%}
+
+
+{%block page%}
+
+<table class="tbl1 v6 fs09">
+ <thead>
+  <tr>
+   <th>{%trans "Date"%}</th>
+   <th>{%trans "Description"%}</th>
+   <th>{%trans "Schedule Date"%}</th>
+   <th></th>
+  </tr>
+ </thead>
+ <tbody>
+
+
+  <tr class="negative">
+   <td><span class="badge secondary">{%trans "Next Version"%}</span></td>
+   <td>{%trans "iOS app"%}</td>
+   <td>{{"2019-06-09" | dt(true)}}</td>
+   <td></td>
+  </tr>
+
+  <tr class="warning">
+   <td><span class="badge success">{%trans "in progress"%}</span></td>
+   <td>{%trans "Android App"%}</td>
+   <td>{{"2019-05-10" | dt(true)}}</td>
+   <td></td>
+  </tr>
+
+  <tr class="active">
+   <td>{{"2019-08-05" | dt(true)}}</td>
+   <td>{%trans "Learning Mechanism"%}</td>
+   <td>{{"2019-05-30" | dt(true)}}</td>
+   <td></td>
+  </tr>
+
+  <tr class="active">
+   <td>{{"2019-07-17" | dt(true)}}</td>
+   <td>{%trans "Telegram bot"%} </td>
+   <td>{{"2019-06-19" | dt(true)}}</td>
+   <td></td>
+  </tr>
+
+  <tr class="active">
+   <td>{{"2019-05-12" | dt(true)}}</td>
+   <td>{%trans "Exam"%}</td>
+   <td>{{"2019-05-20" | dt(true)}}</td>
+   <td></td>
+  </tr>
+
+  <tr class="active">
+   <td>{{"2019-04-14" | dt(true)}}</td>
+   <td>{%trans "Quran Magazine"%}</td>
+   <td>{{"2019-04-20" | dt(true)}}</td>
+   <td></td>
+  </tr>
+
+  <tr class="active">
+   <td>{{"2019-04-10" | dt(true)}}</td>
+   <td>{%trans "Quran Audio Database"%}</td>
+   <td>{{"2019-04-10" | dt(true)}}</td>
+   <td></td>
+  </tr>
+
+  <tr class="active">
+   <td>{{"2019-03-11" | dt(true)}}</td>
+   <td>{%trans "Website of SalamQuran was Launched."%}</td>
+   <td>{{"2019-03-11" | dt(true)}}</td>
+   <td></td>
+  </tr>
+
+  <tr class="active">
+   <td>{{"2019-12-26" | dt(true)}}</td>
+   <td>{%trans "The name of project selected as SalamQuran and <a href='https://SalamQuran.com'>SalamQuran.com</a> domain are registered."%}</td>
+   <td></td>
+   <td></td>
+  </tr>
+
+  <tr class="active">
+   <td>{{"2019-01-10" | dt(true)}}</td>
+   <td>{%trans "Project officially started."%}</td>
+   <td></td>
+   <td></td>
+  </tr>
+
+  <tr class="active">
+   <td>{{"2019-01-01" | dt(true)}}</td>
+   <td>{%trans "Primary studies were done."%}</td>
+   <td></td>
+   <td></td>
+  </tr>
+
+  <tr class="active">
+   <td>{{"2018-12-17" | dt(true)}}</td>
+   <td>{%trans "The project was initiated and the initial agreement was made."%}</td>
+   <td></td>
+   <td></td>
+  </tr>
+
+ </tbody>
+</table>
+
+<p class="msg pain txtC mT50">{%trans "Be patient..."%}</p>
+
+{%endblock%}
+

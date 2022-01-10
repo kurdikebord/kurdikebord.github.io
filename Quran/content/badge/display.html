@@ -1,0 +1,39 @@
+{%extends display.main%}
+
+
+{%block page%}
+<table class="tbl1 v10">
+  <thead>
+    <tr>
+      <th>{%trans "Badge"%}</th>
+      <th>{%trans "Description"%}</th>
+      <th>{%trans "Users"%}</th>
+
+    </tr>
+  </thead>
+  <tbody>
+
+    {%for key, value in badgeList%}
+    <tr>
+      <td class="collapsing">
+        <span class="badge {{value.class}}">{{key}}</span>
+
+      </td>
+      <td>
+        {{value.title}}
+      </td>
+      <td>
+        {%if value.person%}
+
+        {{value.person | fitNumber}} <small>{%trans "Person"%}</small>
+        {%else%}
+        <small class="fc-mute">{%trans "Nobody"%}</small>
+        {%endif%}
+      </td>
+    </tr>
+
+    </div>
+    {%endfor%}
+  </tbody>
+</table>
+{%endblock%}

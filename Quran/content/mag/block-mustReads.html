@@ -1,0 +1,17 @@
+{%set mustRead = posts({"limit" : 3, "special" : "mustread"})%}
+{%if mustRead%}
+<section class="f mustReads txtC">
+  <div class="c12">
+    <h2>{%trans "Must Reads"%}</h2>
+  </div>
+  {%for key, value in mustRead%}
+    <div class="c4 s12 pRa10">
+      <a href="{{value.link}}" data-action>
+       <img src="{{value.meta.thumb}}" alt="{{value.title}}">
+       <h3>{{value.title}}</h3>
+      </a>
+    </div>
+  {%endfor%}
+
+</section>
+{%endif%}

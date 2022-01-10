@@ -1,0 +1,77 @@
+{%extends display.main%}
+
+
+{%block page%}
+
+
+   <nav class="breadcrumb block msg hide" data-xhr="breadcrumb" tabindex='-1' data-step='4' data-intro='{%trans "View your current location and navigate to parent of it"%}' data-position='bottom'>
+   {{breadcrumb(null, true) | raw}}
+   </nav>
+
+
+{{block('posts')}}
+
+
+{%endblock%}
+
+
+
+{%block posts%}
+
+
+{%if allPostList %}
+<article class="postListPreview">
+  <h1>{%trans "Salam Quran Blog"%}</h1>
+  <hr class="impact">
+  {%for key, datarow in allPostList%}
+
+{%if loop.index == 1%}
+    <section class="firstPost">
+{%if datarow.meta.thumb%}
+      <a class="thumbLink" href="{{url.kingdom}}/{{datarow.url}}"><img src="{{datarow.meta.thumb}}" alt="{{datarow.title}}"></a>
+{%endif%}
+        <h2><a href="{{url.kingdom}}/{{datarow.url}}">{{datarow.title}}</a></h2>
+        <p>{{datarow.excerpt}}</p>
+        <div class="f align-center">
+          <div class="c">
+            <time datetime="{{datarow.datemodified}}">{{datarow.publishdate | dt(true, 'date')}}</time>
+          </div>
+          <div class="cauto os pRa10">
+            <a class="btn outline secondary" href="{{url.kingdom}}/{{datarow.url}}">{%trans "Read More"%}</a>
+          </div>
+        </div>
+    </section>
+
+{%else%}
+    <section class="f align-center">
+{%if datarow.meta.thumb%}
+      <div class="cauto s12 pRa10 txtC">
+        <a  class="thumbLink" href="{{url.kingdom}}/{{datarow.url}}"><img src="{{datarow.meta.thumb}}" alt="{{datarow.title}}"></a>
+      </div>
+{%endif%}
+      <div class="c s12">
+        <h2><a href="{{url.kingdom}}/{{datarow.url}}">{{datarow.title}}</a></h2>
+        <p>{{datarow.excerpt}}</p>
+        <div class="f align-center pT25">
+          <div class="c">
+            <time datetime="{{datarow.datemodified}}">{{datarow.publishdate | dt(true, 'date')}}</time>
+          </div>
+          <div class="cauto os pRa10">
+            <a class="btn outline secondary" href="{{url.kingdom}}/{{datarow.url}}">{%trans "Read More"%}</a>
+          </div>
+        </div>
+      </div>
+    </section>
+{%endif%}
+  {%endfor%}
+</article>
+
+
+{%include display.pagination%}
+
+{%endif%}
+
+
+{%endblock%}
+
+

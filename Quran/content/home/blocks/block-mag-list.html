@@ -1,0 +1,12 @@
+{%if magLoaded%}
+
+<div class="f magList">
+	{%for key, value in magLoaded%}
+		<div class="pRa5 c6 s12">
+			<div class="msg ">
+				<a href="{{value.link}}">{{value.title}}</a>
+			</div>
+		</div>
+	{%endfor%}
+</div>
+{%endif%}

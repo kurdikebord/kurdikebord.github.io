@@ -1,0 +1,32 @@
+
+// mustReads
+.mustReads{
+    background-color: #333;
+    color: #fff;
+    padding: 5em 1em;
+}
+// images
+.mustReads img{
+    width: 100%;
+    display: block;
+    border: 1px solid transparent;
+    transition: 0.3s;
+    margin-bottom: 1em;
+}
+.mustReads a:hover img{
+    border-color: #fff;
+}
+
+.mustReads a{
+    display: block;
+    color: #eee;
+}
+.mustReads a:hover{
+    color: #fff;
+}
+.mustReads h2{
+    font-weight: 900;
+    font-size: 4em;
+    margin-bottom: 1em;
+}
+

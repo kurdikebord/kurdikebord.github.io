@@ -1,0 +1,51 @@
+<div class="f">
+	<div class="c6 s12">
+
+		{%for key, value in quranLoaded.text.page1%}
+		<!-- load page number once for each page -->
+		  <div class='{%if pageStyle == "uthmani"%}{{quranLoaded.detail.page1.class}}{%endif%} readerMode'>
+		{%for page_number, page_line in value%}
+
+		{%if page_line.detail.line_type == 'besmellah'%}
+			{%include 'content/home/blocks/block-besmellah.html'%}
+		{%elseif page_line.detail.line_type == 'start_sura'%}
+			{%include 'content/home/blocks/block-sura-header.html'%}
+		{%else%}
+		    <div class='ayeLine'>
+			{%for myWord in page_line.word%}
+{%include 'content/home/blocks/block-aye-words.html'%}
+			{%endfor%}
+		    </div>
+		{%endif%}
+		{%endfor%}
+
+		  </div>
+		{%endfor%}
+
+	</div>
+
+	<div class="c6 s12">
+
+		{%for key, value in quranLoaded.text.page2%}
+		<!-- load page number once for each page -->
+		  <div class='{%if pageStyle == "uthmani"%}{{quranLoaded.detail.page2.class}}{%endif%} readerMode'>
+		{%for page_number, page_line in value%}
+
+		{%if page_line.detail.line_type == 'besmellah'%}
+			{%include 'content/home/blocks/block-besmellah.html'%}
+		{%elseif page_line.detail.line_type == 'start_sura'%}
+			{%include 'content/home/blocks/block-sura-header.html'%}
+		{%else%}
+		    <div class='ayeLine'>
+			{%for myWord in page_line.word%}
+{%include 'content/home/blocks/block-aye-words.html'%}
+			{%endfor%}
+		    </div>
+		{%endif%}
+		{%endfor%}
+
+		  </div>
+		{%endfor%}
+
+	</div>
+</div>

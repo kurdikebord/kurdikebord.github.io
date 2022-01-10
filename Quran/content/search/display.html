@@ -1,0 +1,65 @@
+{%extends display.main%}
+
+
+{%block page%}
+{{block('htmlSerchBox')}}
+{{block('serchResult')}}
+{%endblock%}
+
+
+
+
+{%block htmlSerchBox%}
+<form method="get" action="{{url.this}}" autocomplete="off">
+  <label>{%trans "Search"%}</label>
+  <div class="input">
+    <input type="text" name="q" autocomplete="off" placeholder='{%trans "Search"%}' value="{{requestGET.q}}">
+    <button class="addon"><i class="sf-search fc-blue"></i></button>
+  </div>
+</form>
+{%endblock%}
+
+
+
+
+
+{%block serchResult%}
+
+{%for key, value in dataTable%}
+<div class="msg f">
+    <div class="c s12">
+      {{value.simple}}
+    </div>
+    <div class="cauto">
+      <span><small class="">{%trans "Sura"%}</small> <span class="txtB">{{value.sura_title}}</span></span>
+      <span class="mRa5"><small class="">{%trans "Aya"%}</small> <span class="txtB">{{value.aya | fitNumber}}</span></span>
+    </div>
+    <div class="cauto s4">
+      <a href="{{url.kingdom}}/s{{value.sura}}/{{value.aya}}?mode=aye" class="btn"><i class="sf-link fc-blue"></i></a>
+    </div>
+</div>
+
+{%endfor%}
+
+{%if requestGET.q and not dataTable%}
+<div class="msg warn2">
+  <div class="f">
+    <div class="c txtB">{%trans "No result found"%}</div>
+    <div class="cauto"><a class="txtB" href="{{url.this}}">{%trans "Clear filter"%}</a></div>
+  </div>
+</div>
+{%endif%}
+
+{%if not requestGET.q and not dataTable%}
+<div class="msg success2">
+  <div class="f">
+    <div class="c txtC txtB">{%trans "Please enter your keyword in the box above and press Enter"%}</div>
+
+  </div>
+</div>
+{%endif%}
+
+{%include display.pagination%}
+
+{%endblock%}
+

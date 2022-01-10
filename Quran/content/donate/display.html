@@ -1,0 +1,166 @@
+{%extends display.main%}
+
+
+{%block page%}
+
+{%if paymentVerifyMsg%}
+{%if paymentVerifyMsgTrue%}
+<div class="msg success mT10">
+  <h3>{%trans "Thank You"%}</h3>
+  <div class="msg txtC">{{ paymentVerifyMsg}}</div>
+  <p>{%trans "Also you can share our project to everyone and we are say thank you."%}</p>
+</div>
+{%else%}
+<div class="msg danger mT10">
+  <h3>{%trans "Payment Failed!"%}</h3>
+</div>
+{%endif%}
+{%endif%}
+
+<div class="msg mT10" id='start'>
+  <p>{%trans "Donating to SalamQuran is an investment in multiple causes including education, research, server cost, improve design, development of mobile apps and desktop version."%}</p>
+  <p>{%trans "With the right support and resources we have the potential to make lasting strides for share Quran sound."%} {%trans "Quran is calling you!"%}</p>
+</div>
+
+<form class="f justify-center" method="post" autocomplete="off">
+  <div class="c6 s12">
+
+    <div class="msg info2">
+      <label for='person'>{%trans "Name"%}</label>
+      <div class="input">
+        <input type="text" name="name" id='person' maxlength="50">
+      </div>
+
+      <label for='personMob'>{%trans "Mobile"%}</label>
+      <div class="input">
+        <input type="tel" name="mn" id='personMob' maxlength="12">
+      </div>
+
+      <label for='personUr'>{%trans "URL"%}</label>
+      <div class="input">
+        <input type="url" name="url" id='personUr' maxlength="40">
+      </div>
+
+      <label for='amount'>{%trans "Amount"%}</label>
+      <div class="input">
+        <input type="number" name="amount" id='amount' min='1000' max="900000000" required data-response-realtime value="1000" step="1000">
+        <span class="addon">{%trans "Toman"%}</span>
+      </div>
+
+  {%if lang.current == 'fa'%}
+      <div class="msg txtB fs09" data-response="amount" data-response-call="wordifyResponse"></div>
+  {%endif%}
+
+      <button class="btn success block mT20">{%trans "Pay Donate"%}</button>
+    </div>
+
+  </div>
+  <div class="c4 pLa25">
+    <img src="{{url.static}}/images/logo/salamquran.png">
+  </div>
+</form>
+
+<br><br><br>
+<h3>{%trans "Have Question?"%}</h3>
+<p>{%trans "If you have any questions, please do not hesitate to <a href='contact'>contact us</a>."%} {%trans "In <a href='support'>help center</a> we are answer some frequent questions."%}</p>
+
+
+<hr>
+<h3>{%trans "Doners"%}</h3>
+<p class="pB50">{%trans "Thanks to the generous support of donors like you. see our doners"%} {%trans "Your ongoing support is helping share Quran via SalamQuran around the world in cyberspace."%}</p>
+
+{{block('iDoners')}}
+
+
+{%endblock%}
+
+
+
+{%block iDoners%}
+
+<div class="txtC pB50">
+  <h3 class="txtB fc-blue">{%trans "Gold Sponsors"%}</h3>
+  <p class="msg">{%trans "Gold Sponsors are those who have pledged $10,000 to $100,000 to SalamQuran."%}</p>
+{%if doners.up_to_10_milion%}
+  <div class="fs25">
+{%for key, value in doners.up_to_10_milion %}
+      {%if value.url%}
+        <a href="{{value.url}}" rel="nofollow" class="compact" target="_blank">
+      {%endif%}
+      <img class="avatar" alt="{{value.displayname}}" src="{{value.avatar}}" title='{{value.displayname}}<br>{{value.mysum | fitNumber}} {%trans "toman"%}<br>{{value.datecreated | dt("human", "year")}}'>
+      {%if value.url%}
+        </a>
+      {%endif%}
+{%endfor%}
+  </div>
+{%else%}
+  <a class="btn success outline" href="{{url.this}}#start">{%trans "Be a first one!"%}</a>
+{%endif%}
+</div>
+
+
+<div class="txtC pB50">
+  <h3 class="txtB fc-blue">{%trans "Silver Sponsors"%}</h3>
+  <p class="msg">{%trans "Silver Sponsors are those who have pledged $1,000 to $10,000 to SalamQuran."%}</p>
+{%if doners.up_to_1_milion%}
+  <div class="fs20">
+{%for key, value in doners.up_to_1_milion %}
+      {%if value.url%}
+        <a href="{{value.url}}" rel="nofollow" class="compact" target="_blank">
+      {%endif%}
+      <img class="avatar" alt="{{value.displayname}}" src="{{value.avatar}}" title='{{value.displayname}}<br>{{value.mysum | fitNumber}} {%trans "toman"%}<br>{{value.datecreated | dt("human", "year")}}'>
+      {%if value.url%}
+        </a>
+      {%endif%}
+{%endfor%}
+  </div>
+{%else%}
+  <a class="btn success outline" href="{{url.this}}#start">{%trans "Be a first one!"%}</a>
+{%endif%}
+</div>
+
+
+<div class="txtC pB50">
+  <h3 class="txtB fc-blue">{%trans "Bronze Sponsors"%}</h3>
+  <p class="msg">{%trans "Bronze Sponsors are those who have pledged $100 to $1,000 to SalamQuran."%}</p>
+{%if doners.up_to_100_thousand%}
+  <div class="fs18">
+{%for key, value in doners.up_to_100_thousand %}
+      {%if value.url%}
+        <a href="{{value.url}}" rel="nofollow" class="compact" target="_blank">
+      {%endif%}
+      <img class="avatar" alt="{{value.displayname}}" src="{{value.avatar}}" title='{{value.displayname}}<br>{{value.mysum | fitNumber}} {%trans "toman"%}<br>{{value.datecreated | dt("human", "year")}}'>
+      {%if value.url%}
+        </a>
+      {%endif%}
+{%endfor%}
+  </div>
+{%else%}
+  <a class="btn success outline" href="{{url.this}}#start">{%trans "Be a first one!"%}</a>
+{%endif%}
+</div>
+
+
+
+<div class="txtC pB50">
+  <h3 class="txtB">{%trans "Backers"%}</h3>
+  <p class="msg">{%trans "The following Backers are individuals who have contributed various amounts of money in order to help support SalamQuran."%} {%trans "Every little bit helps, and we appreciate even the smallest contributions."%} {%trans "This list shows 100 randomly chosen backers"%}</p>
+{%if doners.other%}
+  <div class="fs12">
+{%for key, value in doners.other %}
+      {%if value.url%}
+        <a href="{{value.url}}" rel="nofollow" class="compact" target="_blank">
+      {%endif%}
+      <img class="avatar" alt="{{value.displayname}}" src="{{value.avatar}}" title='{{value.displayname}}<br>{{value.mysum | fitNumber}} {%trans "toman"%}<br>{{value.datecreated | dt("human", "year")}}'>
+      {%if value.url%}
+        </a>
+      {%endif%}
+{%endfor%}
+  </div>
+{%else%}
+  <a class="btn success outline" href="{{url.this}}#start">{%trans "Be a first one!"%}</a>
+{%endif%}
+</div>
+
+
+{%endblock%}

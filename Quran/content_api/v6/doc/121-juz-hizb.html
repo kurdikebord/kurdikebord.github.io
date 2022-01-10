@@ -1,0 +1,98 @@
+<div class="cbox" id='juz-hizb'>
+
+  <h2 class="f" data-kerkere='#juz-hizb-detail' data-kerkere-icon='open'>
+    <div class="cauto pRa10"><span class="badge primary">GET</span></div>
+    <div>{%trans "Get juz detail per hizb detail"%}</div>
+  </h2>
+  <div id="juz-hizb-detail">
+    <p>{%trans "Get all juz detail per hizb detail"%}</p>
+    <div class="msg url">
+      <i class="method">GET</i>
+      <span>{{apiURL}}<b>juz/hizb</b></span>
+    </div>
+
+
+
+    <h3>{%trans "cURL"%} <small>{%trans "example"%}</small></h3>
+<pre>
+curl -X GET {{apiURL}}juz/hizb
+</pre>
+
+<h3>{%trans "Response"%} <small>{%trans "example"%}</small></h3>
+<pre>
+{
+  "ok": true,
+  "result": {
+    "1": {
+      "1": {
+        "1": {
+          "index_rub": 1,
+          "index_hizb": 1,
+          "rub": "1",
+          "sura": "1",
+          "page": "1",
+          "sura_detail": {
+            "index": "1",
+            "ayas": "7",
+            "start": "0",
+            "end": null,
+            "name": "الفاتحة",
+            "tname": "Al-Fatihah",
+            "ename": "The Opener",
+            "type": "meccan",
+            "order": "5",
+            "orderalphabet": null,
+            "orderquran": null,
+            "word": "29",
+            "theletter": "142",
+            "startjuz": "1",
+            "endjuz": "1",
+            "startpage": "1",
+            "endpage": "1"
+          },
+          "aya": "1",
+          "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+          "simple": "بسم الله الرحمن الرحيم",
+          "first_word": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+          "first_word_simple": "بسم الله الرحمن الرحيم"
+        },
+        "2": {
+          "index_rub": 2,
+          "index_hizb": 1,
+          "rub": "2",
+          "sura": "2",
+          "page": "5",
+          "sura_detail": {
+            "index": "2",
+            "ayas": "286",
+            "start": "7",
+            "end": null,
+            "name": "البقرة",
+            "tname": "Al-Baqarah",
+            "ename": "The Cow",
+            "type": "medinan",
+            "order": "87",
+            "orderalphabet": null,
+            "orderquran": null,
+            "word": "6144",
+            "theletter": "25500",
+            "startjuz": "1",
+            "endjuz": "3",
+            "startpage": "2",
+            "endpage": "49"
+          },
+          "aya": "26",
+          "text": "إِنَّ ٱللَّهَ لَا يَسْتَحْىِۦٓ أَن يَضْرِبَ مَثَلًا مَّا بَعُوضَةً فَمَا فَوْقَهَا فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ فَيَعْلَمُونَ أَنَّهُ ٱلْحَقُّ مِن رَّبِّهِمْ وَأَمَّا ٱلَّذِينَ كَفَرُوا۟ فَيَقُولُونَ مَاذَآ أَرَادَ ٱللَّهُ بِهَٰذَا مَثَلًا يُضِلُّ بِهِۦ كَثِيرًا وَيَهْدِى بِهِۦ كَثِيرًا وَمَا يُضِلُّ بِهِۦٓ إِلَّا ٱلْفَٰسِقِينَ",
+          "simple": "إن الله لا يستحيي أن يضرب مثلا ما بعوضة فما فوقها فأما الذين آمنوا فيعلمون أنه الحق من ربهم وأما الذين كفروا فيقولون ماذا أراد الله بهذا مثلا يضل به كثيرا ويهدي به كثيرا وما يضل به إلا الفاسقين",
+          "first_word": "إِنَّ ٱللَّهَ لَا يَسْتَحْىِۦٓ أَن يَضْرِبَ",
+          "first_word_simple": "إن الله لا يستحيي أن يضرب"
+        },
+        ...
+      }
+    }
+  }
+}
+</pre>
+
+  </div>
+</div>

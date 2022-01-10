@@ -1,0 +1,112 @@
+{%extends 'content_a/layout.html'%}
+
+
+
+{%block pageContent%}
+
+
+
+{%if dataTable%}
+ {%if dataFilter%}
+
+  {{block('htmlSearchBox')}}
+  {{block('htmlTable')}}
+  {{block('htmlFilter')}}
+
+ {%else%}
+
+  {{block('htmlSearchBox')}}
+  {{block('htmlTable')}}
+
+ {%endif%}
+{%else%}
+ {%if dataFilter%}
+
+  {{block('htmlSearchBox')}}
+  {{block('htmlFilterNoResult')}}
+
+ {%else%}
+
+  {{block('htmlStartAddNew')}}
+
+ {%endif%}
+{%endif%}
+
+{%endblock%}
+
+
+
+
+{%block htmlSearchBox2%}
+<div class="cbox fs12">
+  <form method="get" action='{{url.this}}'>
+    <div class="input">
+      <input type="search" name="q" placeholder='{%trans "Search"%}' id="q" value="{{requestGET.q}}" autofocus  data-pass='submit' autocomplete='off'>
+      <button class="addon btn ">{%trans "Search" %}</button>
+    </div>
+  </form>
+</div>
+{%endblock%}
+
+
+{%block htmlTable%}
+
+  <table class="tbl1 v1 cbox fs12">
+    <thead>
+      <tr>
+
+        <th>{%trans "surah"%}</th>
+        <th>{%trans "aya"%}</th>
+        <th>{%trans "page"%}</th>
+        <th>{%trans "juz"%}</th>
+        <th>{%trans "Hizb"%}</th>
+        <th>{%trans "Nim"%}</th>
+        <th>{%trans "rub"%}</th>
+        <th>{%trans "Date"%}</th>
+        <th></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      {%for key, value in dataTable%}
+      <tr {%if value.status=='disable'%} class='negative' {%else%} class='positive' {%endif%}>
+
+        <td><a href="{{url.kingdom}}/s{{value.sura}}">{{value.sura_name}}</a></td>
+        <td><a href="{{url.kingdom}}/a{{value.index}}">{{value.aya | fitNumber}}</a></td>
+        <td><a href="{{url.kingdom}}/p{{value.page}}">{{value.page | fitNumber}}</a></td>
+        <td><a href="{{url.kingdom}}/j{{value.juz}}">{{value.juz | fitNumber}}</a></td>
+        <td><a href="{{url.kingdom}}/h{{value.hizb}}">{{value.hizb | fitNumber}}</a></td>
+        <td><a href="{{url.kingdom}}/n{{value.nim}}">{{value.nim | fitNumber}}</a></td>
+        <td><a href="{{url.kingdom}}/r{{value.rub}}">{{value.rub | fitNumber}}</a></td>
+        <td class="collapsing">{{value.datecreated | dt('human', 'year')}}</td>
+        <td class="collapsing">{{value.datecreated | dt(false)}}</td>
+
+      </tr>
+      {%endfor%}
+    </tbody>
+  </table>
+  {%include display.pagination%}
+
+{%endblock%}
+
+
+{%block htmlFilter%}
+<p class="f fs14 msg info2">
+  <span class="c">{{dataFilter | raw}}</span>
+  <a class="cauto" href="{{url.this}}">{%trans "Clear filters"%}</a>
+</p>
+{%endblock%}
+
+
+{%block htmlFilterNoResult%}
+<p class="f fs14 msg warn2">
+  <span class="c">{%trans "Result not found!"%} {%trans "Search with new keywords."%}</span>
+  <a class="cauto" href="{{url.this}}">{%trans "Clear filters"%}</a>
+</p>
+{%endblock%}
+
+
+{%block htmlStartAddNew%}
+<p class="fs14 msg success2 pTB20">{%trans "No data founded"%}</p>
+{%endblock%}
+

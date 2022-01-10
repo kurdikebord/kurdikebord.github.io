@@ -1,0 +1,38 @@
+
+.postPreview{}
+.postPreview img.thumb{width:200px;height:auto;display:inline-block;margin:0 auto;padding:0;margin:0.5em;border:1px solid transparent;transition:0.3s}
+.postPreview img.thumb:hover{border-color:#333}
+.postPreview .msg{overflow: hidden;}
+.postMainContent{overflow: hidden;}
+#lightgallery{text-align:center; margin:2em 0;clear: both;}
+#lightgallery a{display: inline-block;max-width:45%;width:100px;margin:0 10px;}
+#lightgallery img{margin:0 auto;border:1px solid #ddd;transition:0.3s}
+#lightgallery img:hover{border-color:#777}
+#lightgallery video{width:200px;max-width:45%; margin:0 auto;}
+#lightgallery audio{width:200px;max-width:45%; margin:0 auto;}
+
+.gallery2{text-align:center;}
+.gallery2 video{width:500px;max-width:90%;margin:1em auto;display:inline-block;}
+.gallery2 audio{width:250px;max-width:90%;margin:1em auto;display:inline-block;}
+
+.postListPreview{width:70%;min-width:280px;margin:2rem auto;}
+.postListPreview section{border-bottom:1px dashed #ccc;padding:1em 1%;overflow: hidden;}
+.postListPreview .thumbLink a{display:block;}
+.postListPreview .thumbLink img{display:block;border-radius:1rem;width: 250px;}
+.postListPreview h3{margin-top:0;}
+
+// firstPost
+.postListPreview .firstPost .thumbLink img{width:100%;margin-bottom:1rem;}
+
+.tagBox a{padding:0.5em 0.5em;margin:0.5em 0.5em;background-color:#eee;border-radius:3px;transition:0.3s;display:inline-block;}
+.tagBox a:hover{background-color:rgba(0,0,0,0.1);}
+.tagBox a:focus{background-color:rgba(0,0,0,0.2);}
+
+
+
+/*vcard*/
+.vcard{font-style:normal;}
+.vcard .adr{padding:1em 0}
+.vcard .adr div, .vcard .adr span, .vcard .email, .vcard .tel{display:block;padding:0.5em}
+.vcard .adr span{display:inline-block;}
+

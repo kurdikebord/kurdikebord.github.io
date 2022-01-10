@@ -1,0 +1,36 @@
+
+// Quran
+.Quran{
+
+}
+
+
+
+.besmellah{
+	font-size: 1.5em;
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+// Quran design like book
+.Quran.bookTxt{
+	max-width: 412px;
+	margin: 0 auto;
+	text-align: justify;
+}
+.Quran.bookTxt .ayeBox{
+	display: inline;
+}
+.Quran.bookTxt .ayeBox .aye{
+	display: inline;
+}
+.Quran.bookTxt .ayeBox .aye:hover{
+	background-color: initial;
+}
+.Quran .readerMode{
+	font-size: 2em;
+	line-height: 1.7em;
+	direction: rtl;
+	text-align: center;
+}
+

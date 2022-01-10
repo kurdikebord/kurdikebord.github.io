@@ -1,0 +1,168 @@
+{%extends 'content_a/layout.html'%}
+
+
+
+
+
+
+
+
+{%block pageContent%}
+
+{%include 'content_a/khatm/pageSteps.html'%}
+
+{%if dataTable%}
+ {%if dataFilter%}
+
+  {{block('htmlSearchBox')}}
+  {{block('htmlTable')}}
+  {{block('htmlFilter')}}
+
+ {%else%}
+
+  {{block('htmlSearchBox')}}
+  {{block('htmlTable')}}
+
+ {%endif%}
+{%else%}
+ {%if dataFilter%}
+
+  {{block('htmlSearchBox')}}
+  {{block('htmlFilterNoResult')}}
+
+ {%else%}
+
+  {{block('htmlStartAddNew')}}
+
+ {%endif%}
+{%endif%}
+
+{%endblock%}
+
+
+
+
+{%block htmlSearchBox22%}
+<div class="cbox fs12">
+  <form method="get" action='{{url.this}}'>
+    <div class="input">
+      <input type="search" name="q" placeholder='{%trans "Search"%}' id="q" value="{{requestGET.q}}" autofocus  data-pass='submit' autocomplete='off'>
+      <button class="addon btn ">{%trans "Search" %}</button>
+    </div>
+  </form>
+</div>
+{%endblock%}
+
+
+{%block htmlTable%}
+
+  <table class="tbl1 v1 cbox fs12">
+    <thead>
+      <tr>
+        <th>{%trans "Khatm list"%}</th>
+        <th></th>
+
+
+        <th>{%trans "Complete"%}</th>
+        {%if requestGET.user == 'my'%}<th>{%trans "Privacy"%}</th>{%endif%}
+        <th>{%trans "Status"%}</th>
+        <th>{%trans "Action"%}</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      {%for key, value in dataTable%}
+      <tr {%if value.status=='disable'%} class='negative' {%else%} class='positive' {%endif%}>
+
+        <td>
+          <div>{{value.title}}</div>
+          {%if value.mykhatm%}<div>{{value.niyat}}</div>{%endif%}
+        </td>
+
+
+        <td>
+
+          {%if value.sura%}
+            {%if value.range == 'sura'%}
+              <div>{{value.repeat | fitNumber}} {%trans "times"%}</div>
+              {%trans "Surah"%} {{value.sura_name}}{%endif%}
+            {%else%}
+              {{value.trange}}
+              <div>{{value.ttype}}</div>
+          {%endif%}
+        </td>
+
+        <td>
+          {% if value.complete_percent %}<b class="fc-blue">{{value.complete_percent | fitNumber}} {%trans "%"%}</b> {%endif%}
+        </td>
+        {%if requestGET.user == 'my'%}<td>{{value.tprivacy}}</td>{%endif%}
+        <td>{{value.tstatus}}</td>
+
+
+        <td class="collapsing">
+          {%if value.mykhatm and value.status in ['awaiting']%}
+          <div data-confirm data-data='{"type": "remove", "id" : "{{value.id}}"}' class="btn warn">{%trans "Cancel"%}</div>
+          {%endif%}
+          {%if value.status in ['awaiting', 'running']%}
+            <a href="{{url.this}}/start/{{value.id}}" class="btn success">{%trans "Start"%}</a>
+          {%endif%}
+        </td>
+      </tr>
+      {%endfor%}
+    </tbody>
+  </table>
+  {%include display.pagination%}
+
+{%endblock%}
+
+
+{%block htmlFilter%}
+<p class="f fs14 msg info2">
+  <span class="c">{{dataFilter | raw}}</span>
+  <a class="cauto" href="{{url.this}}">{%trans "Clear filters"%}</a>
+</p>
+{%endblock%}
+
+
+{%block htmlFilterNoResult%}
+<p class="f fs14 msg warn2">
+  <span class="c">{%trans "Result not found!"%} {%trans "Search with new keywords."%}</span>
+  <a class="cauto" href="{{url.this}}">{%trans "Clear filters"%}</a>
+</p>
+{%endblock%}
+
+
+{%block htmlStartAddNew%}
+<p class="fs14 msg success2 pTB20">{%trans "Hi!"%} <a href="{{url.this}}/add">{%trans "Try to start with add new khatm!"%}</a></p>
+{%endblock%}
+
+
+
+
+{%block pageContent22%}
+
+{%if dataTable%}
+<div class="cbox">
+  {%for key, value in dataTable%}
+  <div class="msg f">
+    <div class="cauto txtB s12">{{value.title}}</div>
+    <div class="c s12">{{value.niyat}}</div>
+    <div class="c s12">{{value.ttype}}</div>
+    <div class="c s12">{{value.trange}}</div>
+    <div class="c s12">{{value.tprivacy}}</div>
+    <div class="c s12">{{value.repeat | fitNumber}}</div>
+    <div class="c s12">{{value.tstatus}}</div>
+    <div class="c s12">{{value.sura}}</div>
+    <div class="c s12"><div data-confirm data-data='{"type": "remove", "id" : "{{value.id}}"}' class="btn warn xs">{%trans "Cancel"%}</div></div>
+    <div class="c s12"><a href="{{url.this}}/start/{{value.id}}" class="btn success">{%trans "Start"%}</a></div>
+  </div>
+  {%endfor%}
+</div>
+
+{%else%}
+<p class="fs14 msg success2 pTB20">{%trans "Hi!"%} <a href="{{url.this}}/add">{%trans "Try to start with add new khatm!"%}</a></p>
+
+{%endif%}
+
+
+{%endblock%}

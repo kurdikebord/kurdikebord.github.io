@@ -1,0 +1,20 @@
+{%if myAye.detail.translate%}
+  <div class="translate">
+    <table class="tbl1 v5">
+      <tbody>
+{%for k, myTranslation in myAye.detail.translate%}
+        <tr class="{{myTranslation.detail.name}}">
+          <th>
+            <i class="flag {{myTranslation.detail.flag}}"></i>
+            <abbr>{{myTranslation.detail.localname}}</abbr>
+{%if myTranslation.detail.image%}
+            <img src="{{myTranslation.detail.image}}" alt="{{myTranslation.detail.localname}}" class="avatar">
+{%endif%}
+          </th>
+          <td>{{myTranslation.text}}</td>
+        </tr>
+{%endfor%}
+      </tbody>
+    </table>
+  </div>
+{%endif%}

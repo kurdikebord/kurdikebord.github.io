@@ -1,0 +1,33 @@
+<div class="cbox" id='page-day'>
+
+  <h2 class="f" data-kerkere='#page-day-detail' data-kerkere-icon='open'>
+    <div class="cauto pRa10"><span class="badge primary">GET</span></div>
+    <div>{%trans "Get page of the day"%}</div>
+  </h2>
+  <div id="page-day-detail">
+    <p>{%trans "A page will be displayed every day"%}</p>
+    <div class="msg url">
+      <i class="method">GET</i>
+      <span>{{apiURL}}<b>page/day</b></span>
+    </div>
+
+
+
+    <h3>{%trans "cURL"%} <small>{%trans "example"%}</small></h3>
+<pre>
+curl -X GET {{apiURL}}page/day
+</pre>
+
+<h3>{%trans "Response"%} <small>{%trans "example"%}</small></h3>
+<pre>
+{
+  "ok": true,
+  "result": {
+    "page": 449,
+    "date": "2019-06-12"
+  }
+}
+</pre>
+
+  </div>
+</div>

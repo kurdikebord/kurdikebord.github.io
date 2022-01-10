@@ -1,0 +1,56 @@
+<div class="cbox" id='quick-access'>
+
+  <h2 class="f" data-kerkere='#quick-access-detail' data-kerkere-icon='open'>
+    <div class="cauto pRa10"><span class="badge primary">GET</span></div>
+    <div>{%trans "Get quick access"%}</div>
+  </h2>
+  <div id="quick-access-detail">
+    <p>{%trans "Get list of quick access of some aya or sura or something else"%}</p>
+    <div class="msg url">
+      <i class="method">GET</i>
+      <span>{{apiURL}}<b>nav/quick</b></span>
+    </div>
+
+
+
+    <h3>{%trans "cURL"%} <small>{%trans "example"%}</small></h3>
+<pre>
+curl -X GET {{apiURL}}nav/quick
+</pre>
+
+<h3>{%trans "Response"%} <small>{%trans "example"%}</small></h3>
+<pre>
+{
+  "ok": true,
+  "result": [
+    {
+      "title": "فاتحه",
+      "desc": null,
+      "url": "http://salamquran.local/fa/s1"
+    },
+    {
+      "title": "الرحمان",
+      "desc": null,
+      "url": "http://salamquran.local/fa/s55"
+    },
+    {
+      "title": "ملک",
+      "desc": null,
+      "url": "http://salamquran.local/fa/s67"
+    },
+    {
+      "title": "یاسین",
+      "desc": null,
+      "url": "http://salamquran.local/fa/s36"
+    },
+    {
+      "title": "واقعه",
+      "desc": null,
+      "url": "http://salamquran.local/fa/s56"
+    }
+  ]
+}
+</pre>
+
+  </div>
+</div>

@@ -1,0 +1,138 @@
+{%extends 'content_a/layout.html'%}
+
+
+{%block pageContent%}
+{%include 'content_a/khatm/pageSteps.html'%}
+
+  <div class="justify-center f">
+   <form method="post" class="c5 m6 s12" autocomplete="off">
+    <div class="cbox">
+      <div class="msg">
+        {%trans "Your intention of khatm quran"%}
+        {{block('iniyat')}}
+      </div>
+
+
+
+
+
+      {{block('iRange')}}
+      <div data-response='range' data-response-where='sura' data-response-hide class="mB10">
+        {{block('suraList')}}
+        <div class="msg">
+          {{block('iRepeat')}}
+        </div>
+      </div>
+
+      <div data-response='range' data-response-where='quran' data-response-hide class="mB10">
+      {{block('iType')}}
+      </div>
+
+      {{block('iPrivacy')}}
+
+      {{block('isave')}}
+    </div>
+   </form>
+  </div>
+{%endblock%}
+
+
+
+
+
+
+{% block suraList %}
+<label for="fsura">{%trans "Surah"%}</label>
+  <select class="select ui dropdown search" name="sura" id="fsura">
+    <option value="">{%trans "Select sura"%}</option>
+    {%for key, value in quranListQuick%}
+        <option value="{{key}}" {%if dataRow.quran_start_sura == key%} selected {%endif%}>{{value}}</option>
+    {%endfor%}
+  </select>
+{%endblock%}
+
+
+
+
+
+
+
+{%block iRepeat %}
+<label for="repeat">{%trans "Repeat whole khatm"%}</label>
+<div class="input">
+  <input type="number" name="repeat" id="repeat" max='40' min="1" placeholder='{%trans "Between 1 and 40"%}'>
+</div>
+{%endblock%}
+
+
+
+
+{% block iniyat %}
+<label for="niyat"><small class="fc-green">{%trans "Optional"%}</small></label>
+<div class="input">
+  <input type="text" name="niyat" id="niyat"  value="{{dataRow.niyat}}"  maxlength='150' minlength="1" pattern=".{1,150}">
+</div>
+{% endblock %}
+
+
+{%block iType%}
+<label for="type">{%trans "Read quran mode"%}</label>
+
+<select name="type" class="mB10 select ui dropdown search" id="type">
+  <option value="" readonly>{%trans "Please select one item"%}</option>
+  <option value="page">{%trans "Read quran page by page"%}</option>
+  <option value="juz"  >{%trans "Read quran juz by juz"%}</option>
+</select>
+
+{%endblock%}
+
+
+
+{%block iRange%}
+<label for="range">{%trans "Range of khatm"%}</label>
+
+<select name="range" class="mB10 select ui dropdown search" id="range">
+  <option value="" readonly>{%trans "Please select one item"%}</option>
+  <option value="quran">{%trans "The whole Quran"%}</option>
+  <option value="sura"  >{%trans "Special Surah"%}</option>
+</select>
+
+{%endblock%}
+
+
+{%block iPrivacy%}
+<label for="privacy">{%trans "Privacy"%}</label>
+
+<select name="privacy" class="mB10 select ui dropdown search" id="privacy">
+  <option value="" readonly>{%trans "Please select one item"%}</option>
+    <option value="private" selected  >{%trans "Private"%} - {%trans "Only you can see it"%}</option>
+  {%if haveBadge%}
+  <option value="public">{%trans "Public"%} - {%trans "Everyone can see it"%}</option>
+  {%endif%}
+</select>
+
+{%endblock%}
+
+
+
+{%block isave%}
+<button class="btn success block mT20">{%trans "Add"%}</button>
+{%endblock%}
+
+
+
+
+{%block iStatus%}
+<div class="mT15">
+ <label >{%trans "Status"%}</label>
+ <div class="radio1 green">
+  <input type="radio" id="r-enable" name="status" value="enable" {%if dataRow.status == 'enable' or not dataRow.status %} checked{%endif%}>
+  <label for="r-enable">{%trans "Enable"%}</label>
+ </div>
+ <div class="radio1 black mB25">
+  <input type="radio" id="r-disable" name="status" value="disable" {%if dataRow.status == 'disable'%} checked{%endif%} >
+  <label for="r-disable">{%trans "Disable"%}</label>
+ </div>
+</div>
+{%endblock%}
+

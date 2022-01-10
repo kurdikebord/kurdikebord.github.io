@@ -1,0 +1,282 @@
+{%extends 'content_m/mag/layout.html'%}
+
+{%block pageContent%}
+
+<div class="f justify-center">
+  <div class="c8 s12">
+    <div class="cbox">
+        {{block("iConnectType")}}
+    </div>
+  </div>
+</div>
+
+{%endblock%}
+
+
+
+{% block iSubtypeList%}
+<label for="subtype">{%trans "Type"%}</label>
+<select name="subtype" class="mB10 select ui dropdown search" id="subtype">
+  <option value="" readonly>{%trans "Please select one item"%}</option>
+  {%for key, value in listSubType%}
+    <option value="{{key}}" {%if requestGET.subtype == key %} selected {%endif%}>{{value.title}}</option>
+  {%endfor%}
+</select>
+{% endblock %}
+
+
+{% block iPostList%}
+<label for="post">{%trans "Select magazine"%}</label>
+<select name="post" class="mB10 select ui dropdown search" id="post">
+  <option value="" readonly>{%trans "Please select one item"%}</option>
+  {%for key, value in postList%}
+    <option value="{{value.id}}" {%if requestGET.post == value.id %} selected {%endif%}>{{value.title}}</option>
+  {%endfor%}
+</select>
+{{block('iSubtypeList')}}
+{% endblock %}
+
+
+
+
+
+{% block iConnectType%}
+<div class="txtB">{%trans "Connect to"%}</div>
+<div class="f mB10">
+	<div class="c s12 pRa5"><a href="{{url.that}}/page" class="btn block {%if url.subchild == 'page' %}primary {%else%}info2 {%endif%}" >{%trans "Page"%}</a></div>
+	<div class="c s12 pRa5"><a href="{{url.that}}/surah" class="btn block {%if url.subchild == 'surah' %}primary {%else%}info2 {%endif%}" >{%trans "Surah"%}</a></div>
+    <div class="c s12 pRa5"><a href="{{url.that}}/aya" class="btn block {%if url.subchild == 'aya' %}primary {%else%}info2 {%endif%}" >{%trans "Aya"%}</a></div>
+	<div class="c s12 pRa5"><a href="{{url.that}}/word" class="btn block {%if url.subchild == 'word' %}primary {%else%}info2 {%endif%}" >{%trans "Word in aya"%}</a></div>
+</div>
+
+{%if url.subchild == 'page'%}
+	{{block('iConnectToPage')}}
+{%endif%}
+
+
+{%if url.subchild == 'surah'%}
+	{{block('iConnectToSura')}}
+{%endif%}
+
+
+{%if url.subchild == 'aya'%}
+    {{block('iConnectToAya')}}
+{%endif%}
+
+
+{%if url.subchild == 'word'%}
+    {{block('iConnectToWord')}}
+{%endif%}
+
+{% endblock %}
+
+
+
+{% block iConnectToWord %}
+{%if requestGET.surah and requestGET.aya and quranWords%}
+<form method="post" autocomplete="off">
+    {{block("iPostList")}}
+    <input type="hidden" name="surah" value="{{requestGET.surah}}">
+    <input type="hidden" name="aya" value="{{requestGET.aya}}">
+    <div class="msg txtC txtB info">{%trans "Surah"%} {{requestGET.surah | fitNumber}} {%trans "Aya"%} {{requestGET.aya | fitNumber}} </div>
+
+    <div class="msg">
+        {%trans "Words"%}
+        <div class="f">
+
+        {%for key, value in quranWords%}
+            {%if value.char_type == 'word'%}
+            <div class="radio3 cauto">
+                <input id="r-{{value.id}}" type="radio" name="word" value="{{value.id}}">
+                <label for="r-{{value.id}}">{{value.simple}}</label>
+            </div>
+            {%endif%}
+        {%endfor%}
+        </div>
+    </div>
+    <button class="btn block primary mT10" name="connectType" value="word">{%trans "Connect to word"%}</button>
+</form>
+{%else%}
+<form method="get" autocomplete="off" action="{{url.that}}/word">
+
+    <div class="msg">
+        {{block('mySuranList')}}
+        <div class="input">
+            <label for="faya">{%trans "Aya"%}</label>
+            <input type="number" name="aya" min="1" max="282" id="faya" value="{{requestGET.aya}}">
+        </div>
+    </div>
+    <button class="btn block secondary mT10" name="connectType" value="aya">{%trans "Show words of this aya"%}</button>
+</form>
+{%endif%}
+{% endblock %}
+
+
+
+{% block iConnectToSura %}
+<form method="post" autocomplete="off">
+	{{block("iPostList")}}
+	<div class="msg">
+		{{block('mySuranList')}}
+	</div>
+	<button class="btn block primary mT10" name="connectType" value="sura">{%trans "Connect to sura"%}</button>
+</form>
+{% endblock %}
+
+
+
+{% block iConnectToAya %}
+<form method="post" autocomplete="off">
+	{{block("iPostList")}}
+	<div class="msg">
+		{{block('mySuranList')}}
+		<div class="input">
+			<label for="faya">{%trans "Aya"%}</label>
+			<input type="number" name="aya" min="1" max="282" id="faya" value="{{requestGET.aya}}">
+		</div>
+	</div>
+ 	<button class="btn block primary mT10" name="connectType" value="aya">{%trans "Connect to aya"%}</button>
+</form>
+{% endblock %}
+
+
+
+{% block iConnectToPage %}
+<form method="post" autocomplete="off">
+	{{block("iPostList")}}
+	<div class="msg">
+		<div class="input">
+			<label for="fpage">{%trans "Page"%}</label>
+			<input type="number" name="page" min="1" max="604" id="fpage" value="{{requestGET.page}}">
+		</div>
+	</div>
+	<button class="btn block primary mT10" name="connectType" value="page">{%trans "Connect to page"%}</button>
+</form>
+{% endblock %}
+
+
+
+{% block mySuranList %}
+
+
+<label for="fsura">{%trans "Surah"%}</label>
+  <select class="select" name="surah" id="fsura">
+    <option value="">{%trans "Select sura"%}</option>
+    <option value="1" {%if requestGET.surah == 1 %} selected {%endif%} >{{"1" | fitNumber}} - {% trans "Al-Fatihah"%}</option>
+    <option value="2" {%if requestGET.surah == 2 %} selected {%endif%} >{{"2" | fitNumber}} - {% trans "Al-Baqarah"%}</option>
+    <option value="3" {%if requestGET.surah == 3 %} selected {%endif%} >{{"3" | fitNumber}} - {% trans "Ali 'Imran"%}</option>
+    <option value="4" {%if requestGET.surah == 4 %} selected {%endif%} >{{"4" | fitNumber}} - {% trans "An-Nisa"%}</option>
+    <option value="5" {%if requestGET.surah == 5 %} selected {%endif%} >{{"5" | fitNumber}} - {% trans "Al-Ma'idah"%}</option>
+    <option value="6" {%if requestGET.surah == 6 %} selected {%endif%} >{{"6" | fitNumber}} - {% trans "Al-An'am"%}</option>
+    <option value="7" {%if requestGET.surah == 7 %} selected {%endif%} >{{"7" | fitNumber}} - {% trans "Al-A'raf"%}</option>
+    <option value="8" {%if requestGET.surah == 8 %} selected {%endif%} >{{"8" | fitNumber}} - {% trans "Al-Anfal"%}</option>
+    <option value="9" {%if requestGET.surah == 9 %} selected {%endif%} >{{"9" | fitNumber}} - {% trans "At-Tawbah"%}</option>
+    <option value="10" {%if requestGET.surah == 10 %} selected {%endif%} >{{"10" | fitNumber}} - {% trans "Yunus"%}</option>
+    <option value="11" {%if requestGET.surah == 11 %} selected {%endif%} >{{"11" | fitNumber}} - {% trans "Hud"%}</option>
+    <option value="12" {%if requestGET.surah == 12 %} selected {%endif%} >{{"12" | fitNumber}} - {% trans "Yusuf"%}</option>
+    <option value="13" {%if requestGET.surah == 13 %} selected {%endif%} >{{"13" | fitNumber}} - {% trans "Ar-Ra'd"%}</option>
+    <option value="14" {%if requestGET.surah == 14 %} selected {%endif%} >{{"14" | fitNumber}} - {% trans "Ibrahim"%}</option>
+    <option value="15" {%if requestGET.surah == 15 %} selected {%endif%} >{{"15" | fitNumber}} - {% trans "Al-Hijr"%}</option>
+    <option value="16" {%if requestGET.surah == 16 %} selected {%endif%} >{{"16" | fitNumber}} - {% trans "An-Nahl"%}</option>
+    <option value="17" {%if requestGET.surah == 17 %} selected {%endif%} >{{"17" | fitNumber}} - {% trans "Al-Isra"%}</option>
+    <option value="18" {%if requestGET.surah == 18 %} selected {%endif%} >{{"18" | fitNumber}} - {% trans "Al-Kahf"%}</option>
+    <option value="19" {%if requestGET.surah == 19 %} selected {%endif%} >{{"19" | fitNumber}} - {% trans "Maryam"%}</option>
+    <option value="20" {%if requestGET.surah == 20 %} selected {%endif%} >{{"20" | fitNumber}} - {% trans "Taha"%}</option>
+    <option value="21" {%if requestGET.surah == 21 %} selected {%endif%} >{{"21" | fitNumber}} - {% trans "Al-Anbya"%}</option>
+    <option value="22" {%if requestGET.surah == 22 %} selected {%endif%} >{{"22" | fitNumber}} - {% trans "Al-Haj"%}</option>
+    <option value="23" {%if requestGET.surah == 23 %} selected {%endif%} >{{"23" | fitNumber}} - {% trans "Al-Mu'minun"%}</option>
+    <option value="24" {%if requestGET.surah == 24 %} selected {%endif%} >{{"24" | fitNumber}} - {% trans "An-Nur"%}</option>
+    <option value="25" {%if requestGET.surah == 25 %} selected {%endif%} >{{"25" | fitNumber}} - {% trans "Al-Furqan"%}</option>
+    <option value="26" {%if requestGET.surah == 26 %} selected {%endif%} >{{"26" | fitNumber}} - {% trans "Ash-Shu'ara"%}</option>
+    <option value="27" {%if requestGET.surah == 27 %} selected {%endif%} >{{"27" | fitNumber}} - {% trans "An-Naml"%}</option>
+    <option value="28" {%if requestGET.surah == 28 %} selected {%endif%} >{{"28" | fitNumber}} - {% trans "Al-Qasas"%}</option>
+    <option value="29" {%if requestGET.surah == 29 %} selected {%endif%} >{{"29" | fitNumber}} - {% trans "Al-'Ankabut"%}</option>
+    <option value="30" {%if requestGET.surah == 30 %} selected {%endif%} >{{"30" | fitNumber}} - {% trans "Ar-Rum"%}</option>
+    <option value="31" {%if requestGET.surah == 31 %} selected {%endif%} >{{"31" | fitNumber}} - {% trans "Luqman"%}</option>
+    <option value="32" {%if requestGET.surah == 32 %} selected {%endif%} >{{"32" | fitNumber}} - {% trans "As-Sajdah"%}</option>
+    <option value="33" {%if requestGET.surah == 33 %} selected {%endif%} >{{"33" | fitNumber}} - {% trans "Al-Ahzab"%}</option>
+    <option value="34" {%if requestGET.surah == 34 %} selected {%endif%} >{{"34" | fitNumber}} - {% trans "Saba"%}</option>
+    <option value="35" {%if requestGET.surah == 35 %} selected {%endif%} >{{"35" | fitNumber}} - {% trans "Fatir"%}</option>
+    <option value="36" {%if requestGET.surah == 36 %} selected {%endif%} >{{"36" | fitNumber}} - {% trans "Ya-Sin"%}</option>
+    <option value="37" {%if requestGET.surah == 37 %} selected {%endif%} >{{"37" | fitNumber}} - {% trans "As-Saffat"%}</option>
+    <option value="38" {%if requestGET.surah == 38 %} selected {%endif%} >{{"38" | fitNumber}} - {% trans "Sad"%}</option>
+    <option value="39" {%if requestGET.surah == 39 %} selected {%endif%} >{{"39" | fitNumber}} - {% trans "Az-Zumar"%}</option>
+    <option value="40" {%if requestGET.surah == 40 %} selected {%endif%} >{{"40" | fitNumber}} - {% trans "Ghafir"%}</option>
+    <option value="41" {%if requestGET.surah == 41 %} selected {%endif%} >{{"41" | fitNumber}} - {% trans "Fussilat"%}</option>
+    <option value="42" {%if requestGET.surah == 42 %} selected {%endif%} >{{"42" | fitNumber}} - {% trans "Ash-Shuraa"%}</option>
+    <option value="43" {%if requestGET.surah == 43 %} selected {%endif%} >{{"43" | fitNumber}} - {% trans "Az-Zukhruf"%}</option>
+    <option value="44" {%if requestGET.surah == 44 %} selected {%endif%} >{{"44" | fitNumber}} - {% trans "Ad-Dukhan"%}</option>
+    <option value="45" {%if requestGET.surah == 45 %} selected {%endif%} >{{"45" | fitNumber}} - {% trans "Al-Jathiyah"%}</option>
+    <option value="46" {%if requestGET.surah == 46 %} selected {%endif%} >{{"46" | fitNumber}} - {% trans "Al-Ahqaf"%}</option>
+    <option value="47" {%if requestGET.surah == 47 %} selected {%endif%} >{{"47" | fitNumber}} - {% trans "Muhammad"%}</option>
+    <option value="48" {%if requestGET.surah == 48 %} selected {%endif%} >{{"48" | fitNumber}} - {% trans "Al-Fath"%}</option>
+    <option value="49" {%if requestGET.surah == 49 %} selected {%endif%} >{{"49" | fitNumber}} - {% trans "Al-Hujurat"%}</option>
+    <option value="50" {%if requestGET.surah == 50 %} selected {%endif%} >{{"50" | fitNumber}} - {% trans "Qaf"%}</option>
+    <option value="51" {%if requestGET.surah == 51 %} selected {%endif%} >{{"51" | fitNumber}} - {% trans "Adh-Dhariyat"%}</option>
+    <option value="52" {%if requestGET.surah == 52 %} selected {%endif%} >{{"52" | fitNumber}} - {% trans "At-Tur"%}</option>
+    <option value="53" {%if requestGET.surah == 53 %} selected {%endif%} >{{"53" | fitNumber}} - {% trans "An-Najm"%}</option>
+    <option value="54" {%if requestGET.surah == 54 %} selected {%endif%} >{{"54" | fitNumber}} - {% trans "Al-Qamar"%}</option>
+    <option value="55" {%if requestGET.surah == 55 %} selected {%endif%} >{{"55" | fitNumber}} - {% trans "Ar-Rahman"%}</option>
+    <option value="56" {%if requestGET.surah == 56 %} selected {%endif%} >{{"56" | fitNumber}} - {% trans "Al-Waqi'ah"%}</option>
+    <option value="57" {%if requestGET.surah == 57 %} selected {%endif%} >{{"57" | fitNumber}} - {% trans "Al-Hadid"%}</option>
+    <option value="58" {%if requestGET.surah == 58 %} selected {%endif%} >{{"58" | fitNumber}} - {% trans "Al-Mujadila"%}</option>
+    <option value="59" {%if requestGET.surah == 59 %} selected {%endif%} >{{"59" | fitNumber}} - {% trans "Al-Hashr"%}</option>
+    <option value="60" {%if requestGET.surah == 60 %} selected {%endif%} >{{"60" | fitNumber}} - {% trans "Al-Mumtahanah"%}</option>
+    <option value="61" {%if requestGET.surah == 61 %} selected {%endif%} >{{"61" | fitNumber}} - {% trans "As-Saf"%}</option>
+    <option value="62" {%if requestGET.surah == 62 %} selected {%endif%} >{{"62" | fitNumber}} - {% trans "Al-Jumu'ah"%}</option>
+    <option value="63" {%if requestGET.surah == 63 %} selected {%endif%} >{{"63" | fitNumber}} - {% trans "Al-Munafiqun"%}</option>
+    <option value="64" {%if requestGET.surah == 64 %} selected {%endif%} >{{"64" | fitNumber}} - {% trans "At-Taghabun"%}</option>
+    <option value="65" {%if requestGET.surah == 65 %} selected {%endif%} >{{"65" | fitNumber}} - {% trans "At-Talaq"%}</option>
+    <option value="66" {%if requestGET.surah == 66 %} selected {%endif%} >{{"66" | fitNumber}} - {% trans "At-Tahrim"%}</option>
+    <option value="67" {%if requestGET.surah == 67 %} selected {%endif%} >{{"67" | fitNumber}} - {% trans "Al-Mulk"%}</option>
+    <option value="68" {%if requestGET.surah == 68 %} selected {%endif%} >{{"68" | fitNumber}} - {% trans "Al-Qalam"%}</option>
+    <option value="69" {%if requestGET.surah == 69 %} selected {%endif%} >{{"69" | fitNumber}} - {% trans "Al-Haqqah"%}</option>
+    <option value="70" {%if requestGET.surah == 70 %} selected {%endif%} >{{"70" | fitNumber}} - {% trans "Al-Ma'arij"%}</option>
+    <option value="71" {%if requestGET.surah == 71 %} selected {%endif%} >{{"71" | fitNumber}} - {% trans "Nuh"%}</option>
+    <option value="72" {%if requestGET.surah == 72 %} selected {%endif%} >{{"72" | fitNumber}} - {% trans "Al-Jinn"%}</option>
+    <option value="73" {%if requestGET.surah == 73 %} selected {%endif%} >{{"73" | fitNumber}} - {% trans "Al-Muzzammil"%}</option>
+    <option value="74" {%if requestGET.surah == 74 %} selected {%endif%} >{{"74" | fitNumber}} - {% trans "Al-Muddaththir"%}</option>
+    <option value="75" {%if requestGET.surah == 75 %} selected {%endif%} >{{"75" | fitNumber}} - {% trans "Al-Qiyamah"%}</option>
+    <option value="76" {%if requestGET.surah == 76 %} selected {%endif%} >{{"76" | fitNumber}} - {% trans "Al-Insan"%}</option>
+    <option value="77" {%if requestGET.surah == 77 %} selected {%endif%} >{{"77" | fitNumber}} - {% trans "Al-Mursalat"%}</option>
+    <option value="78" {%if requestGET.surah == 78 %} selected {%endif%} >{{"78" | fitNumber}} - {% trans "An-Naba"%}</option>
+    <option value="79" {%if requestGET.surah == 79 %} selected {%endif%} >{{"79" | fitNumber}} - {% trans "An-Nazi'at"%}</option>
+    <option value="80" {%if requestGET.surah == 80 %} selected {%endif%} >{{"80" | fitNumber}} - {% trans "'Abasa"%}</option>
+    <option value="81" {%if requestGET.surah == 81 %} selected {%endif%} >{{"81" | fitNumber}} - {% trans "At-Takwir"%}</option>
+    <option value="82" {%if requestGET.surah == 82 %} selected {%endif%} >{{"82" | fitNumber}} - {% trans "Al-Infitar"%}</option>
+    <option value="83" {%if requestGET.surah == 83 %} selected {%endif%} >{{"83" | fitNumber}} - {% trans "Al-Mutaffifin"%}</option>
+    <option value="84" {%if requestGET.surah == 84 %} selected {%endif%} >{{"84" | fitNumber}} - {% trans "Al-Inshiqaq"%}</option>
+    <option value="85" {%if requestGET.surah == 85 %} selected {%endif%} >{{"85" | fitNumber}} - {% trans "Al-Buruj"%}</option>
+    <option value="86" {%if requestGET.surah == 86 %} selected {%endif%} >{{"86" | fitNumber}} - {% trans "At-Tariq"%}</option>
+    <option value="87" {%if requestGET.surah == 87 %} selected {%endif%} >{{"87" | fitNumber}} - {% trans "Al-A'la"%}</option>
+    <option value="88" {%if requestGET.surah == 88 %} selected {%endif%} >{{"88" | fitNumber}} - {% trans "Al-Ghashiyah"%}</option>
+    <option value="89" {%if requestGET.surah == 89 %} selected {%endif%} >{{"89" | fitNumber}} - {% trans "Al-Fajr"%}</option>
+    <option value="90" {%if requestGET.surah == 90 %} selected {%endif%} >{{"90" | fitNumber}} - {% trans "Al-Balad"%}</option>
+    <option value="91" {%if requestGET.surah == 91 %} selected {%endif%} >{{"91" | fitNumber}} - {% trans "Ash-Shams"%}</option>
+    <option value="92" {%if requestGET.surah == 92 %} selected {%endif%} >{{"92" | fitNumber}} - {% trans "Al-Layl"%}</option>
+    <option value="93" {%if requestGET.surah == 93 %} selected {%endif%} >{{"93" | fitNumber}} - {% trans "Ad-Duhaa"%}</option>
+    <option value="94" {%if requestGET.surah == 94 %} selected {%endif%} >{{"94" | fitNumber}} - {% trans "Ash-Sharh"%}</option>
+    <option value="95" {%if requestGET.surah == 95 %} selected {%endif%} >{{"95" | fitNumber}} - {% trans "At-Tin"%}</option>
+    <option value="96" {%if requestGET.surah == 96 %} selected {%endif%} >{{"96" | fitNumber}} - {% trans "Al-'Alaq"%}</option>
+    <option value="97" {%if requestGET.surah == 97 %} selected {%endif%} >{{"97" | fitNumber}} - {% trans "Al-Qadr"%}</option>
+    <option value="98" {%if requestGET.surah == 98 %} selected {%endif%} >{{"98" | fitNumber}} - {% trans "Al-Bayyinah"%}</option>
+    <option value="99" {%if requestGET.surah == 99 %} selected {%endif%} >{{"99" | fitNumber}} - {% trans "Az-Zalzalah"%}</option>
+    <option value="100" {%if requestGET.surah == 100 %} selected {%endif%} >{{"100" | fitNumber}} - {% trans "Al-'Adiyat"%}</option>
+    <option value="101" {%if requestGET.surah == 101 %} selected {%endif%} >{{"101" | fitNumber}} - {% trans "Al-Qari'ah"%}</option>
+    <option value="102" {%if requestGET.surah == 102 %} selected {%endif%} >{{"102" | fitNumber}} - {% trans "At-Takathur"%}</option>
+    <option value="103" {%if requestGET.surah == 103 %} selected {%endif%} >{{"103" | fitNumber}} - {% trans "Al-'Asr"%}</option>
+    <option value="104" {%if requestGET.surah == 104 %} selected {%endif%} >{{"104" | fitNumber}} - {% trans "Al-Humazah"%}</option>
+    <option value="105" {%if requestGET.surah == 105 %} selected {%endif%} >{{"105" | fitNumber}} - {% trans "Al-Fil"%}</option>
+    <option value="106" {%if requestGET.surah == 106 %} selected {%endif%} >{{"106" | fitNumber}} - {% trans "Quraysh"%}</option>
+    <option value="107" {%if requestGET.surah == 107 %} selected {%endif%} >{{"107" | fitNumber}} - {% trans "Al-Ma'un"%}</option>
+    <option value="108" {%if requestGET.surah == 108 %} selected {%endif%} >{{"108" | fitNumber}} - {% trans "Al-Kawthar"%}</option>
+    <option value="109" {%if requestGET.surah == 109 %} selected {%endif%} >{{"109" | fitNumber}} - {% trans "Al-Kafirun"%}</option>
+    <option value="110" {%if requestGET.surah == 110 %} selected {%endif%} >{{"110" | fitNumber}} - {% trans "An-Nasr"%}</option>
+    <option value="111" {%if requestGET.surah == 111 %} selected {%endif%} >{{"111" | fitNumber}} - {% trans "Al-Masad"%}</option>
+    <option value="112" {%if requestGET.surah == 112 %} selected {%endif%} >{{"112" | fitNumber}} - {% trans "Al-Ikhlas"%}</option>
+    <option value="113" {%if requestGET.surah == 113 %} selected {%endif%} >{{"113" | fitNumber}} - {% trans "Al-Falaq"%}</option>
+    <option value="114" {%if requestGET.surah == 114 %} selected {%endif%} >{{"114" | fitNumber}} - {% trans "An-Nas"%}</option>
+  </select>
+
+{%endblock%}
+

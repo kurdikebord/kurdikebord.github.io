@@ -1,0 +1,136 @@
+{%extends display.main%}
+
+
+{%block page%}
+
+{%if paymentVerifyMsg %}
+<div class="msg txtC {%if paymentVerifyMsgTrue %}success{%else%}danger{%endif%}">{{ paymentVerifyMsg}}</div>
+  {%if logoLink%}
+    <div class="txtC">
+      <img  src="{{url.site}}/static/images/logo.png">
+    </div>
+  {%endif%}
+{%endif%}
+
+<div class="msg success2 mT20">شما می‌توانید درخواست مشاوره آموزش قرآنی داشته باشید. بدین منظور پس از تکمیل فرم زیر با شما تماس گرفته شده و اطلاعات لازم در اختیار  شما قرار خواهد گرفت.</div>
+<div class="msg">در مشاوره آموزشی ما اطلاعات لازم برای یادگیری قرآن را به شما آموزش خواهیم داد.</div>
+<div class="msg warn txtC txtB fs16">هزینه  مشاوره آموزشی ۱۰ هزار تومان است.</div>
+
+<form class="f justify-center" method="post" autocomplete="off">
+  <div class="c6 s12">
+
+    <div class="msg info2">
+      <label for='person'>{%trans "Name"%}</label>
+      <div class="input">
+        <input type="text" name="name" id='person' maxlength="50" required>
+      </div>
+
+      <label for='personMob'>{%trans "Mobile"%}</label>
+      <div class="input">
+        <input type="tel" name="mn" id='personMob' maxlength="12" required>
+      </div>
+
+      <label for='amount'>{%trans "Price"%}</label>
+      <div class="input">
+        <input type="number" name="amount" id='amount' max="99999999" required data-response-realtime value="10000" readonly>
+        <span class="addon">{%trans "Toman"%}</span>
+      </div>
+
+  {%if lang.current == 'fa'%}
+      <div class="msg success txtB fs09" data-response="amount" data-response-call="wordifyResponse"></div>
+  {%endif%}
+
+      <button class="btn primary block mT20">{%trans "Request Advice"%}</button>
+    </div>
+
+  </div>
+</form>
+
+<hr>
+<h3>{%trans "Thank You"%}</h3>
+<p>{%trans "Also you can share our project to everyone and we are say thank you."%}</p>
+
+
+<hr>
+<h3>{%trans "Have Question?"%}</h3>
+<p>{%trans "If you have any questions, please do not hesitate to <a href='contact'>contact us</a>."%} {%trans "In <a href='support'>help center</a> we are answer some frequent questions."%}</p>
+
+{%if false%}
+{{block('iDoners')}}
+<hr>
+<h3>{%trans "Doners"%}</h3>
+<p>{%trans "Thanks to the generous support of donors like you. see our doners"%}</p>
+{%trans "Your ongoing support is helping share Quran via SalamQuran around the world in cyberspace."%}
+{%endif%}
+
+{%endblock%}
+
+
+
+{%block iDoners%}
+{%if doners.up_to_10_milion%}
+<h3>{%trans "Donate up to 10 milion"%}</h3>
+<div class="f massive">
+  {%for key, value in doners.up_to_10_milion %}
+    <div class="vcard shadow mA10 s12">
+      <img alt="{{value.displayname}}" src="{{value.avatar}}">
+      <div class="content">
+        <a class="header">{{value.displayname}}</a>
+        <div class="meta"><span>{{value.mysum | fitNumber}}</span></div>
+      </div>
+    </div>
+  {%endfor%}
+</div>
+{%endif%}
+
+
+{%if doners.up_to_1_milion%}
+<h3>{%trans "Donate up to 1 milion"%}</h3>
+<div class="f large">
+  {%for key, value in doners.up_to_1_milion %}
+  <div class="vcard shadow mA10 s12">
+    <img alt="{{value.displayname}}" src="{{value.avatar}}">
+    <div class="content">
+      <a class="header">{{value.displayname}}</a>
+      <div class="meta"><span>{{value.mysum | fitNumber}}</span></div>
+    </div>
+  </div>
+  {%endfor%}
+</div>
+{%endif%}
+
+
+{%if doners.up_to_100_thousand%}
+<h3>{%trans "Donate up to 100 thousand"%}</h3>
+<div class="f small">
+  {%for key, value in doners.up_to_100_thousand %}
+  <div class="vcard shadow mA10 s12">
+    <img alt="{{value.displayname}}" src="{{value.avatar}}">
+    <div class="content">
+      <a class="header">{{value.displayname}}</a>
+      <div class="meta"><span>{{value.mysum | fitNumber}}</span></div>
+    </div>
+  </div>
+  {%endfor%}
+</div>
+{%endif%}
+
+
+
+{%if doners.other%}
+<h3>{%trans "Other doners"%}</h3>
+<div class="f mini">
+  {%for key, value in doners.other %}
+  <div class="vcard shadow mA10 s12">
+    <img alt="{{value.displayname}}" src="{{value.avatar}}">
+    <div class="content">
+      <a class="header">{{value.displayname}}</a>
+      <div class="meta"><span>{{value.mysum | fitNumber}}</span></div>
+    </div>
+  </div>
+  {%endfor%}
+</div>
+{%endif%}
+
+
+{%endblock%}

@@ -1,0 +1,19 @@
+
+// newsCollection
+.newsCollection{
+  margin:5rem 0 10rem;
+}
+.newsCollection .newsCover{
+  display: block;
+  overflow: hidden;
+  max-height: 300px;
+}
+.newsCollection h2{
+
+}
+.newsCollection h2 a{
+  font-size: 0.6em;
+}
+.newsCollection .vcard{
+  background-color: #fff;
+}

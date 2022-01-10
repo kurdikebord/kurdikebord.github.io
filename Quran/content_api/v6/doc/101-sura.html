@@ -1,0 +1,42 @@
+<div class="cbox" id='sura-list'>
+
+  <h2 class="f" data-kerkere='#sura-list-detail' data-kerkere-icon='open'>
+    <div class="cauto pRa10"><span class="badge primary">GET</span></div>
+    <div>{%trans "Get list of sura"%}</div>
+  </h2>
+
+  <div id="sura-list-detail">
+    <p>
+      {%trans "Get sura list by some detail like aya count, type, index and more."%}
+    </p>
+    <div class="msg url">
+      <i class="method">GET</i>
+      <span>{{apiURL}}<b>sura/list</b></span>
+    </div>
+
+    <h3>{%trans "cURL"%} <small>{%trans "example"%}</small></h3>
+    <pre>curl -X GET {{apiURL}}sura/list</pre>
+
+    <h3>{%trans "Response"%} <small>{%trans "example"%}</small></h3>
+<pre>
+{
+  "ok": true,
+  "result": [
+    {
+      "index": "1",
+      "ayas": "7",
+      "name": "الفاتحة",
+      "tname": "Al-Fatihah",
+      "ename": "The Opener",
+      "type": "meccan",
+      "order": "5",
+      "word": "29",
+      "theletter": "142"
+    }
+    ...
+  ]
+}
+</pre>
+
+  </div>
+</div>

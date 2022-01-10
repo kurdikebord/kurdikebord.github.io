@@ -1,0 +1,29 @@
+{%extends 'content_m/audiobank/layout.html'%}
+{%block pageContent%}
+<form method="post" enctype="multipart/form-data" autocomplete="off">
+<div class="f justify-center">
+  <div class="c4 s12">
+    <div class="cbox">
+
+    {{block('iqari')}}
+    {{block('iavatar')}}
+    {{block('itype')}}
+    {{block('ireadtype')}}
+    {{block('ifiletype')}}
+    {{block('iaddr')}}
+    {{block('icountry')}}
+    {{block('iquality')}}
+
+        {{block("isave")}}
+    </div>
+  </div>
+</div>
+</form>
+{%endblock%}
+
+
+
+
+
+
+

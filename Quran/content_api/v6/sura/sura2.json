@@ -1,0 +1,4437 @@
+{
+  "1": {
+    "index": "1",
+    "startpage": "1",
+    "endpage": "1",
+    "startaya": "1",
+    "endaya": "7",
+    "startsura": "1",
+    "endsura": "1",
+    "starthizb": "1",
+    "endhizb": "1",
+    "startnim": "1",
+    "endnim": "1",
+    "startrub": "1",
+    "endrub": "1",
+    "alljuz": [
+      1
+    ],
+    "allpage": [
+      1
+    ],
+    "allhizb": [
+      1
+    ],
+    "allnim": [
+      1
+    ],
+    "allrub": [
+      1
+    ],
+    "words": "29"
+  },
+  "2": {
+    "index": "2",
+    "startpage": "2",
+    "endpage": "49",
+    "startaya": "1",
+    "endaya": "286",
+    "startsura": "2",
+    "endsura": "2",
+    "starthizb": "1",
+    "endhizb": "5",
+    "startnim": "1",
+    "endnim": "10",
+    "startrub": "1",
+    "endrub": "20",
+    "alljuz": [
+      1,
+      2,
+      3
+    ],
+    "allpage": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "allhizb": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "allnim": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "allrub": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "words": "6117"
+  },
+  "3": {
+    "index": "3",
+    "startpage": "50",
+    "endpage": "76",
+    "startaya": "1",
+    "endaya": "200",
+    "startsura": "3",
+    "endsura": "3",
+    "starthizb": "5",
+    "endhizb": "8",
+    "startnim": "10",
+    "endnim": "15",
+    "startrub": "20",
+    "endrub": "30",
+    "alljuz": [
+      3,
+      4
+    ],
+    "allpage": [
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76
+    ],
+    "allhizb": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "allnim": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "allrub": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "words": "3481"
+  },
+  "4": {
+    "index": "4",
+    "startpage": "77",
+    "endpage": "106",
+    "startaya": "1",
+    "endaya": "176",
+    "startsura": "4",
+    "endsura": "4",
+    "starthizb": "8",
+    "endhizb": "11",
+    "startnim": "16",
+    "endnim": "21",
+    "startrub": "31",
+    "endrub": "42",
+    "alljuz": [
+      4,
+      5,
+      6
+    ],
+    "allpage": [
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106
+    ],
+    "allhizb": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "allnim": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "allrub": [
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "words": "3747"
+  },
+  "5": {
+    "index": "5",
+    "startpage": "106",
+    "endpage": "127",
+    "startaya": "1",
+    "endaya": "120",
+    "startsura": "5",
+    "endsura": "5",
+    "starthizb": "11",
+    "endhizb": "13",
+    "startnim": "22",
+    "endnim": "26",
+    "startrub": "43",
+    "endrub": "51",
+    "alljuz": [
+      6,
+      7
+    ],
+    "allpage": [
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127
+    ],
+    "allhizb": [
+      11,
+      12,
+      13
+    ],
+    "allnim": [
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "allrub": [
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ],
+    "words": "2804"
+  },
+  "6": {
+    "index": "6",
+    "startpage": "128",
+    "endpage": "150",
+    "startaya": "1",
+    "endaya": "165",
+    "startsura": "6",
+    "endsura": "6",
+    "starthizb": "13",
+    "endhizb": "15",
+    "startnim": "26",
+    "endnim": "30",
+    "startrub": "51",
+    "endrub": "60",
+    "alljuz": [
+      7,
+      8
+    ],
+    "allpage": [
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150
+    ],
+    "allhizb": [
+      13,
+      14,
+      15
+    ],
+    "allnim": [
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "allrub": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60
+    ],
+    "words": "3050"
+  },
+  "7": {
+    "index": "7",
+    "startpage": "151",
+    "endpage": "176",
+    "startaya": "1",
+    "endaya": "206",
+    "startsura": "7",
+    "endsura": "7",
+    "starthizb": "16",
+    "endhizb": "18",
+    "startnim": "31",
+    "endnim": "35",
+    "startrub": "61",
+    "endrub": "70",
+    "alljuz": [
+      8,
+      9
+    ],
+    "allpage": [
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176
+    ],
+    "allhizb": [
+      16,
+      17,
+      18
+    ],
+    "allnim": [
+      31,
+      32,
+      33,
+      34,
+      35
+    ],
+    "allrub": [
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70
+    ],
+    "words": "3320"
+  },
+  "8": {
+    "index": "8",
+    "startpage": "177",
+    "endpage": "186",
+    "startaya": "1",
+    "endaya": "75",
+    "startsura": "8",
+    "endsura": "8",
+    "starthizb": "18",
+    "endhizb": "19",
+    "startnim": "36",
+    "endnim": "37",
+    "startrub": "71",
+    "endrub": "74",
+    "alljuz": [
+      9,
+      10
+    ],
+    "allpage": [
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186
+    ],
+    "allhizb": [
+      18,
+      19
+    ],
+    "allnim": [
+      36,
+      37
+    ],
+    "allrub": [
+      71,
+      72,
+      73,
+      74
+    ],
+    "words": "1234"
+  },
+  "9": {
+    "index": "9",
+    "startpage": "187",
+    "endpage": "207",
+    "startaya": "1",
+    "endaya": "129",
+    "startsura": "9",
+    "endsura": "9",
+    "starthizb": "19",
+    "endhizb": "21",
+    "startnim": "38",
+    "endnim": "42",
+    "startrub": "75",
+    "endrub": "83",
+    "alljuz": [
+      10,
+      11
+    ],
+    "allpage": [
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207
+    ],
+    "allhizb": [
+      19,
+      20,
+      21
+    ],
+    "allnim": [
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "allrub": [
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
+    ],
+    "words": "2498"
+  },
+  "10": {
+    "index": "10",
+    "startpage": "208",
+    "endpage": "221",
+    "startaya": "1",
+    "endaya": "109",
+    "startsura": "10",
+    "endsura": "10",
+    "starthizb": "21",
+    "endhizb": "22",
+    "startnim": "42",
+    "endnim": "44",
+    "startrub": "83",
+    "endrub": "88",
+    "alljuz": [
+      11
+    ],
+    "allpage": [
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221
+    ],
+    "allhizb": [
+      21,
+      22
+    ],
+    "allnim": [
+      42,
+      43,
+      44
+    ],
+    "allrub": [
+      83,
+      84,
+      85,
+      86,
+      87,
+      88
+    ],
+    "words": "1833"
+  },
+  "11": {
+    "index": "11",
+    "startpage": "221",
+    "endpage": "235",
+    "startaya": "1",
+    "endaya": "123",
+    "startsura": "11",
+    "endsura": "11",
+    "starthizb": "22",
+    "endhizb": "24",
+    "startnim": "44",
+    "endnim": "47",
+    "startrub": "88",
+    "endrub": "94",
+    "alljuz": [
+      11,
+      12
+    ],
+    "allpage": [
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235
+    ],
+    "allhizb": [
+      22,
+      23,
+      24
+    ],
+    "allnim": [
+      44,
+      45,
+      46,
+      47
+    ],
+    "allrub": [
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94
+    ],
+    "words": "1917"
+  },
+  "12": {
+    "index": "12",
+    "startpage": "235",
+    "endpage": "248",
+    "startaya": "1",
+    "endaya": "111",
+    "startsura": "12",
+    "endsura": "12",
+    "starthizb": "24",
+    "endhizb": "25",
+    "startnim": "47",
+    "endnim": "50",
+    "startrub": "94",
+    "endrub": "99",
+    "alljuz": [
+      12,
+      13
+    ],
+    "allpage": [
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248
+    ],
+    "allhizb": [
+      24,
+      25
+    ],
+    "allnim": [
+      47,
+      48,
+      49,
+      50
+    ],
+    "allrub": [
+      94,
+      95,
+      96,
+      97,
+      98,
+      99
+    ],
+    "words": "1777"
+  },
+  "13": {
+    "index": "13",
+    "startpage": "249",
+    "endpage": "255",
+    "startaya": "1",
+    "endaya": "43",
+    "startsura": "13",
+    "endsura": "13",
+    "starthizb": "25",
+    "endhizb": "26",
+    "startnim": "50",
+    "endnim": "51",
+    "startrub": "99",
+    "endrub": "102",
+    "alljuz": [
+      13
+    ],
+    "allpage": [
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "allhizb": [
+      25,
+      26
+    ],
+    "allnim": [
+      50,
+      51
+    ],
+    "allrub": [
+      99,
+      100,
+      101,
+      102
+    ],
+    "words": "853"
+  },
+  "14": {
+    "index": "14",
+    "startpage": "255",
+    "endpage": "261",
+    "startaya": "1",
+    "endaya": "52",
+    "startsura": "14",
+    "endsura": "14",
+    "starthizb": "26",
+    "endhizb": "26",
+    "startnim": "51",
+    "endnim": "52",
+    "startrub": "102",
+    "endrub": "104",
+    "alljuz": [
+      13
+    ],
+    "allpage": [
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261
+    ],
+    "allhizb": [
+      26
+    ],
+    "allnim": [
+      51,
+      52
+    ],
+    "allrub": [
+      102,
+      103,
+      104
+    ],
+    "words": "830"
+  },
+  "15": {
+    "index": "15",
+    "startpage": "262",
+    "endpage": "267",
+    "startaya": "1",
+    "endaya": "99",
+    "startsura": "15",
+    "endsura": "15",
+    "starthizb": "27",
+    "endhizb": "27",
+    "startnim": "53",
+    "endnim": "53",
+    "startrub": "105",
+    "endrub": "106",
+    "alljuz": [
+      14
+    ],
+    "allpage": [
+      262,
+      263,
+      264,
+      265,
+      266,
+      267
+    ],
+    "allhizb": [
+      27
+    ],
+    "allnim": [
+      53
+    ],
+    "allrub": [
+      105,
+      106
+    ],
+    "words": "655"
+  },
+  "16": {
+    "index": "16",
+    "startpage": "267",
+    "endpage": "281",
+    "startaya": "1",
+    "endaya": "128",
+    "startsura": "16",
+    "endsura": "16",
+    "starthizb": "27",
+    "endhizb": "28",
+    "startnim": "54",
+    "endnim": "56",
+    "startrub": "107",
+    "endrub": "112",
+    "alljuz": [
+      14
+    ],
+    "allpage": [
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281
+    ],
+    "allhizb": [
+      27,
+      28
+    ],
+    "allnim": [
+      54,
+      55,
+      56
+    ],
+    "allrub": [
+      107,
+      108,
+      109,
+      110,
+      111,
+      112
+    ],
+    "words": "1844"
+  },
+  "17": {
+    "index": "17",
+    "startpage": "282",
+    "endpage": "293",
+    "startaya": "1",
+    "endaya": "111",
+    "startsura": "17",
+    "endsura": "17",
+    "starthizb": "29",
+    "endhizb": "30",
+    "startnim": "57",
+    "endnim": "59",
+    "startrub": "113",
+    "endrub": "117",
+    "alljuz": [
+      15
+    ],
+    "allpage": [
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      292,
+      293
+    ],
+    "allhizb": [
+      29,
+      30
+    ],
+    "allnim": [
+      57,
+      58,
+      59
+    ],
+    "allrub": [
+      113,
+      114,
+      115,
+      116,
+      117
+    ],
+    "words": "1556"
+  },
+  "18": {
+    "index": "18",
+    "startpage": "293",
+    "endpage": "304",
+    "startaya": "1",
+    "endaya": "110",
+    "startsura": "18",
+    "endsura": "18",
+    "starthizb": "30",
+    "endhizb": "31",
+    "startnim": "59",
+    "endnim": "61",
+    "startrub": "117",
+    "endrub": "122",
+    "alljuz": [
+      15,
+      16
+    ],
+    "allpage": [
+      293,
+      294,
+      295,
+      296,
+      297,
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304
+    ],
+    "allhizb": [
+      30,
+      31
+    ],
+    "allnim": [
+      59,
+      60,
+      61
+    ],
+    "allrub": [
+      117,
+      118,
+      119,
+      120,
+      121,
+      122
+    ],
+    "words": "1579"
+  },
+  "19": {
+    "index": "19",
+    "startpage": "305",
+    "endpage": "312",
+    "startaya": "1",
+    "endaya": "98",
+    "startsura": "19",
+    "endsura": "19",
+    "starthizb": "31",
+    "endhizb": "31",
+    "startnim": "61",
+    "endnim": "62",
+    "startrub": "122",
+    "endrub": "124",
+    "alljuz": [
+      16
+    ],
+    "allpage": [
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312
+    ],
+    "allhizb": [
+      31
+    ],
+    "allnim": [
+      61,
+      62
+    ],
+    "allrub": [
+      122,
+      123,
+      124
+    ],
+    "words": "961"
+  },
+  "20": {
+    "index": "20",
+    "startpage": "312",
+    "endpage": "321",
+    "startaya": "1",
+    "endaya": "135",
+    "startsura": "20",
+    "endsura": "20",
+    "starthizb": "32",
+    "endhizb": "32",
+    "startnim": "63",
+    "endnim": "64",
+    "startrub": "125",
+    "endrub": "128",
+    "alljuz": [
+      16
+    ],
+    "allpage": [
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321
+    ],
+    "allhizb": [
+      32
+    ],
+    "allnim": [
+      63,
+      64
+    ],
+    "allrub": [
+      125,
+      126,
+      127,
+      128
+    ],
+    "words": "1335"
+  },
+  "21": {
+    "index": "21",
+    "startpage": "322",
+    "endpage": "331",
+    "startaya": "1",
+    "endaya": "112",
+    "startsura": "21",
+    "endsura": "21",
+    "starthizb": "33",
+    "endhizb": "33",
+    "startnim": "65",
+    "endnim": "66",
+    "startrub": "129",
+    "endrub": "132",
+    "alljuz": [
+      17
+    ],
+    "allpage": [
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331
+    ],
+    "allhizb": [
+      33
+    ],
+    "allnim": [
+      65,
+      66
+    ],
+    "allrub": [
+      129,
+      130,
+      131,
+      132
+    ],
+    "words": "1169"
+  },
+  "22": {
+    "index": "22",
+    "startpage": "332",
+    "endpage": "341",
+    "startaya": "1",
+    "endaya": "78",
+    "startsura": "22",
+    "endsura": "22",
+    "starthizb": "34",
+    "endhizb": "34",
+    "startnim": "67",
+    "endnim": "68",
+    "startrub": "133",
+    "endrub": "136",
+    "alljuz": [
+      17
+    ],
+    "allpage": [
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      340,
+      341
+    ],
+    "allhizb": [
+      34
+    ],
+    "allnim": [
+      67,
+      68
+    ],
+    "allrub": [
+      133,
+      134,
+      135,
+      136
+    ],
+    "words": "1274"
+  },
+  "23": {
+    "index": "23",
+    "startpage": "342",
+    "endpage": "349",
+    "startaya": "1",
+    "endaya": "118",
+    "startsura": "23",
+    "endsura": "23",
+    "starthizb": "35",
+    "endhizb": "35",
+    "startnim": "69",
+    "endnim": "70",
+    "startrub": "137",
+    "endrub": "139",
+    "alljuz": [
+      18
+    ],
+    "allpage": [
+      342,
+      343,
+      344,
+      345,
+      346,
+      347,
+      348,
+      349
+    ],
+    "allhizb": [
+      35
+    ],
+    "allnim": [
+      69,
+      70
+    ],
+    "allrub": [
+      137,
+      138,
+      139
+    ],
+    "words": "1050"
+  },
+  "24": {
+    "index": "24",
+    "startpage": "350",
+    "endpage": "359",
+    "startaya": "1",
+    "endaya": "64",
+    "startsura": "24",
+    "endsura": "24",
+    "starthizb": "35",
+    "endhizb": "36",
+    "startnim": "70",
+    "endnim": "72",
+    "startrub": "140",
+    "endrub": "143",
+    "alljuz": [
+      18
+    ],
+    "allpage": [
+      350,
+      351,
+      352,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358,
+      359
+    ],
+    "allhizb": [
+      35,
+      36
+    ],
+    "allnim": [
+      70,
+      71,
+      72
+    ],
+    "allrub": [
+      140,
+      141,
+      142,
+      143
+    ],
+    "words": "1316"
+  },
+  "25": {
+    "index": "25",
+    "startpage": "359",
+    "endpage": "366",
+    "startaya": "1",
+    "endaya": "77",
+    "startsura": "25",
+    "endsura": "25",
+    "starthizb": "36",
+    "endhizb": "37",
+    "startnim": "72",
+    "endnim": "73",
+    "startrub": "144",
+    "endrub": "146",
+    "alljuz": [
+      18,
+      19
+    ],
+    "allpage": [
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365,
+      366
+    ],
+    "allhizb": [
+      36,
+      37
+    ],
+    "allnim": [
+      72,
+      73
+    ],
+    "allrub": [
+      144,
+      145,
+      146
+    ],
+    "words": "893"
+  },
+  "26": {
+    "index": "26",
+    "startpage": "367",
+    "endpage": "376",
+    "startaya": "1",
+    "endaya": "227",
+    "startsura": "26",
+    "endsura": "26",
+    "starthizb": "37",
+    "endhizb": "38",
+    "startnim": "74",
+    "endnim": "75",
+    "startrub": "147",
+    "endrub": "150",
+    "alljuz": [
+      19
+    ],
+    "allpage": [
+      367,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376
+    ],
+    "allhizb": [
+      37,
+      38
+    ],
+    "allnim": [
+      74,
+      75
+    ],
+    "allrub": [
+      147,
+      148,
+      149,
+      150
+    ],
+    "words": "1318"
+  },
+  "27": {
+    "index": "27",
+    "startpage": "377",
+    "endpage": "385",
+    "startaya": "1",
+    "endaya": "93",
+    "startsura": "27",
+    "endsura": "27",
+    "starthizb": "38",
+    "endhizb": "39",
+    "startnim": "76",
+    "endnim": "77",
+    "startrub": "151",
+    "endrub": "154",
+    "alljuz": [
+      19,
+      20
+    ],
+    "allpage": [
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385
+    ],
+    "allhizb": [
+      38,
+      39
+    ],
+    "allnim": [
+      76,
+      77
+    ],
+    "allrub": [
+      151,
+      152,
+      153,
+      154
+    ],
+    "words": "1151"
+  },
+  "28": {
+    "index": "28",
+    "startpage": "385",
+    "endpage": "396",
+    "startaya": "1",
+    "endaya": "88",
+    "startsura": "28",
+    "endsura": "28",
+    "starthizb": "39",
+    "endhizb": "40",
+    "startnim": "77",
+    "endnim": "79",
+    "startrub": "154",
+    "endrub": "158",
+    "alljuz": [
+      20
+    ],
+    "allpage": [
+      385,
+      386,
+      387,
+      388,
+      389,
+      390,
+      391,
+      392,
+      393,
+      394,
+      395,
+      396
+    ],
+    "allhizb": [
+      39,
+      40
+    ],
+    "allnim": [
+      77,
+      78,
+      79
+    ],
+    "allrub": [
+      154,
+      155,
+      156,
+      157,
+      158
+    ],
+    "words": "1430"
+  },
+  "29": {
+    "index": "29",
+    "startpage": "396",
+    "endpage": "404",
+    "startaya": "1",
+    "endaya": "69",
+    "startsura": "29",
+    "endsura": "29",
+    "starthizb": "40",
+    "endhizb": "41",
+    "startnim": "80",
+    "endnim": "81",
+    "startrub": "159",
+    "endrub": "161",
+    "alljuz": [
+      20,
+      21
+    ],
+    "allpage": [
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404
+    ],
+    "allhizb": [
+      40,
+      41
+    ],
+    "allnim": [
+      80,
+      81
+    ],
+    "allrub": [
+      159,
+      160,
+      161
+    ],
+    "words": "976"
+  },
+  "30": {
+    "index": "30",
+    "startpage": "404",
+    "endpage": "410",
+    "startaya": "1",
+    "endaya": "60",
+    "startsura": "30",
+    "endsura": "30",
+    "starthizb": "41",
+    "endhizb": "41",
+    "startnim": "81",
+    "endnim": "82",
+    "startrub": "162",
+    "endrub": "164",
+    "alljuz": [
+      21
+    ],
+    "allpage": [
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410
+    ],
+    "allhizb": [
+      41
+    ],
+    "allnim": [
+      81,
+      82
+    ],
+    "allrub": [
+      162,
+      163,
+      164
+    ],
+    "words": "817"
+  },
+  "31": {
+    "index": "31",
+    "startpage": "411",
+    "endpage": "414",
+    "startaya": "1",
+    "endaya": "34",
+    "startsura": "31",
+    "endsura": "31",
+    "starthizb": "41",
+    "endhizb": "42",
+    "startnim": "82",
+    "endnim": "83",
+    "startrub": "164",
+    "endrub": "165",
+    "alljuz": [
+      21
+    ],
+    "allpage": [
+      411,
+      412,
+      413,
+      414
+    ],
+    "allhizb": [
+      41,
+      42
+    ],
+    "allnim": [
+      82,
+      83
+    ],
+    "allrub": [
+      164,
+      165
+    ],
+    "words": "546"
+  },
+  "32": {
+    "index": "32",
+    "startpage": "415",
+    "endpage": "417",
+    "startaya": "1",
+    "endaya": "30",
+    "startsura": "32",
+    "endsura": "32",
+    "starthizb": "42",
+    "endhizb": "42",
+    "startnim": "83",
+    "endnim": "83",
+    "startrub": "165",
+    "endrub": "166",
+    "alljuz": [
+      21
+    ],
+    "allpage": [
+      415,
+      416,
+      417
+    ],
+    "allhizb": [
+      42
+    ],
+    "allnim": [
+      83
+    ],
+    "allrub": [
+      165,
+      166
+    ],
+    "words": "372"
+  },
+  "33": {
+    "index": "33",
+    "startpage": "418",
+    "endpage": "427",
+    "startaya": "1",
+    "endaya": "73",
+    "startsura": "33",
+    "endsura": "33",
+    "starthizb": "42",
+    "endhizb": "43",
+    "startnim": "84",
+    "endnim": "86",
+    "startrub": "167",
+    "endrub": "171",
+    "alljuz": [
+      21,
+      22
+    ],
+    "allpage": [
+      418,
+      419,
+      420,
+      421,
+      422,
+      423,
+      424,
+      425,
+      426,
+      427
+    ],
+    "allhizb": [
+      42,
+      43
+    ],
+    "allnim": [
+      84,
+      85,
+      86
+    ],
+    "allrub": [
+      167,
+      168,
+      169,
+      170,
+      171
+    ],
+    "words": "1287"
+  },
+  "34": {
+    "index": "34",
+    "startpage": "428",
+    "endpage": "434",
+    "startaya": "1",
+    "endaya": "54",
+    "startsura": "34",
+    "endsura": "34",
+    "starthizb": "43",
+    "endhizb": "44",
+    "startnim": "86",
+    "endnim": "87",
+    "startrub": "171",
+    "endrub": "174",
+    "alljuz": [
+      22
+    ],
+    "allpage": [
+      428,
+      429,
+      430,
+      431,
+      432,
+      433,
+      434
+    ],
+    "allhizb": [
+      43,
+      44
+    ],
+    "allnim": [
+      86,
+      87
+    ],
+    "allrub": [
+      171,
+      172,
+      173,
+      174
+    ],
+    "words": "883"
+  },
+  "35": {
+    "index": "35",
+    "startpage": "434",
+    "endpage": "440",
+    "startaya": "1",
+    "endaya": "45",
+    "startsura": "35",
+    "endsura": "35",
+    "starthizb": "44",
+    "endhizb": "44",
+    "startnim": "87",
+    "endnim": "88",
+    "startrub": "174",
+    "endrub": "176",
+    "alljuz": [
+      22
+    ],
+    "allpage": [
+      434,
+      435,
+      436,
+      437,
+      438,
+      439,
+      440
+    ],
+    "allhizb": [
+      44
+    ],
+    "allnim": [
+      87,
+      88
+    ],
+    "allrub": [
+      174,
+      175,
+      176
+    ],
+    "words": "775"
+  },
+  "36": {
+    "index": "36",
+    "startpage": "440",
+    "endpage": "445",
+    "startaya": "1",
+    "endaya": "83",
+    "startsura": "36",
+    "endsura": "36",
+    "starthizb": "44",
+    "endhizb": "45",
+    "startnim": "88",
+    "endnim": "89",
+    "startrub": "176",
+    "endrub": "178",
+    "alljuz": [
+      22,
+      23
+    ],
+    "allpage": [
+      440,
+      441,
+      442,
+      443,
+      444,
+      445
+    ],
+    "allhizb": [
+      44,
+      45
+    ],
+    "allnim": [
+      88,
+      89
+    ],
+    "allrub": [
+      176,
+      177,
+      178
+    ],
+    "words": "725"
+  },
+  "37": {
+    "index": "37",
+    "startpage": "446",
+    "endpage": "452",
+    "startaya": "1",
+    "endaya": "182",
+    "startsura": "37",
+    "endsura": "37",
+    "starthizb": "45",
+    "endhizb": "46",
+    "startnim": "89",
+    "endnim": "91",
+    "startrub": "178",
+    "endrub": "181",
+    "alljuz": [
+      23
+    ],
+    "allpage": [
+      446,
+      447,
+      448,
+      449,
+      450,
+      451,
+      452
+    ],
+    "allhizb": [
+      45,
+      46
+    ],
+    "allnim": [
+      89,
+      90,
+      91
+    ],
+    "allrub": [
+      178,
+      179,
+      180,
+      181
+    ],
+    "words": "861"
+  },
+  "38": {
+    "index": "38",
+    "startpage": "453",
+    "endpage": "458",
+    "startaya": "1",
+    "endaya": "88",
+    "startsura": "38",
+    "endsura": "38",
+    "starthizb": "46",
+    "endhizb": "46",
+    "startnim": "91",
+    "endnim": "92",
+    "startrub": "181",
+    "endrub": "183",
+    "alljuz": [
+      23
+    ],
+    "allpage": [
+      453,
+      454,
+      455,
+      456,
+      457,
+      458
+    ],
+    "allhizb": [
+      46
+    ],
+    "allnim": [
+      91,
+      92
+    ],
+    "allrub": [
+      181,
+      182,
+      183
+    ],
+    "words": "733"
+  },
+  "39": {
+    "index": "39",
+    "startpage": "458",
+    "endpage": "467",
+    "startaya": "1",
+    "endaya": "75",
+    "startsura": "39",
+    "endsura": "39",
+    "starthizb": "46",
+    "endhizb": "47",
+    "startnim": "92",
+    "endnim": "93",
+    "startrub": "183",
+    "endrub": "186",
+    "alljuz": [
+      23,
+      24
+    ],
+    "allpage": [
+      458,
+      459,
+      460,
+      461,
+      462,
+      463,
+      464,
+      465,
+      466,
+      467
+    ],
+    "allhizb": [
+      46,
+      47
+    ],
+    "allnim": [
+      92,
+      93
+    ],
+    "allrub": [
+      183,
+      184,
+      185,
+      186
+    ],
+    "words": "1172"
+  },
+  "40": {
+    "index": "40",
+    "startpage": "467",
+    "endpage": "476",
+    "startaya": "1",
+    "endaya": "85",
+    "startsura": "40",
+    "endsura": "40",
+    "starthizb": "47",
+    "endhizb": "48",
+    "startnim": "94",
+    "endnim": "95",
+    "startrub": "187",
+    "endrub": "190",
+    "alljuz": [
+      24
+    ],
+    "allpage": [
+      467,
+      468,
+      469,
+      470,
+      471,
+      472,
+      473,
+      474,
+      475,
+      476
+    ],
+    "allhizb": [
+      47,
+      48
+    ],
+    "allnim": [
+      94,
+      95
+    ],
+    "allrub": [
+      187,
+      188,
+      189,
+      190
+    ],
+    "words": "1219"
+  },
+  "41": {
+    "index": "41",
+    "startpage": "477",
+    "endpage": "482",
+    "startaya": "1",
+    "endaya": "54",
+    "startsura": "41",
+    "endsura": "41",
+    "starthizb": "48",
+    "endhizb": "49",
+    "startnim": "95",
+    "endnim": "97",
+    "startrub": "190",
+    "endrub": "193",
+    "alljuz": [
+      24,
+      25
+    ],
+    "allpage": [
+      477,
+      478,
+      479,
+      480,
+      481,
+      482
+    ],
+    "allhizb": [
+      48,
+      49
+    ],
+    "allnim": [
+      95,
+      96,
+      97
+    ],
+    "allrub": [
+      190,
+      191,
+      192,
+      193
+    ],
+    "words": "794"
+  },
+  "42": {
+    "index": "42",
+    "startpage": "483",
+    "endpage": "489",
+    "startaya": "1",
+    "endaya": "53",
+    "startsura": "42",
+    "endsura": "42",
+    "starthizb": "49",
+    "endhizb": "49",
+    "startnim": "97",
+    "endnim": "98",
+    "startrub": "193",
+    "endrub": "196",
+    "alljuz": [
+      25
+    ],
+    "allpage": [
+      483,
+      484,
+      485,
+      486,
+      487,
+      488,
+      489
+    ],
+    "allhizb": [
+      49
+    ],
+    "allnim": [
+      97,
+      98
+    ],
+    "allrub": [
+      193,
+      194,
+      195,
+      196
+    ],
+    "words": "860"
+  },
+  "43": {
+    "index": "43",
+    "startpage": "489",
+    "endpage": "495",
+    "startaya": "1",
+    "endaya": "89",
+    "startsura": "43",
+    "endsura": "43",
+    "starthizb": "49",
+    "endhizb": "50",
+    "startnim": "98",
+    "endnim": "99",
+    "startrub": "196",
+    "endrub": "198",
+    "alljuz": [
+      25
+    ],
+    "allpage": [
+      489,
+      490,
+      491,
+      492,
+      493,
+      494,
+      495
+    ],
+    "allhizb": [
+      49,
+      50
+    ],
+    "allnim": [
+      98,
+      99
+    ],
+    "allrub": [
+      196,
+      197,
+      198
+    ],
+    "words": "830"
+  },
+  "44": {
+    "index": "44",
+    "startpage": "496",
+    "endpage": "498",
+    "startaya": "1",
+    "endaya": "59",
+    "startsura": "44",
+    "endsura": "44",
+    "starthizb": "50",
+    "endhizb": "50",
+    "startnim": "99",
+    "endnim": "100",
+    "startrub": "198",
+    "endrub": "199",
+    "alljuz": [
+      25
+    ],
+    "allpage": [
+      496,
+      497,
+      498
+    ],
+    "allhizb": [
+      50
+    ],
+    "allnim": [
+      99,
+      100
+    ],
+    "allrub": [
+      198,
+      199
+    ],
+    "words": "346"
+  },
+  "45": {
+    "index": "45",
+    "startpage": "499",
+    "endpage": "502",
+    "startaya": "1",
+    "endaya": "37",
+    "startsura": "45",
+    "endsura": "45",
+    "starthizb": "50",
+    "endhizb": "50",
+    "startnim": "100",
+    "endnim": "100",
+    "startrub": "199",
+    "endrub": "200",
+    "alljuz": [
+      25
+    ],
+    "allpage": [
+      499,
+      500,
+      501,
+      502
+    ],
+    "allhizb": [
+      50
+    ],
+    "allnim": [
+      100
+    ],
+    "allrub": [
+      199,
+      200
+    ],
+    "words": "488"
+  },
+  "46": {
+    "index": "46",
+    "startpage": "502",
+    "endpage": "506",
+    "startaya": "1",
+    "endaya": "35",
+    "startsura": "46",
+    "endsura": "46",
+    "starthizb": "51",
+    "endhizb": "51",
+    "startnim": "101",
+    "endnim": "101",
+    "startrub": "201",
+    "endrub": "202",
+    "alljuz": [
+      26
+    ],
+    "allpage": [
+      502,
+      503,
+      504,
+      505,
+      506
+    ],
+    "allhizb": [
+      51
+    ],
+    "allnim": [
+      101
+    ],
+    "allrub": [
+      201,
+      202
+    ],
+    "words": "643"
+  },
+  "47": {
+    "index": "47",
+    "startpage": "507",
+    "endpage": "510",
+    "startaya": "1",
+    "endaya": "38",
+    "startsura": "47",
+    "endsura": "47",
+    "starthizb": "51",
+    "endhizb": "51",
+    "startnim": "101",
+    "endnim": "102",
+    "startrub": "202",
+    "endrub": "204",
+    "alljuz": [
+      26
+    ],
+    "allpage": [
+      507,
+      508,
+      509,
+      510
+    ],
+    "allhizb": [
+      51
+    ],
+    "allnim": [
+      101,
+      102
+    ],
+    "allrub": [
+      202,
+      203,
+      204
+    ],
+    "words": "539"
+  },
+  "48": {
+    "index": "48",
+    "startpage": "511",
+    "endpage": "515",
+    "startaya": "1",
+    "endaya": "29",
+    "startsura": "48",
+    "endsura": "48",
+    "starthizb": "51",
+    "endhizb": "52",
+    "startnim": "102",
+    "endnim": "103",
+    "startrub": "204",
+    "endrub": "205",
+    "alljuz": [
+      26
+    ],
+    "allpage": [
+      511,
+      512,
+      513,
+      514,
+      515
+    ],
+    "allhizb": [
+      51,
+      52
+    ],
+    "allnim": [
+      102,
+      103
+    ],
+    "allrub": [
+      204,
+      205
+    ],
+    "words": "560"
+  },
+  "49": {
+    "index": "49",
+    "startpage": "515",
+    "endpage": "517",
+    "startaya": "1",
+    "endaya": "18",
+    "startsura": "49",
+    "endsura": "49",
+    "starthizb": "52",
+    "endhizb": "52",
+    "startnim": "103",
+    "endnim": "104",
+    "startrub": "206",
+    "endrub": "207",
+    "alljuz": [
+      26
+    ],
+    "allpage": [
+      515,
+      516,
+      517
+    ],
+    "allhizb": [
+      52
+    ],
+    "allnim": [
+      103,
+      104
+    ],
+    "allrub": [
+      206,
+      207
+    ],
+    "words": "347"
+  },
+  "50": {
+    "index": "50",
+    "startpage": "518",
+    "endpage": "520",
+    "startaya": "1",
+    "endaya": "45",
+    "startsura": "50",
+    "endsura": "50",
+    "starthizb": "52",
+    "endhizb": "52",
+    "startnim": "104",
+    "endnim": "104",
+    "startrub": "207",
+    "endrub": "208",
+    "alljuz": [
+      26
+    ],
+    "allpage": [
+      518,
+      519,
+      520
+    ],
+    "allhizb": [
+      52
+    ],
+    "allnim": [
+      104
+    ],
+    "allrub": [
+      207,
+      208
+    ],
+    "words": "373"
+  },
+  "51": {
+    "index": "51",
+    "startpage": "520",
+    "endpage": "523",
+    "startaya": "1",
+    "endaya": "60",
+    "startsura": "51",
+    "endsura": "51",
+    "starthizb": "52",
+    "endhizb": "53",
+    "startnim": "104",
+    "endnim": "105",
+    "startrub": "208",
+    "endrub": "209",
+    "alljuz": [
+      26,
+      27
+    ],
+    "allpage": [
+      520,
+      521,
+      522,
+      523
+    ],
+    "allhizb": [
+      52,
+      53
+    ],
+    "allnim": [
+      104,
+      105
+    ],
+    "allrub": [
+      208,
+      209
+    ],
+    "words": "360"
+  },
+  "52": {
+    "index": "52",
+    "startpage": "523",
+    "endpage": "525",
+    "startaya": "1",
+    "endaya": "49",
+    "startsura": "52",
+    "endsura": "52",
+    "starthizb": "53",
+    "endhizb": "53",
+    "startnim": "105",
+    "endnim": "105",
+    "startrub": "209",
+    "endrub": "210",
+    "alljuz": [
+      27
+    ],
+    "allpage": [
+      523,
+      524,
+      525
+    ],
+    "allhizb": [
+      53
+    ],
+    "allnim": [
+      105
+    ],
+    "allrub": [
+      209,
+      210
+    ],
+    "words": "312"
+  },
+  "53": {
+    "index": "53",
+    "startpage": "526",
+    "endpage": "528",
+    "startaya": "1",
+    "endaya": "62",
+    "startsura": "53",
+    "endsura": "53",
+    "starthizb": "53",
+    "endhizb": "53",
+    "startnim": "105",
+    "endnim": "106",
+    "startrub": "210",
+    "endrub": "211",
+    "alljuz": [
+      27
+    ],
+    "allpage": [
+      526,
+      527,
+      528
+    ],
+    "allhizb": [
+      53
+    ],
+    "allnim": [
+      105,
+      106
+    ],
+    "allrub": [
+      210,
+      211
+    ],
+    "words": "360"
+  },
+  "54": {
+    "index": "54",
+    "startpage": "528",
+    "endpage": "531",
+    "startaya": "1",
+    "endaya": "55",
+    "startsura": "54",
+    "endsura": "54",
+    "starthizb": "53",
+    "endhizb": "53",
+    "startnim": "106",
+    "endnim": "106",
+    "startrub": "211",
+    "endrub": "212",
+    "alljuz": [
+      27
+    ],
+    "allpage": [
+      528,
+      529,
+      530,
+      531
+    ],
+    "allhizb": [
+      53
+    ],
+    "allnim": [
+      106
+    ],
+    "allrub": [
+      211,
+      212
+    ],
+    "words": "342"
+  },
+  "55": {
+    "index": "55",
+    "startpage": "531",
+    "endpage": "534",
+    "startaya": "1",
+    "endaya": "78",
+    "startsura": "55",
+    "endsura": "55",
+    "starthizb": "54",
+    "endhizb": "54",
+    "startnim": "107",
+    "endnim": "107",
+    "startrub": "213",
+    "endrub": "213",
+    "alljuz": [
+      27
+    ],
+    "allpage": [
+      531,
+      532,
+      533,
+      534
+    ],
+    "allhizb": [
+      54
+    ],
+    "allnim": [
+      107
+    ],
+    "allrub": [
+      213
+    ],
+    "words": "351"
+  },
+  "56": {
+    "index": "56",
+    "startpage": "534",
+    "endpage": "537",
+    "startaya": "1",
+    "endaya": "96",
+    "startsura": "56",
+    "endsura": "56",
+    "starthizb": "54",
+    "endhizb": "54",
+    "startnim": "107",
+    "endnim": "108",
+    "startrub": "214",
+    "endrub": "215",
+    "alljuz": [
+      27
+    ],
+    "allpage": [
+      534,
+      535,
+      536,
+      537
+    ],
+    "allhizb": [
+      54
+    ],
+    "allnim": [
+      107,
+      108
+    ],
+    "allrub": [
+      214,
+      215
+    ],
+    "words": "379"
+  },
+  "57": {
+    "index": "57",
+    "startpage": "537",
+    "endpage": "541",
+    "startaya": "1",
+    "endaya": "29",
+    "startsura": "57",
+    "endsura": "57",
+    "starthizb": "54",
+    "endhizb": "54",
+    "startnim": "108",
+    "endnim": "108",
+    "startrub": "215",
+    "endrub": "216",
+    "alljuz": [
+      27
+    ],
+    "allpage": [
+      537,
+      538,
+      539,
+      540,
+      541
+    ],
+    "allhizb": [
+      54
+    ],
+    "allnim": [
+      108
+    ],
+    "allrub": [
+      215,
+      216
+    ],
+    "words": "574"
+  },
+  "58": {
+    "index": "58",
+    "startpage": "542",
+    "endpage": "545",
+    "startaya": "1",
+    "endaya": "22",
+    "startsura": "58",
+    "endsura": "58",
+    "starthizb": "55",
+    "endhizb": "55",
+    "startnim": "109",
+    "endnim": "109",
+    "startrub": "217",
+    "endrub": "218",
+    "alljuz": [
+      28
+    ],
+    "allpage": [
+      542,
+      543,
+      544,
+      545
+    ],
+    "allhizb": [
+      55
+    ],
+    "allnim": [
+      109
+    ],
+    "allrub": [
+      217,
+      218
+    ],
+    "words": "472"
+  },
+  "59": {
+    "index": "59",
+    "startpage": "545",
+    "endpage": "548",
+    "startaya": "1",
+    "endaya": "24",
+    "startsura": "59",
+    "endsura": "59",
+    "starthizb": "55",
+    "endhizb": "55",
+    "startnim": "109",
+    "endnim": "110",
+    "startrub": "218",
+    "endrub": "219",
+    "alljuz": [
+      28
+    ],
+    "allpage": [
+      545,
+      546,
+      547,
+      548
+    ],
+    "allhizb": [
+      55
+    ],
+    "allnim": [
+      109,
+      110
+    ],
+    "allrub": [
+      218,
+      219
+    ],
+    "words": "445"
+  },
+  "60": {
+    "index": "60",
+    "startpage": "549",
+    "endpage": "551",
+    "startaya": "1",
+    "endaya": "13",
+    "startsura": "60",
+    "endsura": "60",
+    "starthizb": "55",
+    "endhizb": "55",
+    "startnim": "110",
+    "endnim": "110",
+    "startrub": "219",
+    "endrub": "220",
+    "alljuz": [
+      28
+    ],
+    "allpage": [
+      549,
+      550,
+      551
+    ],
+    "allhizb": [
+      55
+    ],
+    "allnim": [
+      110
+    ],
+    "allrub": [
+      219,
+      220
+    ],
+    "words": "348"
+  },
+  "61": {
+    "index": "61",
+    "startpage": "551",
+    "endpage": "552",
+    "startaya": "1",
+    "endaya": "14",
+    "startsura": "61",
+    "endsura": "61",
+    "starthizb": "55",
+    "endhizb": "55",
+    "startnim": "110",
+    "endnim": "110",
+    "startrub": "220",
+    "endrub": "220",
+    "alljuz": [
+      28
+    ],
+    "allpage": [
+      551,
+      552
+    ],
+    "allhizb": [
+      55
+    ],
+    "allnim": [
+      110
+    ],
+    "allrub": [
+      220
+    ],
+    "words": "221"
+  },
+  "62": {
+    "index": "62",
+    "startpage": "553",
+    "endpage": "554",
+    "startaya": "1",
+    "endaya": "11",
+    "startsura": "62",
+    "endsura": "62",
+    "starthizb": "56",
+    "endhizb": "56",
+    "startnim": "111",
+    "endnim": "111",
+    "startrub": "221",
+    "endrub": "221",
+    "alljuz": [
+      28
+    ],
+    "allpage": [
+      553,
+      554
+    ],
+    "allhizb": [
+      56
+    ],
+    "allnim": [
+      111
+    ],
+    "allrub": [
+      221
+    ],
+    "words": "175"
+  },
+  "63": {
+    "index": "63",
+    "startpage": "554",
+    "endpage": "555",
+    "startaya": "1",
+    "endaya": "11",
+    "startsura": "63",
+    "endsura": "63",
+    "starthizb": "56",
+    "endhizb": "56",
+    "startnim": "111",
+    "endnim": "111",
+    "startrub": "221",
+    "endrub": "222",
+    "alljuz": [
+      28
+    ],
+    "allpage": [
+      554,
+      555
+    ],
+    "allhizb": [
+      56
+    ],
+    "allnim": [
+      111
+    ],
+    "allrub": [
+      221,
+      222
+    ],
+    "words": "180"
+  },
+  "64": {
+    "index": "64",
+    "startpage": "556",
+    "endpage": "557",
+    "startaya": "1",
+    "endaya": "18",
+    "startsura": "64",
+    "endsura": "64",
+    "starthizb": "56",
+    "endhizb": "56",
+    "startnim": "111",
+    "endnim": "111",
+    "startrub": "222",
+    "endrub": "222",
+    "alljuz": [
+      28
+    ],
+    "allpage": [
+      556,
+      557
+    ],
+    "allhizb": [
+      56
+    ],
+    "allnim": [
+      111
+    ],
+    "allrub": [
+      222
+    ],
+    "words": "241"
+  },
+  "65": {
+    "index": "65",
+    "startpage": "558",
+    "endpage": "559",
+    "startaya": "1",
+    "endaya": "12",
+    "startsura": "65",
+    "endsura": "65",
+    "starthizb": "56",
+    "endhizb": "56",
+    "startnim": "112",
+    "endnim": "112",
+    "startrub": "223",
+    "endrub": "223",
+    "alljuz": [
+      28
+    ],
+    "allpage": [
+      558,
+      559
+    ],
+    "allhizb": [
+      56
+    ],
+    "allnim": [
+      112
+    ],
+    "allrub": [
+      223
+    ],
+    "words": "287"
+  },
+  "66": {
+    "index": "66",
+    "startpage": "560",
+    "endpage": "561",
+    "startaya": "1",
+    "endaya": "12",
+    "startsura": "66",
+    "endsura": "66",
+    "starthizb": "56",
+    "endhizb": "56",
+    "startnim": "112",
+    "endnim": "112",
+    "startrub": "224",
+    "endrub": "224",
+    "alljuz": [
+      28
+    ],
+    "allpage": [
+      560,
+      561
+    ],
+    "allhizb": [
+      56
+    ],
+    "allnim": [
+      112
+    ],
+    "allrub": [
+      224
+    ],
+    "words": "249"
+  },
+  "67": {
+    "index": "67",
+    "startpage": "562",
+    "endpage": "564",
+    "startaya": "1",
+    "endaya": "30",
+    "startsura": "67",
+    "endsura": "67",
+    "starthizb": "57",
+    "endhizb": "57",
+    "startnim": "113",
+    "endnim": "113",
+    "startrub": "225",
+    "endrub": "225",
+    "alljuz": [
+      29
+    ],
+    "allpage": [
+      562,
+      563,
+      564
+    ],
+    "allhizb": [
+      57
+    ],
+    "allnim": [
+      113
+    ],
+    "allrub": [
+      225
+    ],
+    "words": "333"
+  },
+  "68": {
+    "index": "68",
+    "startpage": "564",
+    "endpage": "566",
+    "startaya": "1",
+    "endaya": "52",
+    "startsura": "68",
+    "endsura": "68",
+    "starthizb": "57",
+    "endhizb": "57",
+    "startnim": "113",
+    "endnim": "113",
+    "startrub": "226",
+    "endrub": "226",
+    "alljuz": [
+      29
+    ],
+    "allpage": [
+      564,
+      565,
+      566
+    ],
+    "allhizb": [
+      57
+    ],
+    "allnim": [
+      113
+    ],
+    "allrub": [
+      226
+    ],
+    "words": "300"
+  },
+  "69": {
+    "index": "69",
+    "startpage": "566",
+    "endpage": "568",
+    "startaya": "1",
+    "endaya": "52",
+    "startsura": "69",
+    "endsura": "69",
+    "starthizb": "57",
+    "endhizb": "57",
+    "startnim": "114",
+    "endnim": "114",
+    "startrub": "227",
+    "endrub": "227",
+    "alljuz": [
+      29
+    ],
+    "allpage": [
+      566,
+      567,
+      568
+    ],
+    "allhizb": [
+      57
+    ],
+    "allnim": [
+      114
+    ],
+    "allrub": [
+      227
+    ],
+    "words": "258"
+  },
+  "70": {
+    "index": "70",
+    "startpage": "568",
+    "endpage": "570",
+    "startaya": "1",
+    "endaya": "44",
+    "startsura": "70",
+    "endsura": "70",
+    "starthizb": "57",
+    "endhizb": "57",
+    "startnim": "114",
+    "endnim": "114",
+    "startrub": "227",
+    "endrub": "228",
+    "alljuz": [
+      29
+    ],
+    "allpage": [
+      568,
+      569,
+      570
+    ],
+    "allhizb": [
+      57
+    ],
+    "allnim": [
+      114
+    ],
+    "allrub": [
+      227,
+      228
+    ],
+    "words": "217"
+  },
+  "71": {
+    "index": "71",
+    "startpage": "570",
+    "endpage": "571",
+    "startaya": "1",
+    "endaya": "28",
+    "startsura": "71",
+    "endsura": "71",
+    "starthizb": "57",
+    "endhizb": "57",
+    "startnim": "114",
+    "endnim": "114",
+    "startrub": "228",
+    "endrub": "228",
+    "alljuz": [
+      29
+    ],
+    "allpage": [
+      570,
+      571
+    ],
+    "allhizb": [
+      57
+    ],
+    "allnim": [
+      114
+    ],
+    "allrub": [
+      228
+    ],
+    "words": "226"
+  },
+  "72": {
+    "index": "72",
+    "startpage": "572",
+    "endpage": "573",
+    "startaya": "1",
+    "endaya": "28",
+    "startsura": "72",
+    "endsura": "72",
+    "starthizb": "58",
+    "endhizb": "58",
+    "startnim": "115",
+    "endnim": "115",
+    "startrub": "229",
+    "endrub": "229",
+    "alljuz": [
+      29
+    ],
+    "allpage": [
+      572,
+      573
+    ],
+    "allhizb": [
+      58
+    ],
+    "allnim": [
+      115
+    ],
+    "allrub": [
+      229
+    ],
+    "words": "285"
+  },
+  "73": {
+    "index": "73",
+    "startpage": "574",
+    "endpage": "575",
+    "startaya": "1",
+    "endaya": "20",
+    "startsura": "73",
+    "endsura": "73",
+    "starthizb": "58",
+    "endhizb": "58",
+    "startnim": "115",
+    "endnim": "115",
+    "startrub": "229",
+    "endrub": "230",
+    "alljuz": [
+      29
+    ],
+    "allpage": [
+      574,
+      575
+    ],
+    "allhizb": [
+      58
+    ],
+    "allnim": [
+      115
+    ],
+    "allrub": [
+      229,
+      230
+    ],
+    "words": "199"
+  },
+  "74": {
+    "index": "74",
+    "startpage": "575",
+    "endpage": "577",
+    "startaya": "1",
+    "endaya": "56",
+    "startsura": "74",
+    "endsura": "74",
+    "starthizb": "58",
+    "endhizb": "58",
+    "startnim": "115",
+    "endnim": "115",
+    "startrub": "230",
+    "endrub": "230",
+    "alljuz": [
+      29
+    ],
+    "allpage": [
+      575,
+      576,
+      577
+    ],
+    "allhizb": [
+      58
+    ],
+    "allnim": [
+      115
+    ],
+    "allrub": [
+      230
+    ],
+    "words": "255"
+  },
+  "75": {
+    "index": "75",
+    "startpage": "577",
+    "endpage": "578",
+    "startaya": "1",
+    "endaya": "40",
+    "startsura": "75",
+    "endsura": "75",
+    "starthizb": "58",
+    "endhizb": "58",
+    "startnim": "116",
+    "endnim": "116",
+    "startrub": "231",
+    "endrub": "231",
+    "alljuz": [
+      29
+    ],
+    "allpage": [
+      577,
+      578
+    ],
+    "allhizb": [
+      58
+    ],
+    "allnim": [
+      116
+    ],
+    "allrub": [
+      231
+    ],
+    "words": "164"
+  },
+  "76": {
+    "index": "76",
+    "startpage": "578",
+    "endpage": "580",
+    "startaya": "1",
+    "endaya": "31",
+    "startsura": "76",
+    "endsura": "76",
+    "starthizb": "58",
+    "endhizb": "58",
+    "startnim": "116",
+    "endnim": "116",
+    "startrub": "231",
+    "endrub": "232",
+    "alljuz": [
+      29
+    ],
+    "allpage": [
+      578,
+      579,
+      580
+    ],
+    "allhizb": [
+      58
+    ],
+    "allnim": [
+      116
+    ],
+    "allrub": [
+      231,
+      232
+    ],
+    "words": "243"
+  },
+  "77": {
+    "index": "77",
+    "startpage": "580",
+    "endpage": "581",
+    "startaya": "1",
+    "endaya": "50",
+    "startsura": "77",
+    "endsura": "77",
+    "starthizb": "58",
+    "endhizb": "58",
+    "startnim": "116",
+    "endnim": "116",
+    "startrub": "232",
+    "endrub": "232",
+    "alljuz": [
+      29
+    ],
+    "allpage": [
+      580,
+      581
+    ],
+    "allhizb": [
+      58
+    ],
+    "allnim": [
+      116
+    ],
+    "allrub": [
+      232
+    ],
+    "words": "181"
+  },
+  "78": {
+    "index": "78",
+    "startpage": "582",
+    "endpage": "583",
+    "startaya": "1",
+    "endaya": "40",
+    "startsura": "78",
+    "endsura": "78",
+    "starthizb": "59",
+    "endhizb": "59",
+    "startnim": "117",
+    "endnim": "117",
+    "startrub": "233",
+    "endrub": "233",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      582,
+      583
+    ],
+    "allhizb": [
+      59
+    ],
+    "allnim": [
+      117
+    ],
+    "allrub": [
+      233
+    ],
+    "words": "173"
+  },
+  "79": {
+    "index": "79",
+    "startpage": "583",
+    "endpage": "584",
+    "startaya": "1",
+    "endaya": "46",
+    "startsura": "79",
+    "endsura": "79",
+    "starthizb": "59",
+    "endhizb": "59",
+    "startnim": "117",
+    "endnim": "117",
+    "startrub": "233",
+    "endrub": "233",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      583,
+      584
+    ],
+    "allhizb": [
+      59
+    ],
+    "allnim": [
+      117
+    ],
+    "allrub": [
+      233
+    ],
+    "words": "179"
+  },
+  "80": {
+    "index": "80",
+    "startpage": "585",
+    "endpage": "585",
+    "startaya": "1",
+    "endaya": "42",
+    "startsura": "80",
+    "endsura": "80",
+    "starthizb": "59",
+    "endhizb": "59",
+    "startnim": "117",
+    "endnim": "117",
+    "startrub": "234",
+    "endrub": "234",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      585
+    ],
+    "allhizb": [
+      59
+    ],
+    "allnim": [
+      117
+    ],
+    "allrub": [
+      234
+    ],
+    "words": "133"
+  },
+  "81": {
+    "index": "81",
+    "startpage": "586",
+    "endpage": "586",
+    "startaya": "1",
+    "endaya": "29",
+    "startsura": "81",
+    "endsura": "81",
+    "starthizb": "59",
+    "endhizb": "59",
+    "startnim": "117",
+    "endnim": "117",
+    "startrub": "234",
+    "endrub": "234",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      586
+    ],
+    "allhizb": [
+      59
+    ],
+    "allnim": [
+      117
+    ],
+    "allrub": [
+      234
+    ],
+    "words": "104"
+  },
+  "82": {
+    "index": "82",
+    "startpage": "587",
+    "endpage": "587",
+    "startaya": "1",
+    "endaya": "19",
+    "startsura": "82",
+    "endsura": "82",
+    "starthizb": "59",
+    "endhizb": "59",
+    "startnim": "118",
+    "endnim": "118",
+    "startrub": "235",
+    "endrub": "235",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      587
+    ],
+    "allhizb": [
+      59
+    ],
+    "allnim": [
+      118
+    ],
+    "allrub": [
+      235
+    ],
+    "words": "80"
+  },
+  "83": {
+    "index": "83",
+    "startpage": "587",
+    "endpage": "589",
+    "startaya": "1",
+    "endaya": "36",
+    "startsura": "83",
+    "endsura": "83",
+    "starthizb": "59",
+    "endhizb": "59",
+    "startnim": "118",
+    "endnim": "118",
+    "startrub": "235",
+    "endrub": "235",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      587,
+      588,
+      589
+    ],
+    "allhizb": [
+      59
+    ],
+    "allnim": [
+      118
+    ],
+    "allrub": [
+      235
+    ],
+    "words": "169"
+  },
+  "84": {
+    "index": "84",
+    "startpage": "589",
+    "endpage": "589",
+    "startaya": "1",
+    "endaya": "25",
+    "startsura": "84",
+    "endsura": "84",
+    "starthizb": "59",
+    "endhizb": "59",
+    "startnim": "118",
+    "endnim": "118",
+    "startrub": "236",
+    "endrub": "236",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      589
+    ],
+    "allhizb": [
+      59
+    ],
+    "allnim": [
+      118
+    ],
+    "allrub": [
+      236
+    ],
+    "words": "107"
+  },
+  "85": {
+    "index": "85",
+    "startpage": "590",
+    "endpage": "590",
+    "startaya": "1",
+    "endaya": "22",
+    "startsura": "85",
+    "endsura": "85",
+    "starthizb": "59",
+    "endhizb": "59",
+    "startnim": "118",
+    "endnim": "118",
+    "startrub": "236",
+    "endrub": "236",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      590
+    ],
+    "allhizb": [
+      59
+    ],
+    "allnim": [
+      118
+    ],
+    "allrub": [
+      236
+    ],
+    "words": "109"
+  },
+  "86": {
+    "index": "86",
+    "startpage": "591",
+    "endpage": "591",
+    "startaya": "1",
+    "endaya": "17",
+    "startsura": "86",
+    "endsura": "86",
+    "starthizb": "59",
+    "endhizb": "59",
+    "startnim": "118",
+    "endnim": "118",
+    "startrub": "236",
+    "endrub": "236",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      591
+    ],
+    "allhizb": [
+      59
+    ],
+    "allnim": [
+      118
+    ],
+    "allrub": [
+      236
+    ],
+    "words": "61"
+  },
+  "87": {
+    "index": "87",
+    "startpage": "591",
+    "endpage": "592",
+    "startaya": "1",
+    "endaya": "19",
+    "startsura": "87",
+    "endsura": "87",
+    "starthizb": "60",
+    "endhizb": "60",
+    "startnim": "119",
+    "endnim": "119",
+    "startrub": "237",
+    "endrub": "237",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      591,
+      592
+    ],
+    "allhizb": [
+      60
+    ],
+    "allnim": [
+      119
+    ],
+    "allrub": [
+      237
+    ],
+    "words": "72"
+  },
+  "88": {
+    "index": "88",
+    "startpage": "592",
+    "endpage": "592",
+    "startaya": "1",
+    "endaya": "26",
+    "startsura": "88",
+    "endsura": "88",
+    "starthizb": "60",
+    "endhizb": "60",
+    "startnim": "119",
+    "endnim": "119",
+    "startrub": "237",
+    "endrub": "237",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      592
+    ],
+    "allhizb": [
+      60
+    ],
+    "allnim": [
+      119
+    ],
+    "allrub": [
+      237
+    ],
+    "words": "92"
+  },
+  "89": {
+    "index": "89",
+    "startpage": "593",
+    "endpage": "594",
+    "startaya": "1",
+    "endaya": "30",
+    "startsura": "89",
+    "endsura": "89",
+    "starthizb": "60",
+    "endhizb": "60",
+    "startnim": "119",
+    "endnim": "119",
+    "startrub": "237",
+    "endrub": "237",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      593,
+      594
+    ],
+    "allhizb": [
+      60
+    ],
+    "allnim": [
+      119
+    ],
+    "allrub": [
+      237
+    ],
+    "words": "137"
+  },
+  "90": {
+    "index": "90",
+    "startpage": "594",
+    "endpage": "594",
+    "startaya": "1",
+    "endaya": "20",
+    "startsura": "90",
+    "endsura": "90",
+    "starthizb": "60",
+    "endhizb": "60",
+    "startnim": "119",
+    "endnim": "119",
+    "startrub": "238",
+    "endrub": "238",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      594
+    ],
+    "allhizb": [
+      60
+    ],
+    "allnim": [
+      119
+    ],
+    "allrub": [
+      238
+    ],
+    "words": "82"
+  },
+  "91": {
+    "index": "91",
+    "startpage": "595",
+    "endpage": "595",
+    "startaya": "1",
+    "endaya": "15",
+    "startsura": "91",
+    "endsura": "91",
+    "starthizb": "60",
+    "endhizb": "60",
+    "startnim": "119",
+    "endnim": "119",
+    "startrub": "238",
+    "endrub": "238",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      595
+    ],
+    "allhizb": [
+      60
+    ],
+    "allnim": [
+      119
+    ],
+    "allrub": [
+      238
+    ],
+    "words": "54"
+  },
+  "92": {
+    "index": "92",
+    "startpage": "595",
+    "endpage": "596",
+    "startaya": "1",
+    "endaya": "21",
+    "startsura": "92",
+    "endsura": "92",
+    "starthizb": "60",
+    "endhizb": "60",
+    "startnim": "119",
+    "endnim": "119",
+    "startrub": "238",
+    "endrub": "238",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      595,
+      596
+    ],
+    "allhizb": [
+      60
+    ],
+    "allnim": [
+      119
+    ],
+    "allrub": [
+      238
+    ],
+    "words": "71"
+  },
+  "93": {
+    "index": "93",
+    "startpage": "596",
+    "endpage": "596",
+    "startaya": "1",
+    "endaya": "11",
+    "startsura": "93",
+    "endsura": "93",
+    "starthizb": "60",
+    "endhizb": "60",
+    "startnim": "119",
+    "endnim": "119",
+    "startrub": "238",
+    "endrub": "238",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      596
+    ],
+    "allhizb": [
+      60
+    ],
+    "allnim": [
+      119
+    ],
+    "allrub": [
+      238
+    ],
+    "words": "40"
+  },
+  "94": {
+    "index": "94",
+    "startpage": "596",
+    "endpage": "596",
+    "startaya": "1",
+    "endaya": "8",
+    "startsura": "94",
+    "endsura": "94",
+    "starthizb": "60",
+    "endhizb": "60",
+    "startnim": "120",
+    "endnim": "120",
+    "startrub": "239",
+    "endrub": "239",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      596
+    ],
+    "allhizb": [
+      60
+    ],
+    "allnim": [
+      120
+    ],
+    "allrub": [
+      239
+    ],
+    "words": "27"
+  },
+  "95": {
+    "index": "95",
+    "startpage": "597",
+    "endpage": "597",
+    "startaya": "1",
+    "endaya": "8",
+    "startsura": "95",
+    "endsura": "95",
+    "starthizb": "60",
+    "endhizb": "60",
+    "startnim": "120",
+    "endnim": "120",
+    "startrub": "239",
+    "endrub": "239",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      597
+    ],
+    "allhizb": [
+      60
+    ],
+    "allnim": [
+      120
+    ],
+    "allrub": [
+      239
+    ],
+    "words": "34"
+  },
+  "96": {
+    "index": "96",
+    "startpage": "597",
+    "endpage": "597",
+    "startaya": "1",
+    "endaya": "19",
+    "startsura": "96",
+    "endsura": "96",
+    "starthizb": "60",
+    "endhizb": "60",
+    "startnim": "120",
+    "endnim": "120",
+    "startrub": "239",
+    "endrub": "239",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      597
+    ],
+    "allhizb": [
+      60
+    ],
+    "allnim": [
+      120
+    ],
+    "allrub": [
+      239
+    ],
+    "words": "72"
+  },
+  "97": {
+    "index": "97",
+    "startpage": "598",
+    "endpage": "598",
+    "startaya": "1",
+    "endaya": "5",
+    "startsura": "97",
+    "endsura": "97",
+    "starthizb": "60",
+    "endhizb": "60",
+    "startnim": "120",
+    "endnim": "120",
+    "startrub": "239",
+    "endrub": "239",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      598
+    ],
+    "allhizb": [
+      60
+    ],
+    "allnim": [
+      120
+    ],
+    "allrub": [
+      239
+    ],
+    "words": "30"
+  },
+  "98": {
+    "index": "98",
+    "startpage": "598",
+    "endpage": "599",
+    "startaya": "1",
+    "endaya": "8",
+    "startsura": "98",
+    "endsura": "98",
+    "starthizb": "60",
+    "endhizb": "60",
+    "startnim": "120",
+    "endnim": "120",
+    "startrub": "239",
+    "endrub": "239",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      598,
+      599
+    ],
+    "allhizb": [
+      60
+    ],
+    "allnim": [
+      120
+    ],
+    "allrub": [
+      239
+    ],
+    "words": "94"
+  },
+  "99": {
+    "index": "99",
+    "startpage": "599",
+    "endpage": "599",
+    "startaya": "1",
+    "endaya": "8",
+    "startsura": "99",
+    "endsura": "99",
+    "starthizb": "60",
+    "endhizb": "60",
+    "startnim": "120",
+    "endnim": "120",
+    "startrub": "239",
+    "endrub": "239",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      599
+    ],
+    "allhizb": [
+      60
+    ],
+    "allnim": [
+      120
+    ],
+    "allrub": [
+      239
+    ],
+    "words": "36"
+  },
+  "100": {
+    "index": "100",
+    "startpage": "599",
+    "endpage": "600",
+    "startaya": "1",
+    "endaya": "11",
+    "startsura": "100",
+    "endsura": "100",
+    "starthizb": "60",
+    "endhizb": "60",
+    "startnim": "120",
+    "endnim": "120",
+    "startrub": "239",
+    "endrub": "240",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      599,
+      600
+    ],
+    "allhizb": [
+      60
+    ],
+    "allnim": [
+      120
+    ],
+    "allrub": [
+      239,
+      240
+    ],
+    "words": "40"
+  },
+  "101": {
+    "index": "101",
+    "startpage": "600",
+    "endpage": "600",
+    "startaya": "1",
+    "endaya": "11",
+    "startsura": "101",
+    "endsura": "101",
+    "starthizb": "60",
+    "endhizb": "60",
+    "startnim": "120",
+    "endnim": "120",
+    "startrub": "240",
+    "endrub": "240",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      600
+    ],
+    "allhizb": [
+      60
+    ],
+    "allnim": [
+      120
+    ],
+    "allrub": [
+      240
+    ],
+    "words": "36"
+  },
+  "102": {
+    "index": "102",
+    "startpage": "600",
+    "endpage": "600",
+    "startaya": "1",
+    "endaya": "8",
+    "startsura": "102",
+    "endsura": "102",
+    "starthizb": "60",
+    "endhizb": "60",
+    "startnim": "120",
+    "endnim": "120",
+    "startrub": "240",
+    "endrub": "240",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      600
+    ],
+    "allhizb": [
+      60
+    ],
+    "allnim": [
+      120
+    ],
+    "allrub": [
+      240
+    ],
+    "words": "28"
+  },
+  "103": {
+    "index": "103",
+    "startpage": "601",
+    "endpage": "601",
+    "startaya": "1",
+    "endaya": "3",
+    "startsura": "103",
+    "endsura": "103",
+    "starthizb": "60",
+    "endhizb": "60",
+    "startnim": "120",
+    "endnim": "120",
+    "startrub": "240",
+    "endrub": "240",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      601
+    ],
+    "allhizb": [
+      60
+    ],
+    "allnim": [
+      120
+    ],
+    "allrub": [
+      240
+    ],
+    "words": "14"
+  },
+  "104": {
+    "index": "104",
+    "startpage": "601",
+    "endpage": "601",
+    "startaya": "1",
+    "endaya": "9",
+    "startsura": "104",
+    "endsura": "104",
+    "starthizb": "60",
+    "endhizb": "60",
+    "startnim": "120",
+    "endnim": "120",
+    "startrub": "240",
+    "endrub": "240",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      601
+    ],
+    "allhizb": [
+      60
+    ],
+    "allnim": [
+      120
+    ],
+    "allrub": [
+      240
+    ],
+    "words": "33"
+  },
+  "105": {
+    "index": "105",
+    "startpage": "601",
+    "endpage": "601",
+    "startaya": "1",
+    "endaya": "5",
+    "startsura": "105",
+    "endsura": "105",
+    "starthizb": "60",
+    "endhizb": "60",
+    "startnim": "120",
+    "endnim": "120",
+    "startrub": "240",
+    "endrub": "240",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      601
+    ],
+    "allhizb": [
+      60
+    ],
+    "allnim": [
+      120
+    ],
+    "allrub": [
+      240
+    ],
+    "words": "23"
+  },
+  "106": {
+    "index": "106",
+    "startpage": "602",
+    "endpage": "602",
+    "startaya": "1",
+    "endaya": "4",
+    "startsura": "106",
+    "endsura": "106",
+    "starthizb": "60",
+    "endhizb": "60",
+    "startnim": "120",
+    "endnim": "120",
+    "startrub": "240",
+    "endrub": "240",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      602
+    ],
+    "allhizb": [
+      60
+    ],
+    "allnim": [
+      120
+    ],
+    "allrub": [
+      240
+    ],
+    "words": "17"
+  },
+  "107": {
+    "index": "107",
+    "startpage": "602",
+    "endpage": "602",
+    "startaya": "1",
+    "endaya": "7",
+    "startsura": "107",
+    "endsura": "107",
+    "starthizb": "60",
+    "endhizb": "60",
+    "startnim": "120",
+    "endnim": "120",
+    "startrub": "240",
+    "endrub": "240",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      602
+    ],
+    "allhizb": [
+      60
+    ],
+    "allnim": [
+      120
+    ],
+    "allrub": [
+      240
+    ],
+    "words": "25"
+  },
+  "108": {
+    "index": "108",
+    "startpage": "602",
+    "endpage": "602",
+    "startaya": "1",
+    "endaya": "3",
+    "startsura": "108",
+    "endsura": "108",
+    "starthizb": "60",
+    "endhizb": "60",
+    "startnim": "120",
+    "endnim": "120",
+    "startrub": "240",
+    "endrub": "240",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      602
+    ],
+    "allhizb": [
+      60
+    ],
+    "allnim": [
+      120
+    ],
+    "allrub": [
+      240
+    ],
+    "words": "10"
+  },
+  "109": {
+    "index": "109",
+    "startpage": "603",
+    "endpage": "603",
+    "startaya": "1",
+    "endaya": "6",
+    "startsura": "109",
+    "endsura": "109",
+    "starthizb": "60",
+    "endhizb": "60",
+    "startnim": "120",
+    "endnim": "120",
+    "startrub": "240",
+    "endrub": "240",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      603
+    ],
+    "allhizb": [
+      60
+    ],
+    "allnim": [
+      120
+    ],
+    "allrub": [
+      240
+    ],
+    "words": "26"
+  },
+  "110": {
+    "index": "110",
+    "startpage": "603",
+    "endpage": "603",
+    "startaya": "1",
+    "endaya": "3",
+    "startsura": "110",
+    "endsura": "110",
+    "starthizb": "60",
+    "endhizb": "60",
+    "startnim": "120",
+    "endnim": "120",
+    "startrub": "240",
+    "endrub": "240",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      603
+    ],
+    "allhizb": [
+      60
+    ],
+    "allnim": [
+      120
+    ],
+    "allrub": [
+      240
+    ],
+    "words": "19"
+  },
+  "111": {
+    "index": "111",
+    "startpage": "603",
+    "endpage": "603",
+    "startaya": "1",
+    "endaya": "5",
+    "startsura": "111",
+    "endsura": "111",
+    "starthizb": "60",
+    "endhizb": "60",
+    "startnim": "120",
+    "endnim": "120",
+    "startrub": "240",
+    "endrub": "240",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      603
+    ],
+    "allhizb": [
+      60
+    ],
+    "allnim": [
+      120
+    ],
+    "allrub": [
+      240
+    ],
+    "words": "23"
+  },
+  "112": {
+    "index": "112",
+    "startpage": "604",
+    "endpage": "604",
+    "startaya": "1",
+    "endaya": "4",
+    "startsura": "112",
+    "endsura": "112",
+    "starthizb": "60",
+    "endhizb": "60",
+    "startnim": "120",
+    "endnim": "120",
+    "startrub": "240",
+    "endrub": "240",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      604
+    ],
+    "allhizb": [
+      60
+    ],
+    "allnim": [
+      120
+    ],
+    "allrub": [
+      240
+    ],
+    "words": "15"
+  },
+  "113": {
+    "index": "113",
+    "startpage": "604",
+    "endpage": "604",
+    "startaya": "1",
+    "endaya": "5",
+    "startsura": "113",
+    "endsura": "113",
+    "starthizb": "60",
+    "endhizb": "60",
+    "startnim": "120",
+    "endnim": "120",
+    "startrub": "240",
+    "endrub": "240",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      604
+    ],
+    "allhizb": [
+      60
+    ],
+    "allnim": [
+      120
+    ],
+    "allrub": [
+      240
+    ],
+    "words": "23"
+  },
+  "114": {
+    "index": "114",
+    "startpage": "604",
+    "endpage": "604",
+    "startaya": "1",
+    "endaya": "6",
+    "startsura": "114",
+    "endsura": "114",
+    "starthizb": "60",
+    "endhizb": "60",
+    "startnim": "120",
+    "endnim": "120",
+    "startrub": "240",
+    "endrub": "240",
+    "alljuz": [
+      30
+    ],
+    "allpage": [
+      604
+    ],
+    "allhizb": [
+      60
+    ],
+    "allnim": [
+      120
+    ],
+    "allrub": [
+      240
+    ],
+    "words": "20"
+  }
+}

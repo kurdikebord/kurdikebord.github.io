@@ -1,0 +1,75 @@
+html{
+	min-height: 100%;
+	background-color: #0aa5dc;
+}
+body{
+	min-height: 100%;
+}
+body:before{
+	content: "";
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-size: cover;
+	will-change: transform;
+	background: #0aa5dc;
+	background: linear-gradient( 20deg, rgb(0,215,220) 0%, rgb(10,165,220) 100%);
+}
+#main{
+	z-index: 10;
+	position: relative;
+	background-color: #fff;
+	overflow: hidden;
+}
+#page{
+	min-height: 100%;
+	margin: 0;
+	position: relative;
+	overflow: hidden;
+}
+.wrapper{
+	padding: 0 0 60px;
+	font-size: 1.4em;
+	line-height: 1.7em;
+}
+.rtl .wrapper{
+	line-height: 2em;
+}
+.ltr #page{
+	margin-left: 5rem;
+}
+.rtl #page{
+	margin-right: 5rem;
+}
+#menu{
+	font-size: 1.3em;
+}
+.loading{
+	background-color:#000306;
+	height: 100%;
+	width: 100%;
+	min-height: 100vh;
+}
+.loading img{
+	display:block;
+	margin:0 auto;
+}
+
+#nodes{width: 100%;height: 100%;position: fixed;top: 0;bottom: 0;left: 0;right: 0;overflow: hidden;z-index: -1;}
+
+
+/*quote design*/
+.quoteBox1{max-width:500px;position:relative;margin:5em auto;min-height:150px;font-size:2rem;color: #333;}
+.quoteBox1 p{font-weight:100}
+/*.quoteBox1:before{position:absolute;top:0;font-size:350px;font-size:17em;color:#2fbfdf;font-family:Arial;font-weight:700;line-height:300px;right:-200px;content:'\201d'}*/
+.quoteBox1:after{position:absolute;top:0;font-size:350px;color:#2fbfdf;font-family:Arial;font-weight:700;line-height:300px;left:-200px;content:'\201c'}
+.quoteBox1 h4{display:block;color:#2fbfdf;font-weight:700;font-size:.9em}
+.quoteBox1 abbr{font-size:.7em;color:#b6b6b6;font-weight:700}
+
+
+.pageOfTheDay img{border: 3px solid #2fbfdf;max-width: 280px;}
+.pageOfTheDay:hover img{border-color:#4482c1}
+.pageOfTheDay:focus img{border-color:#333}

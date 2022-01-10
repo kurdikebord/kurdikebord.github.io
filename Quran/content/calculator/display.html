@@ -1,0 +1,47 @@
+{%extends display.main%}
+
+
+{%block page%}
+<div class="f justify-center">
+  <div class="c4 s12 x6">
+    <h3 class="mT20">{%trans "The calculation program maintains"%}</h3>
+    <div class="msg">
+      <p>{%trans "If you intend to save the Qur'an, just enter the time you have in the calculator so that the result will be announced to you."%}</p>
+
+      <form method="get" action="{{url.this}}">
+
+      <div class="input">
+        <label for="imytime">{%trans "My time"%}</label>
+        <input type="number" min="1" max="1440" name="mytime" value="{{requestGET.mytime}}" autofocus required>
+        <label class="addon">{%trans "Minutes"%}</label>
+      </div>
+
+      <button class="btn block mT10 success">{%trans "Calculate"%}</button>
+      </form>
+
+    </div>
+
+      {%if hefzCalculator%}
+        <div class="msg mT10">
+          <p>{%trans "You can hefz holy quran in"%}</p>
+
+          {%if hefzCalculator.year%}
+            {{hefzCalculator.year | fitNumber}}
+            {%trans "Year"%}
+          {%endif%}
+
+          {%if  hefzCalculator.year and hefzCalculator.month%}
+          {%trans "And"%}
+          {%endif%}
+
+          {%if hefzCalculator.month%}
+            {{hefzCalculator.month | fitNumber}}
+            {%trans "Month"%}
+          {%endif%}
+
+        </div>
+      {%endif%}
+  </div>
+</div>
+
+{%endblock%}

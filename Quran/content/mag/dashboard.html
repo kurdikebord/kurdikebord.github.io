@@ -1,0 +1,221 @@
+{%extends display.main%}
+
+
+{%block page%}
+
+      <div class="mT10"></div>
+{{block ('topCats')}}
+{{block ('topNews')}}
+{{block ('introVideo')}}
+{{block ('newsCollection')}}
+{{block ('Col3Box')}}
+
+{%endblock%}
+
+
+{%block requestToJoin%}
+<div class="mB20">
+
+  <div class="justify-center f txtC">
+    <div class="c5">
+      {%if tempTicketCodeURL%}
+       <div class="msg success2 txtC"><a data-direct href="{{tempTicketCodeURL}}">{%trans "You can access the ticketing status through this link"%}</a></div>
+       {%endif%}
+      <div class="msg">
+        {%trans "You can also contribute to the development of the Salam Quran magazine, Just send us your request"%}
+      </div>
+    <div class="btn outline info2 block xl" data-kerkere='.contributionMag'>{%trans "Requesting a journal contribution"%}</div>
+    <div class="contributionMag mT50" data-kerkere-content='hide'>
+
+    <form method="post" data-clear autocomplete='off'>
+     {%include display.hive%}
+      <div class="input pA5">
+       <label class="addon" for="name">{%trans "Name"%}</label>
+       <input type="text" name="name" id="name" value="{{user.displayname}}" placeholder='{%trans "Full Name"%}' maxlength='40'>
+      </div>
+      <div class="input pA5">
+       <label class="addon" for="mobile">{%trans "Mobile"%}</label>
+       <input type="tel" name="mobile" id="mobile" value="{{user.mobile}}" placeholder='98 912 333 4444' maxlength="17" autocomplete="off" data-validity='{%trans "Please enter valid mobile number. `:val` is incorrect"%}'>
+      </div>
+      <div class="input pA5">
+       <label class="addon" for="email">{%trans "Email"%}</label>
+       <input type="email" name="email" id="email" value="{{user.email}}" placeholder='mail@example.com' maxlength='40'>
+      </div>
+
+      <div class="pA5">
+       <textarea class="c txt" name="content" placeholder='{%trans "Your Message"%}' rows=4 minlength="5" maxlength="1000" data-resizable></textarea>
+      </div>
+      <div class="input pA5 mTB25">
+       <button type="submit" name="submit-contact" class="btn block success">{%trans "Send"%}</button>
+      </div>
+
+     </form>
+
+
+    </div>
+    </div>
+  </div>
+
+</div>
+{%endblock%}
+
+
+{%block topNews%}
+<section class="f topNews">
+  <div class="c3 m12 s12 sideNews pRa10">
+    <div class="f">
+      <div class="c12 m4 s6">
+        <a href="sample">
+          <img src="{{url.static}}/images/mag/sample/news-iran-flood.jpg" alt="{{site.title}}">
+        </a>
+      </div>
+
+      <div class="c12 m4 s6">
+        <a href="sample">
+          <img src="{{url.static}}/images/mag/sample/36th-competition.jpg" alt="{{site.title}}">
+        </a>
+      </div>
+
+      <div class="c12 m4 s12">
+        <a href="sample">
+          <img src="{{url.static}}/images/mag/sample/darshayi-az-quran.jpg" alt="{{site.title}}">
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+
+  {%set listSpecialNews = posts({"limit" : 6, "special" : "editor"})%}
+
+  <article class="c6 m8 s12 mainNews pRa10">
+    <a href="{{listSpecialNews[0]['link']}}">
+      <img src="{{listSpecialNews[0]['meta']['thumb']}}" alt="{{listSpecialNews[0]['title']}}">
+      <h2>{{listSpecialNews[0]['title']}}</h2>
+    </a>
+    <p>{{listSpecialNews[0]['excerpt']}}</p>
+  </article>
+
+  <nav class="c3 m4 s12 lastNews">
+    <a href="https://salamquran.com/fa/lms-school">
+      <img src="{{url.static}}/images/mag/lms-schools.png" alt="{{site.title}}">
+    </a>
+    {%for key, value in listSpecialNews%}
+    {%if key > 0%}
+      <a href="{{value.link}}">{{value.title}}</a>
+    {%endif%}
+    {%endfor%}
+
+  </nav>
+
+</section>
+
+{%endblock%}
+
+
+{%block introVideo%}
+  <div class="introVideo">
+    <video controls poster="{{url.static}}/images/bg/present-v2.jpg">
+      <source src="{{url.static}}/images/mag/sample/namaz-zan-va-mard.mp4" type="video/mp4">
+    </video>
+  </div>
+{%endblock%}
+
+
+{%block newsCollection%}
+{%set homePagePost = posts({"limit" : 4, "special" : "special"})%}
+{%if homePagePost%}
+<div class="newsCollection">
+    <div class="f">
+      {%for key, value in homePagePost%}
+      <div class="c3 s6 pA10">
+        <div class="vcard shadow">
+          <a class="newsCover" href="{{url.here}}/{{value.url}}"><img alt='value.title' src="{%if value.meta.thumb%}{{value.meta.thumb}}{%else%}{{url.siftal}}/images/default/image.png{%endif%}"></a>
+          <div class="content">
+            <a class="header">{{value.title}}</a>
+            <div class="desc s0">{{value.excerpt}}</div>
+          </div>
+          <div class="footer f s0">
+            <div class="c"><a href="{{url.site}}/n/{{value.id}}">{%trans "News Link"%}</a></div>
+            <div class="cauto os"><i class="compact mRa10 sf-calendar"></i>{{value.publishdate | dt(true, 'date')}}</div>
+          </div>
+        </div>
+      </div>
+      {%endfor%}
+    </div>
+</div>
+{%endif%}
+{%endblock%}
+
+
+
+{%block Col3Box%}
+
+<section class="f">
+
+{%set homePagePost = posts({"limit" : 5, "cat" : "knowledge"})%}
+{%if homePagePost%}
+  <nav class="ranking c4 s12 pRa10">
+    <header>
+      <h2>{%trans "Most Popular"%}</h2>
+    </header>
+{%for key, value in homePagePost%}
+    <a class="f" href="{{value.link}}">
+      <div class="cauto rank">{{(key + 1) | fitNumber}}.</div>
+      <h3 class="c title">{{value.title}}</h3>
+    </a>
+{%endfor%}
+  </nav>
+{%endif%}
+
+{%set lastNews = posts({"limit" : 5})%}
+{%if lastNews%}
+  <nav class="ranking c4 s12 pRa10">
+    <header>
+      <h2>{%trans "Latest News"%}</h2>
+    </header>
+{%for key, value in lastNews%}
+    <a class="f" href="{{url.kingdom}}/{{value.url}}">
+      <h3 class="c title">{{value.title}}</h3>
+    </a>
+{%endfor%}
+  </nav>
+{%endif%}
+
+{%set blogNews = posts({"limit" : 5, "cat" : "blog"})%}
+
+{%if blogNews%}
+  <nav class="ranking c4 s12 pRa10">
+    <header>
+      <h2>{%trans "Blog"%}</h2>
+    </header>
+{%for key, value in blogNews%}
+    <a class="f" href="{{url.kingdom}}/{{value.url}}">
+      <h3 class="c title">{{value.title}}</h3>
+    </a>
+{%endfor%}
+  </nav>
+{%endif%}
+</section>
+
+{%endblock%}
+
+
+
+{%block topCats%}
+{%if categoryCount%}
+<section class="f fs08 categories">
+  {%for key, value in categoryCount%}
+    {%if value.count%}
+      <div class="c m2 s4">
+        <a class="dcard x07 " href="{{value.link}}">
+          <div class="value">{{value.count | fitNumber}}</div>
+          <h2 class="label">{{value.title}}</h2>
+        </a>
+      </div>
+    {%endif%}
+  {%endfor%}
+</section>
+{%endif%}
+
+{%endblock%}

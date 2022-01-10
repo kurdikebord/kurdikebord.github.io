@@ -1,0 +1,111 @@
+{%extends 'content_m/layout.html'%}
+
+
+{%block pageContent%}
+  <div class="justify-center f">
+   <form method="post" class="c5 m6 s12" autocomplete="off">
+    <div class="cbox">
+      {{block('ititle')}}
+      {{block('iSort')}}
+      {{block('iTypeList')}}
+      {{block('iDesc')}}
+      {{block('iStatus')}}
+      {{block('iFile')}}
+      {{block('isave')}}
+    </div>
+   </form>
+  </div>
+{%endblock%}
+
+
+
+
+
+
+
+{% block iTypeList %}
+
+
+<label for="itype">{%trans "Type"%} <small class="fc-red">* {%trans "Require"%}</small></label>
+
+<select name="type" class="mB10 select ui dropdown search" id="itype">
+  <option value="" readonly>{%trans "Please select one item"%} *</option>
+  {%for key, value in typeList%}
+    <option value="{{key}}" {%if key == dataRow.type %} selected {%endif%}>{{value.title}}</option>
+  {%endfor%}
+</select>
+
+{% endblock %}
+
+
+
+
+
+
+
+{%block iSort %}
+<label for="sort">{%trans "Sort"%}</label>
+<div class="input">
+  <input type="number" name="sort" id="sort" placeholder='{%trans "Sort"%}' value="{{dataRow.sort}}" max='999' min="1">
+</div>
+{%endblock%}
+
+
+
+
+{%block iFile%}
+
+{%if dataRow.file%}
+<div class="mediaBox mB20">
+  <img src="{{dataRow.file}}" alt="{{dataRow.title}}" id="logoPreview">
+</div>
+{%endif%}
+
+<label for="file1" class="block">{%trans "Image file"%}</label>
+<div class="input" title='{%trans "allowed extentions jpg, png. Max 1000Kb"%}'>
+ <input type="file" accept="image/gif, image/jpeg, image/png" name="file1" id="file1" data-max="1000">
+ </label>
+</div>
+{%endblock%}
+
+
+{% block ititle %}
+<label for="title">{%trans "Title"%} <small class="fc-red">* {%trans "Require"%}</small></label>
+<div class="input">
+  <input type="text" name="title" id="title" placeholder='{%trans "Level title"%} *' value="{{dataRow.title}}" autofocus required maxlength='150' minlength="1" pattern=".{1,150}">
+</div>
+{% endblock %}
+
+
+
+
+{%block iDesc%}
+<label for="desc">{%trans "Description"%}</label>
+<textarea class="txt mB10" id='desc' name="desc" maxlength='1000' rows="5">{{dataRow.desc}}</textarea>
+{%endblock%}
+
+
+
+
+
+{%block isave%}
+<button class="btn primary block mT20">{%trans "Save"%}</button>
+{%endblock%}
+
+
+
+
+{%block iStatus%}
+<div class="mT15">
+ <label >{%trans "Status"%}</label>
+ <div class="radio1 green">
+  <input type="radio" id="r-enable" name="status" value="enable" {%if dataRow.status == 'enable' or not dataRow.status %} checked{%endif%}>
+  <label for="r-enable">{%trans "Enable"%}</label>
+ </div>
+ <div class="radio1 black mB25">
+  <input type="radio" id="r-disable" name="status" value="disable" {%if dataRow.status == 'disable'%} checked{%endif%} >
+  <label for="r-disable">{%trans "Disable"%}</label>
+ </div>
+</div>
+{%endblock%}
+

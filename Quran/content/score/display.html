@@ -1,0 +1,45 @@
+{%extends display.main%}
+
+
+{%block page%}
+<table class="tbl1 v4 mT20">
+  <thead>
+    <tr>
+      <td>#</td>
+      <th></th>
+      <th>{%trans "User"%}</th>
+      <th>{%trans "Score"%}</th>
+
+
+    </tr>
+  </thead>
+  <tbody>
+
+    {%for key, value in userScoreList%}
+    <tr>
+      <td>
+        <span class="txtB fs12">
+          {{loop.index | fitNumber}}
+        </span>
+
+      </td>
+      <td class="collapsing">
+
+      </td>
+      <td>
+        {%if perm_su()%}
+          <code>{{value.id}}</code>
+        {%endif%}
+        <img src="{{value.avatar}}" class="avatar">
+         <small>{%if value.displayname%}{{value.displayname}}{%else%}{%trans "Without name"%}{%endif%}</small>
+      </td>
+      <td>
+        {{value.count | fitNumber}}
+      </td>
+    </tr>
+
+    </div>
+    {%endfor%}
+  </tbody>
+</table>
+{%endblock%}

@@ -1,0 +1,28 @@
+{%extends display.mvc%}
+
+
+{%block body%}
+
+<div id="page">
+{%include 'content/main/header.html'%}
+
+{%block content%}
+  <main id="main">
+{%include 'content/home/quickAccess.html'%}
+  <div class="cn">
+    <div class="wrapper" data-xhr='wrapper'>
+{%block page%}{%endblock%}
+    </div>
+
+  </div>
+  </main>
+{%endblock%}
+{%block pageExtra%}{%endblock%}
+
+{%include 'content/main/footer.html'%}
+
+</div>
+{%include 'content/main/sidebar.html'%}
+
+
+{%endblock%}

@@ -1,0 +1,81 @@
+<div class="cbox" id='mistake'>
+
+  <h2 class="f" data-kerkere='#mistake-detail' data-kerkere-icon='open'>
+    <div class="cauto pRa10"><span class="badge primary">GET</span></div>
+    <div>{%trans "Get learn mistake list"%}</div>
+  </h2>
+  <div id="mistake-detail">
+
+    <div class="msg url">
+      <i class="method">GET</i>
+      <span>{{apiURL}}<b>mistake</b></span>
+    </div>
+
+    {%include 'content_api/v6/apikey_header.html'%}
+
+
+<h3>{%trans "cURL"%} <small>{%trans "example"%}</small></h3>
+<pre>
+curl -X GET \
+  {{apiURL}}mistake \
+  -H 'apikey: 87085dbb44ee1ef51f4fbaeb39eeb0e6'
+</pre>
+
+<h3>{%trans "Response"%} <small>{%trans "example"%}</small></h3>
+<pre>
+{
+  "ok": true,
+  "pagination": {
+    "desc": "page 1 of 1 - Show record 1 to 8 of 8",
+    "page": 1,
+    "total_page": 1,
+    "limit": 10,
+    "total_rows": 8
+  },
+  "result": [
+    {
+      "id": "3",
+      "title": "اشباه در خواندن کلمه",
+      "datecreated": "2019-07-31 10:20:27"
+    },
+    {
+      "id": "4",
+      "title": "اشتباه حرفی و اعرابی",
+      "datecreated": "2019-07-31 10:26:06"
+    },
+    {
+      "id": "5",
+      "title": "تبدیل حرکات کوتاه به حرکات کشیده و بالعکس",
+      "datecreated": "2019-07-31 10:26:19"
+    },
+    {
+      "id": "6",
+      "title": "تپق",
+      "datecreated": "2019-07-31 10:26:40"
+    },
+    {
+      "id": "7",
+      "title": "مکث بیش از حد",
+      "datecreated": "2019-07-31 10:26:44"
+    },
+    {
+      "id": "8",
+      "title": "عدم تسلط بر قواعد روخوانی - الف وصل",
+      "datecreated": "2019-07-31 10:27:09"
+    },
+    {
+      "id": "9",
+      "title": "عدم تسلط بر قواعد روخوانی - حروف ناخوانا",
+      "datecreated": "2019-07-31 10:27:18"
+    },
+    {
+      "id": "b",
+      "title": "عدم تسلط بر قواعد روخوانی - ادغام در حد ضرورت",
+      "datecreated": "2019-07-31 10:27:26"
+    }
+  ]
+}
+</pre>
+
+</div>
+</div>

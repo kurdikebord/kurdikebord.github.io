@@ -1,0 +1,69 @@
+{%extends 'content_m/layout.html'%}
+
+
+{%block pageContent%}
+{%include 'content_m/level/pageSteps.html'%}
+
+  <div class="justify-center f">
+   <form method="post" class="c5 m6 s12" autocomplete="off">
+    <div class="cbox">
+
+      {{block('ibesmellah')}}
+
+       {{block('suraListStart')}}
+
+        <label for="faya" class="mT20">{%trans "Start aya"%}</label>
+        <div class="input">
+            <input type="number" name="startaya" min="1" max="282" id="faya" value="{{dataRow.quran_start_aya}}">
+        </div>
+
+        <label for="feaya">{%trans "End aya"%}</label>
+        <div class="input">
+            <input type="number" name="endaya" min="1" max="282" id="feaya" value="{{dataRow.quran_end_aya}}">
+        </div>
+
+
+
+      {{block('isave')}}
+    </div>
+   </form>
+  </div>
+{%endblock%}
+
+
+{%block isave%}
+<button class="btn primary block mT20">{%trans "Save"%}</button>
+{%endblock%}
+
+
+
+{%block ibesmellah%}
+<div class="switch1 mB10">
+ <input type="checkbox" name="besmellah" id="besmellah" {%if dataRow.besmellah %}checked{%endif%}>
+ <label for="besmellah"></label>
+ <label for="besmellah">{%trans "Need load Besmellah?"%}</label>
+</div>
+{%endblock%}
+
+
+
+
+
+{% block suraListStart %}
+<label for="fsura">{%trans "Surah"%}</label>
+  <select class="select ui dropdown search" name="surah" id="fsura">
+    <option value="">{%trans "Select sura"%}</option>
+    {%for key, value in quranListQuick%}
+        <option value="{{value.index}}" {%if dataRow.quran_start_sura == value.index%} selected {%endif%}>{{value.name}} - {%trans "End aya"%} {{value.ayas | fitNumber}}</option>
+    {%endfor%}
+  </select>
+{%endblock%}
+
+
+
+
+{% block masterSuranList %}
+
+
+{%endblock%}
+

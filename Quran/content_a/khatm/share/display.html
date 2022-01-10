@@ -1,0 +1,156 @@
+{%extends 'content_a/layout.html'%}
+
+
+
+
+
+
+
+
+{%block pageContent%}
+
+{%include 'content_a/khatm/pageSteps.html'%}
+
+{%if dataTable%}
+ {%if dataFilter%}
+
+  {{block('htmlSearchBox')}}
+  {{block('htmlTable')}}
+  {{block('htmlFilter')}}
+
+ {%else%}
+
+  {{block('htmlSearchBox')}}
+  {{block('htmlTable')}}
+
+ {%endif%}
+{%else%}
+ {%if dataFilter%}
+
+  {{block('htmlSearchBox')}}
+  {{block('htmlFilterNoResult')}}
+
+ {%else%}
+
+  {{block('htmlStartAddNew')}}
+
+ {%endif%}
+{%endif%}
+
+{%endblock%}
+
+
+
+
+{%block htmlSearchBox22%}
+<div class="cbox fs12">
+  <form method="get" action='{{url.this}}'>
+    <div class="input">
+      <input type="search" name="q" placeholder='{%trans "Search"%}' id="q" value="{{requestGET.q}}" autofocus  data-pass='submit' autocomplete='off'>
+      <button class="addon btn ">{%trans "Search" %}</button>
+    </div>
+  </form>
+</div>
+{%endblock%}
+
+
+{%block htmlTable%}
+
+  <table class="tbl1 v1 cbox fs12">
+    <thead>
+      <tr>
+        <th>{%trans "Khatm list"%}</th>
+        <th>{%trans "Range"%}</th>
+        <th>{%trans "Status"%}</th>
+        <th>{%trans "Action"%}</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      {%for key, value in dataTable%}
+      <tr {%if value.status=='disable'%} class='negative' {%else%} class='positive' {%endif%}>
+
+        <td>
+          <div>{{value.title}}</div>
+
+        </td>
+
+
+        <td>
+          {%if value.sura%}
+           <a href="{{url.kingdom}}/s{{value.sura}}" class="btn outline info">{%trans "Reading sura"%} {{value.sura_name}}</a>
+          {%elseif value.page%}
+            <a href="{{url.kingdom}}/p{{value.page}}" class="btn outline info">{%trans "Reading page"%} {{value.page | fitNumber}}</a>
+          {%elseif value.juz%}
+            <a href="{{url.kingdom}}/j{{value.juz}}" class="btn outline info">{%trans "Reading juz"%} {{value.juz | fitNumber}}</a>
+          {%endif%}
+        </td>
+
+        <td>{{value.tstatus}}</td>
+
+
+        <td class="collapsing">
+          {%if value.status in ['request', 'reading']%}
+            <a href="{{url.this}}/usage/{{value.khatm_id}}" class="btn success">{%trans "Action"%}</a>
+          {%endif%}
+
+        </td>
+      </tr>
+      {%endfor%}
+    </tbody>
+  </table>
+  {%include display.pagination%}
+
+{%endblock%}
+
+
+{%block htmlFilter%}
+<p class="f fs14 msg info2">
+  <span class="c">{{dataFilter | raw}}</span>
+  <a class="cauto" href="{{url.this}}">{%trans "Clear filters"%}</a>
+</p>
+{%endblock%}
+
+
+{%block htmlFilterNoResult%}
+<p class="f fs14 msg warn2">
+  <span class="c">{%trans "Result not found!"%} {%trans "Search with new keywords."%}</span>
+  <a class="cauto" href="{{url.this}}">{%trans "Clear filters"%}</a>
+</p>
+{%endblock%}
+
+
+{%block htmlStartAddNew%}
+<p class="fs14 msg success2 pTB20">{%trans "No share was founded"%}</p>
+{%endblock%}
+
+
+
+
+{%block pageContent22%}
+
+{%if dataTable%}
+<div class="cbox">
+  {%for key, value in dataTable%}
+  <div class="msg f">
+    <div class="cauto txtB s12">{{value.title}}</div>
+    <div class="c s12">{{value.niyat}}</div>
+    <div class="c s12">{{value.ttype}}</div>
+    <div class="c s12">{{value.trange}}</div>
+    <div class="c s12">{{value.tprivacy}}</div>
+    <div class="c s12">{{value.repeat | fitNumber}}</div>
+    <div class="c s12">{{value.tstatus}}</div>
+    <div class="c s12">{{value.sura}}</div>
+    <div class="c s12"><div data-confirm data-data='{"type": "remove", "id" : "{{value.id}}"}' class="btn warn xs">{%trans "Cancel"%}</div></div>
+    <div class="c s12"><a href="{{url.this}}/start/{{value.id}}" class="btn success">{%trans "Start"%}</a></div>
+  </div>
+  {%endfor%}
+</div>
+
+{%else%}
+<p class="fs14 msg success2 pTB20">{%trans "Hi!"%} <a href="{{url.this}}/add">{%trans "Try to start with add new khatm!"%}</a></p>
+
+{%endif%}
+
+
+{%endblock%}

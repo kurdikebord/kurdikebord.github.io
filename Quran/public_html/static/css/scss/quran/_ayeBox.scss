@@ -1,0 +1,120 @@
+.ayeBox{
+    // align center
+    -webkit-box-align: center !important;
+    -webkit-align-items: center !important;
+    -ms-flex-align: center !important;
+    -moz-box-align: center !important;
+    align-items: center !important;
+
+    position: relative;
+    transition: 0.3s;
+    padding: 1em 1.5em;
+    margin-bottom: 1em;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    min-height: 1em;
+    line-height: 1.5;
+    background-color: #f7f7f7;
+    color: #000;
+}
+.ayeBox:hover{
+    background-color: rgba(0,200,255,0.05);
+    border-color: rgba(0,0,0,0.2);
+}
+.ayeBox.active{
+    background-color: rgba(0,200,255,0.05);
+    border-color: #2080d0;
+}
+.ayeBox .translate{
+    color: #333;
+}
+.ayeBox .translate .v5{
+    font-size: 1em;
+    background: none;
+    padding: 0;
+}
+.ayeBox .translate .v5 th{
+    width: 1px;
+    white-space: nowrap;
+}
+.ayeBox .translate a{
+    display: block;
+}
+.ayeBox .translate .flag{
+    margin: 0 5px;
+    vertical-align: middle;
+}
+.ayeBox .meta{
+    width: 70px;
+}
+.ayeBox .meta .opr{
+    min-width: 60px;
+    display: block;
+    background-color: #eee;
+    transition: 0.3s;
+    line-height: 30px;
+    font-size: 0.8em;
+    padding: 0;
+    margin-bottom: 5px;
+    cursor: pointer;
+    text-align: center;
+    overflow: hidden;
+    user-select:none;
+}
+.ayeBox .meta .opr:hover{
+    background-color: #e5e5f5;
+}
+.ayeBox .meta .opr:focus{
+    background-color: #ddd;
+}
+.ayeBox .meta .c12:last-child .opr{
+    margin-bottom: 0;
+}
+.ayeBox .meta a.opr{
+    font-family: monospace;
+    font-size: 1.1em;
+}
+.ayeBox .meta .opr.play::before{
+    content: "\e110";
+    font-family: "siftal","tahoma" !important;
+    display: inline-block;
+    vertical-align: middle;
+    transition: none;
+    margin:0 5px;
+}
+.ayeBox .meta .opr.play::after{
+    content: attr(data-play);
+    display: inline-block;
+    vertical-align: middle;
+    transition: none;
+}
+.ayeBox.active .meta .opr.play::before{
+    content: "\e232";
+    font-family: "siftal","tahoma" !important;
+    display: inline-block;
+}
+.ayeBox.active .meta .opr.play::after{
+    content: attr(data-pause);
+    display: inline-block;
+}
+.ayeBox .meta .opr.copy::before{
+    content: "\75";
+    font-family: "siftal","tahoma" !important;
+    display: inline-block;
+    vertical-align: middle;
+    transition: none;
+    margin:0 5px;
+}
+.ayeBox .meta .opr span{
+    display: inline-block;
+    margin:0 5px;
+}
+.ayeBox .meta input{
+  padding:0;
+  margin:0;
+  position:absolute;
+  z-index:-1;
+  width:5px;
+  height:0;
+  opacity:0;
+}

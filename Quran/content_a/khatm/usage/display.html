@@ -1,0 +1,43 @@
+{%extends 'content_a/layout.html'%}
+
+
+{%block pageContent%}
+  <div class="justify-center f">
+   <form method="post" class="c5 m6 s12" autocomplete="off">
+    <div class="cbox">
+      <div class="msg txtB txtC  success">{{khatmRow.title}}</div>
+
+	      	<p>{{khatmUsageRow.desc}}</p>
+      	{%if khatmUsageRow.sura%}
+	      	<a href="{{url.kingdom}}/s{{khatmUsageRow.sura}}" class="btn outline info block mB10">{%trans "Start reading sura"%} {{khatmUsageRow.sura_name}}</a>
+      	{%elseif khatmUsageRow.page%}
+	      	<a href="{{url.kingdom}}/p{{khatmUsageRow.page}}" class="btn outline info block mB10">{%trans "Start reading page"%} {{khatmUsageRow.page | fitNumber}}</a>
+      	{%elseif khatmUsageRow.juz%}
+	      	<a href="{{url.kingdom}}/j{{khatmUsageRow.juz}}" class="btn outline info block mB10">{%trans "Start reading juz"%} {{khatmUsageRow.juz | fitNumber}}</a>
+      	{%endif%}
+
+        <div class="msg warn">{% trans "It is up to you to complete the religious responsibility"%}</div>
+      	<br>
+      	<div class="msg">
+      		{%trans "If you have finished reading your share press the green key and click Cancel if you want to quit reading this section"%}
+      	</div>
+      	<div class="f">
+      		<div class="c">
+	    		<div data-confirm data-data='{"status": "done", "id" : "{{khatmRow.id}}"}' class="btn block success">{%trans "My reading is complete"%}</div>
+      		</div>
+      		<div class="cauto mLa5">
+	    		<div data-confirm data-data='{"status": "cancel", "id" : "{{khatmRow.id}}"}' class="btn block danger">{%trans "Leave reading"%}</div>
+      		</div>
+      	</div>
+
+    </div>
+   </form>
+  </div>
+{%endblock%}
+
+
+
+
+
+
+

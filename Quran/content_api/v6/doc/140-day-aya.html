@@ -1,0 +1,41 @@
+<div class="cbox" id='aya-day'>
+
+  <h2 class="f" data-kerkere='#aya-day-detail' data-kerkere-icon='open'>
+    <div class="cauto pRa10"><span class="badge primary">GET</span></div>
+    <div>{%trans "Get verse of the day"%}</div>
+  </h2>
+  <div id="aya-day-detail">
+    <p>{%trans "A verse will be displayed every day"%}</p>
+    <div class="msg url">
+      <i class="method">GET</i>
+      <span>{{apiURL}}<b>aya/day</b></span>
+    </div>
+
+
+
+    <h3>{%trans "cURL"%} <small>{%trans "example"%}</small></h3>
+<pre>
+curl -X GET {{apiURL}}aya/day
+</pre>
+
+<h3>{%trans "Response"%} <small>{%trans "example"%}</small></h3>
+<pre>
+{
+  "ok": true,
+  "result": {
+    "index": "99",
+    "sura": "2",
+    "aya": "92",
+    "text": "وَلَقَدْ جَآءَكُم مُّوسَىٰ بِٱلْبَيِّنَٰتِ ثُمَّ ٱتَّخَذْتُمُ ٱلْعِجْلَ مِنۢ بَعْدِهِۦ وَأَنتُمْ ظَٰلِمُونَ",
+    "simple": "ولقد جاءكم موسى بالبينات ثم اتخذتم العجل من بعده وأنتم ظالمون",
+    "juz": "1",
+    "hizb": "2",
+    "page": "14",
+    "word": "11",
+    ...
+  }
+}
+</pre>
+
+  </div>
+</div>

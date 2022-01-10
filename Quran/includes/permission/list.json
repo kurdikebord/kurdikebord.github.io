@@ -1,0 +1,82 @@
+{
+  "contentM": {
+    "title": "contentM",
+    "cat": "Manage",
+    "require": []
+  },
+  "mAudioFileView": {
+    "title": "mAudioFileView",
+    "cat": "Manage",
+    "require": []
+  },
+  "mAudioFileEdit": {
+    "title": "mAudioFileEdit",
+    "cat": "Manage",
+    "require": []
+  },
+  "mKhatmView": {
+    "title": "mKhatmView",
+    "cat": "Manage",
+    "require": []
+  },
+  "mKhatmEdit": {
+    "title": "mKhatmEdit",
+    "cat": "Manage",
+    "require": []
+  },
+  "mMistakeAdd": {
+    "title": "mMistakeAdd",
+    "cat": "Manage",
+    "require": []
+  },
+  "mMistakeView": {
+    "title": "mMistakeView",
+    "cat": "Manage",
+    "require": []
+  },
+  "mMistakeEdit": {
+    "title": "mMistakeEdit",
+    "cat": "Manage",
+    "require": []
+  },
+  "mMagConnectAdd": {
+    "title": "mMagConnectAdd",
+    "cat": "Manage",
+    "require": []
+  },
+  "mMagConnectView": {
+    "title": "mMagConnectView",
+    "cat": "Manage",
+    "require": []
+  },
+  "mMagConnectRemove": {
+    "title": "mMagConnectRemove",
+    "cat": "Manage",
+    "require": []
+  },
+  "mGroupAdd": {
+    "title": "mGroupAdd",
+    "cat": "Manage",
+    "require": []
+  },
+  "mGroupView": {
+    "title": "mGroupView",
+    "cat": "Manage",
+    "require": []
+  },
+  "mGroupEdit": {
+    "title": "mGroupEdit",
+    "cat": "Manage",
+    "require": []
+  },
+  "mLevelView": {
+    "title": "mLevelView",
+    "cat": "Manage",
+    "require": []
+  },
+  "mLevelAdd": {
+    "title": "mLevelAdd",
+    "cat": "Manage",
+    "require": []
+  }
+}

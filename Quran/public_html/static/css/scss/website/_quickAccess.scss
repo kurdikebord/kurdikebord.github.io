@@ -1,0 +1,27 @@
+.quickAccess{
+	overflow: hidden;
+	font-size: 1.3em;
+	padding: 1rem 0 0;
+	outline: none;
+	max-width: 1390px;
+	margin: 0 auto;
+	position: relative;
+	padding: 0.5rem 1rem;
+	border: 1px solid transparent;
+	line-height: 1.5em;
+	opacity: 0.8;
+	background-color: #f7f7f7;
+	color: #333;
+	transition: 0.3s;
+}
+.quickAccess:hover{
+	opacity: 1;
+}
+
+.quickAccess .title{
+	font-size: 1em;
+}
+.quickAccess .title a{
+	color: #4080c0
+}
+

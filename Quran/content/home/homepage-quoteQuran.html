@@ -1,0 +1,32 @@
+<section class="quoteTile">
+    <div class="f align-center">
+{%if ayaDay.text%}
+      <div class="c">
+
+       <div class="quote-person Quran">
+        <p class="p{{ayaDay.page}}">
+        {%for key, value in ayaDay.words%}
+          <i>{{value.code | raw}}</i>
+        {%endfor%}
+        </p>
+        {%if ayaDay.translate.text%}
+        <p class="fs08">{{ayaDay.translate.text}}</p>
+        {%endif%}
+        <div class="author f">
+         <h3 class="cite c" ><a href="{{url.kingdom}}/s{{ayaDay.sura}}?mode=onepage">{%trans "Sura"%}&nbsp;{%set myNameSura = ayaDay.sura_detail.tname%}{%trans myNameSura%}</a></h3>
+         <a class="citeRef cauto os" href="{{url.kingdom}}/s{{ayaDay.sura}}/{{ayaDay.aya}}?mode=onepage">{%trans "Ayah"%} {{ayaDay.aya | fitNumber}}</a>
+        </div>
+       </div>
+
+      </div>
+{%endif%}
+{%if dl.pageImage%}
+      <div class="cauto s0 txtC pLR10 fs08 mT20">
+        <a class="pageOfTheDay" href="{{dl.pageLink}}?mode=onepage">
+          <h2>{%trans "Page of the day"%} {{dl.pageNum | fitNumber}}</h2>
+          <img src="{{dl.pageImage}}" alt="{{dl.pageTitle}}">
+        </a>
+      </div>
+{%endif%}
+    </div>
+</section>

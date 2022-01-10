@@ -1,0 +1,391 @@
+{%extends 'content_lms/group/layout.html'%}
+
+
+{%block pageContent%}
+<p class="msg fs12 info2">{%trans "After reading Quran for at least 2 times, record your sound and replay it for yourself."%} {%trans "Each time of play Quran have one star and recording have another star."%}</p>
+
+<div class="f justify-center">
+  <div class="c8 s12 pRa10">
+    <iframe src="{{loadLevel.iframe_link}}" height="500" width="100%"></iframe>
+  </div>
+  <div class="c4 s12">
+    <div class="cbox qiraatRecorder">
+      <div id="recordBtn"></div>
+      <div class="msg pA5 danger2 txtC">{%trans "Press record button then iqra"%}</div>
+    </div>
+
+    <div id="waitingMsg">
+      <div class="msg txtC info2">{%trans "Generate your recorded sound"%}</div>
+    </div>
+
+    <div id="recordingsList" class="cbox">
+      <audio id="recordedAudio" class="block mB10" controls></audio>
+      <div class="txtC">{%trans "your recorded sound is here"%}</div>
+    </div>
+
+    <div class="cbox">
+      <div href="{{url.pwd}}" class="btn block outline pain submitAudio">{%trans "I'm done"%}</div>
+    </div>
+
+    <div class="tapeBox">
+      <div class="cbox">
+        <div class="tapeRecorder">
+          <div class="reel">
+            <div class="slice"></div>
+            <div class="slice"></div>
+            <div class="slice"></div>
+            <div class="tape"></div>
+          </div>
+          <div class="reel">
+            <div class="slice"></div>
+            <div class="slice"></div>
+            <div class="slice"></div>
+            <div class="tape"></div>
+          </div>
+          <div class="mecha">
+            <div class="tape"></div>
+            <div class="tape"></div>
+            <div class="tape"></div>
+          </div>
+        </div>
+        <div class="msg txtC txtB warn">{%trans "Recording mode, iqra"%}</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+{%endblock%}
+
+
+{%block foot_js%}
+<script src="{{url.static}}/js/recorder/WebAudioRecorder.min.js"></script>
+<script src="{{url.static}}/js/recorder/app.js"></script>
+<script>
+  var lastAudioBlob;
+  var lastAudioURL;
+
+  $('.submitAudio').on('click', function()
+  {
+    sendAudioToServer();
+  });
+
+  $('.qiraatRecorder #recordBtn').on('click', function()
+  {
+    if($(this).hasClass('start'))
+    {
+      // $('#waitingMsg').slideDown('fast');
+      stopRecording();
+      stopRecordingJob();
+    }
+    else
+    {
+      startRecordingJob();
+      startRecording();
+    }
+  });
+
+  $('#recordedAudio').on('loadedmetadata', function()
+  {
+    var myAudioLen = this.duration;
+    if(myAudioLen < 5)
+    {
+      notifAlerty('info', 'فایل صوتی شما بیش از حد کوتاه است!', 'توجه');
+      lastAudioBlob = null;
+    }
+  });
+
+
+  function sendAudioToServer()
+  {
+    var data = new FormData();
+    // add audio if exist
+    if(lastAudioBlob)
+    {
+      data.append('file', lastAudioBlob, 'record.wav');
+      notifAlerty('info', 'در حال  انتقال قرائت', 'لطفا کمی صبر کنید');
+    }
+
+    $.ajax(
+    {
+      url :  window.location.href,
+      type: 'post',
+      data: data,
+      contentType: false,
+      processData: false,
+      success: function(data)
+      {
+        notifAlerty('info', 'درخواست اتمام این مرحله انجام شد', 'ثبت  موفق مرحله');
+        Navigate({ url: '{{url.this}}/result?id={{requestGET.id}}' });
+      },
+      error: function() {
+        notifAlerty('info', 'خطایی در ثبت درخواست رخ داده است!', 'خطا');
+      }
+    });
+  }
+
+  function stopRecordingJob()
+  {
+    console.log('stop...');
+    // stop
+    $('.qiraatRecorder #recordBtn').removeClass('start');
+    $('.tapeRecorder').removeClass('record');
+    $('.tapeBox').stop( true, true).slideUp();
+    $('#waitingMsg').slideDown();
+
+  }
+
+  function startRecordingJob()
+  {
+    console.log('start...');
+    // start
+    $('.qiraatRecorder #recordBtn').addClass('start');
+    $('.tapeRecorder').addClass('record');
+    $('.tapeBox').stop( true, true).fadeIn('fast');
+  }
+</script>
+
+
+
+
+<style type="text/css">
+
+#waitingMsg{display: none;}
+#recordingsList{display: none;}
+.tapeBox{display: none}
+.tapeRecorder {
+  background: #aaa;
+  border-radius: 8px;
+  width: 220px;
+  height: 140px;
+  position: relative;
+  margin: 40px auto;
+  box-shadow:
+    0 40px 50px -20px rgba(0,0,0,.3) inset,
+    0 20px 40px -10px rgba(0,0,0,.3),
+    0 0 0 1px rgba(0,0,0,.3) inset;
+}
+.tapeRecorder:before,
+.tapeRecorder:after {
+  content: '';
+  position: absolute;
+  bottom: -6px;
+  height: 6px;
+  width: 20px;
+  background: #555;
+  border-radius: 0 0 3px 3px;
+  box-shadow: 0 2px 3px -1px rgba(0,0,0,.5) inset;
+}
+.tapeRecorder:before { left: 10px; }
+.tapeRecorder:after { right: 10px; }
+.tapeRecorder .reel:nth-child(1) { left: -20px; }
+.tapeRecorder .reel:nth-child(1) .tape {
+  animation: linear growReel 20s infinite;
+  animation-delay: -10s;
+}
+.tapeRecorder .reel:nth-child(2) { right: -20px; }
+.tapeRecorder .reel:nth-child(2) .tape {
+  animation: linear growReel 20s infinite;
+  animation-delay: 0s;
+}
+.tapeRecorder .reel {
+  z-index: 10;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: -20px;
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 1px #444,
+    0 0 0 5px #EEE inset,
+    0 0 4px 5px rgba(0,0,0,.5) inset;
+}
+.tapeRecorder.record .reel {
+  animation: linear rollingReel 20s infinite;
+}
+.tapeRecorder .reel .tape {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  margin: -15px 0 0 -15px;
+  background: #252525;
+  transition: background 0.3s;
+}
+.tapeRecorder.record .reel .tape {
+  background: #de0001;
+}
+.tapeRecorder .reel:after {
+  z-index: 9;
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin: -15px 0 0 -15px;
+  background: #444;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  box-shadow:
+    0 0 5px rgba(0,0,0,.4),
+    0 0 0 8px #DDD,
+    0 0 30px 30px rgba(0,0,0,.1);
+}
+.tapeRecorder .slice {
+  width: 0px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-top: 60px solid #EEE;
+  border-left: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  border-radius: 60px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.tapeRecorder .slice:after {
+  z-index: 10;
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  margin-lefT: -2px;
+  background: #444;
+  border-radius: 50%;
+  bottom: 25px;
+  left: 50%;
+}
+.tapeRecorder .reel .slice:nth-child(1) {
+  transform: rotate(120deg);
+}
+.tapeRecorder .reel .slice:nth-child(2) {
+  transform: rotate(240deg);
+}
+@keyframes rollingReel {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(-1080deg); }
+  100% { transform: rotate(0deg); }
+}
+@keyframes growReel {
+  0% { width: 30px; height: 30px; margin: -15px 0 0 -15px;  }
+  50% { width: 110px; height: 110px; margin: -55px 0 0 -55px; }
+  100% { width: 30px; height: 30px; margin: -15px 0 0 -15px;  }
+}
+.tapeRecorder .mecha {
+  position: absolute;
+  top: 105px;
+  left: 73px;
+  width: 75px;
+  height: 15px;
+  background: #777;
+  border-radius: 3px;
+  box-shadow:
+    0 10px 30px -10px rgba(0,0,0,.4) inset,
+    0 5px 5px -3px rgba(0,0,0,.5);
+}
+.tapeRecorder .mecha:before,
+.tapeRecorder .mecha:after {
+  content: '';
+  position: absolute;
+  top: -4px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #999;
+  z-index: 100;
+  box-shadow:
+    0 2px 1px rgba(0,0,0,.2),
+    0 0 0 1px rgba(0,0,0,.3) inset,
+    0 0 0 10px #DDD inset;
+}
+.tapeRecorder .mecha:before { left: 10px; }
+.tapeRecorder .mecha:after { right: 10px; }
+
+.tapeRecorder .mecha .tape {
+  position: absolute;
+  border: 1px solid #333;
+  width: 80px;
+  z-index: 1;
+  top: 9px;
+  transition: border 0.3s;
+}
+.tapeRecorder.record .mecha .tape {
+  border-color: #de0001;
+}
+.tapeRecorder .mecha .tape:nth-child(1) {
+  animation: linear slideTape1 20s infinite;
+  animation-delay: -10s;
+  left: -70px;
+  transform-origin: right;
+}
+.tapeRecorder .mecha .tape:nth-child(2) {
+  animation: linear slideTape2 20s infinite;
+  animation-delay: 0s;
+  right: -70px;
+  transform-origin: left;
+}
+.tapeRecorder .mecha .tape:nth-child(3) {
+  width: 40px;
+  left: 15px;
+  top: 10px;
+}
+@keyframes slideTape1 {
+  0% { transform: rotate(52deg); }
+  50% { transform: rotate(22deg); }
+  100% { transform: rotate(52deg); }
+}
+@keyframes slideTape2 {
+  0% { transform: rotate(-52deg); }
+  50% { transform: rotate(-22deg); }
+  100% { transform: rotate(-52deg); }
+}
+
+
+
+
+
+
+
+
+
+
+#recordBtn{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  color: white;
+  margin: 15px auto 25px;
+  cursor: pointer;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: -webkit-radial-gradient(center, circle cover, #29bbea 35%, #104571 100%);
+  background-color: #f90000;
+  box-shadow: 0px 3px 8px #aaa, inset 0px 0px 3px #a00a0a;
+  font-size: 40px;
+  transition: 0.3s background;
+}
+#recordBtn:hover {
+  background: #ff0000;
+}
+#recordBtn::before{
+  content: "\e102";
+  font-family: "siftal","tahoma" !important;
+}
+#recordBtn.start{
+  background: -webkit-radial-gradient(center, circle cover, #f90000 35%, #a00a0a 100%);
+  background-color: #f90000;
+}
+#recordBtn.start::before{
+  content: "\e101";
+}
+
+</style>
+
+
+{%endblock%}
+

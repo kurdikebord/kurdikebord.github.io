@@ -1,0 +1,22 @@
+    <div class="ui floating dropdown button" id='chooseTranslate'>
+      <i class="sf-language"></i>
+      <span class="text"><span>{%trans "Add Translations"%}</span></span>
+      <div class="menu">
+        <div class="search input">
+          <input type="text" placeholder='{%trans "Search translator"%}'>
+        </div>
+        <div class="divider"></div>
+        <div class="scrolling menu">
+{%for key, myTrans in translationList%}
+{%for k, v in myTrans.list%}
+          <a class="item" href="{{v.url}}"><i class="compact mRa5-f flag {{myTrans.detail.flag}}"></i><span>{{myTrans.detail.language_name}}</span><span class="floatRa">{%if v.image%}<img src="{{v.image}}" alt="{{v.localname}}" class="avatar">{%endif%}{{v.localname}}</span></a>
+{%endfor%}
+{%if false and myTrans.detail.count > 1%}
+          <a class="item" href="{{myTrans.detail.allLink.link}}">
+            <i class="hide flag {{myTrans.detail.flag}}"></i><span>{%trans "All Translations"%} {{myTrans.detail.language_name}}</span>
+          </a>
+{%endif%}
+{%endfor%}
+        </div>
+      </div>
+    </div>

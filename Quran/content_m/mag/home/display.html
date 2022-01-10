@@ -1,0 +1,131 @@
+{%extends 'content_m/mag/layout.html'%}
+
+
+
+{%block pageContent%}
+  <div class="f">
+    <div class="c6 s12">{{block('BmagListPosts')}}</div>
+    <div class="c6 s12">{{block('Bmagazine')}}</div>
+  </div>
+  {{block('magList')}}
+{%endblock%}
+
+
+
+{%block BmagListPosts%}
+<a class="dcard x1" href='{{url.kingdom}}/cms/posts'>
+ <div class="statistic blue">
+  <div class="value mB10"><i class="sf-list"></i></div>
+  <div class="label">{%trans "Magazine list"%}</div>
+ </div>
+</a>
+{%endblock%}
+
+
+
+{%block Bmagazine%}
+<a class="dcard x1" href='{{url.this}}/connect'>
+ <div class="statistic blue">
+  <div class="value mB10"><i class="sf-plug"></i></div>
+  <div class="label">{%trans "Connect mag to quran"%}</div>
+ </div>
+</a>
+{%endblock%}
+
+
+
+
+
+{%block magList%}
+
+
+{%if dataTable%}
+ {%if dataFilter%}
+
+  {{block('htmlSearchBox')}}
+  {{block('htmlTable')}}
+  {{block('htmlFilter')}}
+
+ {%else%}
+
+  {{block('htmlSearchBox')}}
+  {{block('htmlTable')}}
+
+ {%endif%}
+{%else%}
+ {%if dataFilter%}
+
+  {{block('htmlSearchBox')}}
+  {{block('htmlFilterNoResult')}}
+
+ {%else%}
+
+  {{block('htmlStartAddNew')}}
+
+ {%endif%}
+{%endif%}
+
+{%endblock%}
+
+
+
+
+{%block htmlTable%}
+  <table class="tbl1 v1 fs11">
+    <thead>
+      <tr>
+        <th></th>
+        <th data-sort="{{sortLink.title.order}}"><a href='{{sortLink.title.link}}'>{%trans "Title"%}</a></th>
+        <th>{%trans "Type"%}</th>
+        <th>{%trans "Connect to"%}</th>
+        <th>{%trans "Action"%}</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      {%for key, value in dataTable%}
+      <tr>
+        <td class="collapsing"><a href="{{url.kingdom}}/{{value.url}}" target="_blank" data-direct><i class="sf-link"></i></a></td>
+        <td><a href="{{url.this}}?post_id={{value.post_id}}">{{value.title}}</a></td>
+        <td><a href="{{url.this}}?subtype={{value.subtype}}">{{value.subtype_title}}</a></td>
+        <td>
+            {%if value.page%} <a href="{{url.this}}?magpage={{value.page}}">{%trans "Page"%} <b>{{value.page | fitNumber}}</b></a>{%endif%}
+            {%if value.sura%} <a href="{{url.this}}?sura={{value.sura}}">{%trans "Sura"%} <b>{{value.sura | fitNumber}}</b></a>{%endif%}
+            {%if value.aya%} <a href="{{url.this}}?aya={{value.aya}}&sura={{value.sura}}">{%trans "Aya"%} <b>{{value.aya | fitNumber}}</b></a>{%endif%}
+            {%if value.word%} <a href="{{url.this}}?aya={{value.aya}}&sura={{value.sura}}">{%trans "Word"%} <b>{{value.wordtitle}}</b></a>{%endif%}
+        </td>
+        <td class="collapsing">
+
+          <div data-confirm data-data='{"action" : "remove", "id": "{{value.mag_id}}"}' class="badge danger">{%trans "Remove"%}</div>
+        </td>
+
+      </tr>
+      {%endfor%}
+    </tbody>
+  </table>
+  {%include display.pagination%}
+{%endblock%}
+
+
+{%block htmlFilter%}
+<p class="f fs14 msg info2">
+  <span class="c">{{dataFilter | raw}}</span>
+  <a class="cauto" href="{{url.this}}">{%trans "Clear filters"%}</a>
+</p>
+{%endblock%}
+
+
+{%block htmlFilterNoResult%}
+<p class="f fs14 msg warn2">
+  <span class="c">{%trans "Result not found!"%} {%trans "Search with new keywords."%}</span>
+  <a class="cauto" href="{{url.this}}">{%trans "Clear filters"%}</a>
+</p>
+{%endblock%}
+
+
+{%block htmlStartAddNew%}
+<p class="fs14 msg success2 pTB20">{%trans "Hi!"%} <a href="{{url.this}}/connect">{%trans "Try to start with add new record!"%}</a></p>
+{%endblock%}
+
+
+

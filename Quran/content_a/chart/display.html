@@ -1,0 +1,33 @@
+{%extends display.admin%}
+
+{%block pageContent%}
+<style type="text/css">
+#chartdiv {
+  width: 100%;
+  height: 500px;
+}
+</style>
+
+<script src="{{url.static}}/js/amchart/core.js"></script>
+<script src="{{url.static}}/js/amchart/charts.js"></script>
+<script src="{{url.static}}/js/amchart/animated.js"></script>
+<div class="pA20">
+
+<div id="chartdiv"></div>
+</div>
+
+{%endblock%}
+
+
+
+
+
+{%block foot_js%}
+<script>
+  {%include 'content_a/chart/chart.js'%}
+</script>
+{%endblock%}
+
+
+
+

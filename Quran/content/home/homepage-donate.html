@@ -1,0 +1,12 @@
+{%if lastDoners%}
+<section class="donateTile txtC">
+  <h3 class="txtB"><a href="{{url.kingdom}}/donate">{%trans "Support the Project"%}</a></h3>
+  <p>{%trans "Through contributions, donations, and sponsorship, you allow SalamQuran to thrive."%} {%trans "The following persons/organizations made their donation in the last days."%}</p>
+  <div class="fs20 mB20">
+{%for key, value in lastDoners %}
+      <img class="avatar" alt="{{value.displayname}}" src="{{value.avatar}}" title='{{value.displayname}}<br>{{value.mysum | fitNumber}} {%trans "toman"%}<br>{{value.datecreated | dt("human", "year")}}'>
+{%endfor%}
+  </div>
+  <a class="btn outline primary" href="{{url.kingdom}}/donate">{%trans "Become a sponsor of SalamQuran"%}</a>
+</section>
+{%endif%}

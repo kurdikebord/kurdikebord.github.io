@@ -1,0 +1,146 @@
+{%extends 'content_m/layout.html'%}
+
+
+{%block pageContent%}
+<form method="post" autocomplete="off">
+
+  <div class="justify-center f">
+   <div class="c5 m6 s12">
+    <div class="cbox">
+      {%if dataRow.audio%}
+        {%include 'content_lms/level/exam/fileDetector.html' with {'myUrl': dataRow.audio}%}
+      {%endif%}
+
+      <hr>
+
+
+      {{block('iquality')}}
+      <div class="example">
+        <h5>{%trans "Mistakes"%}</h5>
+        {{block('iMistakeList')}}
+      </div>
+
+      {{block('iStatus')}}
+      {{block('iAnswer')}}
+      {{block('iFile')}}
+
+      {{block('isave')}}
+    </div>
+   </div>
+  </div>
+
+</form>
+{%endblock%}
+
+
+
+{% block ititle %}
+<label for="title">{%trans "Title"%} <small class="fc-red">* {%trans "Require"%}</small></label>
+<div class="input">
+  <input type="text" name="title" id="title" placeholder='{%trans "Level title"%} *' value="{{dataRow.title}}" autofocus required maxlength='150' minlength="1" pattern=".{1,150}">
+</div>
+{% endblock %}
+
+
+
+
+
+{% block iAnswer %}
+<label for="answer">{%trans "Answer"%}</label>
+<textarea class="txt" rows="3" name="answer" id="answer">{{dataRow.teachertxt}}</textarea>
+{% endblock %}
+
+
+
+
+{%block isave%}
+<button class="btn primary block mT20">{%trans "Save"%}</button>
+{%endblock%}
+
+
+
+
+{%block iFile%}
+
+{%if dataRow.teacheraudio%}
+<a href="{{dataRow.teacheraudio}}" target="_blank" data-direct class="btn block pain mTB20">{%trans "Teacher audio answer"%}</a>
+{%endif%}
+
+<label for="teacheraudio" class="block">{%trans "Your answer file"%}</label>
+<div class="input" >
+ <input type="file" accept="image/gif, image/jpeg, image/png" name="teacheraudio" id="teacheraudio" data-max="1000">
+ </label>
+</div>
+{%endblock%}
+
+{%block iMistakeList%}
+{%for key, value in mistakeList%}
+<div class="check1 red">
+  <input type="checkbox" id="sChk{{value.id}}" name="mistake_{{value.id}}" value="{{value.id}}" {%if value.id in savedMistake%} checked {%endif%}>
+  <label for="sChk{{value.id}}">{{value.title}}</label>
+</div>
+{%endfor%}
+{%endblock%}
+
+
+
+{% block iquality %}
+
+
+  <label>{%trans "Quality"%}</label>
+  <div class="radioRating togglable">
+    <div class="rateBox">
+      <input type="radio" name="quality" id="star-1" value="1" {%if dataRow.quality == 1%} checked {%endif%}>
+      <label for="star-1"></label>
+      <input type="radio" name="quality" id="star-2" value="2" {%if dataRow.quality == 2%} checked {%endif%}>
+      <label for="star-2"></label>
+      <input type="radio" name="quality" id="star-3" value="3" {%if dataRow.quality == 3%} checked {%endif%}>
+      <label for="star-3"></label>
+
+    </div>
+  </div>
+
+
+{% endblock %}
+
+
+
+
+{%block iStatus%}
+<div class="mT15 f">
+ <label >{%trans "Status"%}</label>
+
+ <div class="radio1 green c4">
+  <input type="radio" id="r-awaiting" name="status" value="awaiting" {%if dataRow.status == 'awaiting' or not dataRow.status %} checked{%endif%}>
+  <label for="r-awaiting">{%trans "awaiting"%}</label>
+ </div>
+
+ <div class="radio1 green c4">
+  <input type="radio" id="r-spam" name="status" value="spam" {%if dataRow.status == 'spam' or not dataRow.status %} checked{%endif%}>
+  <label for="r-spam">{%trans "spam"%}</label>
+ </div>
+{%if false%}
+ <div class="radio1 green c4">
+  <input type="radio" id="r-deleted" name="status" value="deleted" {%if dataRow.status == 'deleted' or not dataRow.status %} checked{%endif%}>
+  <label for="r-deleted">{%trans "deleted"%}</label>
+ </div>
+ {%endif%}
+
+ <div class="radio1 green c4">
+  <input type="radio" id="r-admindelete" name="status" value="admindelete" {%if dataRow.status == 'admindelete' or not dataRow.status %} checked{%endif%}>
+  <label for="r-admindelete">{%trans "admindelete"%}</label>
+ </div>
+
+ <div class="radio1 green c4">
+  <input type="radio" id="r-approved" name="status" value="approved" {%if dataRow.status == 'approved' or not dataRow.status %} checked{%endif%}>
+  <label for="r-approved">{%trans "approved"%}</label>
+ </div>
+
+ <div class="radio1 green c4">
+  <input type="radio" id="r-reject" name="status" value="reject" {%if dataRow.status == 'reject' or not dataRow.status %} checked{%endif%}>
+  <label for="r-reject">{%trans "reject"%}</label>
+ </div>
+
+</div>
+
+{%endblock%}

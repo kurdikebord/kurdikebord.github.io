@@ -1,0 +1,163 @@
+#sidebar{
+	max-width: 400px;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	z-index: 10;
+	font-size: 1.4em;
+	-webkit-touch-callout:none;
+	-webkit-user-select:none;
+	-khtml-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	cursor:default;
+}
+.ltr #sidebar{
+	left: 0;
+}
+.rtl #sidebar{
+	right: 0;
+}
+#sidebar a{
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow: hidden;
+	display: block;
+	position: relative;
+}
+#sidebar .always{
+	position: relative;
+	width: 5rem;
+	height: 100%;
+	background-color: #333;
+	text-align: center;
+	z-index: 11;
+}
+.ltr #sidebar .always{
+	float: left;
+	border-right:1px solid rgba(0,0,0,.3);
+}
+.rtl #sidebar .always{
+	float: right;
+	border-left:1px solid rgba(0,0,0,.3);
+}
+#sidebar .always a{
+	width: 5rem;
+	height: 5rem;
+	line-height: 5rem;
+	display: block;
+	color: #777;
+	transition: 0.3s;
+}
+#sidebar a.active{
+	background-color: rgba(0,0,0,0.1);
+}
+#sidebar .always a:hover{
+	color: #aaa;
+	background-color: rgba(0,0,0,0.5);
+}
+#sidebar .langlist{
+	font-size: 0.7em;
+}
+#sidebar .always footer{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+#sidebar .always footer a{
+	height: 4rem;
+	line-height: 4rem;
+}
+
+#sidebar .menu{
+	background-color: #fff;
+	display: block;
+	width: 250px;
+	min-width: 240px;
+	max-width: 350px;
+	height: 100%;
+	position: absolute;
+	z-index: 10;
+	transition: 0.2s ease;
+}
+.ltr #sidebar .menu{
+	left: -25rem;
+}
+.rtl #sidebar .menu{
+	right: -25rem;
+}
+body[data-sidebar="dada"].ltr #sidebar .menu{
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+	left: 5rem;
+}
+body[data-sidebar="dada"].rtl #sidebar .menu{
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+	right: 5rem;
+}
+#sidebar .menu a{
+	padding: 1rem 2rem;
+	line-height: 3rem;
+	transition: 0.3s;
+}
+#sidebar .menu a:hover{
+	background-color: rgba(0,0,0,0.05);
+}
+#sidebar .menu nav{
+	margin-top: 1rem;
+}
+#sidebar .menu nav.langlist{
+	margin-top: 3rem;
+}
+#sidebar .menu nav.langlist a{
+	display: inline-block;
+}
+
+#sidebar .menu nav a:before{
+	content: '';
+	border-color: rgba(0,0,0,0.1);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	display: block;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.ltr #sidebar .menu nav a:before{
+	left: 20px;
+}
+.rtl #sidebar .menu nav a:before{
+	right: 20px;
+}
+#sidebar .menu nav a:after{
+	content: '';
+	border-color: rgba(0,0,0,0.5);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	transition: 0.3s;
+}
+.ltr #sidebar .menu nav a:after{
+	left: 100%;
+	right: 0;
+}
+.rtl #sidebar .menu nav a:after{
+	right: 100%;
+	left: 0;
+}
+.ltr #sidebar .menu nav a:hover:after{
+	left: 20px;
+}
+.rtl #sidebar .menu nav a:hover:after{
+	right: 20px;
+}
+#sidebar .menu footer{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+

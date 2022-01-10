@@ -1,0 +1,47 @@
+
+<div class="f fullCommand">
+  <div class="c3 s12">
+{%include 'content/home/blocks/block-cmd-qari.html'%}
+  </div>
+
+  <div class="c2 s12">
+{%include 'content/home/blocks/block-cmd-translator.html'%}
+  </div>
+
+
+  <div class="c2 s6">
+{%include 'content/home/blocks/block-cmd-mode.html'%}
+  </div>
+
+  <div class="c2 s6">
+{%include 'content/home/blocks/block-cmd-style.html'%}
+  </div>
+
+  <div class="c hide">
+{%include 'content/home/blocks/block-cmd-extra.html'%}
+  </div>
+
+{%if quranLoaded.translatelist | length > 1%}
+<div class="c12">
+  <div class="f">
+{%for key, value in quranLoaded.translatelist%}
+    <div class="cauto pA5">
+      <a class="btn outline" href="{{value.remove_url}}" title='{%trans "Click to remove tranlation"%}'>
+        <span class="sf-times fc-red"></span>
+        <i class="flag {{value.flag}}"></i>
+        <abbr>{{value.localname}}</abbr>
+{%if value.image%}
+        <img src="{{value.image}}" alt="{{value.localname}}" class="avatar">
+{%endif%}
+      </a>
+    </div>
+{%endfor%}
+  </div>
+</div>
+{%endif%}
+
+</div>
+
+{%for key, myAye in suraDetail%}
+<span class="badge"></span>
+{%endfor%}

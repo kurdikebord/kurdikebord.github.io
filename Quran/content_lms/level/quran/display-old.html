@@ -1,0 +1,80 @@
+{%extends 'content_lms/group/layout.html'%}
+
+
+{%block head_css%}
+ <link rel="stylesheet"       href="http://salamquran.local/static/css/style.css?1563550463"/>
+{%endblock%}
+
+
+{%block pageContent2%}
+<div class="f justify-center">
+  <div class="c8 s12">
+    <div class="cbox fs20 txtC">
+      {%if loadLevel.file%}
+        <video width="320" height="240" controls>
+          <source src="{{loadLevel.file}}" type="video/mp4">
+        </video>
+      {%endif%}
+      <p class="fs08">{{loadLevel.desc}}</p>
+    </div>
+
+    {%if userStar.star%}
+    <div class="cbox">
+    {%trans "Your score"%}
+      {%for i in 1..userStar.star%}
+      <i class="sf-star fc-yellow"></i>
+      {%endfor%}
+    </div>
+    {%endif%}
+
+    {%if perm_su()%}
+    <div class="cbox">
+      <div class="btn info2 xl" data-ajaxify data-data='{"ActionType":"listenfirst"}' data-method='post'>{%trans "Listen first"%}</div>
+      <div class="btn warn2 xl" data-ajaxify data-data='{"ActionType":"listensecond"}' data-method='post'>{%trans "Listen second"%}</div>
+      <div class="btn warn xl" data-ajaxify data-data='{"ActionType":"debate"}' data-method='post'>{%trans "Debate"%}</div>
+    </div>
+    {%endif%}
+
+  </div>
+</div>
+{%endblock%}
+
+
+
+{%block pageContent%}
+<div class="f justify-center">
+  <div class="c8 s12">
+    <div class="cbox fs20 txtC">
+      {%if loadLevel.besmellah%}
+      {% include 'content/home/blocks/block-besmellah.html' %}
+      {%endif%}
+
+      <div class='Quran' id="iqra" data-style='uthmani' >
+        {%include 'content/home/theme-onePage.html'%}
+      </div>
+
+
+    </div>
+
+    {%if userStar.star%}
+    <div class="cbox">
+    {%trans "Your score"%}
+    	{%for i in 1..userStar.star%}
+    	<i class="sf-star fc-yellow"></i>
+    	{%endfor%}
+    </div>
+    {%endif%}
+
+    <div class="cbox">
+
+      <div class="btn info2 xl" data-ajaxify data-data='{"ActionType":"listenfirst"}' data-method='post'>{%trans "Listen first"%}</div>
+      <div class="btn warn2 xl" data-ajaxify data-data='{"ActionType":"listensecond"}' data-method='post'>{%trans "Listen second"%}</div>
+      <div class="btn warn xl" data-ajaxify data-data='{"ActionType":"debate"}' data-method='post'>{%trans "Debate"%}</div>
+
+    </div>
+
+  </div>
+</div>
+{%endblock%}
+
+

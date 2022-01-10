@@ -1,0 +1,4635 @@
+{
+  "1": {
+    "index": 1,
+    "startpage": 1,
+    "endpage": 5,
+    "startaya": 1,
+    "endaya": 25,
+    "startsura": 1,
+    "endsura": 2,
+    "starthizb": 1,
+    "endhizb": 1,
+    "startnim": 1,
+    "endnim": 1,
+    "startrub": 1,
+    "endrub": 1,
+    "allsura": [
+      1,
+      2
+    ],
+    "words": 360
+  },
+  "2": {
+    "index": 2,
+    "startpage": 5,
+    "endpage": 7,
+    "startaya": 26,
+    "endaya": 43,
+    "startsura": 2,
+    "endsura": 2,
+    "starthizb": 1,
+    "endhizb": 1,
+    "startnim": 1,
+    "endnim": 1,
+    "startrub": 2,
+    "endrub": 2,
+    "allsura": [
+      2
+    ],
+    "words": 302
+  },
+  "3": {
+    "index": 3,
+    "startpage": 7,
+    "endpage": 9,
+    "startaya": 44,
+    "endaya": 59,
+    "startsura": 2,
+    "endsura": 2,
+    "starthizb": 1,
+    "endhizb": 1,
+    "startnim": 2,
+    "endnim": 2,
+    "startrub": 3,
+    "endrub": 3,
+    "allsura": [
+      2
+    ],
+    "words": 214
+  },
+  "4": {
+    "index": 4,
+    "startpage": 9,
+    "endpage": 11,
+    "startaya": 60,
+    "endaya": 74,
+    "startsura": 2,
+    "endsura": 2,
+    "starthizb": 1,
+    "endhizb": 1,
+    "startnim": 2,
+    "endnim": 2,
+    "startrub": 4,
+    "endrub": 4,
+    "allsura": [
+      2
+    ],
+    "words": 320
+  },
+  "5": {
+    "index": 5,
+    "startpage": 11,
+    "endpage": 14,
+    "startaya": 75,
+    "endaya": 91,
+    "startsura": 2,
+    "endsura": 2,
+    "starthizb": 2,
+    "endhizb": 2,
+    "startnim": 3,
+    "endnim": 3,
+    "startrub": 5,
+    "endrub": 5,
+    "allsura": [
+      2
+    ],
+    "words": 359
+  },
+  "6": {
+    "index": 6,
+    "startpage": 14,
+    "endpage": 16,
+    "startaya": 92,
+    "endaya": 105,
+    "startsura": 2,
+    "endsura": 2,
+    "starthizb": 2,
+    "endhizb": 2,
+    "startnim": 3,
+    "endnim": 3,
+    "startrub": 6,
+    "endrub": 6,
+    "allsura": [
+      2
+    ],
+    "words": 284
+  },
+  "7": {
+    "index": 7,
+    "startpage": 17,
+    "endpage": 19,
+    "startaya": 106,
+    "endaya": 123,
+    "startsura": 2,
+    "endsura": 2,
+    "starthizb": 2,
+    "endhizb": 2,
+    "startnim": 4,
+    "endnim": 4,
+    "startrub": 7,
+    "endrub": 7,
+    "allsura": [
+      2
+    ],
+    "words": 346
+  },
+  "8": {
+    "index": 8,
+    "startpage": 19,
+    "endpage": 21,
+    "startaya": 124,
+    "endaya": 141,
+    "startsura": 2,
+    "endsura": 2,
+    "starthizb": 2,
+    "endhizb": 2,
+    "startnim": 4,
+    "endnim": 4,
+    "startrub": 8,
+    "endrub": 8,
+    "allsura": [
+      2
+    ],
+    "words": 337
+  },
+  "9": {
+    "index": 9,
+    "startpage": 22,
+    "endpage": 24,
+    "startaya": 142,
+    "endaya": 157,
+    "startsura": 2,
+    "endsura": 2,
+    "starthizb": 3,
+    "endhizb": 3,
+    "startnim": 5,
+    "endnim": 5,
+    "startrub": 9,
+    "endrub": 9,
+    "allsura": [
+      2
+    ],
+    "words": 297
+  },
+  "10": {
+    "index": 10,
+    "startpage": 24,
+    "endpage": 26,
+    "startaya": 158,
+    "endaya": 176,
+    "startsura": 2,
+    "endsura": 2,
+    "starthizb": 3,
+    "endhizb": 3,
+    "startnim": 5,
+    "endnim": 5,
+    "startrub": 10,
+    "endrub": 10,
+    "allsura": [
+      2
+    ],
+    "words": 355
+  },
+  "11": {
+    "index": 11,
+    "startpage": 27,
+    "endpage": 29,
+    "startaya": 177,
+    "endaya": 188,
+    "startsura": 2,
+    "endsura": 2,
+    "starthizb": 3,
+    "endhizb": 3,
+    "startnim": 6,
+    "endnim": 6,
+    "startrub": 11,
+    "endrub": 11,
+    "allsura": [
+      2
+    ],
+    "words": 331
+  },
+  "12": {
+    "index": 12,
+    "startpage": 29,
+    "endpage": 31,
+    "startaya": 189,
+    "endaya": 202,
+    "startsura": 2,
+    "endsura": 2,
+    "starthizb": 3,
+    "endhizb": 3,
+    "startnim": 6,
+    "endnim": 6,
+    "startrub": 12,
+    "endrub": 12,
+    "allsura": [
+      2
+    ],
+    "words": 308
+  },
+  "13": {
+    "index": 13,
+    "startpage": 32,
+    "endpage": 34,
+    "startaya": 203,
+    "endaya": 218,
+    "startsura": 2,
+    "endsura": 2,
+    "starthizb": 4,
+    "endhizb": 4,
+    "startnim": 7,
+    "endnim": 7,
+    "startrub": 13,
+    "endrub": 13,
+    "allsura": [
+      2
+    ],
+    "words": 362
+  },
+  "14": {
+    "index": 14,
+    "startpage": 34,
+    "endpage": 37,
+    "startaya": 219,
+    "endaya": 232,
+    "startsura": 2,
+    "endsura": 2,
+    "starthizb": 4,
+    "endhizb": 4,
+    "startnim": 7,
+    "endnim": 7,
+    "startrub": 14,
+    "endrub": 14,
+    "allsura": [
+      2
+    ],
+    "words": 376
+  },
+  "15": {
+    "index": 15,
+    "startpage": 37,
+    "endpage": 39,
+    "startaya": 233,
+    "endaya": 242,
+    "startsura": 2,
+    "endsura": 2,
+    "starthizb": 4,
+    "endhizb": 4,
+    "startnim": 8,
+    "endnim": 8,
+    "startrub": 15,
+    "endrub": 15,
+    "allsura": [
+      2
+    ],
+    "words": 259
+  },
+  "16": {
+    "index": 16,
+    "startpage": 39,
+    "endpage": 41,
+    "startaya": 243,
+    "endaya": 252,
+    "startsura": 2,
+    "endsura": 2,
+    "starthizb": 4,
+    "endhizb": 4,
+    "startnim": 8,
+    "endnim": 8,
+    "startrub": 16,
+    "endrub": 16,
+    "allsura": [
+      2
+    ],
+    "words": 291
+  },
+  "17": {
+    "index": 17,
+    "startpage": 42,
+    "endpage": 44,
+    "startaya": 253,
+    "endaya": 262,
+    "startsura": 2,
+    "endsura": 2,
+    "starthizb": 5,
+    "endhizb": 5,
+    "startnim": 9,
+    "endnim": 9,
+    "startrub": 17,
+    "endrub": 17,
+    "allsura": [
+      2
+    ],
+    "words": 368
+  },
+  "18": {
+    "index": 18,
+    "startpage": 44,
+    "endpage": 46,
+    "startaya": 263,
+    "endaya": 271,
+    "startsura": 2,
+    "endsura": 2,
+    "starthizb": 5,
+    "endhizb": 5,
+    "startnim": 9,
+    "endnim": 9,
+    "startrub": 18,
+    "endrub": 18,
+    "allsura": [
+      2
+    ],
+    "words": 204
+  },
+  "19": {
+    "index": 19,
+    "startpage": 46,
+    "endpage": 48,
+    "startaya": 272,
+    "endaya": 282,
+    "startsura": 2,
+    "endsura": 2,
+    "starthizb": 5,
+    "endhizb": 5,
+    "startnim": 10,
+    "endnim": 10,
+    "startrub": 19,
+    "endrub": 19,
+    "allsura": [
+      2
+    ],
+    "words": 337
+  },
+  "20": {
+    "index": 20,
+    "startpage": 49,
+    "endpage": 51,
+    "startaya": 1,
+    "endaya": 286,
+    "startsura": 2,
+    "endsura": 3,
+    "starthizb": 5,
+    "endhizb": 5,
+    "startnim": 10,
+    "endnim": 10,
+    "startrub": 20,
+    "endrub": 20,
+    "allsura": [
+      2,
+      3
+    ],
+    "words": 363
+  },
+  "21": {
+    "index": 21,
+    "startpage": 51,
+    "endpage": 54,
+    "startaya": 15,
+    "endaya": 32,
+    "startsura": 3,
+    "endsura": 3,
+    "starthizb": 6,
+    "endhizb": 6,
+    "startnim": 11,
+    "endnim": 11,
+    "startrub": 21,
+    "endrub": 21,
+    "allsura": [
+      3
+    ],
+    "words": 336
+  },
+  "22": {
+    "index": 22,
+    "startpage": 54,
+    "endpage": 56,
+    "startaya": 33,
+    "endaya": 51,
+    "startsura": 3,
+    "endsura": 3,
+    "starthizb": 6,
+    "endhizb": 6,
+    "startnim": 11,
+    "endnim": 11,
+    "startrub": 22,
+    "endrub": 22,
+    "allsura": [
+      3
+    ],
+    "words": 332
+  },
+  "23": {
+    "index": 23,
+    "startpage": 56,
+    "endpage": 59,
+    "startaya": 52,
+    "endaya": 74,
+    "startsura": 3,
+    "endsura": 3,
+    "starthizb": 6,
+    "endhizb": 6,
+    "startnim": 12,
+    "endnim": 12,
+    "startrub": 23,
+    "endrub": 23,
+    "allsura": [
+      3
+    ],
+    "words": 344
+  },
+  "24": {
+    "index": 24,
+    "startpage": 59,
+    "endpage": 62,
+    "startaya": 75,
+    "endaya": 92,
+    "startsura": 3,
+    "endsura": 3,
+    "starthizb": 6,
+    "endhizb": 6,
+    "startnim": 12,
+    "endnim": 12,
+    "startrub": 24,
+    "endrub": 24,
+    "allsura": [
+      3
+    ],
+    "words": 338
+  },
+  "25": {
+    "index": 25,
+    "startpage": 62,
+    "endpage": 64,
+    "startaya": 93,
+    "endaya": 112,
+    "startsura": 3,
+    "endsura": 3,
+    "starthizb": 7,
+    "endhizb": 7,
+    "startnim": 13,
+    "endnim": 13,
+    "startrub": 25,
+    "endrub": 25,
+    "allsura": [
+      3
+    ],
+    "words": 335
+  },
+  "26": {
+    "index": 26,
+    "startpage": 64,
+    "endpage": 66,
+    "startaya": 113,
+    "endaya": 132,
+    "startsura": 3,
+    "endsura": 3,
+    "starthizb": 7,
+    "endhizb": 7,
+    "startnim": 13,
+    "endnim": 13,
+    "startrub": 26,
+    "endrub": 26,
+    "allsura": [
+      3
+    ],
+    "words": 294
+  },
+  "27": {
+    "index": 27,
+    "startpage": 67,
+    "endpage": 69,
+    "startaya": 133,
+    "endaya": 152,
+    "startsura": 3,
+    "endsura": 3,
+    "starthizb": 7,
+    "endhizb": 7,
+    "startnim": 14,
+    "endnim": 14,
+    "startrub": 27,
+    "endrub": 27,
+    "allsura": [
+      3
+    ],
+    "words": 323
+  },
+  "28": {
+    "index": 28,
+    "startpage": 69,
+    "endpage": 72,
+    "startaya": 153,
+    "endaya": 170,
+    "startsura": 3,
+    "endsura": 3,
+    "starthizb": 7,
+    "endhizb": 7,
+    "startnim": 14,
+    "endnim": 14,
+    "startrub": 28,
+    "endrub": 28,
+    "allsura": [
+      3
+    ],
+    "words": 403
+  },
+  "29": {
+    "index": 29,
+    "startpage": 72,
+    "endpage": 74,
+    "startaya": 171,
+    "endaya": 185,
+    "startsura": 3,
+    "endsura": 3,
+    "starthizb": 8,
+    "endhizb": 8,
+    "startnim": 15,
+    "endnim": 15,
+    "startrub": 29,
+    "endrub": 29,
+    "allsura": [
+      3
+    ],
+    "words": 280
+  },
+  "30": {
+    "index": 30,
+    "startpage": 74,
+    "endpage": 76,
+    "startaya": 186,
+    "endaya": 200,
+    "startsura": 3,
+    "endsura": 3,
+    "starthizb": 8,
+    "endhizb": 8,
+    "startnim": 15,
+    "endnim": 15,
+    "startrub": 30,
+    "endrub": 30,
+    "allsura": [
+      3
+    ],
+    "words": 269
+  },
+  "31": {
+    "index": 31,
+    "startpage": 77,
+    "endpage": 78,
+    "startaya": 1,
+    "endaya": 11,
+    "startsura": 4,
+    "endsura": 4,
+    "starthizb": 8,
+    "endhizb": 8,
+    "startnim": 16,
+    "endnim": 16,
+    "startrub": 31,
+    "endrub": 31,
+    "allsura": [
+      4
+    ],
+    "words": 270
+  },
+  "32": {
+    "index": 32,
+    "startpage": 79,
+    "endpage": 81,
+    "startaya": 12,
+    "endaya": 23,
+    "startsura": 4,
+    "endsura": 4,
+    "starthizb": 8,
+    "endhizb": 8,
+    "startnim": 16,
+    "endnim": 16,
+    "startrub": 32,
+    "endrub": 32,
+    "allsura": [
+      4
+    ],
+    "words": 332
+  },
+  "33": {
+    "index": 33,
+    "startpage": 82,
+    "endpage": 84,
+    "startaya": 24,
+    "endaya": 35,
+    "startsura": 4,
+    "endsura": 4,
+    "starthizb": 9,
+    "endhizb": 9,
+    "startnim": 17,
+    "endnim": 17,
+    "startrub": 33,
+    "endrub": 33,
+    "allsura": [
+      4
+    ],
+    "words": 291
+  },
+  "34": {
+    "index": 34,
+    "startpage": 84,
+    "endpage": 87,
+    "startaya": 36,
+    "endaya": 57,
+    "startsura": 4,
+    "endsura": 4,
+    "starthizb": 9,
+    "endhizb": 9,
+    "startnim": 17,
+    "endnim": 17,
+    "startrub": 34,
+    "endrub": 34,
+    "allsura": [
+      4
+    ],
+    "words": 412
+  },
+  "35": {
+    "index": 35,
+    "startpage": 87,
+    "endpage": 89,
+    "startaya": 58,
+    "endaya": 73,
+    "startsura": 4,
+    "endsura": 4,
+    "starthizb": 9,
+    "endhizb": 9,
+    "startnim": 18,
+    "endnim": 18,
+    "startrub": 35,
+    "endrub": 35,
+    "allsura": [
+      4
+    ],
+    "words": 278
+  },
+  "36": {
+    "index": 36,
+    "startpage": 89,
+    "endpage": 92,
+    "startaya": 74,
+    "endaya": 87,
+    "startsura": 4,
+    "endsura": 4,
+    "starthizb": 9,
+    "endhizb": 9,
+    "startnim": 18,
+    "endnim": 18,
+    "startrub": 36,
+    "endrub": 36,
+    "allsura": [
+      4
+    ],
+    "words": 329
+  },
+  "37": {
+    "index": 37,
+    "startpage": 92,
+    "endpage": 94,
+    "startaya": 88,
+    "endaya": 99,
+    "startsura": 4,
+    "endsura": 4,
+    "starthizb": 10,
+    "endhizb": 10,
+    "startnim": 19,
+    "endnim": 19,
+    "startrub": 37,
+    "endrub": 37,
+    "allsura": [
+      4
+    ],
+    "words": 323
+  },
+  "38": {
+    "index": 38,
+    "startpage": 94,
+    "endpage": 96,
+    "startaya": 100,
+    "endaya": 113,
+    "startsura": 4,
+    "endsura": 4,
+    "starthizb": 10,
+    "endhizb": 10,
+    "startnim": 19,
+    "endnim": 19,
+    "startrub": 38,
+    "endrub": 38,
+    "allsura": [
+      4
+    ],
+    "words": 304
+  },
+  "39": {
+    "index": 39,
+    "startpage": 97,
+    "endpage": 99,
+    "startaya": 114,
+    "endaya": 134,
+    "startsura": 4,
+    "endsura": 4,
+    "starthizb": 10,
+    "endhizb": 10,
+    "startnim": 20,
+    "endnim": 20,
+    "startrub": 39,
+    "endrub": 39,
+    "allsura": [
+      4
+    ],
+    "words": 376
+  },
+  "40": {
+    "index": 40,
+    "startpage": 100,
+    "endpage": 101,
+    "startaya": 135,
+    "endaya": 147,
+    "startsura": 4,
+    "endsura": 4,
+    "starthizb": 10,
+    "endhizb": 10,
+    "startnim": 20,
+    "endnim": 20,
+    "startrub": 40,
+    "endrub": 40,
+    "allsura": [
+      4
+    ],
+    "words": 266
+  },
+  "41": {
+    "index": 41,
+    "startpage": 102,
+    "endpage": 103,
+    "startaya": 148,
+    "endaya": 162,
+    "startsura": 4,
+    "endsura": 4,
+    "starthizb": 11,
+    "endhizb": 11,
+    "startnim": 21,
+    "endnim": 21,
+    "startrub": 41,
+    "endrub": 41,
+    "allsura": [
+      4
+    ],
+    "words": 269
+  },
+  "42": {
+    "index": 42,
+    "startpage": 104,
+    "endpage": 106,
+    "startaya": 163,
+    "endaya": 176,
+    "startsura": 4,
+    "endsura": 4,
+    "starthizb": 11,
+    "endhizb": 11,
+    "startnim": 21,
+    "endnim": 21,
+    "startrub": 42,
+    "endrub": 42,
+    "allsura": [
+      4
+    ],
+    "words": 297
+  },
+  "43": {
+    "index": 43,
+    "startpage": 106,
+    "endpage": 109,
+    "startaya": 1,
+    "endaya": 11,
+    "startsura": 5,
+    "endsura": 5,
+    "starthizb": 11,
+    "endhizb": 11,
+    "startnim": 22,
+    "endnim": 22,
+    "startrub": 43,
+    "endrub": 43,
+    "allsura": [
+      5
+    ],
+    "words": 356
+  },
+  "44": {
+    "index": 44,
+    "startpage": 109,
+    "endpage": 112,
+    "startaya": 12,
+    "endaya": 26,
+    "startsura": 5,
+    "endsura": 5,
+    "starthizb": 11,
+    "endhizb": 11,
+    "startnim": 22,
+    "endnim": 22,
+    "startrub": 44,
+    "endrub": 44,
+    "allsura": [
+      5
+    ],
+    "words": 360
+  },
+  "45": {
+    "index": 45,
+    "startpage": 112,
+    "endpage": 114,
+    "startaya": 27,
+    "endaya": 40,
+    "startsura": 5,
+    "endsura": 5,
+    "starthizb": 12,
+    "endhizb": 12,
+    "startnim": 23,
+    "endnim": 23,
+    "startrub": 45,
+    "endrub": 45,
+    "allsura": [
+      5
+    ],
+    "words": 269
+  },
+  "46": {
+    "index": 46,
+    "startpage": 114,
+    "endpage": 116,
+    "startaya": 41,
+    "endaya": 50,
+    "startsura": 5,
+    "endsura": 5,
+    "starthizb": 12,
+    "endhizb": 12,
+    "startnim": 23,
+    "endnim": 23,
+    "startrub": 46,
+    "endrub": 46,
+    "allsura": [
+      5
+    ],
+    "words": 316
+  },
+  "47": {
+    "index": 47,
+    "startpage": 117,
+    "endpage": 119,
+    "startaya": 51,
+    "endaya": 66,
+    "startsura": 5,
+    "endsura": 5,
+    "starthizb": 12,
+    "endhizb": 12,
+    "startnim": 24,
+    "endnim": 24,
+    "startrub": 47,
+    "endrub": 47,
+    "allsura": [
+      5
+    ],
+    "words": 333
+  },
+  "48": {
+    "index": 48,
+    "startpage": 119,
+    "endpage": 121,
+    "startaya": 67,
+    "endaya": 81,
+    "startsura": 5,
+    "endsura": 5,
+    "starthizb": 12,
+    "endhizb": 12,
+    "startnim": 24,
+    "endnim": 24,
+    "startrub": 48,
+    "endrub": 48,
+    "allsura": [
+      5
+    ],
+    "words": 303
+  },
+  "49": {
+    "index": 49,
+    "startpage": 121,
+    "endpage": 124,
+    "startaya": 82,
+    "endaya": 96,
+    "startsura": 5,
+    "endsura": 5,
+    "starthizb": 13,
+    "endhizb": 13,
+    "startnim": 25,
+    "endnim": 25,
+    "startrub": 49,
+    "endrub": 49,
+    "allsura": [
+      5
+    ],
+    "words": 323
+  },
+  "50": {
+    "index": 50,
+    "startpage": 124,
+    "endpage": 125,
+    "startaya": 97,
+    "endaya": 108,
+    "startsura": 5,
+    "endsura": 5,
+    "starthizb": 13,
+    "endhizb": 13,
+    "startnim": 25,
+    "endnim": 25,
+    "startrub": 50,
+    "endrub": 50,
+    "allsura": [
+      5
+    ],
+    "words": 259
+  },
+  "51": {
+    "index": 51,
+    "startpage": 126,
+    "endpage": 129,
+    "startaya": 1,
+    "endaya": 120,
+    "startsura": 5,
+    "endsura": 6,
+    "starthizb": 13,
+    "endhizb": 13,
+    "startnim": 26,
+    "endnim": 26,
+    "startrub": 51,
+    "endrub": 51,
+    "allsura": [
+      5,
+      6
+    ],
+    "words": 465
+  },
+  "52": {
+    "index": 52,
+    "startpage": 129,
+    "endpage": 131,
+    "startaya": 13,
+    "endaya": 35,
+    "startsura": 6,
+    "endsura": 6,
+    "starthizb": 13,
+    "endhizb": 13,
+    "startnim": 26,
+    "endnim": 26,
+    "startrub": 52,
+    "endrub": 52,
+    "allsura": [
+      6
+    ],
+    "words": 379
+  },
+  "53": {
+    "index": 53,
+    "startpage": 132,
+    "endpage": 134,
+    "startaya": 36,
+    "endaya": 58,
+    "startsura": 6,
+    "endsura": 6,
+    "starthizb": 14,
+    "endhizb": 14,
+    "startnim": 27,
+    "endnim": 27,
+    "startrub": 53,
+    "endrub": 53,
+    "allsura": [
+      6
+    ],
+    "words": 384
+  },
+  "54": {
+    "index": 54,
+    "startpage": 134,
+    "endpage": 136,
+    "startaya": 59,
+    "endaya": 73,
+    "startsura": 6,
+    "endsura": 6,
+    "starthizb": 14,
+    "endhizb": 14,
+    "startnim": 27,
+    "endnim": 27,
+    "startrub": 54,
+    "endrub": 54,
+    "allsura": [
+      6
+    ],
+    "words": 301
+  },
+  "55": {
+    "index": 55,
+    "startpage": 137,
+    "endpage": 139,
+    "startaya": 74,
+    "endaya": 94,
+    "startsura": 6,
+    "endsura": 6,
+    "starthizb": 14,
+    "endhizb": 14,
+    "startnim": 28,
+    "endnim": 28,
+    "startrub": 55,
+    "endrub": 55,
+    "allsura": [
+      6
+    ],
+    "words": 395
+  },
+  "56": {
+    "index": 56,
+    "startpage": 140,
+    "endpage": 141,
+    "startaya": 95,
+    "endaya": 110,
+    "startsura": 6,
+    "endsura": 6,
+    "starthizb": 14,
+    "endhizb": 14,
+    "startnim": 28,
+    "endnim": 28,
+    "startrub": 56,
+    "endrub": 56,
+    "allsura": [
+      6
+    ],
+    "words": 268
+  },
+  "57": {
+    "index": 57,
+    "startpage": 142,
+    "endpage": 144,
+    "startaya": 111,
+    "endaya": 126,
+    "startsura": 6,
+    "endsura": 6,
+    "starthizb": 15,
+    "endhizb": 15,
+    "startnim": 29,
+    "endnim": 29,
+    "startrub": 57,
+    "endrub": 57,
+    "allsura": [
+      6
+    ],
+    "words": 297
+  },
+  "58": {
+    "index": 58,
+    "startpage": 144,
+    "endpage": 146,
+    "startaya": 127,
+    "endaya": 140,
+    "startsura": 6,
+    "endsura": 6,
+    "starthizb": 15,
+    "endhizb": 15,
+    "startnim": 29,
+    "endnim": 29,
+    "startrub": 58,
+    "endrub": 58,
+    "allsura": [
+      6
+    ],
+    "words": 261
+  },
+  "59": {
+    "index": 59,
+    "startpage": 146,
+    "endpage": 148,
+    "startaya": 141,
+    "endaya": 150,
+    "startsura": 6,
+    "endsura": 6,
+    "starthizb": 15,
+    "endhizb": 15,
+    "startnim": 30,
+    "endnim": 30,
+    "startrub": 59,
+    "endrub": 59,
+    "allsura": [
+      6
+    ],
+    "words": 262
+  },
+  "60": {
+    "index": 60,
+    "startpage": 148,
+    "endpage": 150,
+    "startaya": 151,
+    "endaya": 165,
+    "startsura": 6,
+    "endsura": 6,
+    "starthizb": 15,
+    "endhizb": 15,
+    "startnim": 30,
+    "endnim": 30,
+    "startrub": 60,
+    "endrub": 60,
+    "allsura": [
+      6
+    ],
+    "words": 323
+  },
+  "61": {
+    "index": 61,
+    "startpage": 151,
+    "endpage": 153,
+    "startaya": 1,
+    "endaya": 30,
+    "startsura": 7,
+    "endsura": 7,
+    "starthizb": 16,
+    "endhizb": 16,
+    "startnim": 31,
+    "endnim": 31,
+    "startrub": 61,
+    "endrub": 61,
+    "allsura": [
+      7
+    ],
+    "words": 390
+  },
+  "62": {
+    "index": 62,
+    "startpage": 154,
+    "endpage": 156,
+    "startaya": 31,
+    "endaya": 46,
+    "startsura": 7,
+    "endsura": 7,
+    "starthizb": 16,
+    "endhizb": 16,
+    "startnim": 31,
+    "endnim": 31,
+    "startrub": 62,
+    "endrub": 62,
+    "allsura": [
+      7
+    ],
+    "words": 341
+  },
+  "63": {
+    "index": 63,
+    "startpage": 156,
+    "endpage": 158,
+    "startaya": 47,
+    "endaya": 64,
+    "startsura": 7,
+    "endsura": 7,
+    "starthizb": 16,
+    "endhizb": 16,
+    "startnim": 32,
+    "endnim": 32,
+    "startrub": 63,
+    "endrub": 63,
+    "allsura": [
+      7
+    ],
+    "words": 307
+  },
+  "64": {
+    "index": 64,
+    "startpage": 158,
+    "endpage": 161,
+    "startaya": 65,
+    "endaya": 87,
+    "startsura": 7,
+    "endsura": 7,
+    "starthizb": 16,
+    "endhizb": 16,
+    "startnim": 32,
+    "endnim": 32,
+    "startrub": 64,
+    "endrub": 64,
+    "allsura": [
+      7
+    ],
+    "words": 385
+  },
+  "65": {
+    "index": 65,
+    "startpage": 162,
+    "endpage": 164,
+    "startaya": 88,
+    "endaya": 116,
+    "startsura": 7,
+    "endsura": 7,
+    "starthizb": 17,
+    "endhizb": 17,
+    "startnim": 33,
+    "endnim": 33,
+    "startrub": 65,
+    "endrub": 65,
+    "allsura": [
+      7
+    ],
+    "words": 366
+  },
+  "66": {
+    "index": 66,
+    "startpage": 164,
+    "endpage": 167,
+    "startaya": 117,
+    "endaya": 141,
+    "startsura": 7,
+    "endsura": 7,
+    "starthizb": 17,
+    "endhizb": 17,
+    "startnim": 33,
+    "endnim": 33,
+    "startrub": 66,
+    "endrub": 66,
+    "allsura": [
+      7
+    ],
+    "words": 328
+  },
+  "67": {
+    "index": 67,
+    "startpage": 167,
+    "endpage": 169,
+    "startaya": 142,
+    "endaya": 155,
+    "startsura": 7,
+    "endsura": 7,
+    "starthizb": 17,
+    "endhizb": 17,
+    "startnim": 34,
+    "endnim": 34,
+    "startrub": 67,
+    "endrub": 67,
+    "allsura": [
+      7
+    ],
+    "words": 322
+  },
+  "68": {
+    "index": 68,
+    "startpage": 170,
+    "endpage": 172,
+    "startaya": 156,
+    "endaya": 170,
+    "startsura": 7,
+    "endsura": 7,
+    "starthizb": 17,
+    "endhizb": 17,
+    "startnim": 34,
+    "endnim": 34,
+    "startrub": 68,
+    "endrub": 68,
+    "allsura": [
+      7
+    ],
+    "words": 350
+  },
+  "69": {
+    "index": 69,
+    "startpage": 173,
+    "endpage": 175,
+    "startaya": 171,
+    "endaya": 188,
+    "startsura": 7,
+    "endsura": 7,
+    "starthizb": 18,
+    "endhizb": 18,
+    "startnim": 35,
+    "endnim": 35,
+    "startrub": 69,
+    "endrub": 69,
+    "allsura": [
+      7
+    ],
+    "words": 299
+  },
+  "70": {
+    "index": 70,
+    "startpage": 175,
+    "endpage": 176,
+    "startaya": 189,
+    "endaya": 206,
+    "startsura": 7,
+    "endsura": 7,
+    "starthizb": 18,
+    "endhizb": 18,
+    "startnim": 35,
+    "endnim": 35,
+    "startrub": 70,
+    "endrub": 70,
+    "allsura": [
+      7
+    ],
+    "words": 232
+  },
+  "71": {
+    "index": 71,
+    "startpage": 177,
+    "endpage": 179,
+    "startaya": 1,
+    "endaya": 21,
+    "startsura": 8,
+    "endsura": 8,
+    "starthizb": 18,
+    "endhizb": 18,
+    "startnim": 36,
+    "endnim": 36,
+    "startrub": 71,
+    "endrub": 71,
+    "allsura": [
+      8
+    ],
+    "words": 299
+  },
+  "72": {
+    "index": 72,
+    "startpage": 179,
+    "endpage": 181,
+    "startaya": 22,
+    "endaya": 40,
+    "startsura": 8,
+    "endsura": 8,
+    "starthizb": 18,
+    "endhizb": 18,
+    "startnim": 36,
+    "endnim": 36,
+    "startrub": 72,
+    "endrub": 72,
+    "allsura": [
+      8
+    ],
+    "words": 291
+  },
+  "73": {
+    "index": 73,
+    "startpage": 182,
+    "endpage": 184,
+    "startaya": 41,
+    "endaya": 60,
+    "startsura": 8,
+    "endsura": 8,
+    "starthizb": 19,
+    "endhizb": 19,
+    "startnim": 37,
+    "endnim": 37,
+    "startrub": 73,
+    "endrub": 73,
+    "allsura": [
+      8
+    ],
+    "words": 364
+  },
+  "74": {
+    "index": 74,
+    "startpage": 184,
+    "endpage": 186,
+    "startaya": 61,
+    "endaya": 75,
+    "startsura": 8,
+    "endsura": 8,
+    "starthizb": 19,
+    "endhizb": 19,
+    "startnim": 37,
+    "endnim": 37,
+    "startrub": 74,
+    "endrub": 74,
+    "allsura": [
+      8
+    ],
+    "words": 280
+  },
+  "75": {
+    "index": 75,
+    "startpage": 187,
+    "endpage": 189,
+    "startaya": 1,
+    "endaya": 18,
+    "startsura": 9,
+    "endsura": 9,
+    "starthizb": 19,
+    "endhizb": 19,
+    "startnim": 38,
+    "endnim": 38,
+    "startrub": 75,
+    "endrub": 75,
+    "allsura": [
+      9
+    ],
+    "words": 321
+  },
+  "76": {
+    "index": 76,
+    "startpage": 189,
+    "endpage": 192,
+    "startaya": 19,
+    "endaya": 33,
+    "startsura": 9,
+    "endsura": 9,
+    "starthizb": 19,
+    "endhizb": 19,
+    "startnim": 38,
+    "endnim": 38,
+    "startrub": 76,
+    "endrub": 76,
+    "allsura": [
+      9
+    ],
+    "words": 294
+  },
+  "77": {
+    "index": 77,
+    "startpage": 192,
+    "endpage": 194,
+    "startaya": 34,
+    "endaya": 45,
+    "startsura": 9,
+    "endsura": 9,
+    "starthizb": 20,
+    "endhizb": 20,
+    "startnim": 39,
+    "endnim": 39,
+    "startrub": 77,
+    "endrub": 77,
+    "allsura": [
+      9
+    ],
+    "words": 280
+  },
+  "78": {
+    "index": 78,
+    "startpage": 194,
+    "endpage": 196,
+    "startaya": 46,
+    "endaya": 59,
+    "startsura": 9,
+    "endsura": 9,
+    "starthizb": 20,
+    "endhizb": 20,
+    "startnim": 39,
+    "endnim": 39,
+    "startrub": 78,
+    "endrub": 78,
+    "allsura": [
+      9
+    ],
+    "words": 222
+  },
+  "79": {
+    "index": 79,
+    "startpage": 196,
+    "endpage": 199,
+    "startaya": 60,
+    "endaya": 74,
+    "startsura": 9,
+    "endsura": 9,
+    "starthizb": 20,
+    "endhizb": 20,
+    "startnim": 40,
+    "endnim": 40,
+    "startrub": 79,
+    "endrub": 79,
+    "allsura": [
+      9
+    ],
+    "words": 320
+  },
+  "80": {
+    "index": 80,
+    "startpage": 199,
+    "endpage": 201,
+    "startaya": 75,
+    "endaya": 92,
+    "startsura": 9,
+    "endsura": 9,
+    "starthizb": 20,
+    "endhizb": 20,
+    "startnim": 40,
+    "endnim": 40,
+    "startrub": 80,
+    "endrub": 80,
+    "allsura": [
+      9
+    ],
+    "words": 308
+  },
+  "81": {
+    "index": 81,
+    "startpage": 201,
+    "endpage": 204,
+    "startaya": 93,
+    "endaya": 110,
+    "startsura": 9,
+    "endsura": 9,
+    "starthizb": 21,
+    "endhizb": 21,
+    "startnim": 41,
+    "endnim": 41,
+    "startrub": 81,
+    "endrub": 81,
+    "allsura": [
+      9
+    ],
+    "words": 353
+  },
+  "82": {
+    "index": 82,
+    "startpage": 204,
+    "endpage": 206,
+    "startaya": 111,
+    "endaya": 121,
+    "startsura": 9,
+    "endsura": 9,
+    "starthizb": 21,
+    "endhizb": 21,
+    "startnim": 41,
+    "endnim": 41,
+    "startrub": 82,
+    "endrub": 82,
+    "allsura": [
+      9
+    ],
+    "words": 266
+  },
+  "83": {
+    "index": 83,
+    "startpage": 206,
+    "endpage": 209,
+    "startaya": 1,
+    "endaya": 129,
+    "startsura": 9,
+    "endsura": 10,
+    "starthizb": 21,
+    "endhizb": 21,
+    "startnim": 42,
+    "endnim": 42,
+    "startrub": 83,
+    "endrub": 83,
+    "allsura": [
+      9,
+      10
+    ],
+    "words": 309
+  },
+  "84": {
+    "index": 84,
+    "startpage": 209,
+    "endpage": 211,
+    "startaya": 11,
+    "endaya": 25,
+    "startsura": 10,
+    "endsura": 10,
+    "starthizb": 21,
+    "endhizb": 21,
+    "startnim": 42,
+    "endnim": 42,
+    "startrub": 84,
+    "endrub": 84,
+    "allsura": [
+      10
+    ],
+    "words": 347
+  },
+  "85": {
+    "index": 85,
+    "startpage": 212,
+    "endpage": 214,
+    "startaya": 26,
+    "endaya": 52,
+    "startsura": 10,
+    "endsura": 10,
+    "starthizb": 22,
+    "endhizb": 22,
+    "startnim": 43,
+    "endnim": 43,
+    "startrub": 85,
+    "endrub": 85,
+    "allsura": [
+      10
+    ],
+    "words": 426
+  },
+  "86": {
+    "index": 86,
+    "startpage": 214,
+    "endpage": 216,
+    "startaya": 53,
+    "endaya": 70,
+    "startsura": 10,
+    "endsura": 10,
+    "starthizb": 22,
+    "endhizb": 22,
+    "startnim": 43,
+    "endnim": 43,
+    "startrub": 86,
+    "endrub": 86,
+    "allsura": [
+      10
+    ],
+    "words": 284
+  },
+  "87": {
+    "index": 87,
+    "startpage": 217,
+    "endpage": 219,
+    "startaya": 71,
+    "endaya": 89,
+    "startsura": 10,
+    "endsura": 10,
+    "starthizb": 22,
+    "endhizb": 22,
+    "startnim": 44,
+    "endnim": 44,
+    "startrub": 87,
+    "endrub": 87,
+    "allsura": [
+      10
+    ],
+    "words": 284
+  },
+  "88": {
+    "index": 88,
+    "startpage": 219,
+    "endpage": 221,
+    "startaya": 1,
+    "endaya": 109,
+    "startsura": 10,
+    "endsura": 11,
+    "starthizb": 22,
+    "endhizb": 22,
+    "startnim": 44,
+    "endnim": 44,
+    "startrub": 88,
+    "endrub": 88,
+    "allsura": [
+      10,
+      11
+    ],
+    "words": 388
+  },
+  "89": {
+    "index": 89,
+    "startpage": 222,
+    "endpage": 224,
+    "startaya": 6,
+    "endaya": 23,
+    "startsura": 11,
+    "endsura": 11,
+    "starthizb": 23,
+    "endhizb": 23,
+    "startnim": 45,
+    "endnim": 45,
+    "startrub": 89,
+    "endrub": 89,
+    "allsura": [
+      11
+    ],
+    "words": 321
+  },
+  "90": {
+    "index": 90,
+    "startpage": 224,
+    "endpage": 226,
+    "startaya": 24,
+    "endaya": 40,
+    "startsura": 11,
+    "endsura": 11,
+    "starthizb": 23,
+    "endhizb": 23,
+    "startnim": 45,
+    "endnim": 45,
+    "startrub": 90,
+    "endrub": 90,
+    "allsura": [
+      11
+    ],
+    "words": 277
+  },
+  "91": {
+    "index": 91,
+    "startpage": 226,
+    "endpage": 228,
+    "startaya": 41,
+    "endaya": 60,
+    "startsura": 11,
+    "endsura": 11,
+    "starthizb": 23,
+    "endhizb": 23,
+    "startnim": 46,
+    "endnim": 46,
+    "startrub": 91,
+    "endrub": 91,
+    "allsura": [
+      11
+    ],
+    "words": 331
+  },
+  "92": {
+    "index": 92,
+    "startpage": 228,
+    "endpage": 231,
+    "startaya": 61,
+    "endaya": 83,
+    "startsura": 11,
+    "endsura": 11,
+    "starthizb": 23,
+    "endhizb": 23,
+    "startnim": 46,
+    "endnim": 46,
+    "startrub": 92,
+    "endrub": 92,
+    "allsura": [
+      11
+    ],
+    "words": 346
+  },
+  "93": {
+    "index": 93,
+    "startpage": 231,
+    "endpage": 233,
+    "startaya": 84,
+    "endaya": 107,
+    "startsura": 11,
+    "endsura": 11,
+    "starthizb": 24,
+    "endhizb": 24,
+    "startnim": 47,
+    "endnim": 47,
+    "startrub": 93,
+    "endrub": 93,
+    "allsura": [
+      11
+    ],
+    "words": 351
+  },
+  "94": {
+    "index": 94,
+    "startpage": 233,
+    "endpage": 236,
+    "startaya": 1,
+    "endaya": 123,
+    "startsura": 11,
+    "endsura": 12,
+    "starthizb": 24,
+    "endhizb": 24,
+    "startnim": 47,
+    "endnim": 47,
+    "startrub": 94,
+    "endrub": 94,
+    "allsura": [
+      11,
+      12
+    ],
+    "words": 302
+  },
+  "95": {
+    "index": 95,
+    "startpage": 236,
+    "endpage": 238,
+    "startaya": 7,
+    "endaya": 29,
+    "startsura": 12,
+    "endsura": 12,
+    "starthizb": 24,
+    "endhizb": 24,
+    "startnim": 48,
+    "endnim": 48,
+    "startrub": 95,
+    "endrub": 95,
+    "allsura": [
+      12
+    ],
+    "words": 333
+  },
+  "96": {
+    "index": 96,
+    "startpage": 238,
+    "endpage": 241,
+    "startaya": 30,
+    "endaya": 52,
+    "startsura": 12,
+    "endsura": 12,
+    "starthizb": 24,
+    "endhizb": 24,
+    "startnim": 48,
+    "endnim": 48,
+    "startrub": 96,
+    "endrub": 96,
+    "allsura": [
+      12
+    ],
+    "words": 432
+  },
+  "97": {
+    "index": 97,
+    "startpage": 242,
+    "endpage": 244,
+    "startaya": 53,
+    "endaya": 76,
+    "startsura": 12,
+    "endsura": 12,
+    "starthizb": 25,
+    "endhizb": 25,
+    "startnim": 49,
+    "endnim": 49,
+    "startrub": 97,
+    "endrub": 97,
+    "allsura": [
+      12
+    ],
+    "words": 366
+  },
+  "98": {
+    "index": 98,
+    "startpage": 244,
+    "endpage": 247,
+    "startaya": 77,
+    "endaya": 100,
+    "startsura": 12,
+    "endsura": 12,
+    "starthizb": 25,
+    "endhizb": 25,
+    "startnim": 49,
+    "endnim": 49,
+    "startrub": 98,
+    "endrub": 98,
+    "allsura": [
+      12
+    ],
+    "words": 393
+  },
+  "99": {
+    "index": 99,
+    "startpage": 247,
+    "endpage": 249,
+    "startaya": 1,
+    "endaya": 111,
+    "startsura": 12,
+    "endsura": 13,
+    "starthizb": 25,
+    "endhizb": 25,
+    "startnim": 50,
+    "endnim": 50,
+    "startrub": 99,
+    "endrub": 99,
+    "allsura": [
+      12,
+      13
+    ],
+    "words": 263
+  },
+  "100": {
+    "index": 100,
+    "startpage": 249,
+    "endpage": 251,
+    "startaya": 5,
+    "endaya": 18,
+    "startsura": 13,
+    "endsura": 13,
+    "starthizb": 25,
+    "endhizb": 25,
+    "startnim": 50,
+    "endnim": 50,
+    "startrub": 100,
+    "endrub": 100,
+    "allsura": [
+      13
+    ],
+    "words": 309
+  },
+  "101": {
+    "index": 101,
+    "startpage": 252,
+    "endpage": 253,
+    "startaya": 19,
+    "endaya": 34,
+    "startsura": 13,
+    "endsura": 13,
+    "starthizb": 26,
+    "endhizb": 26,
+    "startnim": 51,
+    "endnim": 51,
+    "startrub": 101,
+    "endrub": 101,
+    "allsura": [
+      13
+    ],
+    "words": 298
+  },
+  "102": {
+    "index": 102,
+    "startpage": 254,
+    "endpage": 256,
+    "startaya": 1,
+    "endaya": 43,
+    "startsura": 13,
+    "endsura": 14,
+    "starthizb": 26,
+    "endhizb": 26,
+    "startnim": 51,
+    "endnim": 51,
+    "startrub": 102,
+    "endrub": 102,
+    "allsura": [
+      13,
+      14
+    ],
+    "words": 327
+  },
+  "103": {
+    "index": 103,
+    "startpage": 256,
+    "endpage": 259,
+    "startaya": 10,
+    "endaya": 27,
+    "startsura": 14,
+    "endsura": 14,
+    "starthizb": 26,
+    "endhizb": 26,
+    "startnim": 52,
+    "endnim": 52,
+    "startrub": 103,
+    "endrub": 103,
+    "allsura": [
+      14
+    ],
+    "words": 327
+  },
+  "104": {
+    "index": 104,
+    "startpage": 259,
+    "endpage": 261,
+    "startaya": 28,
+    "endaya": 52,
+    "startsura": 14,
+    "endsura": 14,
+    "starthizb": 26,
+    "endhizb": 26,
+    "startnim": 52,
+    "endnim": 52,
+    "startrub": 104,
+    "endrub": 104,
+    "allsura": [
+      14
+    ],
+    "words": 330
+  },
+  "105": {
+    "index": 105,
+    "startpage": 262,
+    "endpage": 264,
+    "startaya": 1,
+    "endaya": 48,
+    "startsura": 15,
+    "endsura": 15,
+    "starthizb": 27,
+    "endhizb": 27,
+    "startnim": 53,
+    "endnim": 53,
+    "startrub": 105,
+    "endrub": 105,
+    "allsura": [
+      15
+    ],
+    "words": 351
+  },
+  "106": {
+    "index": 106,
+    "startpage": 264,
+    "endpage": 267,
+    "startaya": 49,
+    "endaya": 99,
+    "startsura": 15,
+    "endsura": 15,
+    "starthizb": 27,
+    "endhizb": 27,
+    "startnim": 53,
+    "endnim": 53,
+    "startrub": 106,
+    "endrub": 106,
+    "allsura": [
+      15
+    ],
+    "words": 304
+  },
+  "107": {
+    "index": 107,
+    "startpage": 267,
+    "endpage": 270,
+    "startaya": 1,
+    "endaya": 29,
+    "startsura": 16,
+    "endsura": 16,
+    "starthizb": 27,
+    "endhizb": 27,
+    "startnim": 54,
+    "endnim": 54,
+    "startrub": 107,
+    "endrub": 107,
+    "allsura": [
+      16
+    ],
+    "words": 340
+  },
+  "108": {
+    "index": 108,
+    "startpage": 270,
+    "endpage": 272,
+    "startaya": 30,
+    "endaya": 50,
+    "startsura": 16,
+    "endsura": 16,
+    "starthizb": 27,
+    "endhizb": 27,
+    "startnim": 54,
+    "endnim": 54,
+    "startrub": 108,
+    "endrub": 108,
+    "allsura": [
+      16
+    ],
+    "words": 311
+  },
+  "109": {
+    "index": 109,
+    "startpage": 272,
+    "endpage": 275,
+    "startaya": 51,
+    "endaya": 74,
+    "startsura": 16,
+    "endsura": 16,
+    "starthizb": 28,
+    "endhizb": 28,
+    "startnim": 55,
+    "endnim": 55,
+    "startrub": 109,
+    "endrub": 109,
+    "allsura": [
+      16
+    ],
+    "words": 354
+  },
+  "110": {
+    "index": 110,
+    "startpage": 275,
+    "endpage": 277,
+    "startaya": 75,
+    "endaya": 89,
+    "startsura": 16,
+    "endsura": 16,
+    "starthizb": 28,
+    "endhizb": 28,
+    "startnim": 55,
+    "endnim": 55,
+    "startrub": 110,
+    "endrub": 110,
+    "allsura": [
+      16
+    ],
+    "words": 262
+  },
+  "111": {
+    "index": 111,
+    "startpage": 277,
+    "endpage": 279,
+    "startaya": 90,
+    "endaya": 110,
+    "startsura": 16,
+    "endsura": 16,
+    "starthizb": 28,
+    "endhizb": 28,
+    "startnim": 56,
+    "endnim": 56,
+    "startrub": 111,
+    "endrub": 111,
+    "allsura": [
+      16
+    ],
+    "words": 321
+  },
+  "112": {
+    "index": 112,
+    "startpage": 280,
+    "endpage": 281,
+    "startaya": 111,
+    "endaya": 128,
+    "startsura": 16,
+    "endsura": 16,
+    "starthizb": 28,
+    "endhizb": 28,
+    "startnim": 56,
+    "endnim": 56,
+    "startrub": 112,
+    "endrub": 112,
+    "allsura": [
+      16
+    ],
+    "words": 256
+  },
+  "113": {
+    "index": 113,
+    "startpage": 282,
+    "endpage": 284,
+    "startaya": 1,
+    "endaya": 22,
+    "startsura": 17,
+    "endsura": 17,
+    "starthizb": 29,
+    "endhizb": 29,
+    "startnim": 57,
+    "endnim": 57,
+    "startrub": 113,
+    "endrub": 113,
+    "allsura": [
+      17
+    ],
+    "words": 303
+  },
+  "114": {
+    "index": 114,
+    "startpage": 284,
+    "endpage": 286,
+    "startaya": 23,
+    "endaya": 49,
+    "startsura": 17,
+    "endsura": 17,
+    "starthizb": 29,
+    "endhizb": 29,
+    "startnim": 57,
+    "endnim": 57,
+    "startrub": 114,
+    "endrub": 114,
+    "allsura": [
+      17
+    ],
+    "words": 359
+  },
+  "115": {
+    "index": 115,
+    "startpage": 287,
+    "endpage": 289,
+    "startaya": 50,
+    "endaya": 69,
+    "startsura": 17,
+    "endsura": 17,
+    "starthizb": 29,
+    "endhizb": 29,
+    "startnim": 58,
+    "endnim": 58,
+    "startrub": 115,
+    "endrub": 115,
+    "allsura": [
+      17
+    ],
+    "words": 314
+  },
+  "116": {
+    "index": 116,
+    "startpage": 289,
+    "endpage": 292,
+    "startaya": 70,
+    "endaya": 98,
+    "startsura": 17,
+    "endsura": 17,
+    "starthizb": 29,
+    "endhizb": 29,
+    "startnim": 58,
+    "endnim": 58,
+    "startrub": 116,
+    "endrub": 116,
+    "allsura": [
+      17
+    ],
+    "words": 395
+  },
+  "117": {
+    "index": 117,
+    "startpage": 292,
+    "endpage": 295,
+    "startaya": 1,
+    "endaya": 111,
+    "startsura": 17,
+    "endsura": 18,
+    "starthizb": 30,
+    "endhizb": 30,
+    "startnim": 59,
+    "endnim": 59,
+    "startrub": 117,
+    "endrub": 117,
+    "allsura": [
+      17,
+      18
+    ],
+    "words": 373
+  },
+  "118": {
+    "index": 118,
+    "startpage": 295,
+    "endpage": 297,
+    "startaya": 17,
+    "endaya": 31,
+    "startsura": 18,
+    "endsura": 18,
+    "starthizb": 30,
+    "endhizb": 30,
+    "startnim": 59,
+    "endnim": 59,
+    "startrub": 118,
+    "endrub": 118,
+    "allsura": [
+      18
+    ],
+    "words": 340
+  },
+  "119": {
+    "index": 119,
+    "startpage": 297,
+    "endpage": 299,
+    "startaya": 32,
+    "endaya": 50,
+    "startsura": 18,
+    "endsura": 18,
+    "starthizb": 30,
+    "endhizb": 30,
+    "startnim": 60,
+    "endnim": 60,
+    "startrub": 119,
+    "endrub": 119,
+    "allsura": [
+      18
+    ],
+    "words": 283
+  },
+  "120": {
+    "index": 120,
+    "startpage": 299,
+    "endpage": 301,
+    "startaya": 51,
+    "endaya": 74,
+    "startsura": 18,
+    "endsura": 18,
+    "starthizb": 30,
+    "endhizb": 30,
+    "startnim": 60,
+    "endnim": 60,
+    "startrub": 120,
+    "endrub": 120,
+    "allsura": [
+      18
+    ],
+    "words": 317
+  },
+  "121": {
+    "index": 121,
+    "startpage": 302,
+    "endpage": 304,
+    "startaya": 75,
+    "endaya": 98,
+    "startsura": 18,
+    "endsura": 18,
+    "starthizb": 31,
+    "endhizb": 31,
+    "startnim": 61,
+    "endnim": 61,
+    "startrub": 121,
+    "endrub": 121,
+    "allsura": [
+      18
+    ],
+    "words": 313
+  },
+  "122": {
+    "index": 122,
+    "startpage": 304,
+    "endpage": 306,
+    "startaya": 1,
+    "endaya": 110,
+    "startsura": 18,
+    "endsura": 19,
+    "starthizb": 31,
+    "endhizb": 31,
+    "startnim": 61,
+    "endnim": 61,
+    "startrub": 122,
+    "endrub": 122,
+    "allsura": [
+      18,
+      19
+    ],
+    "words": 340
+  },
+  "123": {
+    "index": 123,
+    "startpage": 306,
+    "endpage": 309,
+    "startaya": 22,
+    "endaya": 58,
+    "startsura": 19,
+    "endsura": 19,
+    "starthizb": 31,
+    "endhizb": 31,
+    "startnim": 62,
+    "endnim": 62,
+    "startrub": 123,
+    "endrub": 123,
+    "allsura": [
+      19
+    ],
+    "words": 393
+  },
+  "124": {
+    "index": 124,
+    "startpage": 309,
+    "endpage": 312,
+    "startaya": 59,
+    "endaya": 98,
+    "startsura": 19,
+    "endsura": 19,
+    "starthizb": 31,
+    "endhizb": 31,
+    "startnim": 62,
+    "endnim": 62,
+    "startrub": 124,
+    "endrub": 124,
+    "allsura": [
+      19
+    ],
+    "words": 366
+  },
+  "125": {
+    "index": 125,
+    "startpage": 312,
+    "endpage": 315,
+    "startaya": 1,
+    "endaya": 54,
+    "startsura": 20,
+    "endsura": 20,
+    "starthizb": 32,
+    "endhizb": 32,
+    "startnim": 63,
+    "endnim": 63,
+    "startrub": 125,
+    "endrub": 125,
+    "allsura": [
+      20
+    ],
+    "words": 406
+  },
+  "126": {
+    "index": 126,
+    "startpage": 315,
+    "endpage": 317,
+    "startaya": 55,
+    "endaya": 82,
+    "startsura": 20,
+    "endsura": 20,
+    "starthizb": 32,
+    "endhizb": 32,
+    "startnim": 63,
+    "endnim": 63,
+    "startrub": 126,
+    "endrub": 126,
+    "allsura": [
+      20
+    ],
+    "words": 315
+  },
+  "127": {
+    "index": 127,
+    "startpage": 317,
+    "endpage": 319,
+    "startaya": 83,
+    "endaya": 110,
+    "startsura": 20,
+    "endsura": 20,
+    "starthizb": 32,
+    "endhizb": 32,
+    "startnim": 64,
+    "endnim": 64,
+    "startrub": 127,
+    "endrub": 127,
+    "allsura": [
+      20
+    ],
+    "words": 307
+  },
+  "128": {
+    "index": 128,
+    "startpage": 319,
+    "endpage": 321,
+    "startaya": 111,
+    "endaya": 135,
+    "startsura": 20,
+    "endsura": 20,
+    "starthizb": 32,
+    "endhizb": 32,
+    "startnim": 64,
+    "endnim": 64,
+    "startrub": 128,
+    "endrub": 128,
+    "allsura": [
+      20
+    ],
+    "words": 307
+  },
+  "129": {
+    "index": 129,
+    "startpage": 322,
+    "endpage": 324,
+    "startaya": 1,
+    "endaya": 28,
+    "startsura": 21,
+    "endsura": 21,
+    "starthizb": 33,
+    "endhizb": 33,
+    "startnim": 65,
+    "endnim": 65,
+    "startrub": 129,
+    "endrub": 129,
+    "allsura": [
+      21
+    ],
+    "words": 285
+  },
+  "130": {
+    "index": 130,
+    "startpage": 324,
+    "endpage": 326,
+    "startaya": 29,
+    "endaya": 50,
+    "startsura": 21,
+    "endsura": 21,
+    "starthizb": 33,
+    "endhizb": 33,
+    "startnim": 65,
+    "endnim": 65,
+    "startrub": 130,
+    "endrub": 130,
+    "allsura": [
+      21
+    ],
+    "words": 264
+  },
+  "131": {
+    "index": 131,
+    "startpage": 326,
+    "endpage": 329,
+    "startaya": 51,
+    "endaya": 82,
+    "startsura": 21,
+    "endsura": 21,
+    "starthizb": 33,
+    "endhizb": 33,
+    "startnim": 66,
+    "endnim": 66,
+    "startrub": 131,
+    "endrub": 131,
+    "allsura": [
+      21
+    ],
+    "words": 302
+  },
+  "132": {
+    "index": 132,
+    "startpage": 329,
+    "endpage": 331,
+    "startaya": 83,
+    "endaya": 112,
+    "startsura": 21,
+    "endsura": 21,
+    "starthizb": 33,
+    "endhizb": 33,
+    "startnim": 66,
+    "endnim": 66,
+    "startrub": 132,
+    "endrub": 132,
+    "allsura": [
+      21
+    ],
+    "words": 318
+  },
+  "133": {
+    "index": 133,
+    "startpage": 332,
+    "endpage": 334,
+    "startaya": 1,
+    "endaya": 18,
+    "startsura": 22,
+    "endsura": 22,
+    "starthizb": 34,
+    "endhizb": 34,
+    "startnim": 67,
+    "endnim": 67,
+    "startrub": 133,
+    "endrub": 133,
+    "allsura": [
+      22
+    ],
+    "words": 341
+  },
+  "134": {
+    "index": 134,
+    "startpage": 334,
+    "endpage": 336,
+    "startaya": 19,
+    "endaya": 37,
+    "startsura": 22,
+    "endsura": 22,
+    "starthizb": 34,
+    "endhizb": 34,
+    "startnim": 67,
+    "endnim": 67,
+    "startrub": 134,
+    "endrub": 134,
+    "allsura": [
+      22
+    ],
+    "words": 300
+  },
+  "135": {
+    "index": 135,
+    "startpage": 336,
+    "endpage": 339,
+    "startaya": 38,
+    "endaya": 59,
+    "startsura": 22,
+    "endsura": 22,
+    "starthizb": 34,
+    "endhizb": 34,
+    "startnim": 68,
+    "endnim": 68,
+    "startrub": 135,
+    "endrub": 135,
+    "allsura": [
+      22
+    ],
+    "words": 310
+  },
+  "136": {
+    "index": 136,
+    "startpage": 339,
+    "endpage": 341,
+    "startaya": 60,
+    "endaya": 78,
+    "startsura": 22,
+    "endsura": 22,
+    "starthizb": 34,
+    "endhizb": 34,
+    "startnim": 68,
+    "endnim": 68,
+    "startrub": 136,
+    "endrub": 136,
+    "allsura": [
+      22
+    ],
+    "words": 323
+  },
+  "137": {
+    "index": 137,
+    "startpage": 342,
+    "endpage": 344,
+    "startaya": 1,
+    "endaya": 35,
+    "startsura": 23,
+    "endsura": 23,
+    "starthizb": 35,
+    "endhizb": 35,
+    "startnim": 69,
+    "endnim": 69,
+    "startrub": 137,
+    "endrub": 137,
+    "allsura": [
+      23
+    ],
+    "words": 345
+  },
+  "138": {
+    "index": 138,
+    "startpage": 344,
+    "endpage": 346,
+    "startaya": 36,
+    "endaya": 74,
+    "startsura": 23,
+    "endsura": 23,
+    "starthizb": 35,
+    "endhizb": 35,
+    "startnim": 69,
+    "endnim": 69,
+    "startrub": 138,
+    "endrub": 138,
+    "allsura": [
+      23
+    ],
+    "words": 319
+  },
+  "139": {
+    "index": 139,
+    "startpage": 347,
+    "endpage": 349,
+    "startaya": 75,
+    "endaya": 118,
+    "startsura": 23,
+    "endsura": 23,
+    "starthizb": 35,
+    "endhizb": 35,
+    "startnim": 70,
+    "endnim": 70,
+    "startrub": 139,
+    "endrub": 139,
+    "allsura": [
+      23
+    ],
+    "words": 386
+  },
+  "140": {
+    "index": 140,
+    "startpage": 350,
+    "endpage": 351,
+    "startaya": 1,
+    "endaya": 20,
+    "startsura": 24,
+    "endsura": 24,
+    "starthizb": 35,
+    "endhizb": 35,
+    "startnim": 70,
+    "endnim": 70,
+    "startrub": 140,
+    "endrub": 140,
+    "allsura": [
+      24
+    ],
+    "words": 282
+  },
+  "141": {
+    "index": 141,
+    "startpage": 352,
+    "endpage": 354,
+    "startaya": 21,
+    "endaya": 34,
+    "startsura": 24,
+    "endsura": 24,
+    "starthizb": 36,
+    "endhizb": 36,
+    "startnim": 71,
+    "endnim": 71,
+    "startrub": 141,
+    "endrub": 141,
+    "allsura": [
+      24
+    ],
+    "words": 337
+  },
+  "142": {
+    "index": 142,
+    "startpage": 354,
+    "endpage": 356,
+    "startaya": 35,
+    "endaya": 52,
+    "startsura": 24,
+    "endsura": 24,
+    "starthizb": 36,
+    "endhizb": 36,
+    "startnim": 71,
+    "endnim": 71,
+    "startrub": 142,
+    "endrub": 142,
+    "allsura": [
+      24
+    ],
+    "words": 345
+  },
+  "143": {
+    "index": 143,
+    "startpage": 356,
+    "endpage": 359,
+    "startaya": 53,
+    "endaya": 64,
+    "startsura": 24,
+    "endsura": 24,
+    "starthizb": 36,
+    "endhizb": 36,
+    "startnim": 72,
+    "endnim": 72,
+    "startrub": 143,
+    "endrub": 143,
+    "allsura": [
+      24
+    ],
+    "words": 352
+  },
+  "144": {
+    "index": 144,
+    "startpage": 359,
+    "endpage": 361,
+    "startaya": 1,
+    "endaya": 20,
+    "startsura": 25,
+    "endsura": 25,
+    "starthizb": 36,
+    "endhizb": 36,
+    "startnim": 72,
+    "endnim": 72,
+    "startrub": 144,
+    "endrub": 144,
+    "allsura": [
+      25
+    ],
+    "words": 275
+  },
+  "145": {
+    "index": 145,
+    "startpage": 362,
+    "endpage": 364,
+    "startaya": 21,
+    "endaya": 52,
+    "startsura": 25,
+    "endsura": 25,
+    "starthizb": 37,
+    "endhizb": 37,
+    "startnim": 73,
+    "endnim": 73,
+    "startrub": 145,
+    "endrub": 145,
+    "allsura": [
+      25
+    ],
+    "words": 335
+  },
+  "146": {
+    "index": 146,
+    "startpage": 364,
+    "endpage": 366,
+    "startaya": 53,
+    "endaya": 77,
+    "startsura": 25,
+    "endsura": 25,
+    "starthizb": 37,
+    "endhizb": 37,
+    "startnim": 73,
+    "endnim": 73,
+    "startrub": 146,
+    "endrub": 146,
+    "allsura": [
+      25
+    ],
+    "words": 283
+  },
+  "147": {
+    "index": 147,
+    "startpage": 367,
+    "endpage": 369,
+    "startaya": 1,
+    "endaya": 51,
+    "startsura": 26,
+    "endsura": 26,
+    "starthizb": 37,
+    "endhizb": 37,
+    "startnim": 74,
+    "endnim": 74,
+    "startrub": 147,
+    "endrub": 147,
+    "allsura": [
+      26
+    ],
+    "words": 364
+  },
+  "148": {
+    "index": 148,
+    "startpage": 369,
+    "endpage": 371,
+    "startaya": 52,
+    "endaya": 110,
+    "startsura": 26,
+    "endsura": 26,
+    "starthizb": 37,
+    "endhizb": 37,
+    "startnim": 74,
+    "endnim": 74,
+    "startrub": 148,
+    "endrub": 148,
+    "allsura": [
+      26
+    ],
+    "words": 298
+  },
+  "149": {
+    "index": 149,
+    "startpage": 371,
+    "endpage": 374,
+    "startaya": 111,
+    "endaya": 180,
+    "startsura": 26,
+    "endsura": 26,
+    "starthizb": 38,
+    "endhizb": 38,
+    "startnim": 75,
+    "endnim": 75,
+    "startrub": 149,
+    "endrub": 149,
+    "allsura": [
+      26
+    ],
+    "words": 391
+  },
+  "150": {
+    "index": 150,
+    "startpage": 374,
+    "endpage": 376,
+    "startaya": 181,
+    "endaya": 227,
+    "startsura": 26,
+    "endsura": 26,
+    "starthizb": 38,
+    "endhizb": 38,
+    "startnim": 75,
+    "endnim": 75,
+    "startrub": 150,
+    "endrub": 150,
+    "allsura": [
+      26
+    ],
+    "words": 265
+  },
+  "151": {
+    "index": 151,
+    "startpage": 377,
+    "endpage": 379,
+    "startaya": 1,
+    "endaya": 26,
+    "startsura": 27,
+    "endsura": 27,
+    "starthizb": 38,
+    "endhizb": 38,
+    "startnim": 76,
+    "endnim": 76,
+    "startrub": 151,
+    "endrub": 151,
+    "allsura": [
+      27
+    ],
+    "words": 319
+  },
+  "152": {
+    "index": 152,
+    "startpage": 379,
+    "endpage": 381,
+    "startaya": 27,
+    "endaya": 55,
+    "startsura": 27,
+    "endsura": 27,
+    "starthizb": 38,
+    "endhizb": 38,
+    "startnim": 76,
+    "endnim": 76,
+    "startrub": 152,
+    "endrub": 152,
+    "allsura": [
+      27
+    ],
+    "words": 356
+  },
+  "153": {
+    "index": 153,
+    "startpage": 382,
+    "endpage": 384,
+    "startaya": 56,
+    "endaya": 81,
+    "startsura": 27,
+    "endsura": 27,
+    "starthizb": 39,
+    "endhizb": 39,
+    "startnim": 77,
+    "endnim": 77,
+    "startrub": 153,
+    "endrub": 153,
+    "allsura": [
+      27
+    ],
+    "words": 310
+  },
+  "154": {
+    "index": 154,
+    "startpage": 384,
+    "endpage": 386,
+    "startaya": 1,
+    "endaya": 93,
+    "startsura": 27,
+    "endsura": 28,
+    "starthizb": 39,
+    "endhizb": 39,
+    "startnim": 77,
+    "endnim": 77,
+    "startrub": 154,
+    "endrub": 154,
+    "allsura": [
+      27,
+      28
+    ],
+    "words": 303
+  },
+  "155": {
+    "index": 155,
+    "startpage": 386,
+    "endpage": 388,
+    "startaya": 12,
+    "endaya": 28,
+    "startsura": 28,
+    "endsura": 28,
+    "starthizb": 39,
+    "endhizb": 39,
+    "startnim": 78,
+    "endnim": 78,
+    "startrub": 155,
+    "endrub": 155,
+    "allsura": [
+      28
+    ],
+    "words": 312
+  },
+  "156": {
+    "index": 156,
+    "startpage": 389,
+    "endpage": 391,
+    "startaya": 29,
+    "endaya": 50,
+    "startsura": 28,
+    "endsura": 28,
+    "starthizb": 39,
+    "endhizb": 39,
+    "startnim": 78,
+    "endnim": 78,
+    "startrub": 156,
+    "endrub": 156,
+    "allsura": [
+      28
+    ],
+    "words": 378
+  },
+  "157": {
+    "index": 157,
+    "startpage": 392,
+    "endpage": 394,
+    "startaya": 51,
+    "endaya": 75,
+    "startsura": 28,
+    "endsura": 28,
+    "starthizb": 40,
+    "endhizb": 40,
+    "startnim": 79,
+    "endnim": 79,
+    "startrub": 157,
+    "endrub": 157,
+    "allsura": [
+      28
+    ],
+    "words": 340
+  },
+  "158": {
+    "index": 158,
+    "startpage": 394,
+    "endpage": 396,
+    "startaya": 76,
+    "endaya": 88,
+    "startsura": 28,
+    "endsura": 28,
+    "starthizb": 40,
+    "endhizb": 40,
+    "startnim": 79,
+    "endnim": 79,
+    "startrub": 158,
+    "endrub": 158,
+    "allsura": [
+      28
+    ],
+    "words": 263
+  },
+  "159": {
+    "index": 159,
+    "startpage": 396,
+    "endpage": 399,
+    "startaya": 1,
+    "endaya": 25,
+    "startsura": 29,
+    "endsura": 29,
+    "starthizb": 40,
+    "endhizb": 40,
+    "startnim": 80,
+    "endnim": 80,
+    "startrub": 159,
+    "endrub": 159,
+    "allsura": [
+      29
+    ],
+    "words": 352
+  },
+  "160": {
+    "index": 160,
+    "startpage": 399,
+    "endpage": 401,
+    "startaya": 26,
+    "endaya": 45,
+    "startsura": 29,
+    "endsura": 29,
+    "starthizb": 40,
+    "endhizb": 40,
+    "startnim": 80,
+    "endnim": 80,
+    "startrub": 160,
+    "endrub": 160,
+    "allsura": [
+      29
+    ],
+    "words": 296
+  },
+  "161": {
+    "index": 161,
+    "startpage": 402,
+    "endpage": 404,
+    "startaya": 46,
+    "endaya": 69,
+    "startsura": 29,
+    "endsura": 29,
+    "starthizb": 41,
+    "endhizb": 41,
+    "startnim": 81,
+    "endnim": 81,
+    "startrub": 161,
+    "endrub": 161,
+    "allsura": [
+      29
+    ],
+    "words": 328
+  },
+  "162": {
+    "index": 162,
+    "startpage": 404,
+    "endpage": 407,
+    "startaya": 1,
+    "endaya": 30,
+    "startsura": 30,
+    "endsura": 30,
+    "starthizb": 41,
+    "endhizb": 41,
+    "startnim": 81,
+    "endnim": 81,
+    "startrub": 162,
+    "endrub": 162,
+    "allsura": [
+      30
+    ],
+    "words": 380
+  },
+  "163": {
+    "index": 163,
+    "startpage": 407,
+    "endpage": 410,
+    "startaya": 31,
+    "endaya": 53,
+    "startsura": 30,
+    "endsura": 30,
+    "starthizb": 41,
+    "endhizb": 41,
+    "startnim": 82,
+    "endnim": 82,
+    "startrub": 163,
+    "endrub": 163,
+    "allsura": [
+      30
+    ],
+    "words": 335
+  },
+  "164": {
+    "index": 164,
+    "startpage": 410,
+    "endpage": 413,
+    "startaya": 1,
+    "endaya": 60,
+    "startsura": 30,
+    "endsura": 31,
+    "starthizb": 41,
+    "endhizb": 41,
+    "startnim": 82,
+    "endnim": 82,
+    "startrub": 164,
+    "endrub": 164,
+    "allsura": [
+      30,
+      31
+    ],
+    "words": 415
+  },
+  "165": {
+    "index": 165,
+    "startpage": 413,
+    "endpage": 415,
+    "startaya": 1,
+    "endaya": 34,
+    "startsura": 31,
+    "endsura": 32,
+    "starthizb": 42,
+    "endhizb": 42,
+    "startnim": 83,
+    "endnim": 83,
+    "startrub": 165,
+    "endrub": 165,
+    "allsura": [
+      31,
+      32
+    ],
+    "words": 353
+  },
+  "166": {
+    "index": 166,
+    "startpage": 415,
+    "endpage": 417,
+    "startaya": 11,
+    "endaya": 30,
+    "startsura": 32,
+    "endsura": 32,
+    "starthizb": 42,
+    "endhizb": 42,
+    "startnim": 83,
+    "endnim": 83,
+    "startrub": 166,
+    "endrub": 166,
+    "allsura": [
+      32
+    ],
+    "words": 252
+  },
+  "167": {
+    "index": 167,
+    "startpage": 418,
+    "endpage": 420,
+    "startaya": 1,
+    "endaya": 17,
+    "startsura": 33,
+    "endsura": 33,
+    "starthizb": 42,
+    "endhizb": 42,
+    "startnim": 84,
+    "endnim": 84,
+    "startrub": 167,
+    "endrub": 167,
+    "allsura": [
+      33
+    ],
+    "words": 288
+  },
+  "168": {
+    "index": 168,
+    "startpage": 420,
+    "endpage": 421,
+    "startaya": 18,
+    "endaya": 30,
+    "startsura": 33,
+    "endsura": 33,
+    "starthizb": 42,
+    "endhizb": 42,
+    "startnim": 84,
+    "endnim": 84,
+    "startrub": 168,
+    "endrub": 168,
+    "allsura": [
+      33
+    ],
+    "words": 231
+  },
+  "169": {
+    "index": 169,
+    "startpage": 422,
+    "endpage": 424,
+    "startaya": 31,
+    "endaya": 50,
+    "startsura": 33,
+    "endsura": 33,
+    "starthizb": 43,
+    "endhizb": 43,
+    "startnim": 85,
+    "endnim": 85,
+    "startrub": 169,
+    "endrub": 169,
+    "allsura": [
+      33
+    ],
+    "words": 373
+  },
+  "170": {
+    "index": 170,
+    "startpage": 425,
+    "endpage": 426,
+    "startaya": 51,
+    "endaya": 59,
+    "startsura": 33,
+    "endsura": 33,
+    "starthizb": 43,
+    "endhizb": 43,
+    "startnim": 85,
+    "endnim": 85,
+    "startrub": 170,
+    "endrub": 170,
+    "allsura": [
+      33
+    ],
+    "words": 230
+  },
+  "171": {
+    "index": 171,
+    "startpage": 426,
+    "endpage": 429,
+    "startaya": 1,
+    "endaya": 73,
+    "startsura": 33,
+    "endsura": 34,
+    "starthizb": 43,
+    "endhizb": 43,
+    "startnim": 86,
+    "endnim": 86,
+    "startrub": 171,
+    "endrub": 171,
+    "allsura": [
+      33,
+      34
+    ],
+    "words": 330
+  },
+  "172": {
+    "index": 172,
+    "startpage": 429,
+    "endpage": 431,
+    "startaya": 10,
+    "endaya": 23,
+    "startsura": 34,
+    "endsura": 34,
+    "starthizb": 43,
+    "endhizb": 43,
+    "startnim": 86,
+    "endnim": 86,
+    "startrub": 172,
+    "endrub": 172,
+    "allsura": [
+      34
+    ],
+    "words": 256
+  },
+  "173": {
+    "index": 173,
+    "startpage": 431,
+    "endpage": 433,
+    "startaya": 24,
+    "endaya": 45,
+    "startsura": 34,
+    "endsura": 34,
+    "starthizb": 44,
+    "endhizb": 44,
+    "startnim": 87,
+    "endnim": 87,
+    "startrub": 173,
+    "endrub": 173,
+    "allsura": [
+      34
+    ],
+    "words": 346
+  },
+  "174": {
+    "index": 174,
+    "startpage": 433,
+    "endpage": 436,
+    "startaya": 1,
+    "endaya": 54,
+    "startsura": 34,
+    "endsura": 35,
+    "starthizb": 44,
+    "endhizb": 44,
+    "startnim": 87,
+    "endnim": 87,
+    "startrub": 174,
+    "endrub": 174,
+    "allsura": [
+      34,
+      35
+    ],
+    "words": 405
+  },
+  "175": {
+    "index": 175,
+    "startpage": 436,
+    "endpage": 439,
+    "startaya": 15,
+    "endaya": 40,
+    "startsura": 35,
+    "endsura": 35,
+    "starthizb": 44,
+    "endhizb": 44,
+    "startnim": 88,
+    "endnim": 88,
+    "startrub": 175,
+    "endrub": 175,
+    "allsura": [
+      35
+    ],
+    "words": 367
+  },
+  "176": {
+    "index": 176,
+    "startpage": 439,
+    "endpage": 441,
+    "startaya": 1,
+    "endaya": 45,
+    "startsura": 35,
+    "endsura": 36,
+    "starthizb": 44,
+    "endhizb": 44,
+    "startnim": 88,
+    "endnim": 88,
+    "startrub": 176,
+    "endrub": 176,
+    "allsura": [
+      35,
+      36
+    ],
+    "words": 331
+  },
+  "177": {
+    "index": 177,
+    "startpage": 442,
+    "endpage": 444,
+    "startaya": 28,
+    "endaya": 59,
+    "startsura": 36,
+    "endsura": 36,
+    "starthizb": 45,
+    "endhizb": 45,
+    "startnim": 89,
+    "endnim": 89,
+    "startrub": 177,
+    "endrub": 177,
+    "allsura": [
+      36
+    ],
+    "words": 298
+  },
+  "178": {
+    "index": 178,
+    "startpage": 444,
+    "endpage": 446,
+    "startaya": 1,
+    "endaya": 83,
+    "startsura": 36,
+    "endsura": 37,
+    "starthizb": 45,
+    "endhizb": 45,
+    "startnim": 89,
+    "endnim": 89,
+    "startrub": 178,
+    "endrub": 178,
+    "allsura": [
+      36,
+      37
+    ],
+    "words": 323
+  },
+  "179": {
+    "index": 179,
+    "startpage": 446,
+    "endpage": 449,
+    "startaya": 22,
+    "endaya": 82,
+    "startsura": 37,
+    "endsura": 37,
+    "starthizb": 45,
+    "endhizb": 45,
+    "startnim": 90,
+    "endnim": 90,
+    "startrub": 179,
+    "endrub": 179,
+    "allsura": [
+      37
+    ],
+    "words": 299
+  },
+  "180": {
+    "index": 180,
+    "startpage": 449,
+    "endpage": 451,
+    "startaya": 83,
+    "endaya": 144,
+    "startsura": 37,
+    "endsura": 37,
+    "starthizb": 45,
+    "endhizb": 45,
+    "startnim": 90,
+    "endnim": 90,
+    "startrub": 180,
+    "endrub": 180,
+    "allsura": [
+      37
+    ],
+    "words": 290
+  },
+  "181": {
+    "index": 181,
+    "startpage": 451,
+    "endpage": 454,
+    "startaya": 1,
+    "endaya": 182,
+    "startsura": 37,
+    "endsura": 38,
+    "starthizb": 46,
+    "endhizb": 46,
+    "startnim": 91,
+    "endnim": 91,
+    "startrub": 181,
+    "endrub": 181,
+    "allsura": [
+      37,
+      38
+    ],
+    "words": 331
+  },
+  "182": {
+    "index": 182,
+    "startpage": 454,
+    "endpage": 456,
+    "startaya": 21,
+    "endaya": 51,
+    "startsura": 38,
+    "endsura": 38,
+    "starthizb": 46,
+    "endhizb": 46,
+    "startnim": 91,
+    "endnim": 91,
+    "startrub": 182,
+    "endrub": 182,
+    "allsura": [
+      38
+    ],
+    "words": 322
+  },
+  "183": {
+    "index": 183,
+    "startpage": 456,
+    "endpage": 459,
+    "startaya": 1,
+    "endaya": 88,
+    "startsura": 38,
+    "endsura": 39,
+    "starthizb": 46,
+    "endhizb": 46,
+    "startnim": 92,
+    "endnim": 92,
+    "startrub": 183,
+    "endrub": 183,
+    "allsura": [
+      38,
+      39
+    ],
+    "words": 399
+  },
+  "184": {
+    "index": 184,
+    "startpage": 459,
+    "endpage": 461,
+    "startaya": 8,
+    "endaya": 31,
+    "startsura": 39,
+    "endsura": 39,
+    "starthizb": 46,
+    "endhizb": 46,
+    "startnim": 92,
+    "endnim": 92,
+    "startrub": 184,
+    "endrub": 184,
+    "allsura": [
+      39
+    ],
+    "words": 366
+  },
+  "185": {
+    "index": 185,
+    "startpage": 462,
+    "endpage": 464,
+    "startaya": 32,
+    "endaya": 52,
+    "startsura": 39,
+    "endsura": 39,
+    "starthizb": 47,
+    "endhizb": 47,
+    "startnim": 93,
+    "endnim": 93,
+    "startrub": 185,
+    "endrub": 185,
+    "allsura": [
+      39
+    ],
+    "words": 326
+  },
+  "186": {
+    "index": 186,
+    "startpage": 464,
+    "endpage": 467,
+    "startaya": 53,
+    "endaya": 75,
+    "startsura": 39,
+    "endsura": 39,
+    "starthizb": 47,
+    "endhizb": 47,
+    "startnim": 93,
+    "endnim": 93,
+    "startrub": 186,
+    "endrub": 186,
+    "allsura": [
+      39
+    ],
+    "words": 325
+  },
+  "187": {
+    "index": 187,
+    "startpage": 467,
+    "endpage": 469,
+    "startaya": 1,
+    "endaya": 20,
+    "startsura": 40,
+    "endsura": 40,
+    "starthizb": 47,
+    "endhizb": 47,
+    "startnim": 94,
+    "endnim": 94,
+    "startrub": 187,
+    "endrub": 187,
+    "allsura": [
+      40
+    ],
+    "words": 265
+  },
+  "188": {
+    "index": 188,
+    "startpage": 469,
+    "endpage": 471,
+    "startaya": 21,
+    "endaya": 40,
+    "startsura": 40,
+    "endsura": 40,
+    "starthizb": 47,
+    "endhizb": 47,
+    "startnim": 94,
+    "endnim": 94,
+    "startrub": 188,
+    "endrub": 188,
+    "allsura": [
+      40
+    ],
+    "words": 344
+  },
+  "189": {
+    "index": 189,
+    "startpage": 472,
+    "endpage": 474,
+    "startaya": 41,
+    "endaya": 65,
+    "startsura": 40,
+    "endsura": 40,
+    "starthizb": 48,
+    "endhizb": 48,
+    "startnim": 95,
+    "endnim": 95,
+    "startrub": 189,
+    "endrub": 189,
+    "allsura": [
+      40
+    ],
+    "words": 332
+  },
+  "190": {
+    "index": 190,
+    "startpage": 474,
+    "endpage": 477,
+    "startaya": 1,
+    "endaya": 85,
+    "startsura": 40,
+    "endsura": 41,
+    "starthizb": 48,
+    "endhizb": 48,
+    "startnim": 95,
+    "endnim": 95,
+    "startrub": 190,
+    "endrub": 190,
+    "allsura": [
+      40,
+      41
+    ],
+    "words": 347
+  },
+  "191": {
+    "index": 191,
+    "startpage": 477,
+    "endpage": 479,
+    "startaya": 9,
+    "endaya": 24,
+    "startsura": 41,
+    "endsura": 41,
+    "starthizb": 48,
+    "endhizb": 48,
+    "startnim": 96,
+    "endnim": 96,
+    "startrub": 191,
+    "endrub": 191,
+    "allsura": [
+      41
+    ],
+    "words": 237
+  },
+  "192": {
+    "index": 192,
+    "startpage": 479,
+    "endpage": 481,
+    "startaya": 25,
+    "endaya": 46,
+    "startsura": 41,
+    "endsura": 41,
+    "starthizb": 48,
+    "endhizb": 48,
+    "startnim": 96,
+    "endnim": 96,
+    "startrub": 192,
+    "endrub": 192,
+    "allsura": [
+      41
+    ],
+    "words": 344
+  },
+  "193": {
+    "index": 193,
+    "startpage": 482,
+    "endpage": 484,
+    "startaya": 1,
+    "endaya": 54,
+    "startsura": 41,
+    "endsura": 42,
+    "starthizb": 49,
+    "endhizb": 49,
+    "startnim": 97,
+    "endnim": 97,
+    "startrub": 193,
+    "endrub": 193,
+    "allsura": [
+      41,
+      42
+    ],
+    "words": 301
+  },
+  "194": {
+    "index": 194,
+    "startpage": 484,
+    "endpage": 486,
+    "startaya": 13,
+    "endaya": 26,
+    "startsura": 42,
+    "endsura": 42,
+    "starthizb": 49,
+    "endhizb": 49,
+    "startnim": 97,
+    "endnim": 97,
+    "startrub": 194,
+    "endrub": 194,
+    "allsura": [
+      42
+    ],
+    "words": 305
+  },
+  "195": {
+    "index": 195,
+    "startpage": 486,
+    "endpage": 488,
+    "startaya": 27,
+    "endaya": 50,
+    "startsura": 42,
+    "endsura": 42,
+    "starthizb": 49,
+    "endhizb": 49,
+    "startnim": 98,
+    "endnim": 98,
+    "startrub": 195,
+    "endrub": 195,
+    "allsura": [
+      42
+    ],
+    "words": 334
+  },
+  "196": {
+    "index": 196,
+    "startpage": 488,
+    "endpage": 491,
+    "startaya": 1,
+    "endaya": 53,
+    "startsura": 42,
+    "endsura": 43,
+    "starthizb": 49,
+    "endhizb": 49,
+    "startnim": 98,
+    "endnim": 98,
+    "startrub": 196,
+    "endrub": 196,
+    "allsura": [
+      42,
+      43
+    ],
+    "words": 281
+  },
+  "197": {
+    "index": 197,
+    "startpage": 491,
+    "endpage": 493,
+    "startaya": 24,
+    "endaya": 56,
+    "startsura": 43,
+    "endsura": 43,
+    "starthizb": 50,
+    "endhizb": 50,
+    "startnim": 99,
+    "endnim": 99,
+    "startrub": 197,
+    "endrub": 197,
+    "allsura": [
+      43
+    ],
+    "words": 324
+  },
+  "198": {
+    "index": 198,
+    "startpage": 493,
+    "endpage": 496,
+    "startaya": 1,
+    "endaya": 89,
+    "startsura": 43,
+    "endsura": 44,
+    "starthizb": 50,
+    "endhizb": 50,
+    "startnim": 99,
+    "endnim": 99,
+    "startrub": 198,
+    "endrub": 198,
+    "allsura": [
+      43,
+      44
+    ],
+    "words": 383
+  },
+  "199": {
+    "index": 199,
+    "startpage": 496,
+    "endpage": 499,
+    "startaya": 1,
+    "endaya": 59,
+    "startsura": 44,
+    "endsura": 45,
+    "starthizb": 50,
+    "endhizb": 50,
+    "startnim": 100,
+    "endnim": 100,
+    "startrub": 199,
+    "endrub": 199,
+    "allsura": [
+      44,
+      45
+    ],
+    "words": 365
+  },
+  "200": {
+    "index": 200,
+    "startpage": 499,
+    "endpage": 502,
+    "startaya": 12,
+    "endaya": 37,
+    "startsura": 45,
+    "endsura": 45,
+    "starthizb": 50,
+    "endhizb": 50,
+    "startnim": 100,
+    "endnim": 100,
+    "startrub": 200,
+    "endrub": 200,
+    "allsura": [
+      45
+    ],
+    "words": 375
+  },
+  "201": {
+    "index": 201,
+    "startpage": 502,
+    "endpage": 504,
+    "startaya": 1,
+    "endaya": 20,
+    "startsura": 46,
+    "endsura": 46,
+    "starthizb": 51,
+    "endhizb": 51,
+    "startnim": 101,
+    "endnim": 101,
+    "startrub": 201,
+    "endrub": 201,
+    "allsura": [
+      46
+    ],
+    "words": 366
+  },
+  "202": {
+    "index": 202,
+    "startpage": 505,
+    "endpage": 507,
+    "startaya": 1,
+    "endaya": 35,
+    "startsura": 46,
+    "endsura": 47,
+    "starthizb": 51,
+    "endhizb": 51,
+    "startnim": 101,
+    "endnim": 101,
+    "startrub": 202,
+    "endrub": 202,
+    "allsura": [
+      46,
+      47
+    ],
+    "words": 389
+  },
+  "203": {
+    "index": 203,
+    "startpage": 507,
+    "endpage": 510,
+    "startaya": 10,
+    "endaya": 32,
+    "startsura": 47,
+    "endsura": 47,
+    "starthizb": 51,
+    "endhizb": 51,
+    "startnim": 102,
+    "endnim": 102,
+    "startrub": 203,
+    "endrub": 203,
+    "allsura": [
+      47
+    ],
+    "words": 342
+  },
+  "204": {
+    "index": 204,
+    "startpage": 510,
+    "endpage": 513,
+    "startaya": 1,
+    "endaya": 38,
+    "startsura": 47,
+    "endsura": 48,
+    "starthizb": 51,
+    "endhizb": 51,
+    "startnim": 102,
+    "endnim": 102,
+    "startrub": 204,
+    "endrub": 204,
+    "allsura": [
+      47,
+      48
+    ],
+    "words": 380
+  },
+  "205": {
+    "index": 205,
+    "startpage": 513,
+    "endpage": 515,
+    "startaya": 18,
+    "endaya": 29,
+    "startsura": 48,
+    "endsura": 48,
+    "starthizb": 52,
+    "endhizb": 52,
+    "startnim": 103,
+    "endnim": 103,
+    "startrub": 205,
+    "endrub": 205,
+    "allsura": [
+      48
+    ],
+    "words": 265
+  },
+  "206": {
+    "index": 206,
+    "startpage": 515,
+    "endpage": 517,
+    "startaya": 1,
+    "endaya": 13,
+    "startsura": 49,
+    "endsura": 49,
+    "starthizb": 52,
+    "endhizb": 52,
+    "startnim": 103,
+    "endnim": 103,
+    "startrub": 206,
+    "endrub": 206,
+    "allsura": [
+      49
+    ],
+    "words": 257
+  },
+  "207": {
+    "index": 207,
+    "startpage": 517,
+    "endpage": 519,
+    "startaya": 1,
+    "endaya": 26,
+    "startsura": 49,
+    "endsura": 50,
+    "starthizb": 52,
+    "endhizb": 52,
+    "startnim": 104,
+    "endnim": 104,
+    "startrub": 207,
+    "endrub": 207,
+    "allsura": [
+      49,
+      50
+    ],
+    "words": 299
+  },
+  "208": {
+    "index": 208,
+    "startpage": 519,
+    "endpage": 521,
+    "startaya": 1,
+    "endaya": 45,
+    "startsura": 50,
+    "endsura": 51,
+    "starthizb": 52,
+    "endhizb": 52,
+    "startnim": 104,
+    "endnim": 104,
+    "startrub": 208,
+    "endrub": 208,
+    "allsura": [
+      50,
+      51
+    ],
+    "words": 314
+  },
+  "209": {
+    "index": 209,
+    "startpage": 522,
+    "endpage": 524,
+    "startaya": 1,
+    "endaya": 60,
+    "startsura": 51,
+    "endsura": 52,
+    "starthizb": 53,
+    "endhizb": 53,
+    "startnim": 105,
+    "endnim": 105,
+    "startrub": 209,
+    "endrub": 209,
+    "allsura": [
+      51,
+      52
+    ],
+    "words": 333
+  },
+  "210": {
+    "index": 210,
+    "startpage": 524,
+    "endpage": 526,
+    "startaya": 1,
+    "endaya": 49,
+    "startsura": 52,
+    "endsura": 53,
+    "starthizb": 53,
+    "endhizb": 53,
+    "startnim": 105,
+    "endnim": 105,
+    "startrub": 210,
+    "endrub": 210,
+    "allsura": [
+      52,
+      53
+    ],
+    "words": 309
+  },
+  "211": {
+    "index": 211,
+    "startpage": 526,
+    "endpage": 529,
+    "startaya": 1,
+    "endaya": 62,
+    "startsura": 53,
+    "endsura": 54,
+    "starthizb": 53,
+    "endhizb": 53,
+    "startnim": 106,
+    "endnim": 106,
+    "startrub": 211,
+    "endrub": 211,
+    "allsura": [
+      53,
+      54
+    ],
+    "words": 293
+  },
+  "212": {
+    "index": 212,
+    "startpage": 529,
+    "endpage": 531,
+    "startaya": 9,
+    "endaya": 55,
+    "startsura": 54,
+    "endsura": 54,
+    "starthizb": 53,
+    "endhizb": 53,
+    "startnim": 106,
+    "endnim": 106,
+    "startrub": 212,
+    "endrub": 212,
+    "allsura": [
+      54
+    ],
+    "words": 289
+  },
+  "213": {
+    "index": 213,
+    "startpage": 531,
+    "endpage": 534,
+    "startaya": 1,
+    "endaya": 78,
+    "startsura": 55,
+    "endsura": 55,
+    "starthizb": 54,
+    "endhizb": 54,
+    "startnim": 107,
+    "endnim": 107,
+    "startrub": 213,
+    "endrub": 213,
+    "allsura": [
+      55
+    ],
+    "words": 351
+  },
+  "214": {
+    "index": 214,
+    "startpage": 534,
+    "endpage": 536,
+    "startaya": 1,
+    "endaya": 74,
+    "startsura": 56,
+    "endsura": 56,
+    "starthizb": 54,
+    "endhizb": 54,
+    "startnim": 107,
+    "endnim": 107,
+    "startrub": 214,
+    "endrub": 214,
+    "allsura": [
+      56
+    ],
+    "words": 285
+  },
+  "215": {
+    "index": 215,
+    "startpage": 536,
+    "endpage": 539,
+    "startaya": 1,
+    "endaya": 96,
+    "startsura": 56,
+    "endsura": 57,
+    "starthizb": 54,
+    "endhizb": 54,
+    "startnim": 108,
+    "endnim": 108,
+    "startrub": 215,
+    "endrub": 215,
+    "allsura": [
+      56,
+      57
+    ],
+    "words": 359
+  },
+  "216": {
+    "index": 216,
+    "startpage": 539,
+    "endpage": 541,
+    "startaya": 16,
+    "endaya": 29,
+    "startsura": 57,
+    "endsura": 57,
+    "starthizb": 54,
+    "endhizb": 54,
+    "startnim": 108,
+    "endnim": 108,
+    "startrub": 216,
+    "endrub": 216,
+    "allsura": [
+      57
+    ],
+    "words": 309
+  },
+  "217": {
+    "index": 217,
+    "startpage": 542,
+    "endpage": 544,
+    "startaya": 1,
+    "endaya": 13,
+    "startsura": 58,
+    "endsura": 58,
+    "starthizb": 55,
+    "endhizb": 55,
+    "startnim": 109,
+    "endnim": 109,
+    "startrub": 217,
+    "endrub": 217,
+    "allsura": [
+      58
+    ],
+    "words": 318
+  },
+  "218": {
+    "index": 218,
+    "startpage": 544,
+    "endpage": 547,
+    "startaya": 1,
+    "endaya": 22,
+    "startsura": 58,
+    "endsura": 59,
+    "starthizb": 55,
+    "endhizb": 55,
+    "startnim": 109,
+    "endnim": 109,
+    "startrub": 218,
+    "endrub": 218,
+    "allsura": [
+      58,
+      59
+    ],
+    "words": 378
+  },
+  "219": {
+    "index": 219,
+    "startpage": 547,
+    "endpage": 550,
+    "startaya": 1,
+    "endaya": 24,
+    "startsura": 59,
+    "endsura": 60,
+    "starthizb": 55,
+    "endhizb": 55,
+    "startnim": 110,
+    "endnim": 110,
+    "startrub": 219,
+    "endrub": 219,
+    "allsura": [
+      59,
+      60
+    ],
+    "words": 379
+  },
+  "220": {
+    "index": 220,
+    "startpage": 550,
+    "endpage": 552,
+    "startaya": 1,
+    "endaya": 14,
+    "startsura": 60,
+    "endsura": 61,
+    "starthizb": 55,
+    "endhizb": 55,
+    "startnim": 110,
+    "endnim": 110,
+    "startrub": 220,
+    "endrub": 220,
+    "allsura": [
+      60,
+      61
+    ],
+    "words": 411
+  },
+  "221": {
+    "index": 221,
+    "startpage": 553,
+    "endpage": 554,
+    "startaya": 1,
+    "endaya": 11,
+    "startsura": 62,
+    "endsura": 63,
+    "starthizb": 56,
+    "endhizb": 56,
+    "startnim": 111,
+    "endnim": 111,
+    "startrub": 221,
+    "endrub": 221,
+    "allsura": [
+      62,
+      63
+    ],
+    "words": 215
+  },
+  "222": {
+    "index": 222,
+    "startpage": 554,
+    "endpage": 557,
+    "startaya": 1,
+    "endaya": 18,
+    "startsura": 63,
+    "endsura": 64,
+    "starthizb": 56,
+    "endhizb": 56,
+    "startnim": 111,
+    "endnim": 111,
+    "startrub": 222,
+    "endrub": 222,
+    "allsura": [
+      63,
+      64
+    ],
+    "words": 381
+  },
+  "223": {
+    "index": 223,
+    "startpage": 558,
+    "endpage": 559,
+    "startaya": 1,
+    "endaya": 12,
+    "startsura": 65,
+    "endsura": 65,
+    "starthizb": 56,
+    "endhizb": 56,
+    "startnim": 112,
+    "endnim": 112,
+    "startrub": 223,
+    "endrub": 223,
+    "allsura": [
+      65
+    ],
+    "words": 287
+  },
+  "224": {
+    "index": 224,
+    "startpage": 560,
+    "endpage": 561,
+    "startaya": 1,
+    "endaya": 12,
+    "startsura": 66,
+    "endsura": 66,
+    "starthizb": 56,
+    "endhizb": 56,
+    "startnim": 112,
+    "endnim": 112,
+    "startrub": 224,
+    "endrub": 224,
+    "allsura": [
+      66
+    ],
+    "words": 249
+  },
+  "225": {
+    "index": 225,
+    "startpage": 562,
+    "endpage": 564,
+    "startaya": 1,
+    "endaya": 30,
+    "startsura": 67,
+    "endsura": 67,
+    "starthizb": 57,
+    "endhizb": 57,
+    "startnim": 113,
+    "endnim": 113,
+    "startrub": 225,
+    "endrub": 225,
+    "allsura": [
+      67
+    ],
+    "words": 333
+  },
+  "226": {
+    "index": 226,
+    "startpage": 564,
+    "endpage": 566,
+    "startaya": 1,
+    "endaya": 52,
+    "startsura": 68,
+    "endsura": 68,
+    "starthizb": 57,
+    "endhizb": 57,
+    "startnim": 113,
+    "endnim": 113,
+    "startrub": 226,
+    "endrub": 226,
+    "allsura": [
+      68
+    ],
+    "words": 300
+  },
+  "227": {
+    "index": 227,
+    "startpage": 566,
+    "endpage": 569,
+    "startaya": 1,
+    "endaya": 52,
+    "startsura": 69,
+    "endsura": 70,
+    "starthizb": 57,
+    "endhizb": 57,
+    "startnim": 114,
+    "endnim": 114,
+    "startrub": 227,
+    "endrub": 227,
+    "allsura": [
+      69,
+      70
+    ],
+    "words": 331
+  },
+  "228": {
+    "index": 228,
+    "startpage": 569,
+    "endpage": 571,
+    "startaya": 1,
+    "endaya": 44,
+    "startsura": 70,
+    "endsura": 71,
+    "starthizb": 57,
+    "endhizb": 57,
+    "startnim": 114,
+    "endnim": 114,
+    "startrub": 228,
+    "endrub": 228,
+    "allsura": [
+      70,
+      71
+    ],
+    "words": 370
+  },
+  "229": {
+    "index": 229,
+    "startpage": 572,
+    "endpage": 574,
+    "startaya": 1,
+    "endaya": 28,
+    "startsura": 72,
+    "endsura": 73,
+    "starthizb": 58,
+    "endhizb": 58,
+    "startnim": 115,
+    "endnim": 115,
+    "startrub": 229,
+    "endrub": 229,
+    "allsura": [
+      72,
+      73
+    ],
+    "words": 406
+  },
+  "230": {
+    "index": 230,
+    "startpage": 575,
+    "endpage": 577,
+    "startaya": 1,
+    "endaya": 56,
+    "startsura": 73,
+    "endsura": 74,
+    "starthizb": 58,
+    "endhizb": 58,
+    "startnim": 115,
+    "endnim": 115,
+    "startrub": 230,
+    "endrub": 230,
+    "allsura": [
+      73,
+      74
+    ],
+    "words": 333
+  },
+  "231": {
+    "index": 231,
+    "startpage": 577,
+    "endpage": 579,
+    "startaya": 1,
+    "endaya": 40,
+    "startsura": 75,
+    "endsura": 76,
+    "starthizb": 58,
+    "endhizb": 58,
+    "startnim": 116,
+    "endnim": 116,
+    "startrub": 231,
+    "endrub": 231,
+    "allsura": [
+      75,
+      76
+    ],
+    "words": 296
+  },
+  "232": {
+    "index": 232,
+    "startpage": 579,
+    "endpage": 581,
+    "startaya": 1,
+    "endaya": 50,
+    "startsura": 76,
+    "endsura": 77,
+    "starthizb": 58,
+    "endhizb": 58,
+    "startnim": 116,
+    "endnim": 116,
+    "startrub": 232,
+    "endrub": 232,
+    "allsura": [
+      76,
+      77
+    ],
+    "words": 292
+  },
+  "233": {
+    "index": 233,
+    "startpage": 582,
+    "endpage": 584,
+    "startaya": 1,
+    "endaya": 46,
+    "startsura": 78,
+    "endsura": 79,
+    "starthizb": 59,
+    "endhizb": 59,
+    "startnim": 117,
+    "endnim": 117,
+    "startrub": 233,
+    "endrub": 233,
+    "allsura": [
+      78,
+      79
+    ],
+    "words": 352
+  },
+  "234": {
+    "index": 234,
+    "startpage": 585,
+    "endpage": 586,
+    "startaya": 1,
+    "endaya": 42,
+    "startsura": 80,
+    "endsura": 81,
+    "starthizb": 59,
+    "endhizb": 59,
+    "startnim": 117,
+    "endnim": 117,
+    "startrub": 234,
+    "endrub": 234,
+    "allsura": [
+      80,
+      81
+    ],
+    "words": 237
+  },
+  "235": {
+    "index": 235,
+    "startpage": 587,
+    "endpage": 589,
+    "startaya": 1,
+    "endaya": 36,
+    "startsura": 82,
+    "endsura": 83,
+    "starthizb": 59,
+    "endhizb": 59,
+    "startnim": 118,
+    "endnim": 118,
+    "startrub": 235,
+    "endrub": 235,
+    "allsura": [
+      82,
+      83
+    ],
+    "words": 249
+  },
+  "236": {
+    "index": 236,
+    "startpage": 589,
+    "endpage": 591,
+    "startaya": 1,
+    "endaya": 25,
+    "startsura": 84,
+    "endsura": 86,
+    "starthizb": 59,
+    "endhizb": 59,
+    "startnim": 118,
+    "endnim": 118,
+    "startrub": 236,
+    "endrub": 236,
+    "allsura": [
+      84,
+      85,
+      86
+    ],
+    "words": 277
+  },
+  "237": {
+    "index": 237,
+    "startpage": 591,
+    "endpage": 594,
+    "startaya": 1,
+    "endaya": 30,
+    "startsura": 87,
+    "endsura": 89,
+    "starthizb": 60,
+    "endhizb": 60,
+    "startnim": 119,
+    "endnim": 119,
+    "startrub": 237,
+    "endrub": 237,
+    "allsura": [
+      87,
+      88,
+      89
+    ],
+    "words": 301
+  },
+  "238": {
+    "index": 238,
+    "startpage": 594,
+    "endpage": 596,
+    "startaya": 1,
+    "endaya": 21,
+    "startsura": 90,
+    "endsura": 93,
+    "starthizb": 60,
+    "endhizb": 60,
+    "startnim": 119,
+    "endnim": 119,
+    "startrub": 238,
+    "endrub": 238,
+    "allsura": [
+      90,
+      91,
+      92,
+      93
+    ],
+    "words": 247
+  },
+  "239": {
+    "index": 239,
+    "startpage": 596,
+    "endpage": 599,
+    "startaya": 1,
+    "endaya": 19,
+    "startsura": 94,
+    "endsura": 100,
+    "starthizb": 60,
+    "endhizb": 60,
+    "startnim": 120,
+    "endnim": 120,
+    "startrub": 239,
+    "endrub": 239,
+    "allsura": [
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100
+    ],
+    "words": 317
+  },
+  "240": {
+    "index": 240,
+    "startpage": 599,
+    "endpage": 604,
+    "startaya": 1,
+    "endaya": 11,
+    "startsura": 100,
+    "endsura": 114,
+    "starthizb": 60,
+    "endhizb": 60,
+    "startnim": 120,
+    "endnim": 120,
+    "startrub": 240,
+    "endrub": 240,
+    "allsura": [
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114
+    ],
+    "words": 328
+  }
+}

@@ -1,0 +1,18 @@
+<div class="mT10">
+{%if myUrl ends with '.jpg' or myUrl ends with '.png' or myUrl ends with '.gif'%}
+<img src="{{myUrl}}" alt='item1'>
+
+{%elseif myUrl ends with '.mp4' %}
+<video controls class="block">
+  <source src="{{myUrl}}" type="video/mp4" controls>
+</video>
+
+{%elseif myUrl ends with '.mp3' or myUrl ends with '.wav' or myUrl ends with '.m4a' %}
+<audio controls class="block">
+  <source src="{{myUrl}}" type="audio/mpeg">
+</audio>
+
+{%else%}
+<div class="content title"><a href="{{myUrl}}" target="_blank" title='{%trans "Click to download"%}'>{%trans "Download"%}</a></div>
+{%endif%}
+</div>

@@ -1,0 +1,22 @@
+{%extends display.dash%}
+
+
+{%block sidenav%}
+
+<li><a href="{{url.here}}"><i class='sf-home'></i> <span>{%trans "Learn Mechanism system"%}</span></a></li>
+
+{%if login%}
+        <li><a href="{{url.kingdom}}/a" {%if url.content == "a"%} class="activeContent"{%endif%}><i class='sf-user'></i> <span>{% trans "Users Panel"%}</span></a></li>
+{%endif%}
+
+<li class="hr"></li>
+<li><a href="{{url.here}}/all/quran"><i class='sf-book'></i> <span>{%trans "All learn quran"%}</span></a></li>
+<li><a href="{{url.here}}/all/tajweed"><i class='sf-book'></i> <span>{%trans "All learn tajweed"%}</span></a></li>
+<li><a href="{{url.here}}/all/exam"><i class='sf-book'></i> <span>{%trans "All learn exam"%}</span></a></li>
+<li><a href="{{url.here}}/all/theme"><i class='sf-book'></i> <span>{%trans "All learn theme"%}</span></a></li>
+<li><a href="{{url.here}}/all/iqra"><i class='sf-book'></i> <span>{%trans "All learn iqra"%}</span></a></li>
+<li><a href="{{url.here}}/all/reading"><i class='sf-book'></i> <span>{%trans "All learn reading"%}</span></a></li>
+
+
+
+{%endblock%}

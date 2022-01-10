@@ -1,0 +1,85 @@
+{%extends 'content_lms/group/layout.html'%}
+
+
+
+{%block pageContent%}
+
+<div class='middle normal f justify-center fs12'>
+
+{%if levelList %}
+{%for key, value in levelList%}
+    {%set canLoad = true%}
+
+  {%if value.unlockscore%}
+    {%if value.unlockscore <= groupScore%}
+    {%set canLoad = true%}
+    {%else%}
+    {%set canLoad = false%}
+    {%endif%}
+  {%endif%}
+
+{%if value.type %}
+  {%if  canLoad%}
+    <a class="vcard mA10 shadow {%if value.userstar == 3%}green{%elseif value.userstar%}blue{%else%}{%endif%}" href='{{url.here}}/level/{{value.xtype}}?id={{value.id}}' data-type='{{value.type_title}}'>
+  {%else%}
+    <a class="vcard mA10 shadow disable {%if value.userstar == 3%}green{%elseif value.userstar%}blue{%else%}{%endif%}"  data-type='{{value.type_title}}'>
+  {%endif%}
+    <div>
+    {%if value.type == "quran"%}
+      <img src="{{url.static}}/images/lms/bg-level-start-txt.jpg" alt='{%trans "SalamQuran Learning Mechanism"%}'>
+    {%elseif value.type == "reading"%}
+      <img src="{{url.static}}/images/lms/bg-level-reading-txt.jpg" alt='{%trans "SalamQuran Learning Mechanism"%}'>
+    {%elseif value.type == "tajweed"%}
+      <img src="{{url.static}}/images/lms/bg-level-tajweed-txt.jpg" alt='{%trans "SalamQuran Learning Mechanism"%}'>
+    {%elseif value.type == "theme"%}
+      <img src="{{url.static}}/images/lms/bg-level-theme-txt.jpg" alt='{%trans "SalamQuran Learning Mechanism"%}'>
+    {%elseif value.type == "exam"%}
+      <img src="{{url.static}}/images/lms/bg-level-exam-txt.jpg" alt='{%trans "SalamQuran Learning Mechanism"%}'>
+    {%elseif value.type == "iqra"%}
+      <img src="{{url.static}}/images/lms/bg-level-iqra-txt.jpg" alt='{%trans "SalamQuran Learning Mechanism"%}'>
+    {%else%}
+      <img src="{{url.static}}/images/lms/bg-levels.jpg" alt='{%trans "SalamQuran Learning Mechanism"%}'>
+    {%endif%}
+    </div>
+    <div class="content">
+      <div class="header">{{value.title}}</div>
+      <div class="meta">{{value.desc}}</div>
+    </div>
+    <div class="footer fs20-f">
+      <div class="fs30">
+        {%if canLoad%}
+          {%if value.userstar == 1%}
+            <i class="sf-star fc-yellow"></i>
+            <i class="sf-star fc-graylight"></i>
+            <i class="sf-star fc-graylight"></i>
+          {%elseif value.userstar == 2%}
+            <i class="sf-star fc-yellow"></i>
+            <i class="sf-star fc-yellow"></i>
+            <i class="sf-star fc-graylight"></i>
+          {%elseif value.userstar == 3%}
+            <i class="sf-star fc-yellow"></i>
+            <i class="sf-star fc-yellow"></i>
+            <i class="sf-star fc-yellow"></i>
+          {%else%}
+            <i class="sf-star fc-graylight"></i>
+            <i class="sf-star fc-graylight"></i>
+            <i class="sf-star fc-graylight"></i>
+          {%endif%}
+        {%else%}
+          <i class="sf-lock fc-red"></i>
+        {%endif%}
+      </div>
+    </div>
+  </a>
+{%endif%}
+{%endfor%}
+{%else%}
+<div class="msg fs50 txtC warn">
+  {%trans "Level not found!"%}
+</div>
+{%endif%}
+
+</div>
+{%endblock%}
+
+

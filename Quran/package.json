@@ -1,0 +1,18 @@
+{
+  "name": "SalamQuran",
+  "version": "1.0.0",
+  "description": "SalamQuran",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SalamQuran/SalamQuran-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SalamQuran/SalamQuran-website/issues"
+  },
+  "homepage": "https://SalamQuran.com",
+  "dependencies": {
+    "siftal": "^6.9.0",
+    "@ermile/dash": "^20.0.0"
+  }
+}

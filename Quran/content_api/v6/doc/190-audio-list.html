@@ -1,0 +1,77 @@
+<div class="cbox" id='audio-list'>
+
+  <h2 class="f" data-kerkere='#audio-list-detail' data-kerkere-icon='open'>
+    <div class="cauto pRa10"><span class="badge primary">GET</span></div>
+    <div>{%trans "Get list of user audio"%}</div>
+  </h2>
+  <div id="audio-list-detail">
+
+    <div class="msg url">
+      <i class="method">GET</i>
+      <span>{{apiURL}}<b>audio</b></span>
+    </div>
+
+    {%include 'content_api/v6/apikey_header.html'%}
+
+
+<h3>{%trans "cURL"%} <small>{%trans "example"%}</small></h3>
+<pre>
+curl -X GET \
+  {{apiURL}}audio \
+  -H 'apikey: 87085dbb44ee1ef51f4fbaeb39eeb0e6'
+</pre>
+
+<h3>{%trans "Response"%} <small>{%trans "example"%}</small></h3>
+<pre>
+{
+  "ok": true,
+  "pagination": {
+    "desc": "page 1 of 2 - Show record 1 to 10 of 18",
+    "page": 1,
+    "total_page": 2,
+    "limit": 10,
+    "total_rows": 18
+  },
+  "result": [
+    {
+      "id": "p",
+      "lm_group_id": "4",
+      "lm_level_id": "3",
+      "user_id": "4",
+      "teacher": "2",
+      "audio": "{{url.site}}/files/1/89-4a9b426f9386c52184a2bd0e54ce325d.wav",
+      "teachertxt": "خوب بود",
+      "teacheraudio": null,
+      "quality": "2",
+      "status": "archive",
+      "tstatus": "Archive",
+      "datecreated": "2019-08-05 13:03:21",
+      "group_title": "سوره ناس تا سوره کافرون",
+      "level_title": "سوره ناس",
+      "user_displayname": "رضا محیطی",
+      "teacher_displayname": "رضا محیطی"
+    },
+    {
+      "id": "n",
+      "lm_group_id": "4",
+      "lm_level_id": "3",
+      "user_id": "4",
+      "teacher": "2",
+      "audio": "{{url.site}}/files/1/88-4a9b426f9386c52184a2bd0e54ce325d.wav",
+      "teachertxt": "عالی بود",
+      "teacheraudio": "{{url.site}}/files/1/90-01d0ec51f28b89f990e54d940c1525cc.jpg",
+      "quality": "3",
+      "status": "archive",
+      "tstatus": "Archive",
+      "datecreated": "2019-08-05 13:02:57",
+      "group_title": "سوره ناس تا سوره کافرون",
+      "level_title": "سوره ناس",
+      "user_displayname": "رضا محیطی",
+      "teacher_displayname": "رضا محیطی"
+    }
+  ]
+}
+</pre>
+
+</div>
+</div>
