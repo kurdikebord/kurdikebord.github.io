@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Quicksand";
+  src: local("Quicksand-Regular"),
+    url(./fonts/Quicksand-Regular.ttf) format("truetype");
+}
+
+/* * Reset Configs */
+body,
+html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: "Quicksand", sans-serif;
+}

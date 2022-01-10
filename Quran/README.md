@@ -1,27 +1,112 @@
-## An open source progressive music app made with Javascript using ReactJS and Material-Ui
-![Ylight music app screenshots](https://i.imgur.com/DKTItwI.png)
+<!-- # Getting Started with Create React App
 
-## Maintainence Update
-I am sorry to announce that I am dropping support for ylight music
-I have just stopped my backend servers the front-end is still functional you can hook it up to any server.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-**Taking away music creators earning didn't seem like a right thing to do.**
+## Available Scripts
 
-Thank You!
+In the project directory, you can run:
 
-## Run it locally 
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
+
+# HolyQuran is a PWA made with ReactJS, React-Router & Material-UI
+
+![app in desktop, large width](imgs/1.png)
+![app in desktop, large width](imgs/2.png)
+![app in desktop, large width](imgs/3.png)
+
+## It is responsive with all devices's screens
+
+This App is fully responsive
+
+![app in small  width](imgs/6.png)
+![app in small  width](imgs/7.png)
+![app in small  width](imgs/4.png)
+
+## Dark Theme v Light Theme
+
+This app provides 2 themes. You can run it with your favourite one
+
+![app in small  width](imgs/10.png)
+![app in small  width](imgs/11.png)
+![app in small  width](imgs/12.png)
+
+## Run It Locally
+
 1. Clone the repo
 2. Do a `npm install`
-3. Put youtube API keys in the sample env file and rename it to `.env`
-4. Run it using `npm start`
+3. Run it using `npm start`
 
-## Learn through video
-[![Youtube video](https://img.youtube.com/vi/M_1ZCab5x0w/hqdefault.jpg)](https://youtu.be/M_1ZCab5x0w)
+## Install it
 
-### Please open an issue for any bugs
-### Please support me on patreon 
-[![Become a patron](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/bePatron?u=7063971)
+You can install this App in your device by your browser. it will pop up in the url bar
 
-## I would like to thank
-+ [Will Adams](https://github.com/bushblade)
-+ [Reactiflux members](https://discord.gg/Ff8Jt8v)
+## Credits Goes To:
+
+1.[mp3Quran](https://www.mp3quran.net/ar)
+
+2.[Ylight Music](https://github.com/ShivamJoker/Ylight-Music/)
+
+3.[Freepik](https://www.freepik.com)
+
+## Please open an issue for any bugs
