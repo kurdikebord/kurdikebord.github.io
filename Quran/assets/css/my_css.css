@@ -1,0 +1,64 @@
+@font-face{
+	font-family: "Trajan Pro";
+	src: url("../fonts/Trajan Pro Regular.ttf");
+}
+
+.content h3{
+	color: rgb(0, 142, 176);
+	font-size: xx-large;
+}
+
+.content p{
+	color: white;
+}
+
+.trajan{
+	font-family: 'Trajan Pro';
+}
+
+.logo_color{
+	color: rgb(0, 142, 176);
+}
+
+.au-btn--blue {
+	background: rgb(0, 142, 176);
+}
+
+.plp_cards{
+	background: rgb(0, 142, 176);
+	color: white;
+}
+
+.wrapper{
+	background-color: #111111;
+}
+
+.wrapper header p{
+	color: white;
+}
+
+blockquote{
+	font-family: "Raleway", Arial, Helvetica, sans-serif;
+	font-size: medium;
+}
+
+.blue blockquote{
+	border-left-color: rgb(0,142,176);
+	color: black;
+}
+
+.white blockquote {
+	border-right: solid 0.5rem;
+	border-left: 0;
+	border-right-color: rgb(255, 255, 255);
+	color: white;
+}
+
+.blue footer{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: white;
+}
+
+.mg_lft_auto {
+	margin-left: auto;
+}

@@ -1,22 +1,31 @@
-*.DS_Store
-desktop.ini
-*sitemap.xml
-*Thumbs.db
-*tg.json
-*.me.*
-/public_html/files
-/content/cronjob/*.txt
-/public_html/sitemap
-/public_html/sitemap.xml
+.DS_Store
 
-/includes/database/backup
-/includes/database/log
-/includes/database/version
-/includes/log
-list.crontab.txt
+application/cache/*
+!application/cache/index.html
 
-*sftp-config.json
-*.me.php
-/dash
+application/logs/*
+!application/logs/index.html
 
-.sass-cache
+!application/*/.htaccess
+
+composer.lock
+
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+/vendor/
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+/tests/tests/
+/tests/results/

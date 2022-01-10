@@ -1,7 +1,0 @@
-{%if quranLoaded.pagination | length > 1 %}
-	<nav class="f">
-	{%for key, value in quranLoaded.pagination%}
-			<a {%if value.link%} href="{{value.link}}"{%endif%} class="btn cauto mA5 {{value.class}}">{{value.text | raw}}</a>
-	{%endfor%}
-	</nav>
-{%endif%}

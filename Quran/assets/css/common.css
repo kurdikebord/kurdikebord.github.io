@@ -1,0 +1,230 @@
+textarea {
+    resize: none;
+}
+
+
+
+
+.boxstyle .box-header {
+    display: block;
+    margin: auto;
+
+}
+
+.boxstyle .thankyou {
+    background: white;
+    width: 100%;
+}
+
+
+.heading-panel p {
+    font-size: 22px;
+    padding-top: 24px;
+    text-align: center;
+}
+
+fieldset,
+label {
+    margin: 0;
+    padding: 0;
+}
+
+/****** Style Star Rating Widget *****/
+
+.rating {
+    float: right;
+}
+
+/*
+.rating-box {
+    max-width: 670px;
+}
+*/
+
+/* :not(:checked) is a filter, so that browsers that donâ€™t support :checked donâ€™t
+   follow these rules. Every browser that supports :checked also supports :not(), so
+   it doesnâ€™t make the test unnecessarily selective */
+
+.rating:not(:checked) > input {
+    position: absolute;
+    /*top:-9999px;*/
+    clip: rect(0, 0, 0, 0);
+    visibility: hidden;
+}
+
+.rating:not(:checked) > label {
+    float: right;
+    width: 1em;
+    padding: 0 .1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 200%;
+    line-height: 1.4;
+    color: #ddd;
+}
+
+.rating:not(:checked) > label:before {
+    content: '★ ';
+}
+
+.rating > input:checked ~ label {
+    color: gold;
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: #79C8FC;
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #ea0;
+}
+
+.rating > label:active {
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+
+
+fieldset {
+    display: inline;
+}
+
+.input-margin {
+    margin-left: 15px !important;
+}
+
+.label-margin {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 400;
+    position: relative;
+    top: -2px;
+}
+
+
+
+.img_box {
+    background: #f7f7f7;
+    padding: 30px 15px;
+    border: #e7e7e7 solid 1px;
+    border-radius: 5px;
+    margin-top: 22px;
+}
+
+.img_box p {
+    text-align: left;
+}
+
+
+.gry_bg {
+    background: #f6f6f6;
+    width: 100%;
+    padding: 30px 0px 0px 0px;
+    min-height: 340px;
+    margin-bottom: 10em;
+}
+
+.ontime_radio {
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+@media (max-width: 769px) {
+    .heading-panel h1 {
+        font-size: 26px;
+    }
+
+    .heading-panel h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .heading-panel p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    
+    .rating-box h5 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .box-header .container {
+        padding: 0 15px;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+
+    .rating:not(:checked) > label {
+        font-size: 160% !important;
+        line-height: 1.8 !important;
+    }
+
+    .heading-panel h1 {
+        font-size: 26px;
+    }
+
+    .heading-panel h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .heading-panel p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .box-header .container {
+        padding: 0 15px;
+    }
+
+    .boxstyle .box-header h4 {
+        padding: 14px !important;
+    }
+
+
+
+}
+
+@media (max-width: 640px) and (min-width: 320px) {
+    .container {
+        width: 95%;
+    }
+
+
+}
+
+
+@media(max-width: 991px) {
+
+    .rating-box h5 {
+        line-height: 18px;
+    }
+    .rating-box h5,
+    .ontime_radio {
+        display: block!important;
+    }
+    .ontime_radio,
+    .rating {
+        float: none;
+    }
+    .make-offer .input-margin {
+        margin-left: 0!important;
+        margin-top: 0;
+    }
+    .img_box {
+        padding-top: 0;
+        padding-bottom: 8px;
+    }
+
+}

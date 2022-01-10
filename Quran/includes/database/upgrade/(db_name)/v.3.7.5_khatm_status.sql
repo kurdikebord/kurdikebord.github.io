@@ -1,2 +1,0 @@
-ALTER TABLE `khatm` CHANGE `status` `status` enum('enable', 'disable', 'awaiting', 'deleted', 'publish', 'expire', 'done', 'running')  NULL DEFAULT NULL;
-ALTER TABLE `khatm` CHANGE `status` `status` enum('enable', 'disable', 'awaiting', 'deleted', 'publish', 'expire', 'done', 'running', 'reserved')  NULL DEFAULT NULL;

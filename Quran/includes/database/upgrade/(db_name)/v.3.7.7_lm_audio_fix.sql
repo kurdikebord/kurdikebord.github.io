@@ -1,2 +1,0 @@
-ALTER TABLE `lm_audio` CHANGE `teacher` `teacher` int(10) UNSIGNED NULL DEFAULT NULL;
-ALTER TABLE `lm_audio` CHANGE `status` `status` enum('awaiting', 'spam', 'deleted', 'admindelete', 'approved', 'reject', 'archive')  NULL DEFAULT NULL;
