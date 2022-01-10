@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<!--
+	Iridium by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>نور | خدمة القرآن الكريم</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+
+		<script>
+
+		//$("#option1").click(function(){
+		//$("").hide();
+		//});
+		$(document).ready(function(){
+			$("#option1").click(function(){
+				$("#rec-div").hide();
+			});
+			$("#option2").click(function(){
+				$("#rec-div").show();
+  });
+
+
+  $("#option2").click(function(){
+				$("#memr-div").hide();
+			});
+
+	$("#option1").click(function(){
+				$("#memr-div").show();
+  });
+
+  $("#myRange").click(function(){
+	var slider = document.getElementById("myRange");
+	$("#demo").text(slider.value)
+  });
+
+});
+
+		</script>
+
+		<style>
+
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: rgb(171, 145, 73, 0.7);
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: rgb(171, 145, 73, 0.3);
+  cursor: pointer;
+}
+		</style>
+	</head>
+	<body class="homepage">
+
+		<!-- Header -->
+		<div id="header">
+			<div class="container"> 
+				
+				<!-- Logo -->
+				<div id="logo">
+					<span style="font-family: 'El Messiri';color:white;
+					font-size: 50px;">نور</span>
+					<span style="font-family: 'El Messiri';">في سبيل خدمة القرآن الكريم</span>
+				</div>
+				
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li><a href="Moshawiqat.html">المشوّقات</a></li>
+						<li><a href="Motashabihat.html">المتشابهات</a></li>
+						<li class="active"><a href="Plan.html">إنشاء خطة جديدة</a></li>
+						<li><a href="Homepage.html">الرئيسية</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+		
+
+
+<!-- Footer -->
+<div id="featured">
+	<div class="container">
+			<h1 style="text-align: center; font-family:
+		 'El Messiri'; font-size: 30px; padding-bottom: 10px;">إنشاء خطة القرآن</h1>
+			<hr style="height:2px; background-color:rgb(171, 145, 73, 0.3);"/>
+			<form style="text-align: center;">
+
+				  <div class="container h-100">
+					<div class="row align-items-center h-100">
+						<div class="col-6 mx-auto">
+							<div>
+								<div class="btn-group btn-group-toggle w-100" data-toggle="buttons">
+									<label class="btn btn-secondary">
+									  <input type="radio" name="options" id="option1" autocomplete="off"> مراجعة
+									</label>
+									<label class="btn btn-secondary">
+									  <input type="radio" name="options" id="option2" autocomplete="off"> حفظ
+									</label>
+								  </div>
+							</div>
+							<div id="rec-div">
+								<span id="demo" style="text-align: right; font-family: 'Adobe Arabic';
+								font-size: 25px; margin: 10px;"></span> <label style="text-align: right; font-family: 'Adobe Arabic';
+								 font-size: 25px; margin: 10px;">:عدد الأوجه يوميًا</label>
+								 <div class="slidecontainer">
+									<input type="range" min="1" max="5" value="1" class="slider" id="myRange">
+									
+								  </div>
+							</div>
+							<div id="memr-div">
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+	</div>
+</div>
+
+
+<!-- Footer -->
+<div id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="4u">
+				
+			</div>
+			<div class="4u">
+				
+			</div>
+			<div class="4u">
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Copyright -->
+<div id="copyright">
+	<div class="container">
+		Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)
+	</div>
+</div>
+
+</body>
+</html>
