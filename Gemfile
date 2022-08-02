@@ -1,19 +1,6 @@
 source "https://rubygems.org"
 
+gem "dotenv"
+gem "github-pages"
 gem "jekyll"
-gem "jekyll-watch"
-gem "jekyll-mentions"
-gem "jekyll-multiple-languages-plugin"
-gem "kramdown"
-gem "webrick"
-
-# Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
-# and associated library.
-platforms :mingw, :x64_mingw, :mswin, :jruby do
-  gem "tzinfo", "~> 1.2"
-  gem "tzinfo-data"
-end
-
-# Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
-
+gem "jekyll-github-metadata"

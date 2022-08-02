@@ -1,7 +1,0 @@
-{% assign languages = site.data.locales | sort_natural: 'name' %}
-{% for language in languages %}
-  {% if site.languages contains language.code %}
-    <a class="dropdown-item" onchange="location = this.value;"
-      href="{% if language.code != 'en' %}/{{ language.code }}{% endif %}{{ page.url }}">{{ language.name }}</a>
-  {% endif %}
-{% endfor %}
