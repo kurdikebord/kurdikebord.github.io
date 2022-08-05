@@ -133,10 +133,34 @@ More information about Android Permissions used in This Keyboard can be read at
                 <p>Sun - Thu: 10AM to 10PM<br>Fri: 2PM to 10PM</p>
               </div>
             </div>
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form" data-aos="fade-up">
+              <div class="form-group">
+                <input placeholder="ناوت" type="text" name="name" class="form-control" id="name" required>
+              </div>
+              <div class="form-group mt-3">
+                <input placeholder="ئیمەیڵەکەت" type="email" class="form-control" name="email" id="email" required>
+              </div>
+              <div class="form-group mt-3">
+                <input placeholder="سەردێڕ" type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea placeholder="پەیامەکەت لێرەدا بنووسە" class="form-control" name="message" rows="5" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">...چاوەڕوانبە</div>
+                <div class="error-message"></div>
+                <div class="sent-message">پەیامەکەت بەسەرکەوتوویی نێردرا</div>
+              </div>
+              <div class="text-center"><button type="submit">ناردن</button></div>
+            </form>
           </div>
+
+        </div>
 
       </div>
     </section><!-- End Contact Section -->
+
 
 
   </main><!-- End #main -->
