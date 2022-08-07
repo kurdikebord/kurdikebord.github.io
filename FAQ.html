@@ -15,64 +15,66 @@
   <meta name="author" content="GoRaN">
   <meta name="generator" content="KurdTek">
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon.png" rel="touch-icon">
   
-  <!-- PLUGINS CSS STYLE -->
-  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
-  <link rel="stylesheet" href="plugins/slick/slick.css">
-  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
-  <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
-  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <!-- CUSTOM CSS -->
-  <link href="css/style.css" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
 
 </head>
 
-<body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
+<body>
 
-<body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top  header-transparent ">
+    <div class="container d-flex align-items-center justify-content-between">
 
-<nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0">
-  <div class="container">
-    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="ti-menu"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item @@home">
-          <a class="nav-link " href="index.html">سەرەتا
-          </a>
-</li>
-        <li class="nav-item active">
-          <a class="nav-link" href="FAQ.html">فێرکاری</a>
-        </li>
-        <li class="nav-item @@about">
-          <a class="nav-link" href="about.html">دەربارە</a>
-        </li>
-        <li class="nav-item @@contact">
-          <a class="nav-link" href="contact.html">پەیوەندی</a>
-        </li>
-      </ul>
+      <div class="logo">
+        <h1><a href="index.html">KurdiKeyBoard</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!--         <a href="index.html"><img src="assets/images/logo.png" alt="" class="img-fluid"></a> -->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index">سەرەتا</a></li>
+          <li><a class="nav-link scrollto" href="career">کارەکانمان</a></li>
+          <li><a class="nav-link scrollto" href="about">دەربارە</a></li>
+          <li><a class="nav-link scrollto" href="privacy-policy">Privacy Policy</a></li>
+          <li><a class="nav-link scrollto" href="#faq">FAQ</a></li>
+          <li><a class="getstarted scrollto" href="download">داگرتن</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
     </div>
-  </div>
-</nav>
+  </header><!-- End Header -->
 
 <!--================================
 =            Page Title            =
 =================================-->
-
 <section class="section page-title">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-8 m-auto">
+<br>
+<br>
 <h2 style="text-align:center">	
 				<!-- Page Title -->
-				<h2>فێرکاری گشتی لەسەر چۆنیەتی بەکارهێنان</h2>
+		فێرکاری گشتی لەسەر چۆنیەتی بەکارهێنان</h2>
 			</div>
 		</div>
 	</div>
@@ -80,116 +82,120 @@
 
 <!--====  End of Page Title  ====-->
 
+    <!-- ======= Frequently Asked Questions Section ======= -->
 
-<!--=================================
-=            FAQ Section            =
-==================================-->
-<section class="faq section pt-0">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-10 m-auto">
-				<div class="block shadow">
-					<!-- Getting Started -->
-					<div class="faq-item">
-						<!-- Title -->
-
-
-<!-- Account Accordion -->
-					<div class="faq-item">
-						<!-- Title -->
-						<div class="faq-item-title">
-					</div>
-						<!-- Account Accordion -->
-						<div id="accountAccordion" data-children=".item">
-						  <!-- Accordion Item 01 -->
-
-						  <div class="item">
-						  	<div class="item-link">
-<p style="text-align:center">	
-							    <a data-toggle="collapse" data-parent="#gstAccordion" href="#gstAccordion1">
-
-							      زیادکردنی زمان بۆ نووسین
+    <section id="faq" class="faq section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="accordion-list">
+          <ul>
+            <li data-aos="fade-up">
+              <i class="bx bx-help-circle icon-help"></i>
+ <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1">
+<h4 style="text-align:center">
+	      زیادکردنی زمان بۆ بەکارهێنان
 <br>
-(Add Language)							    </a></p>
-						  	</div>
-						    <div id="gstAccordion1" class="collapse show accordion-block">
-						      <p style="text-align:center; font-weight: bold;">
+(Add Language)
+</h4>
+ <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+      <p style="text-align:center; font-weight: bold;">
+
+هەنگاوی یەکەم (١)
+<br>
+<br>
 سەرەتا کە تەختەکلیلی کوردی دادەبەزێنیت
-						تەنیا زمانی ئینگلیزی بەشێوەی بنەڕەتی چالاکە بۆ نووسین       <br>
-
-بۆ زیادکردنی زمانێکی زیاتر پەنجەبنێ بە دوگمەی (زیادکردنی زمان)
-
-						      </p>
+						تەنیا زمانی ئینگلیزی
+<br>
+بەشێوەی بنەڕەتی چالاکە بۆ نووسین
+<br>
+<br>
+پێویستە زمانەکانی تریش زیاد بکەیت بۆ لیستی بەکارهێنان
+<br>
+بۆ زیادکردنی زمانێکی زیاتر پەنجەبنێ بە دوگمەی (زیادکردنی زمان)						      </p>
+<br>
 <div class="separator" style="clear: both; text-align: center;"><img border="0" height="200" src="assets/images/about/add_lang.png" width="270" /></a></div>
 <br>
-						    </div>
-						  </div>
-						    <div id="gstAccordion1" class="collapse show accordion-block">
-						      <p style="text-align:center; font-weight: bold;">
+
+      <p style="text-align:center; font-weight: bold;">
 						        پاشان لە لیستی زمانەکاندا یەکێ لەو زمانانە هەڵبژێرە کە ئەتەوێ پێی
 بنووسیت
 						      </p>
-<br><br>
-<div class="separator" style="clear: both; text-align: center;"><img border="0" height="570" src="assets/images/about/lang_list.png" width="270" /></a></div>						    </div>
-						  </div>
+<br>
+<div class="separator" style="clear: both; text-align: center;"><img border="0" height="570" src="assets/images/about/lang_list.png" width="270" /></a></div>					
 
-						  <!-- Accordion Item 02 -->
-						  <div class="item">
-						  	<div class="item-link">
-			
-<p style="text-align:center">					    <a data-toggle="collapse" data-parent="#accountAccordion" href="#accountAccordion2">
-							      زیادکردنی شێوازی نووسین
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed">
+<h4 style="text-align:center">				
+	      زیادکردنی شێوازی نووسین
 <br>
 (Add Layout)
-							    </a></p>
-						  	</div>
-						    <div id="accountAccordion2" class="collapse accordion-block">
-						      
-
-
+</h4>
+ <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
 <p style="text-align:center; font-weight: bold;">
-						        دوای زیادکردنی زمان پێویستە شێوازی نووسینیش دیاریبکەیت<br>
-بەرنامەکە بکەرەوە و بچۆ سەر بەشی زمان ئینجا پەنجەبنێ بە
-شێوازی نووسین(Layout)						      </p>
-<p style="text-align:center;">دواتر شێوازێک لە لیستەکەدا هەڵبژێرە کە دەستت پێی ڕاهاتووە ئینجا پەنجەبنێ بە (زیادکردن)</p>
-<div class="separator" style="clear: both; text-align: center;"><img border="0" height="560" src="assets/images/about/layout_list.png" width="270" /></a></div>
+					
+هەنگاوی دووەم (٢)
 <br>
-						    	    </div>
-						  </div>
+<br>					        دوای زیادکردنی زمان پێویستە شێوازی نووسینیش دیاریبکەیت<br>
+هەر لە بەشی زماندا پەنجەبنێ بە
+شێوازی نووسین
+<br>
+(Layout)				
+<br>
+<br>
+ئینجا شێوازێک لە لیستەکەدا هەڵبژێرە کە خۆت دەستت پێی ڕاهاتووە پاشان پەنجەبنێ بە دوگمەی (زیادکردن)</p>
+<br>
+<div class="separator" style="clear: both; text-align: center;"><img border="0" height="560" src="assets/images/about/layout_list.png" width="270" /></a></div>			
+                </p>
+              </div>
+            </li>
 
-						  <div class="item">
-						  	<div class="item-link">
-
-<p style="text-align:center">	
-  <a data-toggle="collapse" data-parent="#accountAccordion" href="#accountAccordion3">
-							      چۆنیەتی گۆڕینی زمانی تەختەکلیل							    </a></p>
-						  	</div>
-						    <div id="accountAccordion3" class="collapse accordion-block">
-
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed">
+<h4 style="text-align:center">	
+	      چۆنیەتی گۆڕینی زمانی تەختەکلیل
+<br>
+(Changing Language)							  </h4>
+	 <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
 <p style="text-align:center; font-weight: bold;">
-						        بۆ گۆڕینی زمانی تەختەکلیل لەکاتی نووسیندا، پەنجەت بە ئاڕاستەی
-لای ڕاست یان چەپ بجوڵێنە
+	تێبینی‌گرنگ: پێویستە هەنگاوی یەکەم و دووەم بەسەرکەوتوویی ئەنجام بدەیت
+<br>
+تا بتوانی زمانی کیبۆردەکە بگۆڕیت لەکاتی نووسیندا
+<br>
+<br>					        بۆ گۆڕینی زمانی تەختەکلیل بۆ زمانێکی تر
+<br>
+پەنجەت بە ئاڕاستەی لای ڕاست یان چەپ بجوڵێنە
 <br>
 یان کەمێک دەست لەسەر دوگمەی بۆشایی ڕابگرە						      </p>
+<br>
 <div class="separator" style="clear: both; text-align: center;"><img border="0" height="220" src="assets/images/about/change_lang.png" width="270" /></a></div>
 
-</div>
-        </div>
+                </p>
+              </div>
+            </li>
 
-						  <!-- Accordion Item 02 -->
-						  <div class="item">
-						  	<div class="item-link">
-	
-<p style="text-align:center">	
-						    <a data-toggle="collapse" data-parent="#plAccordion" href="#plAccordion2">
-							      چۆنیەتی نووسینی زیکر و کورتە ئایەت
-							    </a></p>
-						  	</div>
-						    <div id="plAccordion2" class="collapse accordion-block">
-						      <p style="text-align:center; font-weight: bold;">
-بۆ نوسینی ( ﷲ ، ﷻ )
+            <li data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#accordion-list-4" class="collapsed">
+<h4 style="text-align:center">	
+چۆنیەتی نووسینی زیکر و کورتە ئایەت
 <br>
-دەست لەسەر پیتی ( ح ) ڕابگرە
+(Using Zikr & Short Ayat)
+</h4>
+<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="accordion-list-4" class="collapse" data-bs-parent=".accordion-list">
+      <p style="text-align:center; font-weight: bold;">
+
+تێبینی: ئەم زیکرانە لەناو دوگمە سەرەکییەکان دانراون
+<br>
+بە کەمێک دەست ڕاگرتن لەسەریان دەرەکەون
+<br><br>
+بۆ نوسینی ( ﷲ ، ﷻ ، ‌‌اللّٰهُ‌ أَكْبَر‌ )
+<br>
+دەست لەسەر پیتی ( چ ) ڕابگرە
 <br><br>
 بۆ نوسینی ( ﷴ ، ﷺ )
 <br>
@@ -199,18 +205,6 @@
 <br>
 دەست لەسەر پیتی ( ب ) ڕابگرە
 <br><br>
-بۆ نوسینی ( السَّلَاْمُ عَلَیْکُم )
-<br>
-دەست لەسەر پیتی ( س ) ڕابگرە
-<br><br>
-بۆ نوسینی ( وَ‌ ‌عَلَيْكُمَ‌ ‌سَلَام )
-<br>
-دەست لەسەر پیتی ( ش ) ڕابگرە
-<br><br>
-بۆ نوسینی ( چۆنی.. باشی )
-<br>
-دەست لەسەر پیتی ( چ ) ڕابگرە
-<br><br>
 بۆ نوسینی ( إِنْ شَاءَ اللّٰه )
 <br>
 دەست لەسەر پیتی ( ڵ یان گ یان ع ) ڕابگرە
@@ -218,246 +212,225 @@
 بۆ نوسینی ( الْحَمْدُ لِلّٰه )
 <br>
 دەست لەسەر پیتی ( ح ) ڕابگرە
-</p>
-<div class="separator" style="clear: both; text-align: center;"><center><img border="0" height="200" src="assets/images/about/zikr_ayat.jpg" width="400" /></a></center>
+<br><br>
+بۆ نوسینی ( ‌‌سُبْحَانَ‌‌ ‌اللّٰه‌‌‌‌ )
 <br>
+دەست لەسەر پیتی ( خ ) ڕابگرە
+<br><br>
+بۆ نوسینی ( ‌‌أَسْتَغْفِرُ‌ اللّٰه‌‌ )
+<br>
+دەست لەسەر پیتی ( ن ) ڕابگرە
 </p>
+<br>
+<div class="separator" style="clear: both; text-align: center;"><center><img border="0" height="300" src="assets/images/about/zikr.png" width="400" /></a></center>
+<br>
+<p style="text-align:center; font-weight: bold;">
 
-هەروەها لای بەشی خەندەکان (ئیمۆجی) چەندین نزا و کورتە ئایەت هەیە
-<br></p>
-<div class="separator" style="clear: both; text-align: center;"><center><img border="0" height="300" src="assets/images/gallery/screen5.png" width="400" /></a></center>
+هەروەها لای بەشی خەندەکان (ئیمۆجی) چەندین نزا و کورتە ئایەت دانراوە
 <br>
 <br>
-             </div>
-						    </div>						  <!-- Accordion Item 04 -->
-						  <div class="item">
-						  	<div class="item-link">
-		
-<p style="text-align:center">						    <a data-toggle="collapse" data-parent="#accountAccordion" href="#accountAccordion4">
-							      کاریگەرییەکانی دەنگ و لەرزین
-							    </a></p>
-						  	</div>
-						    <div id="accountAccordion4" class="collapse accordion-block">
-						      <p style="text-align:center; font-weight: bold;">
-						        بۆ چالاککردن و گۆڕینی ڕێژەی بنەڕەتی کاریگەرییەکانی دەنگ و لەرزین
-<b>
-لەکاتی نووسیندا ، بەهەمان شێوە بەشی تەختەکلیل بکەرەوە لە ڕێکخستنەکاندا						      </p>
-<div class="separator" style="clear: both; text-align: center;"><img border="0" height="200" src="assets/images/about/sound_vibrate.png" width="270" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"><center><img border="0" height="300" src="assets/images/gallery/zikr.png" width="400" /></a></center>
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#accordion-list-5" class="collapsed">
+<h4 style="text-align:center">				
+کاریگەری دەنگ و لەرزین
 <br>
-						    </div>
-						  </div>
-						  <!-- Accordion Item 05 -->
-						  <div class="item">
-						  	<div class="item-link">
-		
-<p style="text-align:center">						    <a data-toggle="collapse" data-parent="#accountAccordion" href="#accountAccordion5">
-							      بۆشایی و مەودای نێوان دوگمەکان
-							    </a></p>
-						  	</div>
-						    <div id="accountAccordion5" class="collapse accordion-block">
-						      <p style="text-align:center; font-weight: bold;">
+(Sound & Vibration Settings)
+</h4><i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="accordion-list-5" class="collapse" data-bs-parent=".accordion-list">
+      <p style="text-align:center; font-weight: bold;">
+تێبینی: پێویستە مۆبایلەکەت لە دۆخی ئاساییدا بێت و بێدەنگ نەکرابێ یان پاوەر سەیڤ چالاک نەبێت
+<br>
+لەهەندێ مۆبایلدا کاریگەری دەنگی و لەرزین کار ناکات گەر دۆخی تاریک بەکارهاتبێ
+<br>
+<br>						        بۆ چالاککردن و بەکارهێنانی کاریگەرییەکانی دەنگ و لەرزین
+<br>
+بچۆ سەر بەشی تەختەکلیل لە ڕێکخستنەکانی بەرنامەکەدا
+<br>
+هەر لەهەمان شوێن ئەتوانی ئاستی دەنگ و هێزی لەرزین بگۆڕیت		
+</p>
+<br>
+<div class="separator" style="clear: both; text-align: center;"><img border="0" height="200" src="assets/images/about/sound_vibrate.png" width="270" /></a></div>			                </p>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#accordion-list-6" class="collapsed">
+<h4 style="text-align:center">				
+بۆشایی و مەودای نێوان دوگمەکان
+<br>
+(Button Gap & Space)
+</h4><i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="accordion-list-6" class="collapse" data-bs-parent=".accordion-list">
+      <p style="text-align:center; font-weight: bold;">
 						        بۆ زیادکردنی ماوە و دانانی بۆشایی زیادە لەنێوان دوگمەکاندا
 <br>
-بچۆ بەشی تەختەکلیل بۆ گۆڕینی مەودای نێوان دوگمەکان						      </p>
-		
-<p><div class="separator" style="clear: both; text-align: center;"><img border="0" height="200" src="assets/images/about/space_size.png" width="270" /></a></div>
+بچۆ بەشی تەختەکلیل بۆ گۆڕینی مەودای نێوان دوگمەکان						      </p>		
+<br>
+<div class="separator" style="clear: both; text-align: center;"><img border="0" height="200" src="assets/images/about/space_size.png" width="270" /></a></div>			                </p>
 
-	      </p>
-						    </div>
-						  </div>
-	  <!-- Accordion Item 06 -->
-						  <div class="item">
-						  	<div class="item-link">
-			
-<p style="text-align:center">					    <a data-toggle="collapse" data-parent="#accountAccordion" href="#accountAccordion6">
-							      چۆنیەتی گۆڕینی قیاسی تەختەکلیل یان فۆنتی نووسین
-							    </a></p>
-						  	</div>
-						    <div id="accountAccordion6" class="collapse accordion-block">
-						      						      						      <p style="text-align:center; font-weight: bold;">
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#accordion-list-7" class="collapsed">
+<h4 style="text-align:center">				
+قیاسی تەختەکلیل و فۆنتی نووسین
+<br>
+(Keyboard Text & Font Size)
+</h4><i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="accordion-list-7" class="collapse" data-bs-parent=".accordion-list">
+      <p style="text-align:center; font-weight: bold;">
 						        بۆ گۆڕینی قەبارەی تەختەکلیل بەرنامەکە بکەرەوە و بچۆ سەر بەشی (تەختەکلیل) 
-
+<br>
 دواتر هەڵبژاردنی یەکەم نوسراوە (قەبارەی تەختەکلیل) قیاسێک بەدڵی خۆت دیاریبکە
 <br>
+<br>
 هەروەها بۆ گەورەکردن یان بچووککردنەوەی قەبارەی فۆنتی نووسین
-بچۆ سەر هەڵبژاردەی دووەم خواروی قەبارەی تەختەکلیل						      </p>
-<div class="separator" style="clear: both; text-align: center;"><img border="0" height="220" src="assets/images/about/change_size.png" width="270" /></a></div>
+<br>
+بچۆ سەر هەڵبژاردەی دووەم خواروی قەبارەی تەختەکلیل		
+<br>				      </p>
+<br>
+<div class="separator" style="clear: both; text-align: center;"><img border="0" height="260" src="assets/images/about/change_size.png" width="270" /></a></div>			                </p>
 
-						    </div>
-						  </div>
-						</div>
-					</div>
-					<!-- Pricing & License Accordion -->
-					<div class="faq-item">
-						<!-- Title -->
-						<div class="faq-item-title">
-								</div>
-						<!-- Account Accordion -->
-						<div id="plAccordion" data-children=".item">
-						  <!-- Accordion Item 01 -->
-						  <div class="item">
-						  	<div class="item-link">
-	
-<p style="text-align:center">							    <a data-toggle="collapse" data-parent="#plAccordion" href="#plAccordion1">
-							      پیشاندان یان شاردنەوەی هێما زیادەکان
-							    </a></p>
-						  	</div>
-						    <div id="plAccordion1" class="collapse accordion-block">
-						      
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#accordion-list-8" class="collapsed">
+<h4 style="text-align:center">				
+پیشاندان یان شاردنەوەی هێما زیادەکان
+<br>
+(Showing Alternative Hints)
+</h4><i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="accordion-list-8" class="collapse" data-bs-parent=".accordion-list">
 <p style="text-align:center; font-weight: bold;">
-						        بۆ پیشاندان و گۆڕینی شێوازی دەرکەوتنی هێما و پیتە لاوەکییەکانی خانەی دووەم
+						        بۆ پیشاندان و گۆڕینی جێی هێما و پیتە لاوەکییەکانی خانەی دووەم
 <br>
-بچۆ سەربەشی زمان لە ڕێکخستنەکاندا شێوازی پیشاندانی هێما و پیتە زیادەکانی خانەی دووەمی تێدایە						      </p>
-	<div class="separator" style="clear: both; text-align: center;"><img border="0" height="250" src="assets/images/about/number_hint.png" width="270" /></a></div>
+بەشی زمان بکەرەوە لە ڕێکخستنەکانی بەرنامەکە
 <br>
-					    </div>
-						  </div>
-						  <!-- Accordion Item 03 -->
-						  <div class="item">
-						  	<div class="item-link">
-			
-<p style="text-align:center">					    <a data-toggle="collapse" data-parent="#plAccordion" href="#plAccordion3">
-							      دیاریکردن و سڕینەوەی نووسینێکی زۆر بەیەکجار
-							    </a></p>
-						  	</div>
-						    <div id="plAccordion3" class="collapse accordion-block">
-						      <p style="text-align:center; font-weight: bold;">
-						        
+لەوێ ئەتوانی شوێنی هێما و پیتە زیادەکانی خانەی دووەم بگۆڕیت						      </p>
+<br>
+	<div class="separator" style="clear: both; text-align: center;"><img border="0" height="260" src="assets/images/about/number_hint.png" width="270" /></a></div>
+<br>			                </p>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#accordion-list-9" class="collapsed">
+<h4 style="text-align:center">				
+دیاریکردن و سڕینەوەی نووسین بەیەکجار
+<br>
+(Selecting & Delete Long Paragraph)
+</h4><i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="accordion-list-9" class="collapse" data-bs-parent=".accordion-list">
+      <p style="text-align:center; font-weight: bold;">
+    
 بۆ دیاریکردنی نووسینەکان پەنجەت لەسەر دوگمەی سڕینەوە ڕابگرە
 <br>
  ئینجا بەبێ ئەوەی پەنجەت لابدەیت بە ئاڕاستەی لای چەپ دەست بجوڵێنە
 					      </p>
-
-<p></p><div class="separator" style="clear: both; text-align: center;"><img border="0" height="220" src="assets/images/about/swipe_delete.png" width="270" /></a></div>&nbsp;<p></p>
-						    </div>
-						  </div>						  <!-- Accordion Item 04 -->
-						  <div class="item">
-						  	<div class="item-link">
-	
-<p style="text-align:center">							    <a data-toggle="collapse" data-parent="#plAccordion" href="#plAccordion4">
-							      چۆنیەتی بەکارهێنانی ئاڕاستەکان لەکاتی نووسیندا
-							    </a></p>
-						  	</div>
-						    <div id="plAccordion4" class="collapse accordion-block">
-						      <p style="text-align:center; font-weight: bold;">
-						        
-						        بۆ چوون بۆ سەرەتا یان کۆتایی نووسینەکان ، پەنجەت بەخێرایی لەسەر دوگمەی بۆشایی بگرە
 <br>
- ئینجا بەبێ ئەوەی پەنجەت لابدەیت بە ئاڕاستەی لای چەپ یان ڕاست دەست بجوڵێنە
-					      </p>
+<div class="separator" style="clear: both; text-align: center;"><img border="0" height="220" src="assets/images/about/swipe_delete.png" width="270" /></a></div></p>
+						
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#accordion-list-10" class="collapsed">
+<h4 style="text-align:center">				
+ئاگادارکردنەوە لە کاتی لەکارکەوتن
+<br>
+(Report Error & Bugs)
+</h4><i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="accordion-list-10" class="collapse" data-bs-parent=".accordion-list">
+      <p style="text-align:center; font-weight: bold;">
 
-<p></p><div class="separator" style="clear: both; text-align: center;"><img border="0" height="220" src="assets/images/about/swipe_navig.png" width="270" /></a></div>&nbsp;<p></p>
-						    </div>
-						  </div>						  <!-- Accordion Item 05 -->
-						  <div class="item">
-						  	<div class="item-link">
-	
-<p style="text-align:center">							    <a data-toggle="collapse" data-parent="#plAccordion" href="#plAccordion5">
-							      چۆنیەتی ئاگادارکردنەوە لە کاتی لەکارکەوتن
-							    </a></p>
-						  	</div>
-						    <div id="plAccordion5" class="collapse accordion-block">
-						      <p style="text-align:center; font-weight: bold;">
-
-تکایە لەکاتی وەستانی لەناکاوی بەرنامەکە ئەم بەشە فەرامۆش مەکە
-پەنجەبنێ بە <i>لەبەرگرتنەوەی ڕاپۆرتی هەڵە</i>، دواتر پەنجەبنێ بە دوگمەی <i>ناردنی ڕاپۆرت</i> بۆ دۆزینەوەی جۆری کێشەکە و چارەسەرکردن و باشترکردنی بەرنامەکەمان لە وەشانەکانی دواتردا
+لەکاتی وەستانی لەناکاوی بەرنامەکە تکایە ئەم بەشە فەرامۆش مەکە
+<br>
+پەنجەبنێ بە لەبەرگرتنەوەی ڕاپۆرتی هەڵە، دواتر پەنجەبنێ بە دوگمەی ناردنی ڕاپۆرت بۆ چارەسەرکردن 
+<br>
+بۆ دۆزینەوەی جۆری کێشەکە و چارەسەرکردن و باشترکردنی بەرنامەکەمان لە وەشانەکانی داهاتوودا
 						      </p>
-
-<p></p><div class="separator" style="clear: both; text-align: center;"><img border="0" height="570" src="assets/images/about/error_report.png" width="270" /></a></div>&nbsp;<p></p>
-						    </div>
-						  </div>
-						  <!-- Accordion Item 06 -->
-						  <div class="item">
-						  	<div class="item-link">
-		
-<p style="text-align:center">						    <a data-toggle="collapse" data-parent="#plAccordion" href="#plAccordion6">
-							      سەرنج و پێشنیار و تێبینی
-							    </a></p>
-						  	</div>
-						    <div id="plAccordion6" class="collapse accordion-block">
-						      <p style="text-align:center; font-weight: bold;">
-						        لەکاتی بوونی هەر کێشەیەک یان بۆ ناردنی سەرنج و پێشنیارەکانتان ئەتوانن لەڕێی ئەم لینکانەوە پەیوەندیمان پێوە بکەن:
-
-<p style="text-align:center">
-    <a href="https://m.facebook.com/goran1290/" target="_blank">
-        فەیسبووکی تایبەتی پەرەپێدەر
-    </a>
-<p style="text-align:center">
-    <a href="https://m.me/kurdtek" target="_blank">
-        لاپەڕەی ڪوردتێڪ لە فەیسبووک
-    </a>
-<p style="text-align:center">
-    <a href="https://www.youtube.com/channel/UCLSIPXe4Sm7GD8cdELdWtCg" target="_blank">
-        چەناڵی ڪوردتێڪ لە یوتوب
-    </a>
-<p style="text-align:center">
-    <a href="https://t.me/kurdikeyboard" target="_blank">
-        گرووپ چاتی تەختەکلیل لە تیلیگرام
-    </a>						      </p>
-						    </div>
-						  </div>
-						</div>
-					</div>						<div class="faq-item-title">
-						<div id="gstAccordion" data-children=".item">
-						  <!-- Accordion Item 01 -->
-						  <!-- Accordion Item 03 -->
-						  <!-- Accordion Item 04 -->
-						  <!-- Accordion Item 05 -->
-						  <!-- Accordion Item 06 -->
-	<!-- Getting Started Accordion -->
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!--====  End of FAQ Section  ====-->
-
-<!--============================
-=            Footer            =
-=============================-->
-<footer>
-          <div class="text-center bg-dark py-4">
-            <a href="index.html"><img src="images/logo-alt.png" alt="footer-logo"></a>
 <br>
-<br>
-            <!-- Social Site Icons -->
-            <ul class="social-icon list-inline">
-              <li class="list-inline-item">
-                <a href="https://www.facebook.com/kurdtek"><i class="ti-facebook"></i></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.youtube.com/channel/UCLSIPXe4Sm7GD8cdELdWtCg"><i class="ti-youtube"></i></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://t.me/kurdikeyboard"><i class="ti-tumblr"></i></a>
-              </li>
+<div class="separator" style="clear: both; text-align: center;"><img border="0" height="570" src="assets/images/about/error_report.png" width="270" /></a></div></p>					              </div>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>KurdiKeyBoard Info</h3><br>
+            <p>
+<strong>Address:</strong> 46001 Kurdistan, Slemani <br><br>
+             	
+              <strong>Phone:</strong> <a href="tel:9647709659575"> +964 770 965 95 75</a><br><br>
+              <strong>Email:</strong><a href="mailto:kurdikeyboards@gmail.com"> kurdikeyboards@gmail.com</a> <br><br>
+              <strong>Facebook:</strong> <a href="https://m.me/kurdtek"> KurdTek</a><br><br>
+              <strong>Telegram:</strong> <a href="https://t.me/kurdikeyboards"> KurdiKeyBoard</a><br><br>
+              <strong>YouTube:</strong> <a href="https://tiny.cc/YouTube"> YouTube Channel</a><br>
+
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>بەشەکان</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index">سەرەتا</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="career">کارەکانمان</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="FAQ">زانیاری</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about">دەربارە</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="privacy-policy">Privacy Policy</a></li>
             </ul>
-    <small class="text-secondary">Copyright &copy; <script>document.write(new Date().getFullYear())</script> Designed By <a href="https://facebook.com/goran1290">GoRaN</a></small class="text-secondary">
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>بەرنامەکانی ترمان</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Qurani Piroz | قورئانی پیرۆز</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">KurdiKeyBoard | تەختەکلیلی کوردی</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">تەختەکلیلی کوردی | PRO</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Kash u Hawa</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Kati Bang | کاتی بانگ</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>ئێمە لە تۆڕە کۆمەڵایەتییەکان</h4>
+
+            <div class="social-links mt-3">
+              <a href="https://m.me/kurdtek" target="_blank"  class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="https://twitter.com/GoranGharib" target="_blank"  class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="https://instagram.com/go.r.an" target="_blank"  class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://t.me/kurdikeyboards" target="_blank"  class="telegram"><i class="bi bi-telegram"></i></a>
+              <a href="https://tiny.cc/YouTube" target="_blank"  class="youtube"><i class="bi bi-youtube"></i></a>
+            </div>
           </div>
         </div>
-        <div class="text-center bg-dark py-4">
-          <div class="block-2">
       </div>
     </div>
-</footer>
 
-  <!-- To Top -->
-  <div class="scroll-top-to">
-    <i class="ti-angle-up"></i>
-  </div>
-  
-  <!-- JAVASCRIPTS -->
-  <script src="plugins/jquery/jquery.min.js"></script>
-  <script src="plugins/bootstrap/bootstrap.min.js"></script>
-  <script src="plugins/slick/slick.min.js"></script>
-  <script src="plugins/fancybox/jquery.fancybox.min.js"></script>
-  <script src="plugins/syotimer/jquery.syotimer.min.js"></script>
-  <script src="plugins/aos/aos.js"></script>
-  <!-- google map -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgeuuDfRlweIs7D6uo4wdIHVvJ0LonQ6g"></script>
-  <script src="plugins/google-map/gmap.js"></script>
-  
-  <script src="js/script.js"></script>
+    <div class="container py-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>KurdiKeyBoard</span></strong>. All Rights Reserved
+      </div>
+
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
