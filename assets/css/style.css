@@ -1163,7 +1163,7 @@ section {
   padding: 2px 0 2px 0;
   line-height: 1;
   font-weight: 700;
-  color: #47536e;
+  color: #0BA552;
 }
 
 #footer .footer-top .footer-contact p {
@@ -1171,13 +1171,13 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: #8a8c95;
+  color: #005edd;
 }
 
 #footer .footer-top h4 {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
-  color: #47536e;
+  color: #0BA552;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1194,7 +1194,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #9fb2d8;
+  color: #005edd;
   font-size: 18px;
   line-height: 1;
 }
@@ -1210,7 +1210,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #8a8c95;
+  color: #005edd;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1237,7 +1237,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #27282c;
+  background: #0BA552;
   color: #fff;
   text-decoration: none;
 }
@@ -1245,7 +1245,7 @@ section {
 #footer .copyright {
   text-align: center;
   float: left;
-  color: #47536e;
+  color: #005edd;
 }
 
 #footer .credits {
