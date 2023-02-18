@@ -1,10 +1,10 @@
 app:
-  screenshots: Screenshots
-  description: Description
+  screenshots: وێنە
+  description: گەلەری وێنەی بەرنامەکانمان
   featured: Featured in
 
 footer:
-  copyright: Made with ❤️ in Europe 🇪🇺 by <a href="https://www.sandoche.com" target="_blank">Sandoche</a>
+  copyright: Made with ❤️ in Kurdistan by <a href="#" target="_blank">GoRaN</a>
   links:
     - title: Github
       url: https://github.com/sandoche/Mobile-app-landingpage-template
