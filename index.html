@@ -1,645 +1,270 @@
-<!DOCTYPE html>
-<html lang="ckb">
-
+<!DOCTYPE HTML>
+<html>
+<!-- _partial/head -->
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
+  <title>RIME | 中州韻輸入法引擎</title>
+  <meta name="author" content="佛振@式恕堂">
+  
+  <meta name="description" content="Le blog de la Rime">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <title>KurdiKeyBoard | سەرەتا</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  
+  <meta property="og:site_name" content="RIME | 中州韻輸入法引擎"/>
 
-  <!-- Favicons -->
-  <link href="assets/images/favicon.png" rel="icon">
-  <link href="assets/images/favicon.png" rel="touch-icon">
+  
+    <meta property="og:image" content="undefined"/>
+  
 
-  <!-- Google Fonts -->
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&display=swap" rel="stylesheet">
+  
+    <link rel="alternative" href="/true" title="RIME | 中州韻輸入法引擎" type="application/atom+xml">
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/css/bootstrap.flatly.min.css" media="screen" type="text/css">
+  
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/darktheme.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <script src="/js/jquery-1.12.4.min.js"></script>
+  <script src="/js/jquery.cookie.js"></script>
+  <script src="/js/jquery.t2s.js"></script>
+  <script src="/js/modernizr.js"></script>
 
-  <!-- =======================================================
-======================================================== -->
-</head>
+  <!-- analytics -->
+  <!-- _partial/post/google_analytics -->
 
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/6340dc0354f06e12d89905e7/1geqlmrvp';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+
+
+<meta name="generator" content="Hexo 4.2.1"></head>
 
 <body>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top  header-transparent ">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <div class="logo">
-        <h1><a href="index.html">KurdiKeyBoard</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!--         <a href="index.html"><img src="assets/images/logo.png" alt="" class="img-fluid"></a> -->
-      </div>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">سەرەتا</a></li>
-          <li><a class="nav-link scrollto" href="#features">تایبەتمەندییەکان</a></li>
-          <li><a class="nav-link scrollto" href="#gallery">وێنە</a></li>
-          <li><a class="nav-link scrollto" href="#pricing">نرخ</a></li>
-          <li><a class="nav-link scrollto" href="about">دەربارە</a></li>
-          <li class="dropdown"><a href="#"><span>زانیاری</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="career">کارەکانمان</a></li>
-              <li><a href="FAQ">فێرکاری بەکارهێنان</a></li>
-              <li><a href="rukar">فێرکاری ڕووکار</a></li>
-             <li><a href="privacy-policy">Kurdish Keyboard Privacy Policy</a></li>
-             <li><a href="quran-al-karim-privacy-policy">Quran Al Karim Privacy Policy</a></li>
-            </ul>
-          </li>
-          <li><a class="getstarted scrollto" href="download">داگرتن</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-
+  <!-- _partial/navigation -->
+<nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-1" data-aos="fade-up">
-          <div>
-            <h1>تەختەکلیلی کوردی</h1>
-            <h2>باشترین و خێراترین تەختەکلیلی سیستەمی ئەندرۆید کە چەندین تایبەتمەندی جیاواز و هەمەجۆر لەخۆ دەگرێت</h2>
-            <a href="https://play.google.com/store/apps/details?id=com.goran.kurdikeyboard" target="_blank" class="download-btn"><i class="bi bi-google-play"></i> تەختەکلیلی کوردی | FREE</a>
-<br><br>
-            <a href="https://play.google.com/store/apps/details?id=goran.kurdikeyboard.pro" target="_blank" class="download-btn"><i class="bi bi-google-play"></i> تەختەکلیلی کوردی | PRO</a>
-
-<br><br>
-            <a href="download" class="download-btn"><i class="bi bi-download"></i> داگرتن لە مارکێتە جیاوازەکان</a>
-
-          </div>
-        </div>
-        <div class="col-lg-6 d-lg-flex flex-lg-column align-items-stretch order-1 order-lg-2 hero-img" data-aos="fade-down">
-          <img src="assets/images/feature/features.png" class="img-fluid" alt="">
-        </div>
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">RIME | 中州韻輸入法引擎</a>
+      <button id="btn-simplify" type="button" class="navbar-convert">簡</button>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/download" title="">
+			  <i class="fa fa-arrow-down"></i>下載
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/docs" title="">
+			  <i class="fa fa-question-circle"></i>幫助
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/code" title="">
+			  <i class="fa fa-github"></i>源碼
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/donate" title="">
+			  <i class="fa fa-heart"></i>捐贈
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/discuss" title="">
+			  <i class="fa fa-comments"></i>討論
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/blog" title="Rime::Blog">
+			  <i class="fa fa-pencil-square-o"></i>網誌
+			</a>
+		  </li>
+		  
+		</ul>
       </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  
+    <div class="front-matter page-header">
+  <img src="/images/home-title.svg" data-png-fallback="/images/home-title.png" />
+  <img src="/images/home-slogan.svg" data-png-fallback="/images/home-slogan.png" class="slogan" />
+  <div class="notice"></div>
+</div>
+<script src="/js/notice.js"></script>
+
+    <div class="home">
+      <!-- index -->
+
+<div class="downloads container">
+  <div class="download os-windows hidden">
+    <a class="btn btn-lg btn-primary" href="https://github.com/rime/weasel/releases/download/0.14.3/weasel-0.14.3.0-installer.exe" target="_blank" rel="noopener"><i class="fa fa-windows"></i>小狼毫 <small>0.14.3</small></a>
+  </div>
+  <div class="download os-mac hidden">
+    <a class="btn btn-lg btn-primary" href="https://github.com/rime/squirrel/releases/download/0.16.2/Squirrel-0.16.2.zip" target="_blank" rel="noopener"><i class="fa fa-apple"></i>鼠鬚管 <small>0.16.2</small></a>
+  </div>
+  <div class="download os-linux hidden">
+    <a class="btn btn-lg btn-primary" href="/download#linux"><i class="fa fa-linux"></i>安裝到 Linux</a>
+  </div>
+  <div class="download os-ios hidden">
+    <a class="btn btn-lg btn-primary" href="/i-rime-with-fool"><i class="fa fa-apple"></i>新韻 for iOS</a>
+  </div>
+  <div class="download os-unknown">
+    <a class="btn btn-lg btn-primary" href="/download"><i class="fa fa-arrow-down"></i>下載 Rime 輸入法</a>
+  </div>
+  <div class="download">
+    <a class="btn btn-lg btn-default" href="/code"><i class="fa fa-code-fork"></i>複刻源碼</a>
+  </div>
+  <div class="footnote text-muted">
+    支持 Windows 7+, macOS 10.9+, Linux (IBus, Fcitx)
+
+    <span class="hidden">&nbsp;&nbsp;<a href="/download">下載更多版本 »</a></span>
+  </div>
+</div>
+<hr />
+<div class="features container">
+  <div class="feature alpha">
+    <div class="left illustration"></div>
+    <div class="right">
+      <h3>
+        擊響中文之韻<br />
+        <small>Rime Input Method Engine, rimes with your keystrokes.</small>
+      </h3>
+      <p>下載、安裝完成後，切換到 Rime 輸入法，立即擊響中文之韻。<br>按組合鍵 <code>Ctrl+`</code> 或 <code>F4</code> 鍵喚出輸入方案選單，由此切換到朙月拼音、注音、倉頡等已啓用的輸入方案。<br>亦可調整 Rime 輸入法最常用的選項。〔<a href="https://github.com/rime/home/wiki/UserGuide" target="_blank" rel="noopener">說明書</a>〕</p>
+
     </div>
+  </div>
+  <hr />
+  <div class="feature beta">
+    <div class="left">
+      <h3>
+        設計輸入方案<br />
+        <small>Rime with input schemata, and innovate.</small>
+      </h3>
+      <p>Rime 輸入方案貴在原創。<br>不止於拼音、注音、倉頡、速成、五筆、雙拼、宮保拼音、粵拼、吳語、中古漢語拼音、五筆畫、Emoji、國際音標……<br>讀《<a href="https://github.com/rime/home/wiki/RimeWithSchemata" target="_blank" rel="noopener">方案設計書</a>》，親手來創作，把輸入法變成理想的模樣。</p>
 
-  </section><!-- End Hero -->
+    </div>
+    <div class="right illustration"></div>
+  </div>
+  <hr />
+  <div class="feature gamma">
+    <div class="left illustration"></div>
+    <div class="right">
+      <h3>
+        破解源碼<br />
+        <small>Rime with the code, and contribute.</small>
+      </h3>
+      <p><a href="https://github.com/rime/home/wiki/RimeWithTheDesign" target="_blank" rel="noopener">瞭解</a> Rime 解決已知輸入難題的技術方案；<br>動手 <a href="code">複刻源碼</a>，增益其所不能。<br>合力打造功能更完備、擴展更容易的開源輸入法框架。</p>
 
-  <main id="main">
-
-    <!-- ======= App Features Section ======= -->
-    <section id="features" class="features">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>ئامانج لە دروستکردنی ئەم پڕۆژەیە چییە؟</h2>
-          <p>تەختەکلیلی کوردی بۆ زیاتر بەرەو پێشبردنی زمان و ڕێنووسی کوردی هاتۆتە بەرهەم هەتا ئێمەش بە شێوازێکی  دروست و ستاندارد
-						لە دنیای تەکنەلۆژیادا بنوسین
-<br>چیتر کیبۆردەکانی (عەرەبی ، لاتینی ، فارسی) نەبێتە جێگرەوەی زمانی ڕەسەنی کوردی<br>
-						ئێمەش وەک هەموو گەلانی جیهان خاوەن تەختەکلیل و ڕێنووسی تایبەت بە خۆمان بین </p>
-        </div>
-
-        <div class="row no-gutters">
-          <div class="col-xl-7 d-flex align-items-stretch order-2 order-lg-1">
-            <div class="content d-flex flex-column justify-content-center">
-              <div class="row">
-                <div class="col-md-6 icon-box" data-aos="fade-up">
-                  <i class="bx bx-receipt"></i>
-                  <h4>ڕێکخستن و گۆڕانکاری</h4>
-                  <p>بوونی چەندین ڕێکخستنی جیاواز بۆ گۆڕانکاری و دەستکاریکردنی بەشەکانی بەرنامەکە</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                  <i class="bx bx-cube-alt"></i>
-                  <h4>نوێکاری بەردەوام</h4>
-                  <p>کارکردن لەم پڕۆژەیەدا بەردەوام دەبێ تا باشترین و نوێترین
-						خزمەتگوزاری تێدا فەراهەم بکرێت بۆ بەکارهێنەر</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                  <i class="bx bx-images"></i>
-                  <h4>دیزاینی سەرنجڕاکێش</h4>
-                  <p>دیزاینی بەرنامەکە بەشێوازێکی نوێ و سەردەمیانە داڕێژراوە
-						  چەندین ڕووکاری هەمەڕەنگی تێدا بەردەستکراوە</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                  <i class="bx bx-shield"></i>
-                  <h4>پارێزراو و سەلامەت</h4>
-                  <p>بەرنامەکەی ئێمە بەتەواوی سەلامەت و پارێزراوە
-						بۆ کارکردنی بەش و تایبەتمەندییەکانی پێویستی بە هیچ ڕێگەپێدانێک نیە</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-                  <i class="bx bx-atom"></i>
-                  <h4>باشترین و خێراترین</h4>
-                  <p>خێراترین و باشترین تەکنیکی تێدا بەکارهاتووە تا بەکارهێنەر بتوانێ بە کەمترین ماوە زۆرترین شت بنوسێت</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-                  <i class="bx bx-id-card"></i>
-                  <h4>یارمەتیدانی پێویست</h4>
-                  <p>لەڕێی دەستەی بەرێوەبەران و سەرپەرشتیاری پڕۆژەکەوە
-						لەکاتی پێویستدا بەکەمترین ماوە هاوکاری دەکرێیت</p>
-                </div>
-              </div>
-            </div>
+    </div>
+  </div>
+</div>
+<div class="user-quotes">
+  <div class="features container">
+    <div class="feature delta">
+      <div class="left">
+        
+          <div class="quote">
+            <div class="quote-header"><p>BYVoid 神牛在 <a href="http://www.byvoid.com/blog/recommend-rime/" target="_blank" rel="noopener">博客</a> 裏寫道：</p>
+</div>
+            <div class="quote-content"><p>「真可謂神級輸入法！」</p>
+</div>
           </div>
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-            <img src="assets/images/feature/kurdkey.png" class="img-fluid" alt="">
+        
+          <div class="quote">
+            <div class="quote-header"><p>爱范儿（<a href="http://www.ifanr.com/156409" target="_blank" rel="noopener">www.ifanr.com</a>）：</p>
+</div>
+            <div class="quote-content"><p>「这真是一个让你有惊喜的软件」</p>
+</div>
           </div>
+        
+          <div class="quote">
+            <div class="quote-header"><p>〔中州韻 QQ 羣〕P - 溝渠拼音：</p>
+</div>
+            <div class="quote-content"><p>新的一天开始了 又可以用心爱的rime写字了</p>
+</div>
+          </div>
+        
+          <div class="quote">
+            <div class="quote-header"><p>〔中州韻 QQ 羣〕Super - 五笔：</p>
+</div>
+            <div class="quote-content"><p>好吧，确实又激发了我打字的欲望，哈:D</p>
+</div>
+          </div>
+        
+        <div>
+          <a href="https://github.com/rime/home/wiki/UserQuotes" target="_blank" rel="noopener">更多說法 »</a>
+          &nbsp;&nbsp;
+          <a href="/discuss">參加討論 »</a>
         </div>
-
       </div>
-    </section><!-- End App Features Section -->
+      <div class="right illustration"></div>
+    </div>
+  </div>
+</div>
+<div class="finale container">
+  <div class="download">
+    <a class="btn btn-lg btn-primary" href="/download"><i class="fa fa-arrow-down"></i>下載 Rime 輸入法</a>
+  </div>
+  <p>今天不想打字？一閱《<a href="https://github.com/rime/home/wiki/MoodCollection" target="_blank" rel="noopener">Rime 心情集</a>》。</p>
+  <p>純粹地喜歡？您可以通過 <a href="/donate">小額贊助</a>，支持開發者爲 Rime 投入更大的努力。</p>
+</div>
 
-    <!-- ======= Details Section ======= -->
-    <section id="details" class="details">
-      <div class="container">
-
-        <div class="row content">
-          <div class="col-md-4" data-aos="fade-right">
-            <img src="assets/images/feature/emoji.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-8 pt-4" data-aos="fade-up">
-            <h3>بوونی سەرجەم خەندەکان و چەندین ڕووکاری هەمەڕەنگ</h3>
-            <p class="fst-italic">
+    </div>
+  
+  <div class="container">
+    
+    <!-- _partial/footer -->
+<p>
+  &copy; 2023 by 佛振@式恕堂
+  &nbsp;
+  <span class="text-muted">Powered by:
+    <a class="text-muted" href="http://hexo.io/" target="_blank">Hexo</a>,
+    <a class="text-muted" href="http://github.com/yieme/hexo-theme-freewill/" target="_blank">Freewill</a>
+    &amp;
+    <a class="text-muted" href="http://bootswatch.com/" target="_blank">Bootswatch <small>v3.2</small></a>
+  </span>
 </p>
-            <ul>
-              <li><i class="bi bi-check"></i> لەم تەختەکلیلەدا سەرجەم خەندە نوێیەکان بەردەستە و بەپێی جۆری مۆبایل هەتا بەرزتربێت خەندەی زیاتر لای بەکارهێنەر دەرەکەوێ بەپێی سیستەم</li>
-              <li><i class="bi bi-check"></i> بوونی چەندین ڕووکاری جیاواز و تایبەتمەندی گۆڕینی ڕەنگی ڕووکار لەگەڵ ڕەنگی بەرنامەکاندا هەروەها دروستکردنی ڕووکاری تایبەت بەخۆت</li>
-              <li><i class="bi bi-check"></i> بوونی چەندین زیکر و دۆعاو کورتە ئایەتی ناو قورئانی پیرۆز</li>
-              <li><i class="bi bi-check"></i> بوونی سەدان هێما و نیشانە و ئامرازی جیاواز تایبەت بە جوانکاری نووسین</li>
-            </ul>
-          </div>
-        </div>
-<br>
-<br>
+ </footer>
+  </div> <!-- container-narrow -->
+  <!-- _partial/after_footer -->
+<a id="gotop" href="#">
+  <span>▲</span>
+</a>
 
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>کورتە زانیاری خاوەن پڕۆژە</h2>
-          <p>گۆران غەریب کەریم دەرچووی پەیمانگای کۆمپیوتەر
-<br>
-وەرگێڕی زمانی ئینگلیزی و شارەزای زمانەکانی پڕۆگرامین 
-<br>
-Java, Kotlin, Flutter</p>
-        </div>
-
-              <div class="testimonial-item">
-                <img src="assets/images/testimonial/GoRaN.jpg" class="testimonial-img" alt="">
-                <h3>Goran Gharib</h3>
-                <h4>Ceo &amp; Founder</h4>
-                
-      <p style="text-align:center; font-weight: bold;">
-
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                بەبێ هەوڵدان و ماندووبون و سەرکێشی بۆ داهێنان و نوێکاری
-<br>
-هیچ شتێک لە دنیادا
-						نایەتە بوون
-<br>
-<br>
-..بڵاوکردنەوە گرنگی پێدانە..
-<br>
-<br>
-وەک پشتگیریەک بۆ ئێمە و بەردەوامبوون لە کار و پەرەپێدانی زیاتری پڕۆژەکانمان
-<br><br>
-هیوادارم بەرنامەکە بێبەش نەکەن
-<br>
-لە دانانی پێنج ئەستێرە
-<br>
-⭐️⭐️⭐️⭐️⭐️
-<br><br>
-هەروەها بڵاوی بکەنەوە و بینێرن بۆ هاوڕێ و خزم و ناسیاوتان
-<br>
-تا بگاتە دەستی هەموان و سوودی لێ وەربگرن 
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-        </div>
-      </div>
-    </section> <!-- End Testimonials Section -->
-
-<br>
-<br>
-<br>
-        <div class="row content">
-          <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
-            <img src="assets/images/feature/tablet-phone.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
-            <h3>گونجاندن و کارکردن لەسەر زۆۆۆۆربەی مۆبایل و تابلێتەکان</h3>
-            <p class="fst-italic">
-             
-            </p>
-            <p>
-تەختەکلیلی کوردی بەجۆرێک دیزاینکراوە کە لەسەر ئامێرەکانی مۆبایل و تابلێتەکانیش بەبێ کێشە کار دەکات
-            </p>
-            <p>
-              						هەروەها لە تەلەفزیۆنی زیرەکیش کە سیستەمی ئەندرۆیدی لەسەربێت بەبێ کێشە بەرنامەکە کاردەکات
-					
-            </p>
-          </div>
-        </div>
-
-        <div class="row content">
-          <div class="col-md-4" data-aos="fade-right">
-            <img src="assets/images/feature/langlay.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-8 pt-5" data-aos="fade-up">
-            <h3>
-بوونی چەندین زمان و شێوازی جیاوازی نووسین</h3>
-            <p></p>
-            <ul>
-              <li><i class="bi bi-check"></i> بوونی زیاتر لە ١٥ زمانی جیاواز</li>
-              <li><i class="bi bi-check"></i> بوونی دەیان شێوازی تایبەت و ڕێکخراوی پیتەکان</li>
-              <li><i class="bi bi-check"></i> بنیاتنراوە لەسەر شێوازەکانی (GBoard, SwiftKey, Standard Keyboard)</li>
-            </ul>
-            <p>
-              هەروەها چەندین شێوازی تایبەتی تریش کە هەموویان لەسەر خواست و پێشنیاری بەکارهێنەران زیادکراوە
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
 
 
-            </p>
-            <p>
-تاکە تەختەکلیلی سیستەمی ئەندرۆیدە کە زۆۆۆرترین تایبەتمەندی و شێوازی جیاواز لەخۆ بگرێت و لە هیچ کام لەوانی تر بەردەست نییە
-            </p>
-          </div>
-        </div>
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
 
-        <div class="row content">
-          <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
-            <img src="assets/images/feature/clipbord.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
-            <h3>بوونی بەشی لەبەرگیراوەکان بۆ هەڵگرتنی شتەکانت</h3>
-            <p class="fst-italic">
-            </p>
-            <p>
-              تەختەکلیلی کوردی تایبەتمەندی بەشی لەبەرگیراوەکان لەخۆدەگرێت هاوشێوەی کیبۆردە بەناوبانگەکان بۆ هەڵگرتن و پاراستنی
-            </p>
-            <ul>
-              <li><i class="bi bi-check"></i> نووسین و داتا و پەرەگرافی درێژ</li>
-              <li><i class="bi bi-check"></i> وێنە و کورتە ڤیدیۆیی کۆپیکراو</li>
-              <li><i class="bi bi-check"></i> ئیمەیڵ و ژمارەی تەلەفون و بەستەری ماڵپەڕەکان</li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Details Section -->
-
-    <!-- ======= Gallery Section ======= -->
-    <section id="gallery" class="gallery">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>گەلەری وێنە</h2>
-          <p>هەندێ وێنەی شاشە لە تایبەتمەندی و ڕێکخستنە جیاوازەکانی بەرنامەکە</p>
-        </div>
-
-      </div>
-
-      <div class="container-fluid" data-aos="fade-up">
-        <div class="gallery-slider swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide"><a href="assets/images/gallery/screen1.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="assets/images/gallery/screen1.png" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a href="assets/images/gallery/screen2.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="assets/images/gallery/screen2.png" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a href="assets/images/gallery/screen3.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="assets/images/gallery/screen3.png" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a href="assets/images/gallery/screen4.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="assets/images/gallery/screen4.png" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a href="assets/images/feature/emojis.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="assets/images/feature/emojis.png" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a href="assets/images/gallery/screen6.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="assets/images/gallery/screen6.png" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a href="assets/images/gallery/screen7.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="assets/images/gallery/screen7.png" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a href="assets/images/gallery/screen9.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="assets/images/gallery/screen9.png" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a href="assets/images/gallery/xanda.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="assets/images/gallery/xanda.png" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a href="assets/images/gallery/rukar.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="assets/images/gallery/rukar.png" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a href="assets/images/gallery/taybatmandi.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="assets/images/gallery/taybatmandi.png" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a href="assets/images/feature/features.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="assets/images/feature/features.png" class="img-fluid" alt=""></a></div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Gallery Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>لێدوانی بەکارهێنەران</h2>
-          <p>سەرنج و تێبینی بەکارهێنەرانی تەختەکلیلی کوردی لە مارکێتە جیاوازەکان</p>
-        </div>
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/images/testimonial/Sari.jpg" class="testimonial-img" alt="">
-                <h3>Sari Rashid</h3>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  		دەستان خۆش بێت و هیوای سەرکەوتنی زیاترتان بۆ ئەخوازم....‼️
-<br>
-⁩📬🤗⁦🖐️⁩🌹⁩⁦ⓇⒸ
-	
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/images/testimonial/Akram.jpg" class="testimonial-img" alt="">
-                <h3>Akram Salih Hasan</h3>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  	دەستەکانتان خوش بێت زور دلخوشم بەم کیبوردە خوای گەورە پاداشتان بدات ‌‌‌إِنْ‌ شَاءَ‌ اللّٰه‌‌
-	
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/images/testimonial/Sara.jpg" class="testimonial-img" alt="">
-                <h3>سارا جلال</h3>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  ئەتوانم بڵێم پڕ خزمەتگوزاریترین کیبۆردی کوردیە دەستخۆشیت لێ ئەکەم
-
- <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/images/testimonial/Farman.jpg" class="testimonial-img" alt="">
-                <h3>Farman Mala</h3>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-🥇🎖️🏅🏆تەختەکلیلی زۆر جوانە دەستان خۆش بەس خودا بێ کەموو کوڕیە بە ئومێدێ کاری جوانتر	
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/images/testimonial/Hanar.jpg" class="testimonial-img" alt="">
-                <h3>Hanar Amir</h3>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  ماندوو نەبن بۆ ئەم کارە ، بەڕاستی جێگای دەست خۆشین تەختەکلیلێکی زۆر باش و کەم کێشەیە
-							<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/images/testimonial/Osama.jpg" class="testimonial-img" alt="">
-                <h3>Osama Nzeer Mustafa</h3>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  ئەمە یەکەم کیبوردە لەناوی گوگل پلەی ناو گوگڵ هەر هەموو نینە وەک ئەمە ناهێتیش
-							<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/images/testimonial/Sultan.jpg" class="testimonial-img" alt="">
-                <h3>Sultan</h3>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  به راستي ئه پيكي ناوازه يه هه ر بژين ده ستتان خوش بيت به هيواي سه ركه وتن به رده وام بن دلي من❤️💚
-
- <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/images/testimonial/Romi.jpg" class="testimonial-img" alt="">
-                <h3>Romi M</h3>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  دەستەکانت خۆشبێ و ماندوو نەبیت بەڕاستی تاکە تەختەکلیلە کە زۆر بەدڵمە 💜 زۆر سوپاس❤
-
- <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/images/testimonial/Arya.jpg" class="testimonial-img" alt="">
-                <h3>Arya</h3>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  					بەجدی لە تەمەنما کیبۆردی ئاوا باش و سەرکەوتووم نەدیوە
-								بەڕاستی دەستان خۆش ئەتوانم بڵێم یەکێکە لە باشترین و نایابترینەکان
-								بەهیوای کاری جوانتر ،
-								بارك الله فیکم								
-<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/images/testimonial/Aryan.jpg" class="testimonial-img" alt="">
-                <h3>Arian Uosefi</h3>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  زۆر جووانە ٥ ستاڕەیی بۆ کە مە ۆڵاھێ
-							<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div>
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Testimonials Section -->
-
-    <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>نرخی تەختەکلیلی کوردی</h2>
-          <p>تەختەکلیلی کوردی بۆ ماوەی حەوت ساڵ بەبێ بەرامبەر و بێ بوونی هیچ جۆرە ڕیکلام و سپۆنسەر و پاڵپشتیەکی دارایی بەردەوام بووە لە خزمەتکردن تا ئەم دەقەیەش وەشانی خۆڕایی پێشکەش دەکات
-<br>
-<br>
-الحمدلله بە خۆشحاڵییەوە لە ئێستادا وەشانێکی تریش بەردەستە بۆ بەکارهێنەران بە نرخێکی ڕەمزی کەم، کە چەندین تایبەتمەندی ناوازە و هەمەجۆر لەخۆ دەگرێت کە لە وەشانی ئاساییدا بەردەست نیە..
-</p>
-        </div>
-
-        <div class="row no-gutters">
-
-          <div class="col-lg-4 box" data-aos="fade-right">
-            <h3>خۆڕایی</h3>
-            <h4>$0<span>بۆ هەمیشە</span></h4>
-            <ul>
-              <li><i class="bx bx-check"></i> بەبێ ڕیکلامی بێزارکەر Ads free</li>
-              <li><i class="bx bx-check"></i> بەردەستە بە شێوازی ١٥ زمانی جیاواز</li>
-              <li><i class="bx bx-check"></i> بوونی ١٠ ڕووکاری هەمەڕەنگ</li>
-              <li><i class="bx bx-check"></i> بوونی سەرجەم ئیمۆجییەکان</li>
-              <li class="na"><i class="bx bx-x"></i> <span>بوونی مێژووی ئیمۆجییەکان</span></li>
-              <li class="na"><i class="bx bx-x"></i> <span>بوونی فۆڵدەری کاتی بۆ هەڵگرتنی لەبەرگیراوەکان</span></li>
-              <li class="na"><i class="bx bx-x"></i> <span>بوونی تایبەتمەندی گەڕانی دەنگی</span></li>
-              <li class="na"><i class="bx bx-x"></i> <span>پێشنیارکردنی ووشە و ڕاستکردنەوەی هەڵەی ڕێنووس </span></li>
-            </ul>
-            <a href="https://play.google.com/store/apps/details?id=com.goran.kurdikeyboard" target="_blank" class="get-started-btn">دابەزاندن</a>
-          </div>
-
-          <div class="col-lg-4 box featured" data-aos="fade-up">
-            <h3>پارەدان</h3>
-            <h4>$1.49 (2000IQD)<span>بۆ هەمیشە</span></h4>
-            <ul>
-              <li><i class="bx bx-check"></i> بوونی زیاتر لە ٣٠ زمان و شێوازی جیاواز</li>
-              <li><i class="bx bx-check"></i> بوونی دەیان ڕووکاری هەمەرەنگ + دروستکردن بەدڵی خۆت</li>
-              <li><i class="bx bx-check"></i> بوونی سەرجەم ئیمۆجییەکان</li>
-              <li><i class="bx bx-check"></i> بوونی بەشی مێژووی ئیمۆجی</li>
-              <li><i class="bx bx-check"></i> گۆڕینی ڕەنگی ئیمۆجییەکان بۆ شەش ڕەنگ</li>
-
-              <li><i class="bx bx-check"></i> هەڵگرتن و هێشتنەوەی بەشی لەبەرگیراوەکان بەدڵی خۆت</li>
-
-              <li><i class="bx bx-check"></i> بوونی تایبەتمەندی گەڕانی دەنگی</li>
-
-              <li><i class="bx bx-check"></i> توانای گۆڕینی بەشی سەرەوە و خوارەوە بەدڵی خۆت</li>
-
-              <li><i class="bx bx-check"></i> پێشنیارکردنی ووشە و ڕاستکردنەوەی هەڵەی ڕێنووس (لەژێر کاردایە)</li>
-
-              <li><i class="bx bx-check"></i> توانای گۆڕینی زمانی بەرنامەکە بۆ چوار زمان</li>
-            </ul>
-            <a href="https://play.google.com/store/apps/details?id=goran.kurdikeyboard.pro" target="_blank" class="get-started-btn">کڕین</a>
-          </div>
-
-       <!--   <div class="col-lg-4 box" data-aos="fade-left">
-            <h3>Developer</h3>
-            <h4>$10<span>Per Year</span></h4>
-            <ul>
-              <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-              <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-              <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-              <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-              <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
-            </ul>
-            <a href="#" class="get-started-btn">Get Started</a>
-          </div> -->
-
-        </div>
-
-      </div>
-    </section><!-- End Pricing Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>KurdiKeyBoard Info</h3><br>
-            <p>
-<strong>Address:</strong> 46001 Kurdistan, Slemani <br><br>
-             	
-              <strong>Email:</strong><a href="mailto:kurdikeyboards@gmail.com"> kurdikeyboards@gmail.com</a> <br><br>
-              <strong>Facebook:</strong> <a href="https://m.me/kurdikeyboard"> KurdiKeyboard</a><br><br>
-              <strong>Telegram:</strong> <a href="https://t.me/kurdikeyboard"> KurdiKeyBoard</a><br><br>
-              <strong>YouTube:</strong> <a href="https://tiny.cc/YouTube"> YouTube Channel</a><br>
-
-            </p>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>بەشەکان</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="index">سەرەتا</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="career">کارەکانمان</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="FAQ">زانیاری</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="about">دەربارە</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="privacy-policy">Privacy Policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>بەرنامەکانی ئێمە</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://play.google.com/store/apps/details?id=com.goran.quran.karim.dang" target="_blank">Quran Al Karim | قورئانی پیرۆز</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://play.google.com/store/apps/details?id=com.goran.kurdikeyboard" target="_blank">Free | تەختەکلیلی کوردی</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://play.google.com/store/apps/details?id=goran.kurdikeyboard.pro" target="_blank">PRO | تەختەکلیلی کوردی</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Kash u Hawa | کەش و هەوا</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Kati Bang | کاتی بانگ</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>ئێمە لە تۆڕە کۆمەڵایەتییەکان</h4>
-            <div class="social-links mt-3">
-              <a href="https://m.me/kurdikeyboard" target="_blank"  class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="https://twitter.com/GoranGharib" target="_blank"  class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="https://instagram.com/go.r.an" target="_blank"  class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="https://t.me/kurdikeyboard" target="_blank"  class="telegram"><i class="bi bi-telegram"></i></a>
-              <a href="https://tiny.cc/YouTube" target="_blank"  class="youtube"><i class="bi bi-youtube"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container py-4">
-      <div class="copyright">
-        &copy; Copyright <strong><span>KurdiKeyBoard</span></strong>. All Rights Reserved
-      </div>
-
-    </div>
-  </footer><!-- End Footer -->
-
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
- 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
 
 </body>
-
 </html>
