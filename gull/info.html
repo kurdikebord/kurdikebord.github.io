@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ckb">
+	<head>
+		<title>
+			تاقەگوڵ
+		</title>
+
+		<!-- Metadata information -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+
+		<!-- Logo -->
+		<link rel="shortcut icon" href="site/image/portraits/1.png">
+		<link rel="apple-touch-icon" href="site/image/portraits/1.jpg">
+		<meta content="src/frontend/style/images/1.png"
+		      itemprop="image">
+
+		<!-- Manifest -->
+		<link rel="manifest" href="site/site.webmanifest">
+
+		<!-- Stylesheet -->
+		<link rel="stylesheet" href="site/style.css?v11">
+
+		<!-- Service worker -->
+		<script>
+		 if('serviceWorker' in navigator)
+			 navigator.serviceWorker.register(
+				 '/taqe-gull/sw.js', {scope: '/taqe-gull/'})
+		</script>
+	</head>
+	<body>
+		<div class="cover"></div>
+		<div class="flower" id="flower-red"></div>
+
+		<header>
+			<h1 onclick="window.location = './#.'">
+				تاقەگوڵ
+			</h1>
+			<small>
+				ئاوێنەی
+				<a href="http://kurdflora.com/">
+					kurdflora.com
+				</a>
+			</small>
+		</header>
+
+		<nav>
+			<button type="button" onclick="history.back()">
+				گەڕانەوە &rsaquo;
+			</button>
+		</nav>
+
+		<main id="main"></main>
+
+		<footer>
+			<a href="https://github.com/allekok/taqe-gull">
+				کۆد
+			</a>
+		</footer>
+
+		<script>
+		 window.onload = () => get_list(get_path(), "main")
+
+		 function get_path() {
+			 const h = window.location.hash.substr(1)
+			 return h === "" ? "." : h
+		 }
+		 function get_url(path, callback) {
+			 const x = new XMLHttpRequest
+			 x.open("get", path)
+			 x.onload = () => callback(x.responseText)
+			 x.send()
+		 }
+		 function get_list(path, tar) {
+			 get_url(`${path}/list.txt`, list =>
+				 echo_list(list, tar))
+			 document.getElementById(tar).innerHTML =
+				 "<div class='loader'></div>"
+		 }
+		 function echo_list(list, tar) {
+			 const target = document.getElementById(tar)
+			 target.innerHTML = ""
+			 list = list.split("\n")
+			 for(const item of list) {
+				 if(item.substr(-4) == ".JPG")
+					 echo_image(item, target)
+				 else if(item == "INFO.TXT")
+					 echo_info(item, target)
+			 }
+		 }
+		 function echo_image(name, target) {
+			 target.innerHTML +=
+				 `<img src='${get_path()}/${name}'>`
+		 }
+		 function echo_info(name, target) {
+			 get_url(`${get_path()}/${name}`, txt =>
+				 echo_text(txt, target))
+		 }
+		 function echo_text(txt, target) {
+			 txt = txt.replace(/\n/g, "<br>")
+			 target.innerHTML = `<p>${txt}</p>` +
+					    target.innerHTML
+		 }
+		</script>
+	</body>
+</html>

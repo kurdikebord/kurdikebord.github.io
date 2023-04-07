@@ -1,0 +1,14 @@
+{
+	"name": "تاقەگوڵ",
+	"short_name": "تاقەگوڵ",
+	"icons": [
+		{
+			"src": "/taqe-gull/site/image/portraits/1.jpg",
+			"sizes": "512x512",
+			"type": "image/jpeg"
+		}
+	],
+	"theme_color": "#EEEEEE",
+	"background_color": "#EEEEEE",
+	"display": "standalone"
+}
