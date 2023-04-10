@@ -5,7 +5,7 @@
 <h5 style="text-align:center; font-weight: bold;">
 تەختەکلیلی کوردی بەردەستە لە
 <br>						
-Google Play کۆگای گۆگڵ پلەی</h5>
+کۆگای گۆگڵ پلەی Google Play</h5>
 <div class="separator" style="clear: both; text-align: center;"><a href="https://play.google.com/store/apps/details?id=com.goran.kurdikeyboard" target="_blank" class="btn btn-rounded-icon"><img border="0" height="85" src="assets/img/app/google-play.png" width="300" /></a></div>
 <p>
 					<h5 style="text-align:center; font-weight: bold;">
