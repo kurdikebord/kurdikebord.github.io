@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: https://quranwbw.com/sitemap.xml
+Sitemap: https://kurdikebord.github.io/sitemap.xml
