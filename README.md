@@ -18,7 +18,7 @@ alt='Get it on AppGallery'
 height="68" width="200">](https://appgallery.huawei.com/app/C105446281)
 [<img src="assets/img/app/apk-file.png"
       alt='Get it By Direct Link'
-      height="65" width="200">](https://github.com/kurdikeyboard/kurdikeyboard.github.io/blob/main/KurdiKeyboard1.9.apk?raw=true)
+      height="65" width="200">](https://github.com/kurdikeyboard/kurdikeyboard.github.io/blob/main/KurdiKeyboard.apk?raw=true)
       
 https://kurdikebord.github.io
       
