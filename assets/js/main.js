@@ -1,5 +1,5 @@
 /**
-* Template Name: PhotoFolio
+* Template Name: KurdiKeboard
 * Updated: Mar 10 2023 with Bootstrap v5.2.3
 * Template URL: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/
 * Author: BootstrapMade.com

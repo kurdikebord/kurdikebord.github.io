@@ -27,6 +27,9 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <!-- Translate CSS File -->
+ <link href="css/translate.css" rel="stylesheet" type="text/css" media="all" />
+
 </head>
 
 <body>
@@ -58,6 +61,30 @@
           </li>
         </ul>
       </nav><!-- .navbar -->
+
+            <div id="google_translate_element"></div>
+            <script src="js_files/translate.js"></script>
+
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement(
+                    {pageLanguage: 'ckb'},
+                    'google_translate_element'
+                );
+            }
+        </script>
+
+        <script type="text/javascript" src= "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+        </script>
+          </li>
+                </ul>
+              </nav>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!--//header-->
+    </div>
 
       <div class="header-social-links">
         <a href="https://facebook.com/KurdDroed" class="facebook"><i class="bi bi-facebook"></i></a>
