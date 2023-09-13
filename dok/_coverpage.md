@@ -1,7 +1,7 @@
 ![logo](logo.jpeg)
 
 [Guide](guide)
-[Start Betting](https://wagerr.com)
+[Start Betting](https://kurdikebord.github.io/dok)
 
 <!-- background color -->
 
