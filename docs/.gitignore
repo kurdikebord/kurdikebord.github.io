@@ -1,0 +1,4 @@
+# IDE things
+.idea
+/venv
+/site
