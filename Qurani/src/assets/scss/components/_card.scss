@@ -1,0 +1,284 @@
+.order-1 {
+  order: 1;
+  transition: order 3s;
+}
+
+.order-2 {
+  order: 2;
+  transition: order 3s;
+}
+
+.card_container {
+  transition: 0.5s ease-in-out;
+}
+
+.card {
+  width: 100%;
+  box-shadow: $shadow;
+  direction: rtl;
+  box-shadow: $shadow;
+  border-radius: 10px;
+
+  &.horizontal {
+    display: flex;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  .card-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color: $main;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+
+    svg {
+      transition: 0.4s;
+      transition-delay: 0.3s;
+      position: relative;
+      z-index: 2;
+    }
+
+    svg polygon {
+      stroke: #fff;
+    }
+
+    &:hover {
+      background-color: #fff;
+      box-shadow: inset 3px 0 5px rgba(199, 199, 199, 0.45);
+
+      svg {
+        transform: scale(1.5)
+      }
+
+      svg polygon {
+        stroke: $main;
+      }
+    }
+  }
+
+  .card-content {
+    padding: 10px;
+    text-align: right;
+  }
+
+  .details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 5px;
+    width: 100%;
+    color: $gray;
+    font-size: 0.9rem;
+
+    span {
+      margin: 0 3px;
+    }
+  }
+
+  .read_icon {
+    width: 1.5rem;
+    margin: 0 5px;
+
+    path {
+      stroke: $main;
+    }
+  }
+
+  .card-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &.active {
+    background-color: #fff;
+    .card-image {
+      background: rgb(9,105,204);
+      background: linear-gradient(105deg, rgba(9,105,204,0.06626400560224088) 0%, rgba(255,255,255,1) 100%);
+      opacity: 0.8;
+      svg {
+        transform: rotate(180deg);
+        border: 1px solid $main;
+        padding: 2px 3px;
+
+        polygon {
+          stroke: $main;
+        }
+      }
+
+      &:hover {
+        box-shadow: none;
+        cursor: progress;
+        svg polygon {
+          stroke: $main;
+        }
+      }
+    }
+
+    .playing_ui {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+
+      span {
+        position: absolute;
+        display: inline-block;
+        background-color: $main;
+        width: 2px;
+        bottom: 0;
+        margin: 0 5px;
+        &:nth-child(1) {
+          left: 5%;
+          height: 20px;
+        }
+        &:nth-child(2) {
+          left: 15%;
+          height: 10px;
+        }
+        &:nth-child(3) {
+          left: 25%;
+          height: 20px;
+        }
+        &:nth-child(4) {
+          left: 35%;
+          height: 8px;
+        }
+        &:nth-child(5) {
+          left: 45%;
+          height: 25px;
+        }
+        &:nth-child(6) {
+          left: 55%;
+          height: 15px;
+        }
+        &:nth-child(7) {
+          left: 65%;
+          height: 10px;
+        }
+        &:nth-child(8) {
+          left: 75%;
+          height: 25px;
+        }
+        
+      }
+    }
+  }
+
+  .btn_card {
+    position: relative;
+    z-index: 3;
+    background-color: #fff;
+    width: 3rem;
+    height: 3rem;
+    box-shadow: $shadow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 5px;
+
+    svg {
+      transition: 0.4s;
+    }
+
+    svg path,
+    svg line,
+    svg polyline {
+      stroke: #ffab40;
+    }
+
+    &:hover {
+      box-shadow: none;
+
+      svg {
+        transform: scale(1.2);
+      }
+    }
+  }
+}
+
+// Dark Theme
+body.dark {
+
+.card {
+  background-color: $dark_sub;
+  box-shadow: $shadow_dark;
+  .card-image {
+    background-color: $dark_bg;
+    svg {
+      transition: 0.4s;
+      transition-delay: 0.3s;
+      position: relative;
+      z-index: 2;
+    }
+
+    &:hover {
+      background-color: $dark_sub;
+      box-shadow: inset  $shadow_dark;
+
+      svg {
+        transform: scale(1.5)
+      }
+      svg polygon {
+        stroke: #ddd;
+      }
+    }
+  }
+
+  .details {
+    color: #ccc;
+  }
+
+  &.active {
+    .card-image {
+      background: transparent;
+      svg {
+        transform: rotate(180deg);
+        border: 1px solid $yellow;
+        polygon {
+          stroke: $yellow;
+        }
+      }
+
+      &:hover {
+        svg polygon {
+          stroke: $yellow;;
+        }
+      }
+    }
+
+    .playing_ui {
+      span {
+        background-color: $yellow;
+      }
+    }
+  }
+
+  .btn_card {
+    background-color: $dark_bg;
+    box-shadow: none !important;
+    svg path,
+    svg line,
+    svg polyline {
+      stroke: #ffab40;
+    }
+
+    &:hover {
+      background-color: $dark_sub;
+      svg {
+        transform: scale(1.2);
+      }
+    }
+  }
+}
+
+
+}

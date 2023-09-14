@@ -1,0 +1,113 @@
+.modal {
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    max-height: 80% !important;
+    background-color: #fff;
+
+    .row {
+        margin-bottom: .5rem;
+    }
+
+    .modal-overlay {
+        background: #fff;
+        opacity: 0.8 !important;
+    }
+
+    .modal-title {
+        margin-bottom: 25px;
+    }
+
+    .modal-content {
+        padding: 24px 24px 10px 24px;
+    }
+
+    .modal-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: $bg;
+
+        .helper-text {
+            margin: 5px 15px;
+        }
+    }
+
+    .btn_login_modal {
+        position: relative;
+        min-width: auto;
+        width: 25%;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        justify-content: center;
+        margin: 25px auto 0;
+
+        @media screen and (max-width: 767px) {
+            width: 45%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin: 15px auto 0;
+        }
+    }
+
+    // Mobile  Screens Design Media Query
+    @media screen and (max-width: 480px) {
+        width: 95%;
+        max-height: 97% !important;
+
+        .row {
+            margin-bottom: 0;
+        }
+
+        .modal-title {
+            margin-bottom: 0;
+        }
+
+        .modal-content {
+            padding: 10px 15px;
+        }
+    }
+
+    .progress {
+        position: absolute;
+        bottom: -14px;
+        width: 80%;
+        background-color: #0969cc;
+        .indeterminate {background-color: #fff;}
+    }
+}
+// end modal
+
+.progress {
+    position: absolute;
+    bottom: -14px;
+    width: 80%;
+    background-color: #0969cc;
+    .indeterminate {background-color: #fff;}
+  }
+
+//   dark theme
+body.dark {
+    .modal {
+        background-color: $dark_bg;
+        .modal-overlay {
+            background: #000;
+            opacity: 0.8 !important;
+        }
+        .modal-footer {
+            background-color: $dark_sub;
+        }
+        .progress {
+            background-color: #fff;
+            .indeterminate {background-color: $dark_sub;}
+        }
+    }
+}
+
+body.rtl {
+    .modal {
+        direction: ltr !important;
+        label {direction: rtl;}
+        input {text-align: right;}
+    }
+}

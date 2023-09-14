@@ -1,0 +1,26 @@
+.navbar_container {
+  padding: 0 20px;
+  box-shadow: none;
+  border-bottom: 1px solid  #f2f2f2;
+  box-shadow: 0px 3.5px 10px rgba(199, 199, 199, 0.45);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  .brand-logo {left: auto; transform: none;}
+}
+
+body.dark {
+    .navbar_container {
+      background-color: $dark_sub !important;
+      border-bottom: 1px solid  #292929;
+      box-shadow: $shadow_dark;
+    }
+}
+
+// Rtl Styles
+body.rtl {
+.navbar_container {
+  direction: ltr !important;
+  text-align: left;
+}
+}

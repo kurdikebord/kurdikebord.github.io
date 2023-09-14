@@ -1,0 +1,134 @@
+.fixed-sidebar {
+  position: fixed;
+  right: -100%;
+  top: 0;
+  width: 20%;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+  background-color: #fff;
+  padding: 7rem 2rem 2rem;
+  z-index: 1;
+  box-shadow: inset 3px 0 5px rgba(199, 199, 199, 0.45);
+  transition: 0.5s ease-in-out;
+  z-index: 99;
+
+  &.menu {
+    right: 0;
+  }
+
+  .menu_wraper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .profile_controls {
+    margin-top: 1rem;
+    padding-top: 2rem;
+    border-top: 1px solid #ddd;
+  }
+
+  @media screen and (max-width: 991px) {
+    width: 30%;
+  }
+
+  @media screen and (max-width: 767px) {
+    width: 50%;
+    right: 0;
+
+    &.menu {
+      right: -100%;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 75%;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 4px;
+    width: calc(100% - 3px);
+    height: 55px;
+    background-color: $bg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.dropdown-content {
+  min-width: 50px;
+  max-width: 50px;
+  overflow: hidden;
+  li > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    i {
+      margin: 5px;
+    }
+  }
+}
+
+.slide-fade-enter-active {
+  transition: all 0.3s ease;
+}
+
+.slide-fade-leave-active {
+  transition: all 0.3s;
+}
+
+.slide-fade-enter,
+.slide-fade-leave-to {
+  transform: translateY(10px);
+  opacity: 0;
+}
+
+// Dark Style
+body.dark {
+  .fixed-sidebar {
+    background-color: $dark_sub;
+    box-shadow: inset 3px 0 5px rgba(0, 0, 0, 0.25);
+
+    .profile_controls {
+      border-top: 1px solid $dark_bg;
+      .card {
+        box-shadow: none;
+      }
+      .card-content {
+        background-color: $dark_bg;
+      }
+
+      .divider {background-color: #292929;}
+
+      .dropdown-trigger {
+        i.blue {
+          background-color: $dark_sub !important;
+
+        }
+      }
+      
+      .dropdown-content li:hover, 
+      .dropdown-content li.active {
+        background-color: $dark_bg;
+      }
+    }
+
+    .footer {
+      background-color: $dark_bg;
+      left: 4px;
+      width: 100%;
+    }
+  }
+}
+
+body.rtl {
+  .fixed-sidebar {
+    direction: ltr !important;
+  }
+}
