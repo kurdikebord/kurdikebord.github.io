@@ -1,0 +1,348 @@
+/* =================================================================== */
+/* 
+/*  Refresh v2.0 Media Queries Stylesheet
+/*  url:styleshout.com
+/*  08-25-2014
+/*
+/* =================================================================== */
+
+
+/* screenwidth less than 900px - smaller screens
+/* =================================================================== */
+@media only screen and (max-width:900px) {
+
+	/* Header Styles */
+	header .social {
+		display: none;
+	}
+
+	/* Content Styles	*/
+	.content #main {
+		padding-right: 18px;
+	}
+	.content #sidebar {
+		padding-left: 18px;
+	}
+
+} /* end 900px - smaller screens */
+
+
+/* screenwidth less than 768px - tablets
+/* =================================================================== */
+@media only screen and (max-width:767px) {
+
+	/* Document setup */
+	.wrap {
+		margin: 0;
+		padding: 0;
+		-moz-border-radius: 0;
+		-webkit-border-radius: 0;
+		border-radius: 0;
+		background-clip: padding-box;
+	}
+
+	/* Header Styles */
+	header {
+		height: 192px;
+		border-top: 6px solid #2c61b4;
+	}	
+	header .site-branding {
+		position: static;
+		padding-top: 78px;
+		margin-left: 6px;
+		display: block;
+	}
+	header .social {
+		display: block;
+		position: absolute;
+		right: auto;
+		left: 30px;
+		top: 0px;
+		background: #316cc9;
+	}
+	header .search {
+		display: none;
+	}
+
+	/* mobile navigation */
+	#nav-wrap {
+		z-index: 102;
+		float: none;
+		position: absolute;
+		top: 0;
+		right: 0;
+		margin-top: 0;
+	}
+	#nav-wrap > a {
+		text-align: left;
+		border: none;
+		font-size: 12px;
+		color: #fff;
+		float: right;
+		padding: 16px 0 16px 16px;
+		height: 48px;
+		width: 48px;
+		position: relative;
+		top: 0px;
+		right: 45px;
+		background: #82c13e;
+	}
+	#nav-wrap .menu-text {
+		text-transform: uppercase;
+		margin-right: 50px;
+		line-height: 1;
+		vertical-align: top;
+		display: none;
+	}
+	#nav-wrap .menu-icon {
+		display: inline-block;
+		position: absolute;
+		right: 16px;
+		top: 50%;
+		bottom: auto;
+		left: auto;
+		margin-left: -8px;
+		margin-top: -2px;
+		width: 16px;
+		height: 2px;
+		background: #fff;
+	}
+	#nav-wrap .menu-icon:before, #nav-wrap .menu-icon:after {
+		content: '';
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		background-color: inherit;
+		left: 0; 
+	}
+	#nav-wrap .menu-icon:before {
+		bottom: 5px;
+	}
+	#nav-wrap .menu-icon:after {
+		top: 5px;
+	}
+	#nav-wrap ul#nav {
+		padding: 54px 45px 60px 45px;
+		margin: 0;
+		height: auto;
+		display: none;
+		clear: both;
+		width: 100%;
+		float: none;
+		position: relative;
+		top: 0;
+		right: 0;
+	}
+	#nav-wrap ul#nav > li {
+		float: none;
+	}
+	#nav-wrap ul#nav > li {
+		display: block;
+		height: auto;
+		text-align: left;
+		border-bottom: 1px dotted #b4da8b;
+		padding: 6px 0;
+	}
+	#nav-wrap ul#nav > li:first-child {
+		border-top: 1px dotted #b4da8b;
+	}
+	#nav-wrap ul#nav li a {
+		display: block;
+		width: auto;
+		padding: 0;
+		padding: 12px 0;
+		line-height: 16px;
+		border: none;
+	}
+	#nav-wrap ul#nav li a:hover {
+		background: none;
+		color: #3e3f3f;
+	}
+	#nav-wrap ul#nav li.current > a {
+		background: none;
+		border-radius: none;
+		border: none;
+		padding: 12px 0;
+	}
+	#nav-wrap ul#nav li.has-children > a:after {
+		content: "+";
+		display: inline;
+		padding-left: 8px;
+		color: #fff;
+		font-weight: bold;
+		font-size: 18px;
+		position: absolute;
+		right: 10px;
+		top: 15px;
+	}
+	#nav-wrap ul#nav ul {
+		position: static;
+		border-radius: none;
+		border: none;
+		padding-bottom: 0;
+		background: #82c13e;
+		display: block;
+	}
+	#nav-wrap ul#nav ul li a {
+		padding: 6px 15px 6px 8px;
+		color: #fff;
+	}
+	#nav-wrap ul#nav ul li a:hover {
+		color: #3e3f3f;
+	}
+	#nav-wrap ul#nav li.has-children:hover > a:after {
+		content: "-";
+	}
+
+	.js #nav-wrap a.mobile-btn {
+		display: none;
+	}
+	.js #nav-wrap a.toggle-btn {
+		display: block;
+	}
+	.no-js #nav-wrap:not(:target) > a:first-of-type, .no-js #nav-wrap:target > a:last-of-type {
+		display: block;
+	}
+	.no-js #nav-wrap:target ul#nav {
+		display: block;
+	}
+	
+	/* Content Styles	 */
+	.content {
+		margin: 30px 0;
+	}
+	.content #main {
+		padding-right: 30px;
+	}
+	.content #sidebar {
+		margin-top: 42px;
+		padding-left: 30px;
+	}
+	#sidebar .widget_search {
+		display: block;
+	}
+
+	/* Footer Styles */
+	footer {
+		padding-top: 0;
+	}
+	footer ul {
+		margin-left: -4px;
+	}
+	footer ul li {
+		display: inline-block;
+		margin-right: 18px;
+		line-height: 30px;
+	}
+	footer .social-links li {
+		font-size: 28px;
+		line-height: 42px;
+		margin: 0 8px;
+	}
+	footer .copyright {
+		margin-top: 30px;
+		border-top: 1px solid #f2f2f2;
+		padding: 24px 30px 24px 30px;
+	}
+	#go-top {
+		right: 20px;
+	}
+	#go-top a {
+		width: 42px;
+		height: 42px;
+		line-height: 42px;
+	}
+
+	/* Common and shared styles */
+	.content h1, .entry h1 {
+		font: 28px/36px "opensans-semibold", sans-serif;
+		letter-spacing: -.5px;
+		text-align: center;
+	}
+
+	/* Single Entry */
+	.entry header {
+		border: none;
+	}
+	.entry .entry-meta ul {
+		text-align: center;
+		margin-top: 6px;
+	}
+	.pagenav a[rel="next"]:after {
+		float: right;
+	}
+	#comments h3 {
+		text-align: center;
+		margin-left: 0;
+	}
+	.commentlist {
+		width: 100%;
+		margin-left: 0;
+	}
+	.commentlist > li {
+		padding-left: 0;
+	}
+	.commentlist li .avatar {
+		display: none;
+	}
+	#comments form {
+		margin-left: 0;
+		border-bottom: 1px solid #e6e6e6;
+	}
+	#comments form input, #comments form textarea, #comments form select, #comments form label {
+		width: 100%;
+		float: none;
+	}
+	#comments form label {
+		padding-left: 0;
+	}
+	#comments form div {
+		margin-bottom: 0;
+	}
+	#comments form input {
+		margin-bottom: 0;
+	}
+	#comments form .message label {
+		display: block;
+	}
+	#comments form button.submit {
+		width: 100%;
+		margin-top: 18px;
+	}
+
+} /* end 768px - tablets */
+
+
+/* screenwidth less than or equal 480px - mobile
+/* =================================================================== */
+@media only screen and (max-width:480px) {
+
+	/* mobile navigation */
+	#nav-wrap > a {
+		right: 30px;
+	}
+
+	/* Common and shared styles */
+	.content h1, .entry h1 {
+		font: 26px/30px "opensans-semibold", sans-serif;
+	}
+	.entry h1 {
+		margin-bottom: 12px;
+	}
+
+} /* end 480px - mobile */
+
+
+/* make sure the menu is visible on larger screens
+/* =================================================================== */
+@media only screen and (min-width:768px) {
+	#nav-wrap ul#nav {
+		display: block !important;
+	}
+
+}
+
+
+
+
+
