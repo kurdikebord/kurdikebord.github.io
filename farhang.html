@@ -1,265 +1,476 @@
 <!DOCTYPE html>
-<html lang="ckb">
+<html dir= "rtl" lang="ckb">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>فەرهەنگەکان</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>KurdiKebord - فەرهەنگەکان</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/wena/favicon.png" rel="icon">
 
-   <!-- Google Fonts -->
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&display=swap" rel="stylesheet">
-
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Mukta:wght@200;300;400;500;600;700;800&family=Abel:wght@400&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
+  <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
 </head>
 
-<body>
+<body class="starter-page-page">
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid d-flex align-items-center justify-content-between">
+  <header id="header" class="header d-flex align-items-center position-relative">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center  me-auto me-lg-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <i class="bi bi-book-half"></i>
-        <h3>فەرهەنگەکان</h3>
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1 class="sitename">KurdiKebord</h1>
       </a>
 
-      <nav id="navbar" class="navbar">
+      <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index" class="active"></a></li>
-          <li><a href="taybatmandi">تایبەتمەندییەکان</a></li>
-          <li><a href="ferkari">فێرکاری بەکارهێنان</a></li>
-           <li><a href="ferkari-pro">فێرکاری پرۆ</a></li>
-           <li><a href="farhang">فەرهەنگەکان</a></li>
-           <li><a href="darbara">دەربارە</a></li>
-          <li><a href="paywandi">پەیوەندی</a></li>
-          <li class="dropdown"><a href="#"><span>Privacy Policy</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li><a href="index">سەرەتا</a></li>
+          <li><a href="dagrtn">داگرتن</a></li>
+          <li class="dropdown"><a href="#"><span>Privacy Policy</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="privacy-policy">KurdiKeyboard Privacy Policy</a></li>
-              <li><a href="quran-al-karim-privacy-policy">Qurani Piroz Privacy Policy</a></li>
-            </ul>
+              <li><a href="privacy-policy">PRO | Privacy Policy</a></li>
+              <li><a href="privacy-policy-pro">FREE | Privacy Policy</a></li>
+              <li><a href="quran-al-karim-privacy-policy">Qurani Piroz | Privacy Policy</a></li>
+          </ul>
           </li>
+          <li><a href="#contact">پەیوەندی</a></li>
         </ul>
-      </nav><!-- .navbar -->
-
-      <div class="header-social-links">
-        <a href="https://facebook.com/KurdiKebord" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="https://tiktok.com/@KurdiKebord" class="tiktok"><i class="bi bi-tiktok"></i></a>
-        <a href="https://youtube.com/@KurdiKebord" class="youtube"><i class="bi bi-youtube"></i></a>
-        <a href="mailto:kurdikeyboards@gmail.com" class="email"><i class="bi bi-envelope-fill"></i></i></a>
-      </div>
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
 
     </div>
-  </header><!-- End Header -->
+  </header>
 
-  <main id="main" data-aos="fade" data-aos-delay="1500">
+  <main class="main">
 
+    <!-- Dagrtn Section -->
+    <section id="starter-section" class="starter-section section">
 
-    <!-- ======= End Page Header ======= -->
-    <div class="page-header d-flex align-items-center">
-      <div class="container position-relative">
-        <div class="row d-flex justify-content-center">
-          <div class="col-lg-6 text-center">
-
-
-    <!-- ======= Gallery Single Section ======= -->
-
-            <h3>..فەرهەنگەکانی پێشنیارکردن..
-</h3>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="description-title">فەرهەنگەکانی پێشنیارکردن</span>
+        <h2>فەرهەنگەکانی پێشنیارکردن</h2>
 <br>
-            <h6>
+        <h5>
 لەئێستادا فەرهەنگی (١٥) زمان
 <br>
 بەردەستن بۆ بەکارهێنان
 <br>
 PRO | لە تەختەکلیلی کوردی
-<br>
-</h6>
+</h5>
+      </div><!-- End Section Title -->
 
-<br>
-            <a class="cta-btn"  target="_blank"  href="https://m.me/KurdiKebord">داواکاری فەرهەنگ یان زمانی نوێ
-<br>
-Request new dict or language</a>
-<br>
-<br>
-<p>
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+          </div>
+      <p style="text-align:center; font-weight: bold;">
 فەرهەنگی عەرەبی
 <br>
-القاموس العربية
-<br><br>
-            <a class="cta-btn"  target="_blank"  href="https://github.com/kurdikebord/kurdikebord.github.io/raw/main/farhang/main_ar.dict">داگرتن - تنزيل</a>
-<br>
-<br>
+(القاموس العربية)
+</p>
+                <div class="action-buttons">
+                  <a href="https://github.com/kurdikebord/kurdikebord.github.io/raw/main/farhang/main_ar.dict" target="_blank" class="btn btn-primary" data-aos="fade-up" data-aos-delay="600">داگرتن - تنزیل
+</a>
+</div>
+</div>
 
+      <p style="text-align:center; font-weight: bold;">
 فەرهەنگی فارسی
 <br>
-فرهنگ فارسی
-<br><br>
-            <a class="cta-btn"  target="_blank"  href="https://github.com/kurdikebord/kurdikebord.github.io/raw/main/farhang/main_fa.dict">داگرتن - دانلود</a>
-<br>
-<br>
+(فرهنگ فارسی)
+</p>       
+         
+<div class="action-buttons">
+                  <a href="https://github.com/kurdikebord/kurdikebord.github.io/raw/main/farhang/main_fa.dict" target="_blank" class="btn btn-primary" data-aos="fade-up" data-aos-delay="600">داگرتن - دانلود
+</a>
+</div>
+</div>
 
+
+      <p style="text-align:center; font-weight: bold;">
 فەرهەنگی ئەڵمانی
 <br>
-Deutsches Wörterbuch
-<br><br>
-            <a class="cta-btn"  target="_blank"  href="https://github.com/kurdikebord/kurdikebord.github.io/raw/main/farhang/main_de.dict">Herunterladen - داگرتن</a>
-<br>
-<br>
+(Deutsches Wörterbuch)
+</p>       
+         
+<div class="action-buttons">
+                  <a href="https://github.com/kurdikebord/kurdikebord.github.io/raw/main/farhang/main_de.dict" target="_blank" class="btn btn-primary" data-aos="fade-up" data-aos-delay="600">داگرتن - Herunterladen
+</a>
+</div>
+</div>
 
+      <p style="text-align:center; font-weight: bold;">
 فەرهەنگی سویدی
 <br>
-Svensk Ordbok
-<br><br>
-            <a class="cta-btn"  target="_blank"  href="https://github.com/kurdikebord/kurdikebord.github.io/raw/main/farhang/main_sv.dict">Ladda ner - داگرتن</a>
-<br>
-<br>
-
+(Svensk Ordbok)
+</p>       
+         
+<div class="action-buttons">
+                  <a href="https://github.com/kurdikebord/kurdikebord.github.io/raw/main/farhang/main_sv.dict" target="_blank" class="btn btn-primary" data-aos="fade-up" data-aos-delay="600">داگرتن - Ladda ner
+</a>
+</div>
+</div>
+      <p style="text-align:center; font-weight: bold;">
 فەرهەنگی دانیمارکی
 <br>
-Den Danske Ordbog
-<br><br>
-            <a class="cta-btn"  target="_blank"  href="https://github.com/kurdikebord/kurdikebord.github.io/raw/main/farhang/main_da.dict">Download - داگرتن</a>
-<br>
-<br>
-
+(Den Danske Ordbog)
+</p>       
+         
+<div class="action-buttons">
+                  <a href="https://github.com/kurdikebord/kurdikebord.github.io/raw/main/farhang/main_da.dict" target="_blank" class="btn btn-primary" data-aos="fade-up" data-aos-delay="600">داگرتن - Download
+</a>
+</div>
+</div>
+      <p style="text-align:center; font-weight: bold;">
 فەرهەنگی هۆڵەندی
 <br>
-Nederlands woordenboek
-<br><br>
-            <a class="cta-btn"  target="_blank"  href="https://github.com/kurdikebord/kurdikebord.github.io/raw/main/farhang/main_nl.dict">Downloaden - داگرتن</a>
-<br>
-<br>
-
+(Nederlands woordenboek)
+</p>       
+         
+<div class="action-buttons">
+                  <a href="https://github.com/kurdikebord/kurdikebord.github.io/raw/main/farhang/main_nl.dict" target="_blank" class="btn btn-primary" data-aos="fade-up" data-aos-delay="600">داگرتن - Downloaden
+</a>
+</div>
+</div>
+      <p style="text-align:center; font-weight: bold;">
 فەرهەنگی نەرویجی
 <br>
-Norsk Ordbok
-<br><br>
-            <a class="cta-btn"  target="_blank"  href="https://github.com/kurdikebord/kurdikebord.github.io/raw/main/farhang/main_nb.dict">Last ned - داگرتن</a>
-<br>
-<br>
-
+(Norsk Ordbok)
+</p>       
+         
+<div class="action-buttons">
+                  <a href="https://github.com/kurdikebord/kurdikebord.github.io/raw/main/farhang/main_nb.dict" target="_blank" class="btn btn-primary" data-aos="fade-up" data-aos-delay="600">داگرتن - Last den
+</a>
+</div>
+</div>
+      <p style="text-align:center; font-weight: bold;">
 فەرهەنگی ئیسپانی
 <br>
-Diccionario Español
-<br><br>
-            <a class="cta-btn"  target="_blank"  href="https://github.com/kurdikebord/kurdikebord.github.io/raw/main/farhang/main_es.dict">Descargar - داگرتن</a>
-<br>
-<br>
-
+(Diccionario Español)
+</p>       
+         
+<div class="action-buttons">
+                  <a href="https://github.com/kurdikebord/kurdikebord.github.io/raw/main/farhang/main_es.dict" target="_blank" class="btn btn-primary" data-aos="fade-up" data-aos-delay="600">داگرتن - Descargar
+</a>
+</div>
+</div>
+      <p style="text-align:center; font-weight: bold;">
 فەرهەنگی ئیتاڵی
 <br>
-Il dizionario italiano
-<br><br>
-            <a class="cta-btn"  target="_blank"  href="https://github.com/kurdikebord/kurdikebord.github.io/raw/main/farhang/main_it.dict">Scaricamento - داگرتن</a>
-<br>
-<br>
-
+(Il dizionario italiano)
+</p>       
+         
+<div class="action-buttons">
+                  <a href="https://github.com/kurdikebord/kurdikebord.github.io/raw/main/farhang/main_it.dict" target="_blank" class="btn btn-primary" data-aos="fade-up" data-aos-delay="600">داگرتن - Scaricamento
+</a>
+</div>
+</div>
+      <p style="text-align:center; font-weight: bold;">
 فەرهەنگی فەڕەنسی
 <br>
-Dictionnaire français
-<br><br>
-            <a class="cta-btn"  target="_blank"  href="https://github.com/kurdikebord/kurdikebord.github.io/raw/main/farhang/main_fr.dict">Télécharger - داگرتن</a>
-<br>
-<br>
-
+(Dictionnaire français)
+</p>       
+         
+<div class="action-buttons">
+                  <a href="https://github.com/kurdikebord/kurdikebord.github.io/raw/main/farhang/main_fr.dict" target="_blank" class="btn btn-primary" data-aos="fade-up" data-aos-delay="600">داگرتن - Télécharger
+</a>
+</div>
+</div>
+      <p style="text-align:center; font-weight: bold;">
 فەرهەنگی پۆرتوگالی
 <br>
-Dicionário Português
-<br><br>
-            <a class="cta-btn"  target="_blank"  href="https://github.com/kurdikebord/kurdikebord.github.io/raw/main/farhang/main_pt.dict">Download - داگرتن</a>
-<br>
-<br>
-
+(Dicionário Português)
+</p>       
+         
+<div class="action-buttons">
+                  <a href="https://github.com/kurdikebord/kurdikebord.github.io/raw/main/farhang/main_pt.dict" target="_blank" class="btn btn-primary" data-aos="fade-up" data-aos-delay="600">داگرتن - Download
+</a>
+</div>
+</div>
+      <p style="text-align:center; font-weight: bold;">
 فەرهەنگی ڕووسی
 <br>
-Русский словарь
-<br><br>
-            <a class="cta-btn"  target="_blank"  href="https://github.com/kurdikebord/kurdikebord.github.io/raw/main/farhang/main_ru.dict">Скачать - داگرتن</a>
-<br>
-<br>
-
+(Русский словарь)
+</p>       
+         
+<div class="action-buttons">
+                  <a href="https://github.com/kurdikebord/kurdikebord.github.io/raw/main/farhang/main_ru.dict" target="_blank" class="btn btn-primary" data-aos="fade-up" data-aos-delay="600">داگرتن - Скачать
+</a>
+</div>
+</div>
+      <p style="text-align:center; font-weight: bold;">
 فەرهەنگی یۆنانی
 <br>
-Ελληνικό λεξικό
-<br><br>
-            <a class="cta-btn"  target="_blank"  href="https://github.com/kurdikebord/kurdikebord.github.io/raw/main/farhang/main_el.dict">Λήψη - داگرتن</a>
-<br>
-</p>
-<br>
-<br>
-    <section id="gallery-single" class="gallery-single">
-      <div class="container">
+(Ελληνικό λεξικό)
+</p>       
+         
+<div class="action-buttons">
+                  <a href="https://github.com/kurdikebord/kurdikebord.github.io/raw/main/farhang/main_el.dict" target="_blank" class="btn btn-primary" data-aos="fade-up" data-aos-delay="600">داگرتن - Λήψη
+</a>
+</div>
+</div>
 
-          <div class="col-lg-3">
-            <div class="portfolio-info">
+</p>
+</div>
+</div>
 <br>
-              <h3>زانیاری گشتی</h3>
-              <ul>
-                <li><strong>جۆر</strong> <span>فەرهەنگ، زمان، نووسین</span></li>
-                <li><strong>پەرەپێدەر</strong> <span>گۆران غەریب</span></li>
-                <li><strong>بەرواری نوێکردنەوە</strong> <span>٢٠٢٤/٠٨/٢٥</span></li>
-                <li><a href="https://facebook.com/KurdiKebord" target="_blank" class="btn-visit align-self-center">لاپەڕەی فەیسبووک</a></li>
-                <li><a href="https://tiktok.com/@KurdiKebord" target="_blank" class="btn-visit align-self-center">ئێمە لە تیک تۆک</a></li>
-                <li><a href="https://youtube.com/@KurdiKebord" target="_blank" class="btn-visit align-self-center">کەناڵی یوتوب</a></li>
+<br>
+                <div class="action-buttons">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="cta-wrapper">
+          <div class="cta-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+          </div>
+
+          <div class="row g-0">
+            <div class="col-lg-7">
+              <div class="cta-content p-5" data-aos="fade-right" data-aos-delay="200">
+                <span class="badge-custom" data-aos="zoom-in" data-aos-delay="300">وەشانی پارەدان</span>
+                <h2 class="mt-4 mb-4">ئەزمونێکی نوێ تاقیبکەرەوە لەگەڵ وەشانی پارەدانی تەختەکلیلی کوردی</h2>
+                <p class="mb-4">لە وەشانی پارەدان تایبەتمەندی زۆۆۆر نایاب و ناوازە بەردەست خراوە بۆ بەکارهێنەر کە لە وەشانی ئاساییدا بوونی نیە</p>
+
+<center>
+                <div class="row benefits-row mb-5">
+                  <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="benefit-item">
+                      <div class="icon-box">
+                        <i class="bi bi-lightning-charge-fill"></i>
+                      </div>
+                      <div class="benefit-content">
+                        <h5>بەکارهێنانی ئاسان</h5>
+                        <p>بە سادەیی کۆدەکانی دارێژراوە کە زۆر ئاسانکاری تێدا فەراهەم کراوە بۆ بەکارهێنەران</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="benefit-item">
+                      <div class="icon-box">
+                        <i class="bi bi-shield-check"></i>
+                      </div>
+                      <div class="benefit-content">
+                        <h5>تەواو پارێزراو</h5>
+                        <p>هیچ جۆرە ڕێگەپێدانێکی سیستەم پێویست نیە بۆ کارکردنی بەرنامەکە وە لە ٪١٠٠ بەبێ ئینتەر نێت کاردەکات</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+</center>
+                  <a href="https://play.google.com/store/apps/details?id=goran.kurdikeyboard.pro" target="_blank" class="btn btn-primary" data-aos="fade-up" data-aos-delay="600">ئێستا بیکڕە</a>
+                  <a href="#pricing" class="btn btn-outline" data-aos="fade-up" data-aos-delay="700">زانیاری زیاتر</a>
+                  <div class="guarantee-badge" data-aos="fade-up" data-aos-delay="800">
+                    <i class="bi bi-patch-check-fill"></i>
+                    <span>یەکجار بیکڕە و بۆ هەمیشە بەکاری بهێنە</span>
+                  </div>
+                </div>
+              </div>
+    </section><!-- /Call To Action Section -->
+
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="description-title">نرخی بەرنامەکە</span>
+        <h2>نرخی بەرنامەکە</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+
+          <!-- Basic Plan -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="pricing-item">
+              <div class="pricing-icon">
+                <i class="bi bi-star"></i>
+              </div>
+              <h3>خۆڕایی</h3>
+              <div class="price">
+                <span class="currency">$</span>0<span class="period">/هەمیشە</span>
+              </div>
+              <p class="description">لە تەختەکلیلی کوردی | خۆڕایی ئەم تایبەتمەندیانە بەردەستن</p>
+              <ul class="features-list">
+                <li>
+                  <i class="bi bi-check2"></i>
+                  پێشنیارکردنی ووشەکان
+                </li>
+                <li>
+                  <i class="bi bi-check2"></i>
+                  چەند ڕووکارێکی جیاواز
+                </li>
+                <li>
+                  <i class="bi bi-check2"></i>
+                  چەندین زیکر و کورتە ئایەت
+                </li>
+                <li>
+                  <i class="bi bi-check2"></i>
+                 بوونی کاریگەری دەنگ لەرزین جوڵان
+                </li>
+                <li>
+                  <i class="bi bi-check2"></i>
+                  بوونی خەندە سەرەتاییەکان
+                </li>
               </ul>
+              <a href="https://play.google.com/store/apps/details?id=com.goran.kurdikeyboard" target="_blank" class="btn-pricing">دابەزاندنی خۆڕایی</a>
+            </div>
+          </div><!-- End Basic Plan -->
+
+          <!-- Professional Plan -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="pricing-item featured">
+              <div class="pricing-badge">پێشنیارکراو</div>
+              <div class="pricing-icon">
+                <i class="bi bi-stars"></i>
+              </div>
+              <h3>پارەدان</h3>
+              <div class="price">
+                <span class="currency">$</span>1<span class="period">/هەمیشە</span>
+              </div>
+              <p class="description">لە تەختەکلیلی کوردی | پارەدان سەدان تایبەتمەندی جیاواز بەردەستن</p>
+              <ul class="features-list">
+                <li>
+                  <i class="bi bi-check2"></i>
+                   دروستکردنی تەختەکلیل و گۆڕینی شوێنی پیتەکان بەدڵی خۆت
+                </li>
+                <li>
+                  <i class="bi bi-check2"></i>
+                  بوونی سەرجەم ئیمۆجییە نوێیەکان
+                </li>
+                <li>
+                  <i class="bi bi-check2"></i>
+                  بوونی جوانکاری نووسین و دروستکردنی شێوازی تایبەت
+                </li>
+                <li>
+                  <i class="bi bi-check2"></i>
+                  بوونی فەرهەنگی پێشنیارکردن بۆ زیاتر لە ١٥ زمان
+                </li>
+                <li>
+                  <i class="bi bi-check2"></i>
+                  ڕاستکردنەوەی هەڵەی ڕێنووس
+                </li>
+                <li>
+                  <i class="bi bi-check2"></i>
+                  بوونی چەندین ڕووکاری هەمەرەنگ + دروستکردن بەدڵی خۆت
+                </li>
+                <li>
+                  <i class="bi bi-check2"></i>
+                  پاڵپشتیکردنی دۆخی داینامیکی ڕووکار بە ئۆتۆماتیکی لە تاریک بۆ ڕووناک 
+                </li>
+                <li>
+                  <i class="bi bi-check2"></i>
+                   بوونی زیاتر لە ٣٠ زمان و شێوازی جیاوازی نووسین
+                </li>
+                <li>
+                  <i class="bi bi-check2"></i>
+                  هەڵگرتن و هێشتنەوەی بەشی لەبەرگیراوەکان بەدڵی خۆت
+<br>
+(Clipboard)
+                </li>
+                <li>
+                  <i class="bi bi-check2"></i>
+                   توانای گۆڕینی شوێنی ئامرازەکان بەدڵی خۆت
+                </li>
+                <li>
+                  <i class="bi bi-check2"></i>
+                   توانای دەستکاریکردنی قەبارە و مەودای دوگمەکان
+                </li>
+                <li>
+                  <i class="bi bi-check2"></i>
+                   لەگەڵ چەندین تایبەتمەندی هەمەجۆر و زیاتر لەناو بەرنامەکەدا
+                </li>
+              </ul>
+              <a href="https://play.google.com/store/apps/details?id=goran.kurdikeyboard.pro" target="_blank" class="btn-pricing">کڕینی پارەدان</a>
+            </div>
+          </div><!-- End Professional Plan -->
+        </div>
+      </div>
+
+    </section><!-- /Pricing Section -->
+
+    </section><!-- /Farhang Section -->
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="faq section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="description-title">پەیوەندی</span>
+        <h2>پەیوەندی</h2>
+<center>
+
+        <p>بۆ وەرگرتنی زانیاری گشتی و چۆنیەتی بەکارهێنانی بەرنامەکە
+<br>
+سەردانی پێگەکانی ئێمە بکە لە تۆڕە کۆمەڵایەتییەکان</p>
+      </div><!-- End Section Title -->
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-start gy-4">
+          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="200">
+            <div class="faq-sidebar">
+              <div class="contact-box">
+                <h3><i class="bi bi-headset"></i> پێویستت بە هاوکارییە؟</h3>
+      <p style="text-align:center; font-weight: bold;">
+
+بۆ ناردنی سەرنج و تێبینی پێشنیارەکانت یان بۆ هەر پرسیارێکی گشتی
+<br>
+لەسەر بەرنامەکانمان ڕاستەوخۆ پەیوەندی بکە بە پەرەپێدەری بەرنامەکە</p>
+
+                <a href="https://m.me/GoRaN9O" target="_blank" class="btn-contact">پەیوەندیکردنی ڕاستەوخۆ</a>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section> <!-- End Gallery Single Section -->
 
-          </div>
-        </div>
-      </div>
-    </div><!-- End Page Header -->
-  </main><!-- End #main -->
+</section> <!-- Contact Section -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
-    <div class="container">
-      <div class="copyright">
-         <strong><span>KurdiKebord 2025</span></strong>
-      </div>
+  </main>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">KurdiKebord</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
-        Designed by <a href="https://facebook.com/GoRaN9O" target="_blank">GoRaN</a>
+        Designed by <a href="https://facebook.com/GoRaN9O">GoRaN</a>
       </div>
     </div>
-  </footer><!-- End Footer -->
 
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  </footer>
 
-  <div id="preloader">
-    <div class="line"></div>
-  </div>
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
 
-  <!-- Template Main JS File -->
+  <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
