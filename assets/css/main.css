@@ -3,9 +3,9 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "IBM Plex Sans Arabic",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "IBM Plex Sans Arabic",  sans-serif;
-  --nav-font: "IBM Plex Sans Arabic",  sans-serif;
+  --default-font: "Zain",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Zain",  sans-serif;
+  --nav-font: "Zain",  sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */

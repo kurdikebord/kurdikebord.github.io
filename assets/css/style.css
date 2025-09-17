@@ -2,7 +2,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "IBM Plex Sans Arabic', sans-serif;
+  font-family: "Zain', sans-serif;
   color: #585a61;
 }
 
@@ -22,7 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "IBM Plex Sans Arabic', sans-serif;
+  font-family: "Zain', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -134,7 +134,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "IBM Plex Sans Arabic', sans-serif;
+  font-family: "Zain', sans-serif;
   font-size: 15px;
   color: #47536e;
   white-space: nowrap;
@@ -376,7 +376,7 @@ h6 {
   font-weight: 500;
   line-height: 56px;
   color: #005edd;
-  font-family: "IBM Plex Sans Arabic', sans-serif;
+  font-family: "Zain', sans-serif;
 }
 
 #hero h2 {
@@ -386,7 +386,7 @@ h6 {
 }
 
 #hero .download-btn {
-  font-family: "IBM Plex Sans Arabic', sans-serif;
+  font-family: "Zain', sans-serif;
   font-weight: 500;
   font-size: 18px;
   display: inline-block;
@@ -477,7 +477,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 0;
   color: #0BA552;
-  font-family: "IBM Plex Sans Arabic', sans-serif;
+  font-family: "Zain', sans-serif;
 }
 
 .section-title p {
@@ -763,7 +763,7 @@ section {
   font-size: 46px;
   color: #005edd;
   font-weight: 400;
-  font-family: "IBM Plex Sans Arabic', sans-serif;
+  font-family: "Zain', sans-serif;
   margin-bottom: 25px;
 }
 
@@ -812,7 +812,7 @@ section {
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: "IBM Plex Sans Arabic', sans-serif;
+  font-family: "Zain', sans-serif;
   transition: 0.3s;
 }
 
@@ -880,7 +880,7 @@ section {
 .faq .accordion-list a {
   display: block;
   position: relative;
-  font-family: "IBM Plex Sans Arabic', sans-serif;
+  font-family: "Zain', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -959,7 +959,7 @@ section {
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "IBM Plex Sans Arabic', sans-serif;
+  font-family: "Zain', sans-serif;
 }
 
 .contact .info p {
@@ -1013,7 +1013,7 @@ section {
 }
 
 .contact .php-email-form label {
-  font-family: "IBM Plex Sans Arabic', sans-serif;
+  font-family: "Zain', sans-serif;
   margin-bottom: 5px;
   color: #8a8c95;
 }
@@ -1170,7 +1170,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "IBM Plex Sans Arabic', sans-serif;
+  font-family: "Zain', sans-serif;
   color: #005edd;
 }
 
