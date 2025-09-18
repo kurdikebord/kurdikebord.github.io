@@ -252,13 +252,6 @@
               </div>
               <div class="col-md-4">
                 <div class="feature-item">
-                  <i class="bi bi-database-x"></i>
-                  <h5>Personal Data</h5>
-                <p>WE ARE NOT sharing the personal information (e.g. name, address, telephone number, email address, location, device ID, contacts and personal device’s user-dictionary), And we ARE NOT transferring this Personal Information from your device or Kurdish Keyboard's storage to any third party or external device</p>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="feature-item">
                   <i class="bi bi-person-check"></i>
                   <h5>Permission</h5>
                 <p>WE ARE NOT sharing the personal information (e.g. name, address, telephone number, email address, location, device ID, contacts and personal device’s user-dictionary), And we ARE NOT transferring this Personal Information from your device or Kurdish Keyboard's storage to any third party or external device</p>
@@ -268,34 +261,61 @@ The bellow info shows to you that which permission USED in the AndroidManifest.x
 </h5>
 <br>
 
-<!-- <ul>
-<li>show notification: is USED to show a notification when the app crashed.</li>
 
-<li>  uses-permission android:name="android.permission.POST_NOTIFICATIONS" </li>
+<title>Permissions</title>
+<style>
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  .bar {
+    background-color: lightblue;
+    height: 20px;
+    margin: 2px 0;
+  }
+</style>
+</head>
+<body>
 
-</ul>
+<h1>Used Permissons</h1>
 
-<ul>
-<li>control vabiration: is USED to vibrate if the user has key press vibration enabled.</li>
+<table>
+  <thead>
+    <tr>
+      <th>Show notification: USED to show a notification when the app crashed.
+<br><br>
+"android:name="android.permission.POST_NOTIFICATIONS"</th>
 
-<li>  uses-permission android:name="android.permission.VIBRATE" </li>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    </tr>
+    <tr>
+
+      <th>Control vabiration: USED to vibrate if the user has key press vibration enabled.
+<br><br>
+"android:name="android.permission.VIBRATE"</th>
+    </tr>
+    <tr>
+      <td>
+Other app capabilites:
+<br><br>
+"android:name="android.permission.RECEIVE_BOOT_COMPLETED"
 <br>
-</ul>
-<h4>Other app capabilites</h4>
-<ul>
-<li>  uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"
- </li>
-</ul>
-
-<ul>
-<li>  uses-permission android:name="android.permission.WAKE_LOCK"
- </li>
-</ul>
-
-<ul>
-<li>  uses-permission android:name="android.permission.FOREGROUND_SERVICE"
- </li>
-</ul> -->
+"android:name="android.permission.WAKE_LOCK"
+<br>
+"android:name="android.permission.FOREGROUND_SERVICE"
+</td>
+    </tr>
+    <tr>
+    </tr>
+  </tbody>
+</table>
            <div class="project-navigation" data-aos="fade-up" data-aos-delay="300">
             <a href="index" class="all-projects">
               <i class="bi bi-grid"></i>
