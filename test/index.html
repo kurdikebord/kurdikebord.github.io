@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="ckb" dir="rtl" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pixels - PrebuiltUI</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="fixed top-0 z-50 flex items-center justify-between w-full py-4 px-6 md:px-16 lg:px-24 xl:px-32 backdrop-blur">
+        <a href="https://prebuiltui.com?utm_source=pixels">
+            <img class="h-8.5 w-auto" src="/assets/logo.svg" alt="logo" />
+        </a>
+
+        <div class="hidden md:flex items-center gap-8 transition duration-500">
+            <a href="/" class="hover:text-pink-500 transition">
+                Home
+            </a>
+            <a href="#features" class="hover:text-pink-500 transition">
+                Features
+            </a>
+            <a href="#testimonials" class="hover:text-pink-500 transition">
+                Testimonials
+            </a>
+            <a href="#pricing" class="hover:text-pink-500 transition">
+                Pricing
+            </a>
+        </div>
+
+        <button class="hidden md:block px-6 py-2.5 bg-pink-600 hover:bg-pink-700 active:scale-95 transition-all rounded-full">
+            Start free trial
+        </button>
+        <button id="open-menu" class="md:hidden active:scale-90 transition">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu-icon lucide-menu"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg>
+        </button>
+    </nav>
+    <div id="mobile-navlinks" class="fixed inset-0 z-100 bg-black/40 backdrop-blur flex flex-col items-center justify-center text-lg gap-8 md:hidden transition-transform duration-400 -translate-x-full">
+        <a href="/">
+            Home
+        </a>
+        <a href="#features">
+            Features
+        </a>
+        <a href="#testimonials">
+            Testimonials
+        </a>
+        <a href="#pricing">
+            Pricing
+        </a>
+        <button id="close-menu" class="active:ring-3 active:ring-white aspect-square size-10 p-1 items-center justify-center bg-pink-600 hover:bg-pink-700 transition text-white rounded-md flex">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x-icon lucide-x"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="relative flex flex-col items-center justify-center px-4 md:px-16 lg:px-24 xl:px-32">
+        <div class="absolute top-30 -z-10 left-1/4 size-72 bg-pink-600 blur-[300px]"></div>
+        <a href="https://prebuiltui.com?utm_source=pixels" class="group flex items-center gap-2 rounded-full p-1 pr-3 mt-44 text-pink-100 bg-pink-200/15">
+            <span class="bg-pink-800 text-white text-xs px-3.5 py-1 rounded-full">
+                NEW
+            </span>
+            <p class="flex items-center gap-1">
+                <span>Try 30 days free trial option </span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right-icon lucide-chevron-right group-hover:translate-x-0.5 transition duration-300"><path d="m9 18 6-6-6-6"/></svg>
+            </p>
+        </a>
+        <h1 class="text-5xl/17 md:text-6xl/21 font-medium max-w-2xl text-center">
+            Free template to start your 
+            <span class="move-gradient px-3 rounded-xl text-nowrap">Next.js site.</span>
+        </h1>
+        <p class="text-base text-center text-slate-200 max-w-lg mt-6">
+            No complexity. No noise. Just clean, reliable automation to boost your team’s efficiency.</p>
+        <div class="flex items-center gap-4 mt-8">
+            <button class="bg-pink-600 hover:bg-pink-700 text-white rounded-full px-7 h-11">
+                Get started
+            </button>
+            <button class="flex items-center gap-2 border border-pink-900 hover:bg-pink-950/50 transition rounded-full px-6 h-11">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-video-icon lucide-video"><path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"/><rect x="2" y="6" width="14" height="12" rx="2"/></svg>
+                <span>Watch demo</span>
+            </button>
+        </div>
+        <div class="flex flex-wrap justify-center items-center gap-4 md:gap-14 mt-12">
+            <p class="flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check size-5 text-pink-600"><path d="M20 6 9 17l-5-5"/></svg>
+                <span class="text-slate-400">No credit card</span>
+            </p>
+            <p class="flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check size-5 text-pink-600"><path d="M20 6 9 17l-5-5"/></svg>
+                <span class="text-slate-400">30 days free trial</span>
+            </p>
+            <p class="flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check size-5 text-pink-600"><path d="M20 6 9 17l-5-5"/></svg>
+                <span class="text-slate-400">Setup in 10 minutes</span>
+            </p>
+        </div>
+        <img src="/assets/hero-section-showcase.png"
+            class="w-full rounded-[15px] max-w-4xl mt-16"
+            alt="hero section showcase"
+        />
+    </div>
+
+    <!-- Features Section -->
+    <section id="features" class="px-4 md:px-16 lg:px-24 xl:px-32 scroll-mt-20">
+        <p class="text-center font-medium text-pink-600 mt-28 px-10 py-2 rounded-full bg-pink-950/70 border border-pink-800 w-max mx-auto">
+            Features
+        </p>
+        <h3 class="text-3xl font-semibold text-center mx-auto mt-4">
+            What you get
+        </h3>
+        <p class="text-slate-300 text-center mt-2 max-w-xl mx-auto">
+            Components, patterns and pages — everything you need to ship.
+        </p>
+
+        <div class="flex flex-wrap items-center justify-center gap-6 md:gap-4 mt-16 px-6">
+            <div class="p-6 rounded-xl space-y-4 border border-slate-800 bg-slate-950 max-w-80 w-full">
+                <img alt="Lightning-fast setup" src="/assets/zap-icon.svg">
+                <h3 class="text-base font-medium text-white">Lightning-fast setup</h3>
+                <p class="text-slate-400 line-clamp-2 pb-4">Launch production-ready pages in minutes with prebuilt
+                    components.</p>
+            </div>
+            <div class="p-px rounded-[13px] bg-gradient-to-br from-pink-600 to-slate-800">
+                <div class="p-6 rounded-xl space-y-4 border border-slate-800 bg-slate-950 max-w-80 w-full">
+                    <img alt="Pixel perfect" src="/assets/thumb-icon.svg">
+                    <h3 class="text-base font-medium text-white">Pixel perfect</h3>
+                    <p class="text-slate-400 line-clamp-2 pb-4">Modern Figma-driven UI that translates to exact code.</p>
+                </div>
+            </div>
+            <div class="p-6 rounded-xl space-y-4 border border-slate-800 bg-slate-950 max-w-80 w-full">
+                <img alt="Highly customizable" src="/assets/shape-icon.svg">
+                <h3 class="text-base font-medium text-white">Highly customizable</h3>
+                <p class="text-slate-400 line-clamp-2 pb-4">Tailwind utility-first classes make customization trivial.
+                </p>
+            </div>
+        </div>
+
+        <div class="mt-40 relative mx-auto max-w-5xl">
+            <div class="absolute -z-50 size-100 -top-10 -left-20 aspect-square rounded-full bg-pink-500/40 blur-3xl"></div>
+            <p class="text-slate-300 text-lg text-left max-w-3xl">PrebuiltUI helps you build faster by transforming your design vision into fully functional, production-ready UI components.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 mt-8 gap-10">
+                <div class="md:col-span-2">
+                    <img alt="features showcase" src="/assets/features-showcase-1.png"></div>
+                <div class="md:col-span-1">
+                    <img alt="features showcase" class="hover:-translate-y-0.5 transition duration-300" src="/assets/features-showcase-2.png">
+                    <h3 class="text-[24px]/7.5 text-slate-300 font-medium mt-6">Better design with highest revenue and profits </h3>
+                    <p class="text-slate-300 mt-2">PrebuiltUI empowers you to build beautifully and scale effortlessly.</p>
+                    <a href="https://prebuiltui.com" class="group flex items-center gap-2 mt-4 text-pink-600 hover:text-pink-700 transition">
+                        Learn more about the product
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right size-5 group-hover:translate-x-0.5 transition duration-300" aria-hidden="true">
+                            <path d="M7 7h10v10"></path>
+                            <path d="M7 17 17 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="px-4 md:px-16 lg:px-24 xl:px-32 scroll-mt-20">
+        <p class="text-center font-medium text-pink-600 mt-28 px-10 py-2 rounded-full bg-pink-950/70 border border-pink-800 w-max mx-auto">Testimonials</p>
+        <h3 class="text-3xl font-semibold text-center mx-auto mt-4">Don't just take our words</h3>
+        <p class="text-slate-300 text-center mt-2 max-w-xl mx-auto">Hear what our users say about us. We're always looking for ways to improve. If you have a positive experience with us, leave a review.</p>
+
+        <div class="marquee-row w-full mx-auto max-w-5xl overflow-hidden relative">
+            <div class="absolute left-0 top-0 h-full w-20 z-10 pointer-events-none bg-gradient-to-r from-black to-transparent"></div>
+            <div class="marquee-inner flex transform-gpu min-w-[200%] pt-10 pb-5" id="row1"></div>
+            <div class="absolute right-0 top-0 h-full w-20 md:w-40 z-10 pointer-events-none bg-gradient-to-l from-black to-transparent"></div>
+        </div>
+
+        <div class="marquee-row w-full mx-auto max-w-5xl overflow-hidden relative">
+            <div class="absolute left-0 top-0 h-full w-20 z-10 pointer-events-none bg-gradient-to-r from-black to-transparent"></div>
+            <div class="marquee-inner marquee-reverse flex transform-gpu min-w-[200%] pt-5 pb-10" id="row2"></div>
+            <div class="absolute right-0 top-0 h-full w-20 md:w-40 z-10 pointer-events-none bg-gradient-to-l from-black to-transparent"></div>
+        </div>
+    </section>
+
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="px-4 md:px-16 lg:px-24 xl:px-32 scroll-mt-20">
+        <p class="text-center font-medium text-pink-600 mt-28 px-10 py-2 rounded-full bg-pink-950/70 border border-pink-800 w-max mx-auto">Pricing</p>
+        <h3 class="text-3xl font-semibold text-center mx-auto mt-4">Our Pricing Plans</h3>
+        <p class="text-slate-300 text-center mt-2 max-w-xl mx-auto">Flexible pricing options designed to meet your needs — whether you're just getting started or scaling up.</p>
+        <div class="flex flex-wrap items-center justify-center gap-8 mt-20">
+            <div class="w-72 text-center border border-pink-950 p-6 pb-16 rounded-xl bg-pink-950/30">
+                <p class="font-semibold">Basic</p>
+                <h1 class="text-3xl font-semibold">$29<span class="text-gray-500 font-normal text-sm">/month</span></h1>
+                <ul class="list-none text-slate-300 mt-6 space-y-2">
+                    <li class="flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4.5 text-pink-600" aria-hidden="true">
+                            <path d="M20 6 9 17l-5-5"></path>
+                        </svg>
+                        <p>Access to all basic courses</p>
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4.5 text-pink-600" aria-hidden="true">
+                            <path d="M20 6 9 17l-5-5"></path>
+                        </svg>
+                        <p>Community support</p>
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4.5 text-pink-600" aria-hidden="true">
+                            <path d="M20 6 9 17l-5-5"></path>
+                        </svg>
+                        <p>10 practice projects</p>
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4.5 text-pink-600" aria-hidden="true">
+                            <path d="M20 6 9 17l-5-5"></path>
+                        </svg>
+                        <p>Course completion certificate</p>
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4.5 text-pink-600" aria-hidden="true">
+                            <path d="M20 6 9 17l-5-5"></path>
+                        </svg>
+                        <p>Basic code review</p>
+                    </li>
+                </ul><button type="button"
+                    class="w-full py-2.5 rounded-md font-medium mt-7 transition-all bg-pink-500 hover:bg-pink-600">Get
+                    Started</button>
+            </div>
+            <div class="w-72 text-center border border-pink-950 p-6 pb-16 rounded-xl bg-pink-950 relative">
+                <p class="absolute px-3 text-sm -top-3.5 left-3.5 py-1 bg-pink-400 rounded-full">Most Popular</p>
+                <p class="font-semibold">Pro</p>
+                <h1 class="text-3xl font-semibold">$79<span class="text-gray-500 font-normal text-sm">/month</span></h1>
+                <ul class="list-none text-slate-300 mt-6 space-y-2">
+                    <li class="flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4.5 text-pink-600" aria-hidden="true">
+                            <path d="M20 6 9 17l-5-5"></path>
+                        </svg>
+                        <p>Access to all Pro courses</p>
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4.5 text-pink-600" aria-hidden="true">
+                            <path d="M20 6 9 17l-5-5"></path>
+                        </svg>
+                        <p>Priority community support</p>
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4.5 text-pink-600" aria-hidden="true">
+                            <path d="M20 6 9 17l-5-5"></path>
+                        </svg>
+                        <p>30 practice projects</p>
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4.5 text-pink-600" aria-hidden="true">
+                            <path d="M20 6 9 17l-5-5"></path>
+                        </svg>
+                        <p>Course completion certificate</p>
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4.5 text-pink-600" aria-hidden="true">
+                            <path d="M20 6 9 17l-5-5"></path>
+                        </svg>
+                        <p>Advance code review</p>
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4.5 text-pink-600" aria-hidden="true">
+                            <path d="M20 6 9 17l-5-5"></path>
+                        </svg>
+                        <p>1-on-1 mentoring sessions</p>
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4.5 text-pink-600" aria-hidden="true">
+                            <path d="M20 6 9 17l-5-5"></path>
+                        </svg>
+                        <p>Job assistance</p>
+                    </li>
+                </ul><button type="button"
+                    class="w-full py-2.5 rounded-md font-medium mt-7 transition-all bg-white text-pink-600 hover:bg-slate-200">Get
+                    Started</button>
+            </div>
+            <div class="w-72 text-center border border-pink-950 p-6 pb-16 rounded-xl bg-pink-950/30">
+                <p class="font-semibold">Enterprise</p>
+                <h1 class="text-3xl font-semibold">$199<span class="text-gray-500 font-normal text-sm">/month</span>
+                </h1>
+                <ul class="list-none text-slate-300 mt-6 space-y-2">
+                    <li class="flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4.5 text-pink-600" aria-hidden="true">
+                            <path d="M20 6 9 17l-5-5"></path>
+                        </svg>
+                        <p>Access to all courses</p>
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4.5 text-pink-600" aria-hidden="true">
+                            <path d="M20 6 9 17l-5-5"></path>
+                        </svg>
+                        <p>Dedicated support</p>
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4.5 text-pink-600" aria-hidden="true">
+                            <path d="M20 6 9 17l-5-5"></path>
+                        </svg>
+                        <p>Unlimited projects</p>
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4.5 text-pink-600" aria-hidden="true">
+                            <path d="M20 6 9 17l-5-5"></path>
+                        </svg>
+                        <p>Course completion certificate</p>
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4.5 text-pink-600" aria-hidden="true">
+                            <path d="M20 6 9 17l-5-5"></path>
+                        </svg>
+                        <p>Premium code review</p>
+                    </li>
+                </ul>
+                <button type="button" class="w-full py-2.5 rounded-md font-medium mt-7 transition-all bg-pink-500 hover:bg-pink-600">Get Started</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="px-4 md:px-16 lg:px-24 xl:px-32">
+        <p class="text-center font-medium text-pink-600 mt-28 px-10 py-2 rounded-full bg-pink-950/70 border border-pink-800 w-max mx-auto">Contact</p>
+        <h3 class="text-3xl font-semibold text-center mx-auto mt-4">Reach out to us</h3>
+        <p class="text-slate-300 text-center mt-2 max-w-xl mx-auto">Ready to grow your brand? Let’s connect and build something exceptional together.</p>
+
+        <form class="grid sm:grid-cols-2 gap-3 sm:gap-5 max-w-2xl mx-auto text-slate-300 mt-16 w-full">
+            <div>
+                <p class="mb-2 font-medium">Your name</p>
+                <div class="flex items-center pl-3 rounded-lg border border-slate-700 focus-within:border-pink-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user size-5" aria-hidden="true">
+                        <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                    <input placeholder="Enter your name" class="w-full p-3 outline-none" type="text" name="name">
+                </div>
+            </div>
+            <div>
+                <p class="mb-2 font-medium">Email id</p>
+                <div class="flex items-center pl-3 rounded-lg border border-slate-700 focus-within:border-pink-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail size-5" aria-hidden="true">
+                        <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                        <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                    </svg>
+                    <input placeholder="Enter your email" class="w-full p-3 outline-none" type="email" name="email">
+                    </div>
+            </div>
+            <div class="sm:col-span-2">
+                <p class="mb-2 font-medium">Message</p>
+                <textarea name="message" rows="8" placeholder="Enter your message" class="focus:border-pink-500 resize-none w-full p-3 outline-none rounded-lg border border-slate-700"></textarea>
+            </div>
+            <button type="submit" class="w-max flex items-center gap-2 bg-pink-600 hover:bg-pink-700 text-white px-10 py-3 rounded-full">
+                Submit
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right size-5" aria-hidden="true">
+                    <path d="M5 12h14"></path>
+                    <path d="m12 5 7 7-7 7"></path>
+                </svg>
+            </button>
+        </form>
+    </section>
+
+
+    <!-- Call to action -->
+    <div class="max-w-5xl py-16 mt-40 md:pl-20 md:w-full max-md:mx-4 md:mx-auto flex flex-col md:flex-row max-md:gap-6 items-center justify-between text-left bg-gradient-to-b from-pink-900 to-pink-950 rounded-2xl p-6 text-white">
+        <div>
+            <h1 class="text-4xl md:text-[46px] md:leading-[60px] font-semibold bg-gradient-to-r from-white to-pink-400 text-transparent bg-clip-text">Ready to try-out this app?</h1>
+            <p class="bg-gradient-to-r from-white to-pink-400 text-transparent bg-clip-text text-lg">Your next favourite tool is just one click away.</p>
+        </div>
+        <button class="px-12 py-3 text-slate-800 bg-white hover:bg-slate-200 rounded-full text-sm mt-4">Get Started</button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="flex flex-wrap justify-center md:justify-between overflow-hidden gap-10 md:gap-20 mt-40 py-6 px-6 md:px-16 lg:px-24 xl:px-32 text-[13px] text-gray-500">
+        <div class="flex flex-wrap items-start gap-10 md:gap-35">
+            <a href="https://prebuiltui.com?utm_source=pixels">
+                <img class="size-8 aspect-square" alt="footer logo" src="/assets/footer-logo.svg">
+            </a>
+            <div>
+                <p class="text-slate-100 font-semibold">Product</p>
+                <ul class="mt-2 space-y-2">
+                    <li><a href="/" class="hover:text-pink-600 transition">Home</a></li>
+                    <li><a href="/" class="hover:text-pink-600 transition">Support</a></li>
+                    <li><a href="/" class="hover:text-pink-600 transition">Pricing</a></li>
+                    <li><a href="/" class="hover:text-pink-600 transition">Affiliate</a></li>
+                </ul>
+            </div>
+            <div>
+                <p class="text-slate-100 font-semibold">Resources</p>
+                <ul class="mt-2 space-y-2">
+                    <li><a href="/" class="hover:text-pink-600 transition">Company</a></li>
+                    <li><a href="/" class="hover:text-pink-600 transition">Blogs</a></li>
+                    <li><a href="/" class="hover:text-pink-600 transition">Community</a></li>
+                    <li><a href="/" class="hover:text-pink-600 transition">Careers</a></li>
+                    <li><a href="/" class="hover:text-pink-600 transition">About</a></li>
+                </ul>
+            </div>
+            <div>
+                <p class="text-slate-100 font-semibold">Legal</p>
+                <ul class="mt-2 space-y-2">
+                    <li><a href="/" class="hover:text-pink-600 transition">Privacy</a></li>
+                    <li><a href="/" class="hover:text-pink-600 transition">Terms</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="flex flex-col max-md:items-center max-md:text-center gap-2 items-end">
+            <p class="max-w-60">Making every customer feel valued—no matter the size of your audience.</p>
+            <div class="flex items-center gap-4 mt-3">
+                <a href="https://dribbble.com/prebuiltui" target="_blank" rel="noreferrer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-dribbble size-5 hover:text-pink-500" aria-hidden="true">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M19.13 5.09C15.22 9.14 10 10.44 2.25 10.94"></path>
+                        <path d="M21.75 12.84c-6.62-1.41-12.14 1-16.38 6.32"></path>
+                        <path d="M8.56 2.75c4.37 6 6 9.42 8 17.72"></path>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/company/prebuiltui" target="_blank" rel="noreferrer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin size-5 hover:text-pink-500" aria-hidden="true">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect width="4" height="12" x="2" y="9"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+                <a href="https://x.com/prebuiltui" target="_blank" rel="noreferrer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter size-5 hover:text-pink-500" aria-hidden="true">
+                        <path
+                            d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z">
+                        </path>
+                    </svg>
+                </a>
+                <a href="https://www.youtube.com/@prebuiltui" target="_blank" rel="noreferrer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-youtube size-6 hover:text-pink-500" aria-hidden="true">
+                        <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17">
+                        </path>
+                        <path d="m10 15 5-3-5-3z"></path>
+                    </svg>
+                </a>
+            </div>
+            <p class="mt-3 text-center">© 2025 <a href="https://prebuiltui.com?utm_source=pixels">PrebuiltUI</a></p>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
