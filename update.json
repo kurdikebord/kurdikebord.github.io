@@ -1,5 +1,6 @@
 {
-  "versionCode": 36,
-  "updateUrl": "https://play.google.com/store/apps/details?id=com.goran.kurdikeyboard",
-  "updateMessage": "وەشانێکی نوێ بەردەستە!"
+  "versionCode": 100,
+  "updateUrl": "https://kurdikebord.github.io/dagrtn",
+  "updateMessage": "ئەم وەشانە زۆر گرنگە و دەبێت نوێی بکەیتەوە بۆ بەردەوامبون لە بەکارهێنانی بەرنامەکە!",
+  "isForceUpdate": true
 }
