@@ -67,6 +67,7 @@ h6 {
   }
 }
 
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -1263,4 +1264,96 @@ section {
     text-align: center;
     padding: 5px 0;
   }
+
+
+/* --- هێزپێدانی تەواو بۆ دۆخی تاریک --- */
+
+/* گۆڕینی باکگراوندی هەموو بەشە سەرەکییەکان */
+body.dark-mode, 
+body.dark-mode .site-wrap, 
+body.dark-mode .untree_co-section, 
+body.dark-mode .footer-section,
+body.dark-mode .bg-light,
+body.dark-mode .container-fluid {
+    background-color: #121212 !important;
+    color: #e0e0e0 !important;
+}
+
+/* سپیکردنی هەموو جۆرە نووسینەکان */
+body.dark-mode h1, 
+body.dark-mode h2, 
+body.dark-mode h3, 
+body.dark-mode h4, 
+body.dark-mode h5, 
+body.dark-mode h6,
+body.dark-mode .heading, 
+body.dark-mode .text-black,
+body.dark-mode p,
+body.dark-mode span,
+body.dark-mode li {
+    color: #ffffff !important;
+}
+
+/* چاککردنی Navbar */
+body.dark-mode .site-nav, 
+body.dark-mode .site-navbar {
+    background-color: #1a1a1a !important;
+    border-bottom: 1px solid #333;
+}
+
+body.dark-mode .site-navigation .site-menu > li > a {
+    color: #ffffff !important;
+}
+
+/* چاککردنی ئەو بەشانەی کلاسی سپی یان ڕوونیان هەیە */
+body.dark-mode .untree_co-section.bg-light {
+    background-color: #1a1a1a !important;
+}
+
+/* چاککردنی کارتەکان و بلۆکەکان */
+body.dark-mode .feature, 
+body.dark-mode .service, 
+body.dark-mode .custom-block,
+body.dark-mode .testimonial {
+    background-color: #222222 !important;
+    border: 1px solid #444 !important;
+}
+
+/* چاککردنی فووتەر */
+body.dark-mode .footer-section {
+    border-top: 1px solid #333;
+}
+
+/* ڕێکخستنی ناڤبار بۆ ئەوەی هەموو شتێک لە یەک ئاست بێت */
+.site-nav.fixed-top .site-navigation {
+    display: flex;
+    align-items: center; /* هەموو شتێک دەخاتە یەک ئاستی ناوەڕاست */
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* ڕێکخستنی دوگمەی دۆخی تاریک کاتێک لەناو لیستدایە */
+#dark-toggle-btn {
+    background: none !important;
+    border: none !important;
+    padding: 0 15px !important;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+}
+
+/* دڵنیابوونەوە لەوەی لۆگۆکە (ناوی سایتەکە) جێگەی تێک ناچێت */
+.site-logo {
+    margin-bottom: 0 !important;
+    line-height: 1;
+}
+
+/* بۆ ئەوەی لە مۆبایلیشدا جوان بێت */
+@media (max-width: 991px) {
+    .site-navigation {
+        display: flex !important;
+        flex-direction: row-reverse; /* بۆ ئەوەی لۆگۆ و مێنیو ڕێک بن */
+        justify-content: space-between;
+    }
 }

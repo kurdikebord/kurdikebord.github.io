@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>KurdiKebord | Privacy Policy</title>
+  <title>KurdiKebord | FREE Privacy Policy</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -49,9 +49,6 @@
               <li><a href="privacy-policy-pro">PRO | Privacy Policy</a></li>
               <li><a href="quran-al-karim-privacy-policy">Qurani Piroz | Privacy Policy</a></li>
           </ul>
-          </li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
@@ -288,6 +285,42 @@ The bellow info shows to you that only permission USED to vibrate if the user ha
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
+
+<div id="dark-mode-container" style="position: fixed; top: 20px; left: 20px; z-index: 10000;">
+  <button id="theme-btn" onclick="toggleTheme()" style="width: 50px; height: 50px; border-radius: 15px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0, 94, 221, 0.8); backdrop-filter: blur(10px); color: white; cursor: pointer; box-shadow: 0 8px 32px rgba(0,0,0,0.15); font-size: 22px; transition: 0.3s; display: flex; align-items: center; justify-content: center;">
+    <span id="theme-icon">🌙</span>
+  </button>
+</div>
+
+<script>
+  // دروستکردنی ستایلەکان بە جاڤاسکریپت بۆ ئەوەی دەستکاری CSS نەکەیت
+  if (!document.getElementById('dark-logic')) {
+    const style = document.createElement('style');
+    style.id = 'dark-logic';
+    style.innerHTML = `
+      html.dark-active { filter: invert(1) hue-rotate(180deg) !important; background: #000 !important; }
+      html.dark-active img, html.dark-active video, html.dark-active iframe, html.dark-active .no-invert { filter: invert(1) hue-rotate(180deg) !important; }
+      #theme-btn:hover { transform: scale(1.1); background: #005edd !important; }
+    `;
+    document.head.appendChild(style);
+  }
+
+  function toggleTheme() {
+    const html = document.documentElement;
+    const isDark = html.classList.toggle('dark-active');
+    document.getElementById('theme-icon').innerText = isDark ? '☀️' : '🌙';
+    localStorage.setItem('site-theme', isDark ? 'dark' : 'light');
+  }
+
+  // پشکنینی مێشک (Storage) بۆ هەموو لاپەڕەکان
+  (function() {
+    if (localStorage.getItem('site-theme') === 'dark') {
+      document.documentElement.classList.add('dark-active');
+      document.getElementById('theme-icon').innerText = '☀️';
+    }
+  })();
+</script>
 
 </body>
 
