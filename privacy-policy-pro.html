@@ -146,7 +146,7 @@
                   <h4>2. Google Play specific clauses</h4>
                   <p>2.1. Usage of the app is also subject to <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a> regarding license verification and Play Store interactions.</p>
 <br>
-<img border="0" height="650" src="assets/wena/pro/google_clauses.jpg" width="350"  class="img-fluid"/>
+<img border="0" height="650" src="assets/wena/pro/google_clauses.png" width="350"  class="img-fluid"/>
                 </div>
               </div>
 
@@ -164,21 +164,37 @@ We <strong>DO NOT</strong> transfer your personal typing data from your device t
                   <ul>
                     <li><strong>"POST_NOTIFICATIONS"</strong><br>USED to notify you when a new app update is available or if an error occurs, ensuring you have the latest features and security fixes.</li>
                     
-                    <li><strong>"INTERNET"</strong><br>USED to check for app updates from our official server, download dictionary files (.dict) for auto-correction, and fetch optional emoji fonts (.ttf).</li>
-                    
-                    <li><strong>"RECEIVE_BOOT_COMPLETED"</strong><br>USED to automatically reschedule periodic update checks and ensure keyboard services are ready after your device restarts.</li>
-                    
-                    <li><strong>"VIBRATE"</strong><br>USED to provide haptic feedback (vibration) while typing, if enabled in settings.</li>
-                    
-                    <li><strong>"READ/WRITE_USER_DICTIONARY"</strong><br>USED locally to learn your typing style and save new words you add for better predictions. This data remains strictly on your device.</li>
-                  </ul>
+<br>
+                    <li><strong>"INTERNET"</strong>
+<br>
+USED to check for app updates from our official server, download dictionary files (.dict) for auto-correction, and fetch optional emoji fonts (.ttf).</li>
+       
+<br>             
+                    <li><strong>"RECEIVE_BOOT_COMPLETED"</strong>
+<br>
+USED to automatically reschedule periodic update checks and ensure keyboard services are ready after your device restarts.</li>
 
+<br>                    
+                    <li><strong>"VIBRATE"</strong>
+<br>
+USED to provide haptic feedback (vibration) while typing, if enabled in settings.</li>
+
+<br>                    
+                    <li><strong>"READ/WRITE_USER_DICTIONARY"</strong>
+<br>
+USED locally to learn your typing style and save new words you add for better predictions. This data remains strictly on your device.</li>
+                  </ul>
+<br>
                   <h3>Other App Capabilities</h3>
                   <ul>
                     <li><strong>"FOREGROUND_SERVICE" & "WAKE_LOCK"</strong><br>Used to ensure background tasks like dictionary downloads or update checks are completed without interruption.</li>
-                    <li><strong>"CHECK_LICENSE"</strong><br>Used to verify the app's purchase status via the Google Play Store.</li>
+
+<br>
+                    <li><strong>"CHECK_LICENSE"</strong>
+<br>
+Used to verify the app's purchase status via the Google Play Store.</li>
                   </ul>
-<img border="0" height="650" src="assets/wena/pro/kurdikebord_permissions.png" width="350"  class="img-fluid"/>
+<img border="0" height="580" src="assets/wena/pro/kurdikebord_permissions.png" width="350"  class="img-fluid"/>
 
 </a>
                 </div>
@@ -249,8 +265,8 @@ We <strong>DO NOT</strong> transfer your personal typing data from your device t
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
-<div id="dark-mode-container" style="position: fixed; top: 20px; left: 10px; z-index: 10000;">
-  <button id="theme-btn" onclick="toggleTheme()" style="width: 35px; height: 35px; border-radius: 15px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0, 94, 221, 0.8); backdrop-filter: blur(10px); color: white; cursor: pointer; box-shadow: 0 8px 32px rgba(0,0,0,0.15); font-size: 20px; transition: 0.3s; display: flex; align-items: center; justify-content: center;">
+<div id="dark-mode-container" style="position: fixed; bottom: 20px; left: 15px; z-index: 10000;">
+  <button id="theme-btn" onclick="toggleTheme()" style="width: 40px; height: 40px; border-radius: 50px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0, 94, 221, 0.8); backdrop-filter: blur(10px); color: white; cursor: pointer; box-shadow: 0 8px 32px rgba(0,0,0,0.15); font-size: 20px; transition: 0.3s; display: flex; align-items: center; justify-content: center;">
     <span id="theme-icon">🌙</span>
   </button>
 </div>
@@ -275,7 +291,7 @@ We <strong>DO NOT</strong> transfer your personal typing data from your device t
     localStorage.setItem('site-theme', isDark ? 'dark' : 'light');
   }
 
-  // پشکنینی مێشک (Storage) بۆ هەموو لاپەڕەکان
+  // پشکنینی ناسینەوە (Storage) بۆ هەموو لاپەڕەکان
   (function() {
     if (localStorage.getItem('site-theme') === 'dark') {
       document.documentElement.classList.add('dark-active');
@@ -283,7 +299,6 @@ We <strong>DO NOT</strong> transfer your personal typing data from your device t
     }
   })();
 </script>
-
 
 </body>
 
