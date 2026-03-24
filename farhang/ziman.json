@@ -1,218 +1,50 @@
 [
   {
-    "name": "Arabic - العربية",
-    "code": "ar",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.arabic",
-    "status": "ئامادەیە لە گوگل پلەی"
-  },
-  {
-    "name": "Armenian - Հայերեն",
-    "code": "hy",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.armenian",
-    "status": "ئامادەیە لە گوگل پلەی"
-  },
-  {
-    "name": "Azerbaijani - Azərbaycan",
-    "code": "az",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.azerbaijani",
-    "status": "ئامادەیە لە گوگل پلەی"
-  },
-  {
-    "name": "Basque - Euskara",
-    "code": "eu",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.basque",
-    "status": "ئامادەیە لە گوگل پلەی"
-  },
-  {
-    "name": "Bulgarian - Български",
-    "code": "bg",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.bulgarian",
-    "status": "ئامادەیە لە گوگل پلەی"
-  },
-  {
-    "name": "Catalan - Català",
-    "code": "ca",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.catalan",
-    "status": "ئامادەیە لە گوگل پلەی"
-  },
-  {
-    "name": "Croatian - Hrvatski",
-    "code": "hr",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.croatian",
-    "status": "ئامادەیە لە گوگل پلەی"
-  },
-  {
-    "name": "Czech - Čeština",
-    "code": "cs",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.czech",
-    "status": "ئامادەیە لە گوگل پلەی"
-  },
-  {
-    "name": "Danish - Dansk",
-    "code": "da",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.danish",
-    "status": "ئامادەیە لە گوگل پلەی"
-  },
-  {
-    "name": "Dutch - Nederlands",
-    "code": "nl",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.dutch_oss",
-    "status": "ئامادەیە لە گوگل پلەی"
-  },
-  {
-    "name": "English",
-    "code": "en",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.mirfatif.english",
-    "status": "ئامادەیە لە گوگل پلەی"
-  },
-  {
-    "name": "Esperanto",
-    "code": "eo",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.esperanto",
-    "status": "ئامادەیە لە گوگل پلەی"
-  },
-  {
-    "name": "Finnish - Suomi",
-    "code": "fi",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.finnish",
-    "status": "ئامادەیە لە گوگل پلەی"
+    "name": "Persian - فارسی",
+    "code": "fa",
+    "downloadUrl": "https://kurdikebord.github.io/farhang/farsi.apk",
+    "status": "ئامادەیە بۆ داگرتن"
   },
   {
     "name": "French - Français",
     "code": "fr",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.french",
-    "status": "ئامادەیە لە گوگل پلەی"
-  },
-  {
-    "name": "Georgian - ქართული",
-    "code": "ka",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.georgian",
-    "status": "ئامادەیە لە گوگل پلەی"
+    "downloadUrl": "https://kurdikebord.github.io/farhang/french.apk",
+    "status": "ئامادەیە بۆ داگرتن"
   },
   {
     "name": "German - Deutsch",
     "code": "de",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.german",
-    "status": "ئامادەیە لە گوگل پلەی"
-  },
-  {
-    "name": "Greek - Ελληνικά",
-    "code": "el",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.greek",
-    "status": "ئامادەیە لە گوگل پلەی"
-  },
-  {
-    "name": "Hebrew - עברית",
-    "code": "he",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.hebrew",
-    "status": "ئامادەیە لە گوگل پلەی"
-  },
-  {
-    "name": "Hindi - हिन्दी",
-    "code": "hi",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.hindi",
-    "status": "ئامادەیە لە گوگل پلەی"
-  },
-  {
-    "name": "Hungarian - Magyar",
-    "code": "hu",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.hungarian",
-    "status": "ئامادەیە لە گوگل پلەی"
-  },
-  {
-    "name": "Italian - Italiano",
-    "code": "it",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.italian",
-    "status": "ئامادەیە لە گوگل پلەی"
-  },
-  {
-    "name": "Japanese - 日本語",
-    "code": "ja",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.japanese",
-    "status": "ئامادەیە لە گوگل پلەی"
-  },
-  {
-    "name": "Korean - 한국어",
-    "code": "ko",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.korean",
-    "status": "ئامادەیە لە گوگل پلەی"
-  },
-  {
-    "name": "Norwegian - Norsk",
-    "code": "no",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.norwegian",
-    "status": "ئامادەیە لە گوگل پلەی"
-  },
-  {
-    "name": "Persian - فارسی",
-    "code": "fa",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.persian",
-    "status": "ئامادەیە لە گوگل پلەی"
-  },
-  {
-    "name": "Polish - Polski",
-    "code": "pl",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.polish",
-    "status": "ئامادەیە لە گوگل پلەی"
-  },
-  {
-    "name": "Portuguese - Português",
-    "code": "pt",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.portuguese",
-    "status": "ئامادەیە لە گوگل پلەی"
-  },
-  {
-    "name": "Romanian - Română",
-    "code": "ro",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.romanian",
-    "status": "ئامادەیە لە گوگل پلەی"
-  },
-  {
-    "name": "Russian - Русский",
-    "code": "ru",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.russian2",
-    "status": "ئامادەیە لە گوگل پلەی"
-  },
-  {
-    "name": "Serbian - Српски",
-    "code": "sr",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.serbian",
-    "status": "ئامادەیە لە گوگل پلەی"
-  },
-  {
-    "name": "Slovak - Slovenčina",
-    "code": "sk",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.slovak",
-    "status": "ئامادەیە لە گوگل پلەی"
+    "downloadUrl": "https://kurdikebord.github.io/farhang/german.apk",
+    "status": "ئامادەیە بۆ داگرتن"
   },
   {
     "name": "Spanish - Español",
     "code": "es",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.spain",
-    "status": "ئامادەیە لە گوگل پلەی"
+    "downloadUrl": "https://kurdikebord.github.io/farhang/spanish.apk",
+    "status": "ئامادەیە بۆ داگرتن"
   },
   {
-    "name": "Swedish - Svenska",
-    "code": "sv",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.swedish",
-    "status": "ئامادەیە لە گوگل پلەی"
+    "name": "Italian - Italiano",
+    "code": "it",
+    "downloadUrl": "https://kurdikebord.github.io/farhang/italian.apk",
+    "status": "ئامادەیە بۆ داگرتن"
+  },
+  {
+    "name": "Russian - Русский",
+    "code": "ru",
+    "downloadUrl": "https://kurdikebord.github.io/farhang/russian.apk",
+    "status": "ئامادەیە بۆ داگرتن"
   },
   {
     "name": "Turkish - Türkçe",
     "code": "tr",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.turkish",
-    "status": "ئامادەیە لە گوگل پلەی"
-  },
-  {
-    "name": "Ukrainian - Українська",
-    "code": "uk",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.ukrainian",
-    "status": "ئامادەیە لە گوگل پلەی"
+    "downloadUrl": "https://kurdikebord.github.io/farhang/turkish.apk",
+    "status": "ئامادەیە بۆ داگرتن"
   },
   {
     "name": "Urdu - اردو",
     "code": "ur",
-    "downloadUrl": "market://details?id=com.anysoftkeyboard.languagepack.urdu",
-    "status": "ئامادەیە لە گوگل پلەی"
+    "downloadUrl": "https://kurdikebord.github.io/farhang/urdu.apk",
+    "status": "ئامادەیە بۆ داگرتن"
   }
 ]
