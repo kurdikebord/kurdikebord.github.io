@@ -1,6 +1,7 @@
 [
   {
     "name": "کوردی",
+    "locale": "ku",
     "status": "ئامادەیە بۆ داگرتن",
     "dictUrl": "https://kurdikebord.github.io/ziman/kurdi.dict",
     "layouts": [
@@ -16,32 +17,18 @@
   },
   {
     "name": "فارسی",
-    "status": "وەشانی نوێ",
-    "dictUrl": "https://kurdikebord.github.io/ziman/farsi.dict",
+    "locale": "fa",
+    "folder": "persian",
+    "status": "بەردەستە",
+    "dictUrl": "https://kurdikebord.github.io/ziman/persian/persian.dict",
     "layouts": [
       {
         "name": "فارسی (ستاندارد)",
-        "url": "https://kurdikebord.github.io/ziman/farsi_standard.xml"
-      }
-
+        "url": "https://kurdikebord.github.io/ziman/persian/persian_qwerty.xml"
+      },
       {
-        "name": "فارسی (قوەرتی)",
-        "url": "https://kurdikebord.github.io/ziman/farsi_latin.xml"
-      }
-    ]
-  },
-
-
-    ]
-  },
-  {
-    "name": "عربی",
-    "status": "بەردەستە",
-    "dictUrl": "",
-    "layouts": [
-      {
-        "name": "العربية (١٢٣)",
-        "url": "https://kurdikebord.github.io/ziman/arabic_layout.xml"
+        "name": "فارسی (کۆمپاکت)",
+        "url": "https://kurdikebord.github.io/ziman/persian/persian_qwerty_compact.xml"
       }
     ]
   }
