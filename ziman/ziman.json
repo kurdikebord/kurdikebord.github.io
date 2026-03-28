@@ -1,0 +1,48 @@
+[
+  {
+    "name": "کوردی",
+    "status": "ئامادەیە بۆ داگرتن",
+    "dictUrl": "https://kurdikebord.github.io/ziman/kurdi.dict",
+    "layouts": [
+      {
+        "name": "کوردی (سۆرانی)",
+        "url": "https://kurdikebord.github.io/ziman/sorani_layout.xml"
+      },
+      {
+        "name": "کوردی (لاتینی)",
+        "url": "https://kurdikebord.github.io/ziman/latin_layout.xml"
+      }
+    ]
+  },
+  {
+    "name": "فارسی",
+    "status": "وەشانی نوێ",
+    "dictUrl": "https://kurdikebord.github.io/ziman/farsi.dict",
+    "layouts": [
+      {
+        "name": "فارسی (ستاندارد)",
+        "url": "https://kurdikebord.github.io/ziman/farsi_standard.xml"
+      }
+
+      {
+        "name": "فارسی (قوەرتی)",
+        "url": "https://kurdikebord.github.io/ziman/farsi_latin.xml"
+      }
+    ]
+  },
+
+
+    ]
+  },
+  {
+    "name": "عربی",
+    "status": "بەردەستە",
+    "dictUrl": "",
+    "layouts": [
+      {
+        "name": "العربية (١٢٣)",
+        "url": "https://kurdikebord.github.io/ziman/arabic_layout.xml"
+      }
+    ]
+  }
+]
