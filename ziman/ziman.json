@@ -1,35 +1,97 @@
 [
   {
     "name": "کوردی",
-    "locale": "ku",
-    "status": "ئامادەیە بۆ داگرتن",
-    "dictUrl": "https://kurdikebord.github.io/ziman/kurdi.dict",
-    "layouts": [
-      {
-        "name": "کوردی (سۆرانی)",
-        "url": "https://kurdikebord.github.io/ziman/sorani_layout.xml"
-      },
-      {
-        "name": "کوردی (لاتینی)",
-        "url": "https://kurdikebord.github.io/ziman/latin_layout.xml"
-      }
-    ]
+    "status": "١٠ شێوازی تایبەت",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.kurdikeyboard.ziman.kurdish"
+  },
+  {
+    "name": "عەرەبی",
+    "status": "بەمزوانە..",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.kurdikeyboard.ziman.arabic"
   },
   {
     "name": "فارسی",
-    "locale": "fa",
-    "folder": "persian",
-    "status": "بەردەستە",
-    "dictUrl": "https://kurdikebord.github.io/ziman/persian/persian.dict",
-    "layouts": [
-      {
-        "name": "فارسی (ستاندارد)",
-        "url": "https://kurdikebord.github.io/ziman/persian/persian_qwerty.xml"
-      },
-      {
-        "name": "فارسی (کۆمپاکت)",
-        "url": "https://kurdikebord.github.io/ziman/persian/persian_qwerty_compact.xml"
-      }
-    ]
+    "status": "بەمزوانە..",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.kurdikeyboard.ziman.persian"
+  },
+  {
+    "name": "ئەڵمانی",
+    "status": "بەمزوانە..",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.kurdikeyboard.ziman.german"
+  },
+  {
+    "name": "سویدی",
+    "status": "بەمزوانە..",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.kurdikeyboard.ziman.swedish"
+  },
+  {
+    "name": "ئیسپانی",
+    "status": "بەمزوانە..",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.kurdikeyboard.ziman.spain"
+  },
+  {
+    "name": "فەڕەنسی",
+    "status": "بەمزوانە..",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.kurdikeyboard.ziman.french"
+  },
+  {
+    "name": "ئیتاڵی",
+    "status": "بەمزوانە..",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.kurdikeyboard.ziman.italian"
+  },
+  {
+    "name": "نەرویجی",
+    "status": "بەمزوانە..",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.kurdikeyboard.ziman.norwegian"
+  },
+  {
+    "name": "هۆڵەندی",
+    "status": "بەمزوانە..",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.kurdikeyboard.ziman.dutch"
+  },
+  {
+    "name": "یۆنانی",
+    "status": "بەمزوانە..",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.kurdikeyboard.ziman.greek"
+  },
+  {
+    "name": "دانیمارکی",
+    "status": "بەمزوانە..",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.kurdikeyboard.ziman.danish"
+  },
+  {
+    "name": "فینلەندی",
+    "status": "بەمزوانە..",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.kurdikeyboard.ziman.finnish"
+  },
+  {
+    "name": "هیندی",
+    "status": "بەمزوانە..",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.kurdikeyboard.ziman.hindi"
+  },
+  {
+    "name": "کۆری",
+    "status": "بەمزوانە..",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.kurdikeyboard.ziman.korean"
+  },
+  {
+    "name": "ڕووسی",
+    "status": "بەمزوانە..",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.kurdikeyboard.ziman.russian2"
+  },
+  {
+    "name": "ئۆردوو",
+    "status": "بەمزوانە..",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.kurdikeyboard.ziman.urdu"
+  },
+  {
+    "name": "پرتوگالی",
+    "status": "بەمزوانە..",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.kurdikeyboard.ziman.portuguese"
+  },
+  {
+    "name": "ئەمازیغی",
+    "status": "بەمزوانە..",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.kurdikeyboard.ziman.tamazight"
   }
 ]
