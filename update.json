@@ -2,5 +2,6 @@
   "versionCode": 38,
   "updateUrl": "https://play.google.com/store/apps/details?id=com.goran.kurdikeyboard",
   "updateMessage": "ئەم وەشانە زۆر گرنگە و دەبێت نوێی بکەیتەوە بۆ بەردەوامبون لە بەکارهێنانی بەرنامەکە!",
-  "isForceUpdate": true
+  "isForceUpdate": false,
+  "changelog": "• چاککردنی هەڵەی پیتەکان لە کاتی نووسینی خێرا\n• زیادکردنی ٥ ڕووکاری مۆدێرن و سەرنجڕاکێش\n• کەمکردنەوەی قەبارەی بەرنامەکە و خێراکردنی کارکردنی\n• چاکسازی لە بەشی ئیمۆجییەکان"
 }
