@@ -3,10 +3,11 @@
   "versionName": "2.8.3",
   "updateUrl": "https://play.google.com/store/apps/details?id=com.goran.kurdikeyboard",
   "updateMessage": "ئەم وەشانە زۆر گرنگە و دەبێت نوێی بکەیتەوە بۆ بەردەوامبون لە بەکارهێنانی بەرنامەکە!",
-  "isForceUpdate": false,
+  "isForceUpdate": true,
   "changelog": "• نوێکردنەوەی رووکاری گشتی بەرنامەکە\n
 • زیادکردنی ١٠ ڕووکاری نوێ\n
 • چاکسازی گشتی لەبەشی لەبەرگیراوەکان\n
 • زیادکردنی ئیمۆجییە نوێیەکانی ئەندرۆید ١٧\n
+• زانیاری زیاتر https:kurdikebord.github.io\n
 • لەگەڵ چەندین چاکسازی گشتی و زیاتر لەناو بەرنامەکەدا..."
 }
