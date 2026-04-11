@@ -1,10 +1,11 @@
 {
-  "versionCode": 42,
+  "versionCode": 43,
   "versionName": "2.8.3",
   "updateUrl": "https://play.google.com/store/apps/details?id=com.goran.kurdikeyboard",
   "updateMessage": "ئەم وەشانە زۆر گرنگە و دەبێت نوێی بکەیتەوە بۆ بەردەوامبون لە بەکارهێنانی بەرنامەکە!",
-  "isForceUpdate": false,
-  "changelog": "• نوێکردنەوەی رووکاری گشتی بەرنامەکە\n
+  "isForceUpdate": true,
+  "changelog": "• چارەسەرکردنی کێشەی دەرنەکەوتنی تەختەکلیل دوای ڕیستارت\n
+• نوێکردنەوەی رووکاری گشتی بەرنامەکە\n
 • زیادکردنی ١٠ ڕووکاری نوێ\n
 • چاکسازی گشتی لەبەشی لەبەرگیراوەکان\n
 • زیادکردنی ئیمۆجییە نوێیەکانی ئەندرۆید ١٧\n
