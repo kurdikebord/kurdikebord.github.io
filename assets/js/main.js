@@ -1,212 +1,191 @@
-(function() {
-  "use strict";
+(function () {
+    //===== Prealoder
 
-  /**
-   * Apply .scrolled class to the body as the page is scrolled down
-   */
-  function toggleScrolled() {
-    const selectBody = document.querySelector('body');
-    const selectHeader = document.querySelector('#header');
-    if (!selectHeader.classList.contains('scroll-up-sticky') && !selectHeader.classList.contains('sticky-top') && !selectHeader.classList.contains('fixed-top')) return;
-    window.scrollY > 100 ? selectBody.classList.add('scrolled') : selectBody.classList.remove('scrolled');
-  }
-
-  document.addEventListener('scroll', toggleScrolled);
-  window.addEventListener('load', toggleScrolled);
-
-  /**
-   * Mobile nav toggle
-   */
-  const mobileNavToggleBtn = document.querySelector('.mobile-nav-toggle');
-
-  function mobileNavToogle() {
-    document.querySelector('body').classList.toggle('mobile-nav-active');
-    mobileNavToggleBtn.classList.toggle('bi-list');
-    mobileNavToggleBtn.classList.toggle('bi-x');
-  }
-  if (mobileNavToggleBtn) {
-    mobileNavToggleBtn.addEventListener('click', mobileNavToogle);
-  }
-
-  /**
-   * Hide mobile nav on same-page/hash links
-   */
-  document.querySelectorAll('#navmenu a').forEach(navmenu => {
-    navmenu.addEventListener('click', () => {
-      if (document.querySelector('.mobile-nav-active')) {
-        mobileNavToogle();
-      }
-    });
-
-  });
-
-  /**
-   * Toggle mobile nav dropdowns
-   */
-  document.querySelectorAll('.navmenu .toggle-dropdown').forEach(navmenu => {
-    navmenu.addEventListener('click', function(e) {
-      e.preventDefault();
-      this.parentNode.classList.toggle('active');
-      this.parentNode.nextElementSibling.classList.toggle('dropdown-active');
-      e.stopImmediatePropagation();
-    });
-  });
-
-  /**
-   * Preloader
-   */
-  const preloader = document.querySelector('#preloader');
-  if (preloader) {
-    window.addEventListener('load', () => {
-      preloader.remove();
-    });
-  }
-
-  /**
-   * Scroll top button
-   */
-  let scrollTop = document.querySelector('.scroll-top');
-
-  function toggleScrollTop() {
-    if (scrollTop) {
-      window.scrollY > 100 ? scrollTop.classList.add('active') : scrollTop.classList.remove('active');
+    window.onload = function () {
+        window.setTimeout(fadeout, 500);
     }
-  }
-  scrollTop.addEventListener('click', (e) => {
-    e.preventDefault();
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-  });
 
-  window.addEventListener('load', toggleScrollTop);
-  document.addEventListener('scroll', toggleScrollTop);
-
-  /**
-   * Animation on scroll function and init
-   */
-  function aosInit() {
-    AOS.init({
-      duration: 600,
-      easing: 'ease-in-out',
-      once: true,
-      mirror: false
-    });
-  }
-  window.addEventListener('load', aosInit);
-
-  /**
-   * Initiate Pure Counter
-   */
-  new PureCounter();
-
-  /**
-   * Initiate glightbox
-   */
-  const glightbox = GLightbox({
-    selector: '.glightbox'
-  });
-
-  /**
-   * Init isotope layout and filters
-   */
-  document.querySelectorAll('.isotope-layout').forEach(function(isotopeItem) {
-    let layout = isotopeItem.getAttribute('data-layout') ?? 'masonry';
-    let filter = isotopeItem.getAttribute('data-default-filter') ?? '*';
-    let sort = isotopeItem.getAttribute('data-sort') ?? 'original-order';
-
-    let initIsotope;
-    imagesLoaded(isotopeItem.querySelector('.isotope-container'), function() {
-      initIsotope = new Isotope(isotopeItem.querySelector('.isotope-container'), {
-        itemSelector: '.isotope-item',
-        layoutMode: layout,
-        filter: filter,
-        sortBy: sort
-      });
-    });
-
-    isotopeItem.querySelectorAll('.isotope-filters li').forEach(function(filters) {
-      filters.addEventListener('click', function() {
-        isotopeItem.querySelector('.isotope-filters .filter-active').classList.remove('filter-active');
-        this.classList.add('filter-active');
-        initIsotope.arrange({
-          filter: this.getAttribute('data-filter')
-        });
-        if (typeof aosInit === 'function') {
-          aosInit();
+    function fadeout() {
+        var preloader = document.querySelector('.preloader');
+        if (preloader) {
+            preloader.style.opacity = '0';
+            preloader.style.display = 'none';
         }
-      }, false);
-    });
-
-  });
-
-  /**
-   * Frequently Asked Questions Toggle
-   */
-  document.querySelectorAll('.faq-item h3, .faq-item .faq-toggle, .faq-item .faq-header').forEach((faqItem) => {
-    faqItem.addEventListener('click', () => {
-      faqItem.parentNode.classList.toggle('faq-active');
-    });
-  });
-
-  /**
-   * Init swiper sliders
-   */
-  function initSwiper() {
-    document.querySelectorAll(".init-swiper").forEach(function(swiperElement) {
-      let config = JSON.parse(
-        swiperElement.querySelector(".swiper-config").innerHTML.trim()
-      );
-
-      if (swiperElement.classList.contains("swiper-tab")) {
-        initSwiperWithCustomPagination(swiperElement, config);
-      } else {
-        new Swiper(swiperElement, config);
-      }
-    });
-  }
-
-  window.addEventListener("load", initSwiper);
-
-  /**
-   * Correct scrolling position upon page load for URLs containing hash links.
-   */
-  window.addEventListener('load', function(e) {
-    if (window.location.hash) {
-      if (document.querySelector(window.location.hash)) {
-        setTimeout(() => {
-          let section = document.querySelector(window.location.hash);
-          let scrollMarginTop = getComputedStyle(section).scrollMarginTop;
-          window.scrollTo({
-            top: section.offsetTop - parseInt(scrollMarginTop),
-            behavior: 'smooth'
-          });
-        }, 100);
-      }
     }
-  });
 
-  /**
-   * Navmenu Scrollspy
-   */
-  let navmenulinks = document.querySelectorAll('.navmenu a');
+    /*=====================================
+    Sticky
+    ======================================= */
+    window.onscroll = function () {
+        var header_navbar = document.querySelector(".navbar-area");
+        if (header_navbar) {
+            var sticky = header_navbar.offsetTop;
+            if (window.pageYOffset > sticky) {
+                header_navbar.classList.add("sticky");
+            } else {
+                header_navbar.classList.remove("sticky");
+            }
+        }
 
-  function navmenuScrollspy() {
-    navmenulinks.forEach(navmenulink => {
-      if (!navmenulink.hash) return;
-      let section = document.querySelector(navmenulink.hash);
-      if (!section) return;
-      let position = window.scrollY + 200;
-      if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
-        document.querySelectorAll('.navmenu a.active').forEach(link => link.classList.remove('active'));
-        navmenulink.classList.add('active');
-      } else {
-        navmenulink.classList.remove('active');
-      }
-    })
-  }
-  window.addEventListener('load', navmenuScrollspy);
-  document.addEventListener('scroll', navmenuScrollspy);
+        // show or hide the back-top-top button
+        var backToTo = document.querySelector(".scroll-top");
+        if (backToTo) {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                backToTo.style.display = "flex";
+            } else {
+                backToTo.style.display = "none";
+            }
+        }
+
+        // show or hide the get-it-now button
+        var getItNow = document.querySelector(".get-it-now-wrapper");
+        if (getItNow) {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                getItNow.style.display = "flex";
+            } else {
+                getItNow.style.display = "none";
+                getItNow.classList.remove("open");
+            }
+        }
+    };
+
+    // for menu scroll 
+    var pageLink = document.querySelectorAll('.page-scroll');
+
+    if (pageLink.length) {
+        pageLink.forEach(elem => {
+            elem.addEventListener('click', e => {
+                e.preventDefault();
+                document.querySelector(elem.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    }
+
+    //===== close navbar-collapse when a  clicked
+    let navbarToggler = document.querySelector(".navbar-toggler");
+    const navbarCollapse = document.querySelector(".navbar-collapse");
+
+    if (navbarToggler && navbarCollapse) {
+        document.querySelectorAll(".page-scroll").forEach(e =>
+            e.addEventListener("click", () => {
+                navbarToggler.classList.remove("active");
+                navbarCollapse.classList.remove("show")
+            })
+        );
+        navbarToggler.addEventListener("click", function () {
+            navbarToggler.classList.toggle("active");
+        });
+    }
+
+
+    //========= glightbox
+    try {
+        var myGallery = GLightbox({
+            'href': 'https://www.youtube.com/watch?v=8RgXp4gPmS4',
+            'type': 'video',
+            'width': 900,
+            'autoplayVideos': true,
+        });
+    } catch (e) {}
+
+
+    //======= tiny slider for Testimonial
+    try {
+        tns({
+            container: '.testimonial-slider',
+            items: 1,
+            slideBy: 'page',
+            autoplay: false,
+            speed: 800,
+            navPosition: 'bottom',
+            autoplayTimeout: 8000,
+            controls: false,
+            nav: true,
+            mouseDrag: true,
+        });
+    } catch (e) {}
+
+
+    //========= glightbox for portfolio
+    try {
+        var portfolioImage = GLightbox({
+            selector: '.glightbox',
+            'touchNavigation': true,
+            'loop': false,
+            'autoplayVideos': true,
+        });
+    } catch (e) {}
+
+
+    //======= Counter Up
+    try {
+        var cu = new counterUp({
+            start: 0,
+            duration: 2000,
+            intvalues: true,
+            interval: 100,
+            append: " ",
+        });
+        cu.start();
+    } catch (e) {}
+
+    //===== Typewriter Effect
+    const typingText = document.querySelector('.typing-text');
+    if (typingText) {
+        const words = ['سەدان زیکر و ئایەت', 'چەندین فۆنتی جیاواز', 'شێوەی تایبەتی ئیمۆجی', 'بەشی لەبەرگیراوەکان', 'ڕووکاری هەمەڕەنگ', 'وەرگێڕانی ڕاستەوخۆ'];
+        let wordIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+
+        function type() {
+            const currentWord = words[wordIndex];
+            if (isDeleting) {
+                typingText.textContent = currentWord.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typingText.textContent = currentWord.substring(0, charIndex + 1);
+                charIndex++;
+            }
+
+            if (!isDeleting && charIndex === currentWord.length) {
+                isDeleting = true;
+                setTimeout(type, 2000);
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                wordIndex = (wordIndex + 1) % words.length;
+                setTimeout(type, 500);
+            } else {
+                setTimeout(type, isDeleting ? 80 : 120);
+            }
+        }
+        setTimeout(type, 1500);
+    }
+
+    //===== Dark/Light Mode Toggle
+    const themeSwitchInput = document.getElementById('theme-switch-input');
+    const body = document.body;
+    const storedTheme = localStorage.getItem('theme');
+
+    if (storedTheme === 'dark') {
+        body.classList.add('dark-mode');
+        if (themeSwitchInput) themeSwitchInput.checked = true;
+    }
+
+    if (themeSwitchInput) {
+        themeSwitchInput.addEventListener('change', function () {
+            if (this.checked) {
+                body.classList.add('dark-mode');
+                localStorage.setItem('theme', 'dark');
+            } else {
+                body.classList.remove('dark-mode');
+                localStorage.setItem('theme', 'light');
+            }
+        });
+    }
+
+    //===== WOW
+    try {
+        new WOW({ mobile: false }).init();
+    } catch (e) {}
 
 })();

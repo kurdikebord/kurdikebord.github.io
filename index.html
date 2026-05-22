@@ -1,1142 +1,789 @@
 <!DOCTYPE html>
-<html dir="rtl" lang="ckb">
+<html class="no-js" lang="zxx">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>KurdiKebord | تەختەکلیلی کوردی</title>
-  <meta name="description" content="باشترین و خێراترین تەختەکلیلی سیستەمی ئەندرۆید">
-  <meta name="keywords" content="تەختەکلیل">
-  <meta name="google-site-verification" content="AEm9bwBx9pG92BSZiHAsF1ZFk0Wz5nXN1xrw7Jm1RUA" />
-  <!-- Favicons -->
-  <link href="assets/wena/favicon.png" rel="icon">
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>تەختەکلیلی کوردی | KurdiKebord</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/wena/favicon.png" />
+    <!-- Place favicon.ico in the root directory -->
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Mukta:wght@200;300;400;500;600;700;800&family=Abel:wght@400&display=swap" rel="stylesheet">
+    <!-- Web Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap-icons/bootstrap-icons.css" />
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8318759998711490"
-     crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/tiny-slider.css" />
+    <link rel="stylesheet" href="assets/css/glightbox.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
 
- </head>
+</head>
 
-<body class="index-page">
+<body>
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
 
-  <header id="header" class="header d-flex align-items-center position-relative">
-
-    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center">
-      <center>
-      <h1 class="sitename">KurdiKebord</h1> 
-</center>
-      </a>
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#" class="active">سەرەتا</a></li>
-          <li><a href="#features">تایبەتمەندی</a></li>
-
-          <li><a href="ferkari">فێرکاری</a></li>
-          <li><a href="dagrtn">داگرتن</a></li>
-
-          <li><a href="farhang">فەرهەنگ</a></li>
-          <li><a href="#portfolio-details">زانیاری گشتی</a></li>
-
-          <li><a href="#about">دەربارە</a></li>
-
-          <li><a href="#contact">پەیوەندی</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
     </div>
-
-  </header>
-
-  <main class="main">
-
-    <!-- Hero Section -->
-
-    <section id="hero" class="hero section">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 hero-content" data-aos="fade-up" data-aos-delay="100">
-            <div class="subtitle">
-              <span></span>
-            </div>
-
-            <h2 class="title">
-              باشترین و خێراترین <span class="highlight">تەختەکلیلی کوردی</span> سیستەمی ئەندرۆید
-            </h2>
-
-            <div class="description">
-              <p style="text-align:center; font-weight: bold;">
-ئەم بەرنامەیە بۆ زیاتر بەرەوپێشبردنی ئاستی زمانی کوردی و خزمەتکردنی تاکی کورد دروستکراوە، تا بە تەختەکلیلێکی پێشکەوتوو ستاندادری کوردی بنوسن و بەدووربن لە بەکارهێنانی دەستەواژەی بێگانەو چیتر کیبۆردەکانی (فارسی ، عەرەبی ، لاتینی) نەبنە جێگرەوەی زمانی ڕەسەنی خۆمان، ئێمەش وەک هەموو گەلانی جیهان خاوەن تەختەکلیل و ڕێنووسی تایبەت بە خۆمان بین</p>
-            </div>
-
-            <div class="hero-buttons">
-              <a href="#pricing" class="primary-btn">
-                تەختەکلیلی کوردی | PRO
-                <i class="bi bi-chevron-right"></i>
-              </a>
-              <a href="#features" class="secondary-btn">
-                تایبەتمەندییەکان
-                <i class="bi bi-chevron-right"></i>
-              </a>
-              </div>
-            </div>
-           <div class="col-lg-6 hero-visual" data-aos="fade-up" data-aos-delay="200">
-            <div class="image-wrapper">
-              <img src="assets/wena/app/illustration-1.webp" alt="شارەزایی" class="main-image">
-
-              <div class="experience-badge">
-                <span class="years">500K</span>
-                <span class="text">دابەزاندن لە گۆگڵ پلەی</span>
-              </div>
-            </div>
-
-            <div class="client-counter">
-              <div class="counter-number">
-                <span>10+ ساڵ</span>
-              </div>
-              <div class="counter-text">
-                <span>پەرەپێدان و نوێکاری</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- /Hero Section -->
-
-
-
-    <!-- Stats Section -->
-    <section id="stats" class="stats section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row justify-content-center">
-          <div class="col-lg-10">
-            <div class="stats-wrapper">
-              <div class="stats-item" data-aos="zoom-in" data-aos-delay="150">
-                <div class="icon-wrapper">
-                  <i class="bi bi-people"></i>
-                </div>
-                <span data-purecounter-start="0" data-purecounter-end="85000" data-purecounter-duration="1" class="purecounter"></span>
-                <p>بەکارهێنەری چالاک</p>
-              </div><!-- End Stats Item -->
-
-              <div class="stats-item" data-aos="zoom-in" data-aos-delay="200">
-                <div class="icon-wrapper">
-                  <i class="bi bi-journal-code"></i>
-                </div>
-                <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1" class="purecounter"></span>
-                <p>فێرکاری جیاواز</p>
-              </div><!-- End Stats Item -->
-
-
-              <div class="stats-item" data-aos="zoom-in" data-aos-delay="250">
-                <div class="icon-wrapper">
-                  <i class="bi bi-headset"></i>
-                </div>
-                <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter"></span>
-                <p>کاتژمێر پاڵپشتی بەردەوام</p>
-              </div><!-- End Stats Item -->
-
-              <div class="stats-item" data-aos="zoom-in" data-aos-delay="300">
-                <div class="icon-wrapper">
-                  <i class="bi bi-box-arrow-down"></i>
-                </div>
-                <span data-purecounter-start="0" data-purecounter-end="1000000" data-purecounter-duration="1" class="purecounter"></span>
-                <p>دابەزاندن لەسەرجەم مارکێتەکان</p>
-              </div><!-- End Stats Item -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- /Stats Section -->
-
-    <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="cta-wrapper">
-          <div class="cta-shapes">
-            <div class="shape shape-1"></div>
-            <div class="shape shape-2"></div>
-            <div class="shape shape-3"></div>
-          </div>
-
-          <div class="row g-0">
-            <div class="col-lg-7">
-              <div class="cta-content p-5" data-aos="fade-right" data-aos-delay="200">
-                <span class="badge-custom" data-aos="zoom-in" data-aos-delay="300">وەشانی پارەدان</span>
-                <h3 class="mt-4 mb-4">ئەزمونێکی نوێ تاقیبکەرەوە لەگەڵ
-<br>
-وەشانی پارەدانی تەختەکلیلی کوردی</h3>
-                <p class="mb-4">لە وەشانی پارەدان تایبەتمەندی زۆۆۆر نایاب و ناوازە بەردەست خراوە بۆ بەکارهێنەر کە لە وەشانی ئاساییدا بوونی نیە</p>
-
-<center>
-                <div class="row benefits-row mb-5">
-                  <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
-                    <div class="benefit-item">
-                      <div class="icon-box">
-                        <i class="bi bi-lightning-charge-fill"></i>
-                      </div>
-                      <div class="benefit-content">
-                        <h5>بەکارهێنانی ئاسان</h5>
-                        <p>بە سادەیی کۆدەکانی دارێژراوە زۆرترین ئاسانکاری تێدا فەراهەم کراوە بۆ بەکارهێنەر</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
-                    <div class="benefit-item">
-                      <div class="icon-box">
-                        <i class="bi bi-shield-check"></i>
-                      </div>
-                      <div class="benefit-content">
-                        <h5>تەواو پارێزراو</h5>
-                        <p>هیچ جۆرە ڕێگەپێدانێکی سیستەم پێویست نیە بۆ کارکردنی بەرنامەکە</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-</center>
-                <div class="action-buttons">
-                  <a href="https://play.google.com/store/apps/details?id=goran.kurdikeyboard.pro" target="_blank" class="btn btn-primary" data-aos="fade-up" data-aos-delay="600">ئێستا بیکڕە</a>
-                  <a href="#pricing" class="btn btn-outline" data-aos="fade-up" data-aos-delay="700">زانیاری زیاتر</a>
-                  <div class="guarantee-badge" data-aos="fade-up" data-aos-delay="800">
-                    <i class="bi bi-patch-check-fill"></i>
-                    <span>یەکجار کڕین بۆ هەمیشە بەکارهێنان</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-5">
-              <div class="cta-image-container" data-aos="zoom-in" data-aos-delay="300">
-                <img src="assets/wena/app/illustration-2.webp" alt="Illustration" class="img-fluid main-image">
-                <div class="floating-element element-1">
-                  <i class="bi bi-star-fill"></i>
-                  <span>4.8 هەڵسەنگاندن</span>
-                </div>
-                <div class="floating-element element-2">
-                  <i class="bi bi-people-fill"></i>
-                  <span>500k+ بەکارهێنەر</span>
-                </div>
-                <div class="pattern-dots"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section><!-- /Call To Action Section -->
-
-
-    <!-- Features Section -->
-    <section id="features" class="features section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <span class="description-title">تایبەتمەندییەکان</span>
-        <h2>تایبەتمەندییەکان</h2>
-        <p>باشترین و خێراترین تەختەکلیلی کوردی سیستەمی ئەندرۆید
-<br>
-کە چەندین تایبەتمەندی جیاواز و هەمەجۆر لەخۆ دەگرێت</p>
-      </div>
-<!-- End Section Title -->
-
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="features-overview">
-          <div class="features-card-wrapper" data-aos="fade-left" data-aos-delay="300">
-
-        <div class="additional-features" data-aos="fade-up" data-aos-delay="100">
-          <div class="row gx-4 gy-4">
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-              <div class="additional-feature-card">
-                <div class="icon-container">
-                  <i class="bi bi-emoji-heart-eyes"></i>
-                </div>
-                <h4>گۆڕینی شێوەی ئیمۆجیەکان (PRO)</h4>
-                <p>گۆڕین و ڕێکخستنی شێوەی خەندەکان بە خواستی بەکارهێنەر</p>
-                <div class="feature-tag active">
-                  <i class="bi bi-check-circle"></i> بەردەستە
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-              <div class="additional-feature-card">
-                <div class="icon-container">
-                  <i class="bi bi-translate"></i>
-                </div>
-                <h4>بوونی وەرگێڕی سەرهێڵ (PRO)</h4>
-                <p>توانای وەرگێڕان لە زمانی کوردی بۆ زیاتر لە ٢٠ زمان وە بەپێچەوانەوە
-</p>
-                <div class="feature-tag active">
-                  <i class="bi bi-check-circle"></i> بەردەستە
-                </div>
-              </div>
-          </div>
-
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-              <div class="additional-feature-card">
-                <div class="icon-container">
-                  <i class="bi bi-palette2"></i>
-                </div>
-                <h4>دەستکاریکردن و دروستکردنی ڕووکار (PRO)</h4>
-                <p>دروستکردن و ڕێکخستنی ڕەنگ لەگەڵ دانانی وێنەی تایبەتی خۆت وەک باکگراوندی تەختەکلیل
-</p>
-<br>
-                <div class="feature-tag active">
-                  <i class="bi bi-check-circle"></i> بەردەستە
-                </div>
-              </div>
-            </div>
-
-
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-              <div class="additional-feature-card">
-                <div class="icon-container">
-                  <i class="bi bi-border-style"></i>
-                </div>
-                <h4>گۆڕینی شوێنی پیتەکان (PRO)</h4>
-                <p>دەستکاریکردن و گۆڕینی شوێنی پیتە بنەڕەتیەکانی سەر تەختەکلیل
-<br>
-دروستکردنی شێواز(Layout)ـی ڕێکخراوی تایبەت بەدڵی خۆت
-</p>
-                <div class="feature-tag active">
-                  <i class="bi bi-check-circle"></i> بەردەستە
-                </div>
-              </div>
-            </div>
-
-
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-              <div class="additional-feature-card">
-                <div class="icon-container">
-                  <i class="bi bi-clipboard-fill"></i>
-                </div>
-                <h4>بوونی بەشی لەبەرگیراوەکان (PRO)</h4>
-                <p>ڕێکخستنی تایبەتی بەشی لەبەرگیراوەکان
-<br>
-بۆ هەڵگرتن و هێشتنەوەی شتە لەبەرگیراوەکانت بۆ هەمیشە</p>
-                <div class="feature-tag active">
-                  <i class="bi bi-check-circle"></i> بەردەستە
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-              <div class="additional-feature-card">
-                <div class="icon-container">
-                  <i class="bi bi-aspect-ratio"></i>
-                </div>
-                <h4>گۆڕینی قیاسی فۆنت و مەودای نێوان دوگمەکان (PRO)</h4>
-                <p>توانای دەستکاریکردن و گۆڕینی قەبارەی فۆنت و مەودای نێوان دوگمەکان بەدڵی خۆت
-</p>
-                <div class="feature-tag active">
-                  <i class="bi bi-check-circle"></i> بەردەستە
-                </div>
-              </div>
-          </div>
-
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-              <div class="additional-feature-card">
-                <div class="icon-container">
-                  <i class="bi bi-layout-wtf"></i>
-                </div>
-                <h4>گۆڕینی شوێنی ئامرازەکان (PRO)</h4>
-                <p>توانای دەستکاریکردن و گۆڕینی شوێنی ئامراز و فرمانەکانی تەختەکلیل بەدڵی خۆت
-</p>
-                <div class="feature-tag active">
-                  <i class="bi bi-check-circle"></i> بەردەستە
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-              <div class="additional-feature-card">
-                <div class="icon-container">
-                  <i class="bi bi-journal-bookmark-fill"></i>
-                </div>
-                <h4>فەرهەنگی زیرەک و نوسین بەدەسخشاندن (PRO)</h4>
-                <p>پێشنیاری زیرەکی ووشە و خەندەکان ڕاسکەرەوەی خۆکاری ڕێنووسی هەڵەو ڕێگریکرن لە جنێو و قسەی نەشیاو
-</p>
-                <div class="feature-tag active">
-                  <i class="bi bi-check-circle"></i> بەردەستە
-                </div>
-              </div>
-        </div>
-
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-              <div class="additional-feature-card">
-                <div class="icon-container">
-                  <i class="bi bi-speedometer"></i>
-                </div>
-                <h4>خێراترین ئاستی جێبەجێکردن (PRO)</h4>
-                <p>لە وەشانی پارەدان ئاستی بەرنامەکە بەتایبەت کاری لەسەر کراوە خێراییەکی بێ وێنە دەبەخشێت لەکاتی نووسیندا بەبێ وەستان
-</p>
-                <div class="feature-tag active">
-                  <i class="bi bi-check-circle"></i> بەردەستە
-                </div>
-              </div>
-      </div>
-</div>
-</div>
-
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="features-overview">
-          <div class="features-card-wrapper" data-aos="fade-left" data-aos-delay="300">
-
-            <div class="features-row">
-
-
-              <div class="feature-card feature-primary" data-aos="zoom-in" data-aos-delay="200">
-                <div class="feature-icon">
-                  <i class="bi bi-book-half"></i>
-                </div>
-                <div class="feature-details">
-                  <h3>سەدان زیکر و ئایەت (FREE & PRO)</h3>
-              <p>بوونی سەدان زیکر و کورتە ئایەتی ناو قورئانی پیرۆز
-لەگەڵ حەرەکاتەکانی زمانی عەرەبی (علامات التشکیل)</p>
-                  <div class="feature-status active">
-                    <span class="status-indicator"></span>
-                    <span class="status-text">بەردەستە</span>
-                  </div>
-              </div>
-            </div>
-
-              <div class="feature-card" data-aos="zoom-in" data-aos-delay="400">
-                <div class="feature-icon">
-                  <i class="bi bi-keyboard"></i>
-                </div>
-                <div class="feature-details">
-                  <h3>چەند شێوازێک (FREE)</h3>
-              <p>بوونی چەند شێوازێکی دیاریکراوی نووسین کە بەجێگیری دانروان
-</p>
-                  <div class="feature-status scheduled">
-                    <span class="status-indicator"></span>
-                    <span class="status-text">سنوردار</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="feature-card" data-aos="zoom-in" data-aos-delay="200">
-                <div class="feature-icon">
-                  <i class="bi bi-clipboard"></i>
-                </div>
-                <div class="feature-details">
-                  <h3>بەشی لەبەرگیراوەکان (FREE)</h3>
-                  <p>بوونی بەشی لەبەرگیراوەکان بۆ هەڵگرتنی نووسینەکان بۆ ماوەی ٢٤ کاتژمێر
-</p>
-                  <div class="feature-status scheduled">
-                    <span class="status-indicator"></span>
-                    <span class="status-text">سنوردار</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="feature-card" data-aos="zoom-in" data-aos-delay="300">
-                <div class="feature-icon">
-                  <i class="bi bi-palette"></i>
-                </div>
-                <div class="feature-details">
-                  <h3>چەند رووکارێک (FREE)</h3>
-                  <p>بوونی تەنها چەند ڕووکارێکی دیاریکراو جێگیر
-<br>
-توانای دەستکاریکردن و گۆڕانکاری تێدانییە
-</p>
-                  <div class="feature-status scheduled">
-                    <span class="status-indicator"></span>
-                    <span class="status-text">سنوردار</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-    </section><!-- /Features Section -->
-
-
-    <!-- Pricing Section -->
-    <section id="pricing" class="pricing section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <span class="description-title">نرخی بەرنامەکە</span>
-        <h2>نرخی بەرنامەکە</h2>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4 justify-content-center">
-          <!-- Basic Plan -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="pricing-item">
-              <div class="pricing-icon">
-                <i class="bi bi-infinity"></i>
-              </div>
-              <h3>FREE</h3>
-              <div class="price">
-                <span class="currency">٠ دینار  </span>خۆڕایی<span class="period"></span>
-              </div>
-              <p class="description">لە تەختەکلیلی کوردی | FREE
-<br>
-ئەم تایبەتمەندیانە بەردەستن</p>
-              <ul class="features-list">
-                <li>
-                  <i class="bi bi-check2"></i>
-                  پێشنیارکردنی ووشەکان
-                </li>
-                <li>
-                  <i class="bi bi-check2"></i>
-                  تەنها بە ٣ زمان بەردەستە
-<br>
-(کوردی، ئینگلیزی، عەرەبی)
-                </li>
-
-                <li>
-                  <i class="bi bi-check2"></i>
-                  بوونی ڕیکلامەکان (Contain ADs)
-                </li>
-
-                <li>
-                  <i class="bi bi-check2"></i>
-                  تەنها چەند ڕووکارێک بەردەستە
-                </li>
-                <li>
-                  <i class="bi bi-check2"></i>
-                  چەندین زیکر و کورتە ئایەت
-                </li>
-                <li>
-                  <i class="bi bi-check2"></i>
-                  بوونی خەندەکان سەرەتاییەکان
-                </li>
-              </ul>
-              <a href="https://play.google.com/store/apps/details?id=com.goran.kurdikeyboard" target="_blank" class="btn-pricing">دابەزاندنی خۆڕایی</a>
-            </div>
-          </div><!-- End Basic Plan -->
-
-          <!-- Professional Plan -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="pricing-item featured">
-              <div class="pricing-badge">پێشنیارکراو</div>
-              <div class="pricing-icon">
-                <i class="bi bi-cash-coin"></i>
-              </div>
-              <h3>PRO</h3>
-              <div class="price">
-                <span class="currency"> 4000 دینار  </span>پارەدان <span class="period"> </span>
-              </div>
-              <p class="description">لە تەختەکلیلی کوردی | PRO
-<br>
-سەدان تایبەتمەندی جیاواز بەردەستن</p>
-              <ul class="features-list">
-
-                <li>
-                  <i class="bi bi-check2"></i>
-                   وەرگێڕانی ڕاستەوخۆ بۆ زیاتر لە ٢٠ زمان
-<br>
-Online Translation To 20+ Languages
-                </li>
-
-                <li>
-                  <i class="bi bi-check2"></i>
-                   دروستکردن و گۆڕینی شوێنی پیتەکان بەدڵی خۆت
-                </li>
-                <li>
-                  <i class="bi bi-check2"></i>
-                  بوونی سەرجەم ئیمۆجییە نوێیەکان
-<br>
-گەڕانی بەدوای ئیمۆجیەکان
-                </li>
-
-                <li>
-                  <i class="bi bi-check2"></i>
-                  گۆڕینی شێوەی ئیمۆجیەکان بەدڵی خۆت بۆ هەریەک لە
-<br>
-(ئایفۆن، توویتەر، ویندۆز، سامسۆنگ، جۆیی‌پێکسڵ)
-                </li>
-
-                <li>
-                  <i class="bi bi-check2"></i>
-                  دەستکاریکردنی قیاس و قەبارەی ئیمۆجیەکان
-                </li>
-
-                <li>
-                  <i class="bi bi-check2"></i>
-                  بوونی زۆرترین زیکر و کورتە ئایەت و شێوازی سەلاواتدان
-                </li>
-
-                <li>
-                  <i class="bi bi-check2"></i>
-                  بوونی جوانکاری نووسین و دروستکردنی ستیکەری تایبەت
-                </li>
-                <li>
-                  <i class="bi bi-check2"></i>
-                  بوونی فەرهەنگی پێشنیارکردنی ٢٠ زمان و شێوەزاری جیاواز
-                </li>
-
-                <li>
-                  <i class="bi bi-check2"></i>
-                  پاشەکەوتکردن و گێڕانەوەی بەشەکانی بەرنامەکە
-<br>
-(Backup & Restore)
-                </li>
-               
-                <li>
-                  <i class="bi bi-check2"></i>
-                  گۆڕینی قەبارەی فۆنت و مەودای نێوان دوگمەکان
-                </li>
-
-                <li>
-                  <i class="bi bi-check2"></i>
-                 بوونی ڕاستکەرەوەی هەڵەی ڕێنووس
-<br>
- (Auto-Correct)
-                </li>
-                <li>
-                  <i class="bi bi-check2"></i>
-                  چەندین ڕووکاری هەمەرەنگ + دروستکردن بەدڵی خۆت
-                </li>
-                <li>
-                  <i class="bi bi-check2"></i>
-                  دۆخی داینامیکی ڕووکار بە ئۆتۆماتیکی لە تاریک بۆ ڕووناک 
-                </li>
-                <li>
-                  <i class="bi bi-check2"></i>
-                   تایبەتمەندی ڕێگریکردن لە جنێودان و ووشە نەشیاوەکان
-<br>
-(Block Offensive Words)
-                </li>
-                <li>
-                  <i class="bi bi-check2"></i>
-                  هەڵگرتن و هێشتنەوەی لەبەرگیراوەکان بەدڵی خۆت
-<br>
-(Clipboard Manager)
-                </li>
-                <li>
-                  <i class="bi bi-check2"></i>
-                   توانای گۆڕینی شوێنی ئامرازەکان بەدڵی خۆت
-                </li>
-                <li>
-                  <i class="bi bi-check2"></i>
-                   توانای دەستکاریکردنی قەبارە و مەودای دوگمەکان
-                </li>
-                <li>
-                  <i class="bi bi-check2"></i>
-                 بوونی کاریگەری دەنگ لەرزین جوڵان
-                </li>
-                <li>
-                  <i class="bi bi-check2"></i>
-                  لەگەڵ دەیانی تایبەتمەندی جیاواز و هەمەجۆر لەناو بەرنامەکەدا
-                </li>
-              </ul>
-              <a href="https://play.google.com/store/apps/details?id=goran.kurdikeyboard.pro" target="_blank" class="btn-pricing">کڕینی پارەدان</a>
-            </div>
-          </div><!-- End Professional Plan -->
-        </div>
-      </div>
-
-    </section><!-- /Pricing Section -->
-
-
-    <!-- Portfolio Details Section -->
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <span class="description-title">زانیاری گشتی</span>
-        <h2>زانیاری گشتی</h2>
-        <p>ناساندنی بەرنامەکە</p>
-      </div>
-
-<!-- End Section Title -->
-
-    <section id="portfolio-details" class="portfolio-details section">
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="project-header">
-          <div class="row">
-            <div class="col-lg-7" data-aos="fade-up">
-    <section id="features" class="features section">
-              <div class="project-meta">
-                <div class="meta-item">
-                  <i class="bi bi-calendar3 ms-1"></i>
-                  <span>بەرواری بڵاوبونەوە: ساڵی 2015</span>
-                </div>
-                <div class="meta-item">
-                  <i class="bi bi-person ms-1"></i>
-                  <span>لەلایەن: Goran Gharib</span>
-                </div>
-                <div class="meta-item">
-                  <i class="bi bi-link-45deg ms-1"></i>
-                  <a href="https://goran9o.github.io/index" target="_blank">goran90.github.io
-</a>
-                </div>
-              </div>
-              <div class="project-tags" data-aos="fade-up" data-aos-delay="100">
-                <span class="tag">زیکر و ئایەت</span>
-                <span class="tag">ڕووکار</span>
-                <span class="tag">پێشنیاری ووشە</span>
-                <span class="tag">تەختەکلیلی تایبەت</span>
-              </div>
-            </div>
-            <div class="col-lg-5 d-flex align-items-center justify-content-end" data-aos="fade-up" data-aos-delay="200">
-              <div class="technologies">
-                <div class="tech-title">زمانی بەکارهاتووی پڕۆگرامین:</div>
-                <div class="tech-badges">
-                  <span>Java</span>
-                  <span>C++</span>
-                  <span>Koltin</span>
-                  <span>Python</span>
-                  <span>YAML</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="media-showcase" data-aos="zoom-in" data-aos-delay="100">
-          <div class="portfolio-details-slider swiper init-swiper">
-            <script type="application/json" class="swiper-config">
-              {
-                "loop": true,
-                "speed": 800,
-                "autoplay": {
-                  "delay": 5000
-                },
-                "effect": "fade",
-                "fadeEffect": {
-                  "crossFade": true
-                },
-                "slidesPerView": 1,
-                "pagination": {
-                  "el": ".swiper-pagination",
-                  "clickable": true,
-                  "dynamicBullets": true
-                }
-              }
-            </script>
-            <div class="swiper-wrapper">
-           <!--   <div class="swiper-slide">
-                <img src="assets/wena/free/zikr.png" alt="Gallery Image" class="img-fluid">
-              </div>
-              <div class="swiper-slide">
-                <img src="assets/wena/free/rukar.png" alt="Gallery Image" class="img-fluid">
-              </div>
-              <div class="swiper-slide">
-                <img src="assets/wena/free/xanda.png" alt="Gallery Image" class="img-fluid">
-              </div>
-              <div class="swiper-slide">
-                <img src="assets/wena/free/shewaz.png" alt="Gallery Image" class="img-fluid">
-              </div>
-              <div class="swiper-slide">
-                <img src="assets/wena/free/peshnyar.png" alt="Gallery Image" class="img-fluid">
-              </div>
-              <div class="swiper-slide">
-                <img src="assets/wena/free/hema.png" alt="Gallery Image" class="img-fluid">
-              </div>
-              <div class="swiper-slide">
-                <img src="assets/wena/free/taybatmandi.png" alt="Gallery Image" class="img-fluid">
-              </div>
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
-        </div> -->
-
-        <div class="project-content">
-          <div class="row gy-4">
-            <div class="col-lg-7" data-aos="fade-up">
-              <div class="description-box">
-                <h3>...بڵاوکردنەوە گرنگی پێدانە...</h3>
-
-<p class="lead">تەختەکلیلی کوردی بەرنامەیەکی خۆڕاییە بۆ زیاتر بەرەو پێشچوونی پڕۆژەکە چەندی پێتان ئەکرێ بەرنامەکە بڵاو بکەنەوە و بینێرن بۆ هاوڕێ و خزم و ناسیاوتان، هەروەها بە پێنج ⭐⭐⭐⭐⭐ ئەستێرە پۆڵێنی بکەن لە گۆگڵ پلەی بۆ ئەوەی  ئاست و ڕەیتینی بەرزبێت و زۆرترین کەس لێی سوود مەندبێت
-</p>
-
-              </div>
-            </div>
-
-            <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
-              <div class="project-stats">
-                <div class="stat-item">
-                  <div class="stat-number">85k+</div>
-                  <div class="stat-label">بەکارهێنەری چالاک</div>
-                </div>
-                <div class="stat-item">
-                  <div class="stat-number">98%</div>
-                  <div class="stat-label">بەدڵبوونی تایبەتمەندییەکان</div>
-                </div>
-                <div class="stat-item">
-                  <div class="stat-number">6</div>
-                  <div class="stat-label">ساڵ پەرەپێدان</div>
-                </div>
-                <div class="stat-item">
-                  <div class="stat-number">4.8</div>
-                  <div class="stat-label">هەڵسەنگاندنی بەکارهێنەران</div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="project-gallery" data-aos="fade-up" data-aos-delay="200">
-            <h3>گەلەری وێنە</h3>
-            <div class="row g-3">
-              <div class="col-6 col-md-3">
-                <div class="gallery-item">
-                  <img src="assets/wena/free/taybatmandi.png" alt="تایبەتمەندی" class="img-fluid glightbox">
-                </div>
-              </div>
-              <div class="col-6 col-md-3">
-                <div class="gallery-item">
-                  <img src="assets/wena/free/zikr.png" alt="زیکر و کورتە ئایەت" class="img-fluid glightbox">
-                </div>
-              </div>
-              <div class="col-6 col-md-3">
-                <div class="gallery-item">
-                  <img src="assets/wena/free/xanda.png" alt="سەرجەم خەندەکان" class="img-fluid glightbox">
-                </div>
-              </div>
-              <div class="col-6 col-md-3">
-                <div class="gallery-item">
-                  <img src="assets/wena/free/rukar.png" alt="چەندین ڕووکاری هەمەڕەنگ" class="img-fluid glightbox">
-                </div>
-                </div>
-
-              <div class="col-6 col-md-3">
-                <div class="gallery-item">
-                  <img src="assets/wena/free/shewaz.png" alt="چەندین شێوازی نووسین" class="img-fluid glightbox">
-                </div>
-                </div>
-
-              <div class="col-6 col-md-3">
-                <div class="gallery-item">
-                  <img src="assets/wena/free/peshnyar.png" alt="پێشنیاری ووشەکان" class="img-fluid glightbox">
-                </div>
-                </div>
-
-              <div class="col-6 col-md-3">
-                <div class="gallery-item">
-                  <img src="assets/wena/free/arasta.png" alt="دۆخی ئاڕاستەو ئاماژەکان" class="img-fluid glightbox">
-                </div>
-                </div>
-
-
-              <div class="col-6 col-md-3">
-                <div class="gallery-item">
-                  <img src="assets/wena/free/hema.png" alt="سەدان هێماو نیشانەی تایبەت" class="img-fluid glightbox">
-                
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="key-features" data-aos="fade-up" data-aos-delay="200">
-            <div class="row g-4">
-              <div class="col-md-4">
-                <div class="feature-item">
-                  <i class="bi bi-shield-check"></i>
-                  <h5>تەواو پارێزراو</h5>
-                  <p>بەرنامەکە هیچ جۆرە ڕێگەپێدانێکی سیستەمی پێویست نیە بۆ کارکردن 
-<br>
-بەدڵنیایەوە تەواو پارێزراوە</p>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="feature-item">
-                  <i class="bi bi-code-slash"></i>
-                  <h5>پەرەپێدانی بەردەوام</h5>
-                  <p>باشترین و نوێترین تایبەتمەندییەکان لەگەڵ هەر نوێکردنەوەیەک بەردەست دەبێ بۆ بەکارهێنەران</p>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="feature-item">
-                  <i class="bi bi-menu-button"></i>
-                  <h5>بەکارهێنانی ئاسان</h5>
-                  <p>بە سادەیی کۆدەکانی دارێژراوە کە زۆر ئاسانکاری تێدا فەراهەم کراوە بۆ بەکارهێنەران</p>
-                </div>
-              </div>
-            </div>
-          </div>
-    <!-- /Portfolio Details Section -->
-
-
-    <!-- About Section -->
-    <section id="about" class="about section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <span class="description-title">دەربارە</span>
-        <h2>دەربارە</h2>
-        <p>..بڵاوکردنەوە گرنگی پێدانە..</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row align-items-center gy-5">
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="about-image-wrapper position-relative">
-              <img src="assets/wena/app/kurdikebord.png" alt="دەربارەی پرۆژە" class="img-fluid rounded-4">
-              <div class="mission-card">
-                <div class="mission-icon">
-                  <i class="bi bi-lightbulb"></i>
-                </div>
-                <div class="mission-content">
-                  <h4>باشترینەکان بەرهەمی ئێمەن</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="about-content ps-lg-4">
-              <div class="tag-badge" data-aos="fade-up" data-aos-delay="100">بۆچی ئەم پرۆژەیەمان هەڵبژارد؟</div>
-
-
-              <div class="about-info" data-aos="fade-up" data-aos-delay="300">
-        <p class="lead">
-بیرۆکەی دروستکردنی ئەم بەرنامەیە ئەگەڕێتەوە بۆ ساڵی 2011 کاتێک دەستمکرد بە کاری وەرگێڕان لە بەرنامەکانی کۆمپیوتەر و مۆبایلدا، هەمیشە ئەبوایە لەڕێی کۆمپیوتەرەوە کارەکانم ئەنجام بدەم، چونکە لەو کاتەدا کیبۆردێکی باشی کوردی بۆ مۆبایل بەردەست نەبوو.
-</p>
-                <p>بۆیە هەستام بە دروستکردنی ئەم تەختەکلیلەو چەندین شێواز و تایبەتمەندی نوێم بۆ دانا کە لەوکاتەو ئێستاشدا لە زۆرێک لەوانی تردا نیە و ناشبێت، سوپاس بۆ خوا لە ساڵی 2015 سەرجەم کارەکانی تەواو بوو پاشان لە کۆگای گۆگڵ پلەی Google Play
-بەرنامەکەمان بەردەستکرد بۆ بەکارهێنەران.
-</p>
-                <p>دواتریش هەستاین بەدانانی پەڕەیەکی تایبەت لە تۆڕی کۆمەڵایەتی فەیسبووک هەتا سەرجەم ئەو کار و بەرنامانەی کردومانە بە کوردی لەڕێیەوە بڵاوی بکەینەوە بۆ ئەوەی هەموو کەسێک لێی سوود مەند بێت.
-</p>
+    <!-- /End Preloader -->
+
+    <!-- Start Header Area -->
+    <header class="header">
+        <div class="navbar-area">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="nav-actions">
+                                <label class="theme-switch" aria-label="Toggle dark mode">
+                                    <input type="checkbox" id="theme-switch-input">
+                                    <span class="slider">
+                                        <svg class="sun-icon" viewBox="0 0 24 24" width="14" height="14">
+                                            <path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zM12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72 1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+                                        </svg>
+                                        <svg class="moon-icon" viewBox="0 0 24 24" width="14" height="14">
+                                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                                        </svg>
+                                    </span>
+                                </label>
                             </div>
 
-              <h5 class="values-title mt-4 mb-3" data-aos="fade-up" data-aos-delay="400">گرنگترین تایبەتمەندییەکان</h5>
-              <div class="values-list" data-aos="fade-up" data-aos-delay="500">
-                <div class="value-item">
-                <div class="value-icon"><i class="bi bi-check2"></i></div>
-                  <span class="value-text">سەدان زیکر و کورتە ئایەت</span>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+
+                            <a class="navbar-brand logo" href="index.html">
+                                <img class="logo-light" src="assets/wena/logo/logo.svg" alt="Logo" />
+                            </a>
+
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav nav-left">
+                                    <li class="nav-item">
+                                        <a class="active" href="index.html">سەرەتا</a></li>
+                                    <li class="nav-item">
+                                        <a href="ferkari.html">فێرکاری</a>
+                                    </li>
+                                </ul>
+                                <ul class="navbar-nav nav-right">
+                                    <li class="nav-item">
+                                        <a href="#">Privacy Policy <i class="bi bi-chevron-down"></i></a>
+                                        <ul class="sub-menu">
+                                            <li><a href="privacy-policy.html">Keyboard Privacy Policy</a></li>
+                                            <li><a href="quran-privacy-policy.html">Quran Privacy Policy</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"><a href="index.html#contact">پەیوەندی</a></li>
+                                </ul>
+                                <div class="mobile-social">
+                                    <a href="#" target="_blank"><i class="bi bi-telegram"></i></a>
+                                    <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+                                    <a href="#" target="_blank"><i class="bi bi-facebook"></i></a>
+                                    <a href="#" target="_blank"><i class="bi bi-youtube"></i></a>
+                                </div>
+                            </div>
+                        </nav>
+                        <!-- navbar -->
+
+                    </div>
                 </div>
-                <div class="value-item">
-                  <div class="value-icon"><i class="bi bi-check2"></i></div>
-                  <span class="value-text">سەرجەم خەندەکان</span>
-              </div>
-                <div class="value-item">
-                  <div class="value-icon"><i class="bi bi-check2"></i></div>
-                  <span class="value-text">ئامراز و لەبەرگیراوەکان</span>
-              </div>
-                <div class="value-item">
-                  <div class="value-icon"><i class="bi bi-check2"></i></div>
-                  <span class="value-text">پێشنیاری ووشەکان</span>
-              </div>
-                <div class="value-item">
-                  <div class="value-icon"><i class="bi bi-check2"></i></div>
-                  <span class="value-text">دروستکردنی شێوازی تایبەت</span>
-              </div>
-                <div class="value-item">
-                  <div class="value-icon"><i class="bi bi-check2"></i></div>
-                  <span class="value-text">ڕووکاری هەمەڕەنگ</span>
-              </div>
+                <!-- row -->
             </div>
-          </div>
+            <!-- container -->
         </div>
-      </div>
-    </section><!-- /About Section -->
+        <!-- navbar area -->
+    </header>
+    <!-- End Header Area -->
 
+    <!-- Start Hero Area -->
+    <section class="hero-area">
+        <!-- Single Slider -->
+        <div class="hero-inner">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-10 mx-auto col-12">
+                        <div class="home-slider">
+                            <div class="hero-text">
+                                 <h1 class="wow fadeInUp" data-wow-delay=".3">باشترین تەختەکلیلی سیستەمی ئەندرۆید کە چەندین تایبەتمەندی جیاواز لەخۆدەگرێ <span class="typing-text">&nbsp;</span><span class="typing-cursor"></span></h1>
 
-    <!-- Contact Section -->
-    <section id="contact" class="faq section">
+                                 <div class="button wow fadeInUp" data-wow-delay=".7s" style="display: flex; gap: 15px; justify-content: center;">
+                                    <a href="https://play.google.com/store/apps/details?id=com.goran.kurdikeyboard" target="_blank" class="btn">تەختەکلیلی کوردی | FREE</a>
+                                    <a href="https://play.google.com/store/apps/details?id=goran.kurdikeyboard.pro" target="_blank" class="btn pro-btn">تەختەکلیلی کوردی | PRO</a>
+                                </div>
+                                <div class="button wow fadeInUp" data-wow-delay=".9s" style="display: flex; justify-content: center; margin-top: 15px;">
+                                    <a href="#features" class="btn features-btn page-scroll">تایبەتمەندییەکان</a>
+                                </div>
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <span class="description-title">پەیوەندی</span>
-        <h2>پەیوەندی</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ End Single Slider -->
+    </section>
+    <!--/ End Hero Area -->
 
-        <p>بۆ وەرگرتنی زانیاری گشتی و چۆنیەتی بەکارهێنانی بەرنامەکە
+    <!-- Start General Info + Gallery -->
+    <div class="latest-news-area section" id="portfolio-details">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <span class="wow fadeInDown" data-wow-delay=".2s">زانیاری گشتی</span>
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s">ناساندنی بەرنامەکە</h2>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-12">
+                    <p class="gi-description wow fadeInUp" data-wow-delay=".3s">ئەم بەرنامەیە بۆ زیاتر بەرەوپێشبردنی ئاستی زمانی کوردی و خزمەتکردنی تاکی کورد دروستکراوە، تا بە تەختەکلیلێکی پێشکەوتووی ستاندادری کوردی بنوسن و بەدووربن لە بەکارهێنانی دەستەواژەی بێگانە. ئێمەش وەک هەموو گەلانی جیهان خاوەن تەختەکلیل و ڕێنووسی تایبەت بە خۆمان بین.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-3 col-md-6 col-12 mb-4">
+                    <div class="gi-stat">
+                        <h3 class="gi-stat-number">85k+</h3>
+                        <p class="gi-stat-label">بەکارهێنەری چالاک</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 mb-4">
+                    <div class="gi-stat">
+                        <h3 class="gi-stat-number">98%</h3>
+                        <p class="gi-stat-label">بەدڵبوونی تایبەتمەندییەکان</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 mb-4">
+                    <div class="gi-stat">
+                        <h3 class="gi-stat-number">10+</h3>
+                        <p class="gi-stat-label">ساڵ پەرەپێدان</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 mb-4">
+                    <div class="gi-stat">
+                        <h3 class="gi-stat-number">4.8</h3>
+                        <p class="gi-stat-label">هەڵسەنگاندنی بەکارهێنەران</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-12">
+                    <h3 class="gi-gallery-title wow fadeInUp" data-wow-delay=".2s">گەلەری وێنە</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 mb-4 wow fadeInUp" data-wow-delay=".1s">
+                    <div class="gi-gallery-item">
+                        <img src="assets/wena/pro/feature.png" alt="تایبەتمەندی">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-4 wow fadeInUp" data-wow-delay=".2s">
+                    <div class="gi-gallery-item">
+                        <img src="assets/wena/pro/zikr.png" alt="زیکر و کورتە ئایەت">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-4 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="gi-gallery-item">
+                        <img src="assets/wena/pro/emoji.png" alt="ئیمۆجی">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-4 wow fadeInUp" data-wow-delay=".15s">
+                    <div class="gi-gallery-item">
+                        <img src="assets/wena/pro/theme.png" alt="ڕووکارەکان">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-4 wow fadeInUp" data-wow-delay=".25s">
+                    <div class="gi-gallery-item">
+                        <img src="assets/wena/pro/translatee.png" alt="وەرگێڕان">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-4 wow fadeInUp" data-wow-delay=".35s">
+                    <div class="gi-gallery-item">
+                        <img src="assets/wena/pro/langlay.png" alt="شێوازی زمان">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-4 wow fadeInUp" data-wow-delay=".2s">
+                    <div class="gi-gallery-item">
+                        <img src="assets/wena/pro/dangi.png" alt="دەنگەکان">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-4 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="gi-gallery-item">
+                        <img src="assets/wena/pro/hema.png" alt="هێماکان">
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <div class="gi-card wow fadeInUp" data-wow-delay=".2s">
+                        <i class="bi bi-shield-check"></i>
+                        <h5>تەواو پارێزراو</h5>
+                        <p>هیچ جۆرە ڕێگەپێدانێکی سیستەم پێویست نیە بۆ کارکردنی بەرنامەکە بەدڵنیایەوە تەواو پارێزراوە</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <div class="gi-card wow fadeInUp" data-wow-delay=".35s">
+                        <i class="bi bi-arrow-repeat"></i>
+                        <h5>پەرەپێدانی بەردەوام</h5>
+                        <p>باشترین و نوێترین تایبەتمەندییەکان لەگەڵ هەر نوێکردنەوەیەک بەردەست دەبێت بۆ بەکارهێنەران</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <div class="gi-card wow fadeInUp" data-wow-delay=".5s">
+                        <i class="bi bi-hand-thumbs-up"></i>
+                        <h5>بەکارهێنانی ئاسان</h5>
+                        <p>بە سادەیی کۆدەکانی دارێژراوە کە زۆرترین ئاسانکاری تێدا فەراهەم کراوە بۆ بەکارهێنەران</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End General Info + Gallery -->
+
+    <!-- Start Service Area -->
+    <section id="features" class="services section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <span class="wow fadeInDown" data-wow-delay=".2s">تایبەتمەندییەکان</span>
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s"></h2>
+                        <h5 class="wow fadeInUp" data-wow-delay=".6s">ئەزمونێکی نوێ تاقیبکەرەوە لەگەڵ
 <br>
-سەردانی پێگەکانی ئێمە بکە لە تۆڕە کۆمەڵایەتییەکان</p>
-      </div><!-- End Section Title -->
+وەشانی پارەدانی تەختەکلیلی کوردی</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="single-head">
+                <img class="service-patern wow fadeInLeft" data-wow-delay=".5s"
+                    src="assets/wena/app/service-patern.png" alt="#">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="single-service wow fadeInUp" data-wow-delay=".2s">
+                            <h3><a href="service-single.html">گۆڕینی شێوەی ئیمۆجیەکان (PRO)</a></h3>
+                            <div class="icon">
+                                <i class="bi bi-emoji-heart-eyes"></i>
+                            </div>
+                            <p>گۆڕین و ڕێکخستنی شێوەی خەندەکان بە خواستی بەکارهێنەر</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="single-service wow fadeInUp" data-wow-delay=".4s">
+                            <h3><a href="service-single.html">وەرگێڕانی ڕاستەوخۆ (PRO)</a></h3>
+                            <div class="icon">
+                               <i class="bi bi-translate"></i>
+                            </div>
+                            <p>توانای وەرگێڕان لە زمانی کوردی بۆ زیاتر لە ٢٥٠ زمانی جیهان</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="single-service wow fadeInUp" data-wow-delay=".6s">
+                            <h3><a href="service-single.html">دروستکردنی ڕووکار (PRO)</a></h3>
+                            <div class="icon">
+                                <i class="bi bi-palette2"></i>
+                            </div>
+                            <p>دەستکاریکردن و ڕێکخستنی ڕەنگەکان لەگەڵ دانانی وێنەی تایبەتی خۆت وەک باکگراوندی کیبۆردەکە
+</p>
+                        </div>
+                    </div>
 
-    <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="single-service wow fadeInUp" data-wow-delay=".8s">
+                            <h3><a href="service-single.html">سەدان زیکر و ئایەت (FREE & PRO)</a></h3>
+                            <div class="icon">
+                                <i class="bi bi-book-half"></i>
+                            </div>
+                            <p>بوونی سەدان زیکر و کورتە ئایەتی ناو قورئانی پیرۆز
+لەگەڵ حەرەکاتەکانی زمانی عەرەبی (علامات التشکیل)
+</p>
+                        </div>
+                    </div>
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="cta-wrapper">
-          <div class="cta-shapes">
-            <div class="shape shape-1"></div>
-            <div class="shape shape-2"></div>
-            <div class="shape shape-3"></div>
-          </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="single-service wow fadeInUp" data-wow-delay=".16s">
+                            <h3><a href="service-single.html">گۆڕینی ڕیزبەندی پیتەکان (PRO)</a></h3>
+                            <div class="icon">
+                                <i class="bi bi-border-style"></i>
+                            </div>
+                            <p>دەستکاریکردن و گۆڕینی شوێنی پیتە بنەڕەتیەکانی سەر تەختەکلیل لەگەڵ توانای 
+دروستکردنی شێواز(Layout)ـی ڕێکخراوی تایبەت بەدڵی خۆت
+</p>
+                        </div>
+                    </div>
 
-          <div class="row g-0">
-            <div class="col-lg-7">
-              <div class="cta-content p-5" data-aos="fade-right" data-aos-delay="200">
-                <span class="badge-custom" data-aos="zoom-in" data-aos-delay="300">
-                <i class="bi bi-patch-question"></i> پێویستت بە هاوکارییە؟
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="single-service wow fadeInUp" data-wow-delay=".10s">
+                            <h3><a href="service-single.html">بەشی لەبەرگیراوەکان (PRO)</a></h3>
+                            <div class="icon">
+                                <i class="bi bi-clipboard"></i>
+                            </div>
+                            <p>ڕێکخستنی تایبەتی بەشی لەبەرگیراوەکان
+بۆ هەڵگرتن و هێشتنەوەی شتە لەبەرگیراوەکانت بۆ هەمیشە
+</p>
+                        </div>
+                    </div>
 
-</span>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="single-service wow fadeInUp" data-wow-delay=".12s">
+                            <h3><a href="service-single.html">قیاسی فۆنت و مەودای دوگمەکان (PRO)</a></h3>
+                            <div class="icon">
+                                <i class="bi bi-aspect-ratio"></i>
+                            </div>
+                            <p>توانای دەستکاریکردن و گۆڕینی قەبارەی فۆنت، ئایکۆن و مەودای نێوان دوگمەکان بەدڵی خۆت
+</p>
+                        </div>
+                    </div>
 
-                <h4 style="text-align:center; font-weight: bold;" class="mt-4 mb-4">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="single-service wow fadeInUp" data-wow-delay=".14s">
+                            <h3><a href="service-single.html">گۆڕینی شوێنی ئامرازەکان (PRO)</a></h3>
+                            <div class="icon">
+                                <i class="bi bi-layout-wtf"></i>
+                            </div>
+                            <p>توانای دەستکاریکردن و گۆڕینی شوێنی ئامراز و فرمانەکانی تەختەکلیل بەدڵی خۆت
+</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /End Services Area -->
 
+    <!-- Start About Us Area -->
+    <section class="about-us index3 section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <div class="about-left">
+                    <div class="section-title">
+                        <span class="wow fadeInDown" data-wow-delay=".2s">ئامانج لە دروستکردنی ئەم پرۆژەیە</span>
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s"></h2>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">ئەم بەرنامەیە بۆ زیاتر بەرەوپێشبردنی ئاستی زمانی کوردی و خزمەتکردنی تاکی کورد دروستکراوە، تا بە تەختەکلیلێکی پێشکەوتوو ستاندادری کوردی بنوسن و بەدووربن لە بەکارهێنانی دەستەواژەی بێگانەو چیتر کیبۆردەکانی (فارسی ، عەرەبی ، لاتینی) نەبنە جێگرەوەی زمانی ڕەسەنی خۆمان، ئێمەش وەک هەموو گەلانی جیهان خاوەن تەختەکلیل و ڕێنووسی تایبەت بە خۆمان بین</p>
+                        </div>
+                        <div class="about-tab wow fadeInUp" data-wow-delay=".4s">
+                            <!-- Nav Tab  -->
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#t-tab1"
+                                        role="tab">بیرۆکە</a></li>
+                                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#t-tab2"
+                                        role="tab">پەرەپێدان</a></li>
+                                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#t-tab3"
+                                        role="tab">بڵاوکردنەوە</a></li>
+                            </ul>
+                            <!--/ End Nav Tab -->
+                            <div class="tab-content" id="myTabContent">
+                                <!-- Tab 1 -->
+                                <div class="tab-pane fade show active" id="t-tab1" role="tabpanel">
+                                    <div class="tab-content">
+                                        <p>
+بیرۆکەی دروستکردنی ئەم بەرنامەیە ئەگەڕێتەوە بۆ ساڵی 2011 کاتێک دەستمکرد بە کاری وەرگێڕان لە بەرنامەکانی کۆمپیوتەر و مۆبایلدا، هەمیشە ئەبوایە لەڕێی کۆمپیوتەرەوە کارەکانم ئەنجام بدەم، چونکە لەو کاتەدا کیبۆردێکی باشی کوردی بۆ مۆبایل بەردەست نەبوو.
+</p>
+                                    </div>
+                                </div>
+                                <!--/ End Tab 1 -->
+                                <!-- Tab 2 -->
+                                <div class="tab-pane fade" id="t-tab2" role="tabpanel">
+                                    <div class="tab-content">
+                                        <p>بۆیە دەستمکرد بە دروستکردنی ئەم تەختەکلیلەو چەندین شێواز و تایبەتمەندی نوێم بۆ دانا کە لەوکاتەو ئێستاشدا لە زۆرێک لەوانی تردا نیە و ناشبێت، سوپاس بۆ خوا لە ساڵی 2015 سەرجەم کارەکانی تەواو بوو پاشان لە کۆگای گۆگڵ پلەی Google Play
+بەرنامەکەمان بەردەستکرد بۆ بەکارهێنەران.</p>
+                                    </div>
+                                </div>
+                                <!--/ End Tab 2 -->
+                                <!-- Tab 3 -->
+                                <div class="tab-pane fade" id="t-tab3" role="tabpanel">
+                                    <div class="tab-content">
+                                                        <p>دواتریش هەستاین بەدانانی پەڕەیەکی تایبەت لە تۆڕی کۆمەڵایەتی فەیسبووک هەتا سەرجەم ئەو کار و بەرنامانەی کردومانە بە کوردی لەڕێیەوە بڵاوی بکەینەوە بۆ ئەوەی هەموو کەسێک لێی سوود مەند بێت.
+</p>
+                                    </div>
+                                </div>
+                                <!--/ End Tab 3 -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="about-right wow fadeInRight" data-wow-delay=".4s">
+                        <img class="help-image" src="assets/wena/app/kurdikebord.png" alt="KurdiKebord">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /End About Us Area -->
+
+    <!-- Start Intro Video Area -->
+    <section class="intro-video-area overlay section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title white-text">
+                        <span class="wow fadeInDown" data-wow-delay=".2s">پێویستت بە هاوکارییە؟</span>
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s">
 پێشنیار و سەرنج یان پرسیارێکت هەیە
-
-<br>
 وەڵامت دەسنەکەوت لە فێرکارییەکانەوە؟
-<br><br>
+</h2>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">
 کێشە نیە :)
 <br>
 ئەتوانی ڕاستەوخۆ پەیوەندی بکەیت!</h4>
-
-                <div class="row benefits-row mb-5">
-                  <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-                    <div class="benefit-item">
+</p>
                     </div>
-                  </div>
                 </div>
-                <div class="action-buttons">
-                  <a href="https://facebook.com/Goran9O" target="_blank" class="btn btn-primary" data-aos="fade-up" data-aos-delay="600">پەیامەکەت بنێرە</a>
-                  <a href="https://goran9o.github.io/index" class="btn btn-outline" data-aos="fade-up" data-aos-delay="700">زانیاری زیاتر</a>
-                  <div class="guarantee-badge" data-aos="fade-up" data-aos-delay="800">
-                    <i class="bi bi-envelope-check"></i>
-                    <span>هەر پرسیارێکت هەیە پەیامەکەت بنێرە و چاوەڕێی وەڵام بە...</span>
-                  </div>
-                </div>
-              </div>
             </div>
-            <div class="col-lg-5">
-              <div class="cta-image-container" data-aos="zoom-in" data-aos-delay="300">
-                <img src="assets/wena/app/help.png" alt="Illustration" class="img-fluid main-image">
-                <div class="floating-element element-1">
-                  <i class="bi bi-chat-left-text"></i>
-                  <span>24/7 پاڵپشتی</span>
-                </div>
-                <div class="floating-element element-2">
-                  <i class="bi bi-book-half"></i>
-                  <span>زۆرترین فێرکاری</span>
-                </div>
-                <div class="pattern-dots"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section><!-- /Call To Action Section -->
-
-
-</section> <!-- Contact Section -->
-
-</section>
-
-  <footer id="footer" class="footer">
-
-    <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-5 col-md-12 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">تەختەکلیلی کوردی</span>
-          </a>
-          <p>بۆ وەرگرتنی زانیاری زیاتر و چۆنیەتی بەکارهێنان
-<br>
-ئەتوانن سەردانی پێگەکانی ئێمە بکە لە تۆڕە کۆمەڵایەتییەکان: </p>
-          <div class="social-links d-flex mt-4">
-            <a href="https://facebook.com/kurdikebord" target="_blank"><i class="bi bi-facebook"></i></a>
-            <a href="https://tiktok.com/@KurdiKebord" target="_blank"><i class="bi bi-tiktok"></i></a>
-            <a href="https://t.me/kurdikebord" target="_blank"><i class="bi bi-telegram"></i></a>
-            <a href="https://youtube.com/@kurdikebord" target="_blank"><i class="bi bi-youtube"></i></a>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-          <h3>Contact Us</h3>
-<br>
-                    <div class="contact-item">
-                        <span></span> <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="contact-text">
-                            <h4>Email</h4>
-                            <p><a href="mailto:kurdikebord@gmail.com">kurdikebord@gmail.com</a></p>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-video-play">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 col-12">
+                                <div class="play-thumb wow zoomIn" data-wow-delay=".2s">
+                                    <a href="mailto:kurdikebord@gmail.com" target="_blank"><i class="bi bi-envelope-at-fill"></i></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                </div>
+            </div> <!-- row -->
         </div>
-      </div>
+    </section>
+    <!-- End Intro Video Area -->
+
+    <!-- Start Pricing Table Area -->
+    <section id="pricing" class="pricing-section section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <span class="wow fadeInDown" data-wow-delay=".2s">نرخی بەرنامەکە</span>
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s">نرخی بەرنامەکە</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row gy-4 justify-content-center">
+                <div class="col-lg-5 col-md-6 col-12">
+                    <div class="pricing-card wow fadeInUp" data-wow-delay=".2s">
+                        <div class="pricing-icon">
+                            <i class="bi bi-infinity"></i>
+                        </div>
+                        <h3>FREE</h3>
+                        <div class="price">
+                            <span class="currency">٠ دینار</span> خۆڕایی
+                        </div>
+                        <p class="description">لە تەختەکلیلی کوردی | FREE<br>ئەم تایبەتمەندیانە بەردەستن</p>
+                        <ul class="pricing-features">
+                            <li><i class="bi bi-check2"></i> پێشنیارکردنی ووشەکان</li>
+                            <li><i class="bi bi-check2"></i> تەنها بە ٣ زمان (کوردی، ئینگلیزی، عەرەبی)</li>
+                            <li><i class="bi bi-check2"></i> بوونی ڕیکلامەکان (Contain ADs)</li>
+                            <li><i class="bi bi-check2"></i> تەنها چەند ڕووکارێک</li>
+                            <li><i class="bi bi-check2"></i> چەندین زیکر و کورتە ئایەت</li>
+                            <li><i class="bi bi-check2"></i> بوونی خەندە سەرەتاییەکان</li>
+                        </ul>
+                        <a href="https://play.google.com/store/apps/details?id=com.goran.kurdikeyboard" target="_blank" class="pricing-btn">دابەزاندنی خۆڕایی</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 col-12">
+                    <div class="pricing-card featured wow fadeInUp" data-wow-delay=".4s">
+                        <div class="pricing-badge">پێشنیارکراو</div>
+                        <div class="pricing-icon">
+                            <i class="bi bi-cash-coin"></i>
+                        </div>
+                        <h3>PRO</h3>
+                        <div class="price">
+                            <span class="currency">4000 دینار</span> پارەدان
+                        </div>
+                        <p class="description">لە تەختەکلیلی کوردی | PRO<br>سەدان تایبەتمەندی جیاواز بەردەستن</p>
+                        <ul class="pricing-features">
+                            <li><i class="bi bi-check2"></i> وەرگێڕانی ڕاستەوخۆ بۆ ٢٠+ زمان</li>
+                            <li><i class="bi bi-check2"></i> دروستکردن و گۆڕینی شوێنی پیتەکان</li>
+                            <li><i class="bi bi-check2"></i> سەرجەم ئیمۆجییە نوێیەکان + گەڕان</li>
+                            <li><i class="bi bi-check2"></i> گۆڕینی شێوەی ئیمۆجیەکان</li>
+                            <li><i class="bi bi-check2"></i> زۆرترین زیکر و کورتە ئایەت</li>
+                            <li><i class="bi bi-check2"></i> جوانکاری نووسین و ستیکەری تایبەت</li>
+                            <li><i class="bi bi-check2"></i> ڕاستکەرەوەی هەڵەی ڕێنووس (Auto-Correct)</li>
+                            <li><i class="bi bi-check2"></i> چەندین ڕووکاری هەمەرەنگ</li>
+                            <li><i class="bi bi-check2"></i> هەڵگرتنی لەبەرگیراوەکان (Clipboard)</li>
+                            <li><i class="bi bi-check2"></i> ڕێگریکردن لە جنێو (Block Offensive)</li>
+                            <li><i class="bi bi-check2"></i> پاشەکەوت و گێڕانەوە (Backup & Restore)</li>
+                            <li><i class="bi bi-check2"></i> لەگەڵ دەیانی تایبەتمەندی دیکە</li>
+                        </ul>
+                        <a href="https://play.google.com/store/apps/details?id=goran.kurdikeyboard.pro" target="_blank" class="pricing-btn">کڕینی پارەدان</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/ End Pricing Section -->
+
+    <section class="section free-version-banner">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-10 mx-auto col-12">
+                    <div class="offer-badge"><svg width="30" height="36" viewBox="0 0 30 36" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-left: 8px; vertical-align: middle;"><path d="M24.9861 18.0001C21.4098 15.1534 12.9775 8.6467 7.72668 4.60395H16.4581C16.6614 4.60395 16.8647 4.61591 17.0681 4.63983C17.1279 4.63983 17.1996 4.66375 17.2594 4.66375C17.391 4.68767 17.5226 4.69963 17.6542 4.73551C17.7259 4.74747 17.7977 4.7714 17.8694 4.79532C17.9891 4.8312 18.1087 4.85512 18.2163 4.90297C18.2881 4.92689 18.3598 4.95081 18.4436 4.98669C18.5512 5.03453 18.6589 5.07042 18.7665 5.11826C18.8383 5.15414 18.91 5.19002 18.9818 5.22591C19.0894 5.27375 19.1851 5.33355 19.2928 5.39336C19.3526 5.42924 19.4244 5.46512 19.4842 5.51297C19.5918 5.58473 19.6875 5.6565 19.7832 5.72826C19.831 5.76414 19.8908 5.81199 19.9387 5.84787C20.0583 5.94356 20.1779 6.0512 20.2975 6.15885C20.3214 6.18277 20.3453 6.20669 20.3693 6.23062C20.5008 6.36218 20.6324 6.50571 20.752 6.6612C21.5295 7.61807 22.0079 8.83807 22.0079 10.1777C22.0079 11.0747 21.7926 11.924 21.4098 12.6775C22.8451 13.7898 24.1369 14.8065 25.1895 15.6318C26.2061 14.053 26.7922 12.1871 26.7922 10.1777C26.7922 7.97689 26.0865 5.95552 24.8904 4.29296C24.7589 4.11355 24.6273 3.93414 24.4957 3.76669C24.4718 3.73081 24.4479 3.70688 24.424 3.671C24.2565 3.46767 24.0771 3.26433 23.8857 3.08492C23.8618 3.061 23.8259 3.02512 23.802 2.98924C23.5987 2.7859 23.3953 2.60649 23.18 2.41512C23.1322 2.37924 23.0844 2.34335 23.0485 2.30747C22.8212 2.12806 22.6059 1.96061 22.3667 1.79316C22.3428 1.78119 22.3189 1.75727 22.2949 1.74531C22.0677 1.58982 21.8404 1.45825 21.6012 1.32668C21.5534 1.30276 21.5175 1.27884 21.4697 1.25492C21.2185 1.12335 20.9673 1.00374 20.7042 0.884134C20.6444 0.860212 20.5965 0.83629 20.5367 0.812369C20.2616 0.704722 19.9985 0.597074 19.7114 0.513349C19.6995 0.513349 19.6755 0.513349 19.6636 0.501388C19.3885 0.417662 19.1134 0.345897 18.8383 0.286093C18.7904 0.286093 18.7306 0.262172 18.6828 0.250211C18.3957 0.190407 18.1087 0.154524 17.8096 0.118642C17.7498 0.118642 17.69 0.118642 17.6302 0.106681C17.3193 0.0827595 17.0083 0.0588379 16.6973 0.0588379H0V4.60395C0 4.60395 16.3145 17.2346 21.7447 21.4328C23.0604 22.4495 23.9216 24.0403 23.9216 25.8344C23.9216 28.9083 21.4338 31.3962 18.3598 31.3962H4.78432V20.2726H16.3145C14.5563 18.9091 12.511 17.3302 10.4418 15.7275H0V35.9413H18.5991C24.1848 35.9413 28.7059 31.4201 28.7059 25.8344C28.7059 22.6767 27.2706 19.8301 24.9861 18.0001Z" fill="white"/></svg>ئۆفەری تایبەت FIB</div>
+                    <div class="offer-content">
+                        <div class="offer-subtitle wow fadeInDown" data-wow-delay=".2s">کڕینی بەرنامەکە لەڕێی</div>
+                        <h2 class="wow fadeInUp" data-wow-delay=".3s">پارەدانی <span class="fib-text">FIB</span></h2>
+                        <div class="price-row wow fadeInUp" data-wow-delay=".4s">
+                            <span class="old-price">4000 دینار</span>
+                            <span class="new-price">2000 دینار</span>
+                            <span class="discount-badge">٪٥٠</span>
+                        </div>
+                        <p class="offer-desc wow fadeInUp" data-wow-delay=".5s">نیوەی نرخی ڕاستەقینە! ئۆفەرێکی کاتی و سنووردارە<br>ئێستا وەشانی PRO بە نرخێکی داشکێنراو بەدەست بهێنە</p>
+                        <div class="countdown-tag wow fadeInUp" data-wow-delay=".6s">
+                            <i class="bi bi-clock-fill"></i> ماوەی سنووردار
+                        </div>
+                        <div class="offer-payment-info wow fadeInUp" data-wow-delay=".7s">
+                            <div class="payment-label">بەپێی ڕێنماییەکانی خوارەوە پارەکە بنێرە</div>
+                            <div class="payment-account">
+                                <span class="payment-icon"><i class="bi bi-phone"></i></span>
+                                <span class="payment-number" id="bannerPhone">0770 965 9575</span>
+                                <button class="copy-btn" onclick="copyNumber('07709659575', this)" title="کۆپی کردن">📋</button>
+                            </div>
+                            <div class="payment-name">دوای ناردنی بڕی داواکراو، لەماوەی کەمتر لە کاتژمێرێکدا کۆدی دابەزاندنت بۆ دەنرێدرێت لەڕێی کورتەنامەوە (SMS)</div>
+                            <div class="payment-method"><i class="bi bi-bank"></i> پارەدانی FiB (تەنها کوردستان)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start Contact Area -->
+    <section class="newsletter-area section" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <span class="wow fadeInDown" data-wow-delay=".2s">پەیوەندی</span>
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s"> </h2>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">بۆ وەرگرتنی زانیاری گشتی و چۆنیەتی بەکارهێنانی بەرنامەکە سەردانی پێگەکانی ئێمە بکە لە تۆڕە کۆمەڵایەتییەکان</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <div class="contact-card wow fadeInUp" data-wow-delay=".2s">
+                        <i class="bi bi-envelope"></i>
+                        <h5>ئیمەیڵ</h5>
+                        <p>kurdikebord@gmail.com</p>
+                        <a href="mailto:kurdikebord@gmail.com" class="contact-link">ناردنی ئیمەیڵ <i class="bi bi-arrow-left"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <div class="contact-card wow fadeInUp" data-wow-delay=".35s">
+                        <i class="bi bi-facebook"></i>
+                        <h5>فەیسبووک</h5>
+                        <p>KurdiKebord</p>
+                        <a href="https://facebook.com/kurdikebord" target="_blank" class="contact-link">سەردانی پەڕە <i class="bi bi-arrow-left"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <div class="contact-card wow fadeInUp" data-wow-delay=".5s">
+                        <i class="bi bi-telegram"></i>
+                        <h5>تێلیگرام</h5>
+                        <p>@kurdikebord</p>
+                        <a href="https://t.me/kurdikebord" target="_blank" class="contact-link">سەردانی کەناڵ <i class="bi bi-arrow-left"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="contact-cta wow fadeInUp" data-wow-delay=".4s">
+                        <div class="contact-cta-content">
+                            <h4>پێویستت بە هاوکارییە؟</h4>
+                            <p>پێشنیار و سەرنج یان پرسیارێکت هەیە؟ ئەتوانی ڕاستەوخۆ پەیوەندی بکەیت!</p>
+                            <div class="contact-cta-buttons">
+                                <a href="https://facebook.com/Goran9O" target="_blank" class="btn contact-cta-btn primary"><i class="bi bi-chat-dots"></i> پەیامەکەت بنێرە</a>
+                                <a href="https://goran9o.github.io/index" target="_blank" class="btn contact-cta-btn secondary"><i class="bi bi-info-circle"></i> زانیاری زیاتر</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /End Contact Area -->
+
+
+
+    <!-- Start Footer Area -->
+    <footer class="footer">
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="inner">
+                    <div class="row">
+                        <div class="col-12">
+                            <p dir="ltr">Designed By<a href="https://facebook.com/Goran9O" target="_blank"> GoRaN</a><br>© 2026 KurdiKebord</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/ End Footer Area -->
+
+    <!-- ========================= scroll-top ========================= -->
+    <div class="get-it-now-wrapper">
+        <div class="get-it-now-dropdown">
+            <a href="https://play.google.com/store/apps/details?id=com.goran.kurdikeyboard" target="_blank" class="dropdown-option">
+                <i class="bi bi-unlock"></i> وەشانی خۆڕایی
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=goran.kurdikeyboard.pro" target="_blank" class="dropdown-option">
+                <i class="bi bi-star-fill"></i> وەشانی پارەدان
+            </a>
+        </div>
+        <a href="javascript:void(0)" class="get-it-now-btn btn-hover" id="getItNowToggle">
+            <i class="bi bi-handshake"></i> داگرتن لە گۆگڵ پلەی
+        </a>
     </div>
-   </div>
-  </div>
 
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">KurdiKebord</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        Designed by <a href="https://facebook.com/GoRaN9O">GoRaN</a>
-      </div>
+    <a href="#" class="scroll-top btn-hover">
+        <i class="bi bi-chevron-up"></i>
+    </a>
+
+    <!-- Offer Modal -->
+    <div class="offer-modal-overlay" id="offerModal">
+        <div class="offer-modal">
+            <button class="offer-modal-close" id="offerModalClose">&times;</button>
+            <div class="offer-modal-body">
+                <div class="offer-modal-badge">٪٥٠</div>
+                <h3>ئۆفەری تایبەت!</h3>
+                <p>وەشانی PRO ـی تەختەکلیلی کوردی<br>بەدەست بهێنە بە <strong>نیوەی نرخ</strong></p>
+                <div class="offer-modal-price">
+                    <span class="offer-old">4000 دینار</span>
+                    <span class="offer-new">2000 دینار</span>
+                </div>
+                <p class="offer-modal-method">لەڕێی <strong>پارەدانی FiB (تەنها کوردستان)</strong></p>
+                <div class="modal-payment-box">
+                    <div class="modal-payment-label">ژمارەکە کۆپی بکە و پارەکە بنێرە</div>
+                    <div class="modal-payment-number">
+                        <span>0770 965 9575</span>
+                        <button class="copy-btn" onclick="copyNumber('07709659575', this)" title="کۆپی کردن">📋</button>
+                    </div>
+                    <div class="modal-payment-name">دوای ناردنی بڕی داواکراو، لەماوەی کەمتر لە کاتژمێرێکدا کۆدی دابەزاندنت بۆ دەنرێدرێت لەڕێی کورتەنامەوە (SMS)</div>
+                </div>
+                <p class="offer-modal-note">ئەم ئۆفەرە بۆ ماوەیەکی کاتییە!</p>
+            </div>
+        </div>
     </div>
-  </footer>
- </center>
-    </section><!-- /Contact Section -->
-  </main>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <!-- ========================= JS here ========================= -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/count-up.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/tiny-slider.js"></script>
+    <script src="assets/js/glightbox.min.js"></script>
+    <script src="assets/js/imagesloaded.min.js"></script>
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        (function() {
+            var input = document.getElementById('theme-switch-input');
+            if (input) {
+                input.addEventListener('change', function() {
+                    if (this.checked) {
+                        document.body.classList.add('dark-mode');
+                        localStorage.setItem('theme', 'dark');
+                    } else {
+                        document.body.classList.remove('dark-mode');
+                        localStorage.setItem('theme', 'light');
+                    }
+                });
+                if (localStorage.getItem('theme') === 'dark') {
+                    document.body.classList.add('dark-mode');
+                    input.checked = true;
+                }
+            }
+        })();
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+        (function() {
+            var wrapper = document.querySelector('.get-it-now-wrapper');
+            var toggle = document.getElementById('getItNowToggle');
+            if (wrapper && toggle) {
+                toggle.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    wrapper.classList.toggle('open');
+                });
+                document.addEventListener('click', function(e) {
+                    if (!wrapper.contains(e.target)) {
+                        wrapper.classList.remove('open');
+                    }
+                });
+            }
+        })();
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+        (function() {
+            var modal = document.getElementById('offerModal');
+            var closeBtn = document.getElementById('offerModalClose');
+            var featuresBtn = document.querySelector('.features-btn');
+            if (modal && closeBtn) {
+                if (featuresBtn) {
+                    featuresBtn.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        modal.classList.add('show');
+                    });
+                }
+                closeBtn.addEventListener('click', function() {
+                    modal.classList.remove('show');
+                });
+                modal.addEventListener('click', function(e) {
+                    if (e.target === modal) {
+                        modal.classList.remove('show');
+                    }
+                });
+                setTimeout(function() {
+                    modal.classList.add('show');
+                }, 4000);
+            }
+        })();
 
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+        function copyNumber(num, btn) {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(num).then(function() {
+                    var orig = btn.textContent;
+                    btn.textContent = '✅';
+                    setTimeout(function() { btn.textContent = orig; }, 2000);
+                });
+            } else {
+                var ta = document.createElement('textarea');
+                ta.value = num;
+                ta.style.position = 'fixed';
+                ta.style.opacity = '0';
+                document.body.appendChild(ta);
+                ta.select();
+                document.execCommand('copy');
+                document.body.removeChild(ta);
+                var orig = btn.textContent;
+                btn.textContent = '✅';
+                setTimeout(function() { btn.textContent = orig; }, 2000);
+            }
+        }
+    </script>
 
-<div id="dark-mode-container" style="position: fixed; bottom: 20px; left: 15px; z-index: 10000;">
-  <button id="theme-btn" onclick="toggleTheme()" style="width: 40px; height: 40px; border-radius: 50px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0, 94, 221, 0.8); backdrop-filter: blur(10px); color: white; cursor: pointer; box-shadow: 0 8px 32px rgba(0,0,0,0.15); font-size: 20px; transition: 0.3s; display: flex; align-items: center; justify-content: center;">
-    <span id="theme-icon">🌙</span>
-  </button>
-</div>
-
-<script>
-  // دروستکردنی ستایلەکان بە جاڤاسکریپت بۆ ئەوەی دەستکاری CSS نەکەیت
-  if (!document.getElementById('dark-logic')) {
-    const style = document.createElement('style');
-    style.id = 'dark-logic';
-    style.innerHTML = `
-      html.dark-active { filter: invert(1) hue-rotate(180deg) !important; background: #000 !important; }
-      html.dark-active img, html.dark-active video, html.dark-active iframe, html.dark-active .no-invert { filter: invert(1) hue-rotate(180deg) !important; }
-      #theme-btn:hover { transform: scale(1.1); background: #005edd !important; }
-    `;
-    document.head.appendChild(style);
-  }
-
-  function toggleTheme() {
-    const html = document.documentElement;
-    const isDark = html.classList.toggle('dark-active');
-    document.getElementById('theme-icon').innerText = isDark ? '☀️' : '🌙';
-    localStorage.setItem('site-theme', isDark ? 'dark' : 'light');
-  }
-
-  // پشکنینی ناسینەوە (Storage) بۆ هەموو لاپەڕەکان
-  (function() {
-    if (localStorage.getItem('site-theme') === 'dark') {
-      document.documentElement.classList.add('dark-active');
-      document.getElementById('theme-icon').innerText = '☀️';
-    }
-  })();
-</script>
 </body>
 
 </html>
