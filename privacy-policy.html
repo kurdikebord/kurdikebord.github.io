@@ -1,266 +1,366 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en" dir="ltr">
+<html lang="ku" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Privacy Policy - KurdiKebord | تەختەکلیلی کوردی</title>
+     
+    <!-- ======= Favico =======-->
+    <link rel="icon" href="assets/wena/favicon.png">
+    <!-- End Fav Ico-->
+    
+    <!-- ======= Google Font =======-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zain:wght@200;300;400;700;800;900&display=swap" rel="stylesheet">
+    <!-- End Google Font-->
+    
+    <!-- ======= Styles =======-->
+    <link href="assets/vendors/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendors/bootstrap-icons/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="assets/vendors/glightbox/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/vendors/aos/aos.css" rel="stylesheet">
+    <!-- End Styles-->
+    
+    <!-- ======= Theme Style =======-->
+    <link href="assets/css/onepage.css" rel="stylesheet">
+    <!-- End Theme Style-->
+    
+    <!-- ======= Apply theme =======-->
+    <script>
+      (function() {
+        const storedTheme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-bs-theme', storedTheme);
+      })();
+    </script>
+    <!-- End Apply theme-->
 
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Privacy Policy - KurdiKebord</title>
-    <meta name="description" content="Privacy Policy for Kurdish Keyboard - Information about data safety and permissions." />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/x-icon" href="assets/wena/favicon.png" />
-
-    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/bootstrap-icons/bootstrap-icons.css" />
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <link rel="stylesheet" href="assets/css/tiny-slider.css" />
-    <link rel="stylesheet" href="assets/css/glightbox.min.css" />
-    <link rel="stylesheet" href="assets/css/main.css" />
+<style>
+  .privacy-page {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+  .privacy-page .section-title span {
+    display: inline-block;
+    background: rgba(34, 70, 230, 0.1);
+    color: var(--bs-primary);
+    font-weight: 600;
+    font-size: 0.85rem;
+    padding: 5px 18px;
+    border-radius: 50rem;
+    margin-bottom: 12px;
+  }
+  .privacy-page .privacy-block {
+    margin-bottom: 35px;
+  }
+  .privacy-page .privacy-block h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: var(--bs-primary);
+  }
+  .privacy-page .privacy-block h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  .privacy-page .privacy-block p {
+    font-size: 0.95rem;
+    line-height: 1.8;
+    color: var(--bs-body-color);
+  }
+  .privacy-page .privacy-notice {
+    background: rgba(34, 70, 230, 0.06);
+    border-right: 4px solid var(--bs-primary);
+    padding: 18px;
+    border-radius: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 14px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-bottom: 25px;
+  }
+  .privacy-page .privacy-notice i {
+    font-size: 1.6rem;
+    color: var(--bs-primary);
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    margin-top: 2px;
+  }
+  .privacy-page .permission-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 16px;
+  }
+  .privacy-page .privacy-header-card span {
+    display: inline-block;
+    background: rgba(34, 70, 230, 0.1);
+    color: var(--bs-primary);
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding: 8px 24px;
+    border-radius: 50rem;
+    margin-bottom: 12px;
+  }
+  .privacy-page .permission-item {
+    background: rgba(var(--bs-body-color-rgb), 0.03);
+    border: 1px solid rgba(var(--bs-body-color-rgb), 0.08);
+    padding: 16px 20px;
+    border-radius: 12px;
+  }
+  .privacy-page .permission-item h4 i {
+    color: var(--bs-primary);
+    margin-left: 8px;
+  }
+  .privacy-page .privacy-contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 12px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .privacy-page .privacy-contact .btn {
+    border-radius: 50rem;
+    padding: 10px 24px;
+    font-weight: 600;
+    background: var(--bs-primary);
+    color: #fff;
+    border: none;
+  }
+  .privacy-page .privacy-contact .btn:hover {
+    opacity: 0.9;
+  }
+  .privacy-page .privacy-contact .btn-alt {
+    background: transparent;
+    border: 2px solid var(--bs-primary);
+    color: var(--bs-primary);
+  }
+  .privacy-page .privacy-contact .btn-alt:hover {
+    background: var(--bs-primary);
+    color: #fff;
+  }
+  [data-bs-theme="dark"] .privacy-page .privacy-notice {
+    background: rgba(255, 255, 255, 0.05);
+  }
+  [data-bs-theme="dark"] .privacy-page .permission-item {
+    background: rgba(255, 255, 255, 0.03);
+    border-color: rgba(255, 255, 255, 0.08);
+  }
+</style>
 
 </head>
-
-<body class="privacy-page">
-
-    <div class="preloader">
-        <div class="preloader-inner">
-            <div class="preloader-icon">
-                <span></span>
-                <span></span>
+  <body>
+    
+    <!-- ======= Site Wrap =======-->
+    <div class="site-wrap">
+      
+      <!-- ======= Header =======-->
+      <header dir="ltr" class="fbs__net-navbar navbar navbar-expand-lg dark" aria-label="freebootstrap.net navbar">
+        <div class="container d-flex align-items-center justify-content-between">
+          
+          <a class="navbar-brand" href="index.html">
+            <img class="logo img-fluid" src="assets/wena/logo/logo.svg" alt="KurdiKebord">
+          </a>
+          
+          <button id="themeToggle" class="theme-toggle btn" type="button" aria-pressed="false" aria-label="Toggle dark mode">
+            <i class="bi bi-moon-fill icon-light"></i>
+            <i class="bi bi-sun-fill icon-dark"></i>
+          </button>
+          
+          <div class="offcanvas offcanvas-end" id="fbs__net-navbars" tabindex="-1" aria-labelledby="fbs__net-navbarsLabel" role="dialog">
+            <div class="offcanvas-header p-0"></div>
+            <div class="offcanvas-body align-items-lg-center" dir="rtl">
+              <ul class="navbar-nav nav mx-auto pe-lg-3 mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link scroll-link" href="index.html">Home</a></li>
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">More <i class="bi bi-chevron-down"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a class="nav-link dropdown-item active" href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a class="nav-link dropdown-item" href="quran-privacy-policy.html">Quran Privacy Policy</a></li>
+                    <li><a class="nav-link dropdown-item" href="404.html">404</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link scroll-link" href="#contact">Contact</a></li>
+              </ul>
             </div>
-        </div>
-    </div>
-
-    <header class="header">
-        <div class="navbar-area">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-12">
-                        <nav class="navbar navbar-expand-lg">
-                            <div class="nav-actions">
-                                <label class="theme-switch" aria-label="Toggle dark mode">
-                                    <input type="checkbox" id="theme-switch-input">
-                                    <span class="slider">
-                                        <svg class="sun-icon" viewBox="0 0 24 24" width="14" height="14">
-                                            <path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zM12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72 1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
-                                        </svg>
-                                        <svg class="moon-icon" viewBox="0 0 24 24" width="14" height="14">
-                                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
-                                        </svg>
-                                    </span>
-                                </label>
-                            </div>
-
-                            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="toggler-icon"></span>
-                                <span class="toggler-icon"></span>
-                                <span class="toggler-icon"></span>
-                            </button>
-
-                            <a class="navbar-brand logo" href="index.html">
-                                <img class="logo-light" src="assets/wena/logo/logo.svg" alt="Logo" />
-                            </a>
-
-                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
-                                <ul id="nav" class="navbar-nav nav-left">
-                                    <li class="nav-item">
-                                        <a href="index.html">Home</a></li>
-                                    <li class="nav-item">
-                                        <a href="ferkari.html">Tutorial</a>
-                                    </li>
-                                </ul>
-                                <ul class="navbar-nav nav-right">
-                                    <li class="nav-item">
-                                        <a class="active" href="#">Privacy Policy <i class="bi bi-chevron-down"></i></a>
-                                        <ul class="sub-menu">
-                                            <li><a href="privacy-policy.html">FREE Privacy Policy</a></li>
-                                            <li><a href="quran-privacy-policy.html">Quran Privacy Policy</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
+          </div>
+          
+          <div class="ms-auto w-auto">
+            <div class="header-social d-flex align-items-center gap-1">
+              <button class="fbs__net-navbar-toggler justify-content-center align-items-center ms-auto" data-bs-toggle="offcanvas" data-bs-target="#fbs__net-navbars" aria-controls="fbs__net-navbars" aria-label="Toggle navigation" aria-expanded="false">
+                <svg class="fbs__net-icon-menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="21" x2="3" y1="6" y2="6"></line>
+                  <line x1="15" x2="3" y1="12" y2="12"></line>
+                  <line x1="17" x2="3" y1="18" y2="18"></line>
+                </svg>
+                <svg class="fbs__net-icon-close" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 6 6 18"></path>
+                  <path d="m6 6 12 12"></path>
+                </svg>
+              </button>
             </div>
+          </div>
+          
         </div>
-    </header>
-
-    <!-- Start Privacy Policy Content -->
-    <section class="services section">
-        <div class="container" dir="ltr">
-
+      </header>
+      <!-- End Header-->
+      
+      <main>
+        <!-- ======= Privacy Policy Content =======-->
+        <section class="privacy-page" dir="ltr">
+          <div class="container">
             <div class="row wow fadeInUp" data-wow-delay=".2s">
-                <div class="col-lg-8 mx-auto col-12">
-                    <div class="section-title">
-                        <span>KurdiKeyboard</span>
-                        <h2>Privacy Policy</h2>
-                        <p>Last Update: April 2026</p>
-                    </div>
+              <div class="col-lg-8 mx-auto col-12">
+                <div class="section-title text-center mb-5">
+                  <div class="privacy-header-card">
+                    <span>Privacy Policy</span>
+                    <p class="mb-4" style="color: #2ecc71; font-style: italic;">Last Update: April 2026</p>
+                  </div>
 
-                    <div class="privacy-block">
-                        <p class="lead">Goran Gharib, the copyright holder of Kurdish Keyboard (KurdiKebord | تەختەکلیلی کوردی), provides this "Privacy Policy" to help you understand how our application works and which permissions are used. We may update this Privacy Policy from time to time to reflect new features or regulatory changes.</p>
-                    </div>
-
-                    <div class="privacy-block">
-                        <h3>1. General Clauses</h3>
-                        <p><strong>1.1.</strong> The app requests network access solely for functional purposes such as checking for app updates and downloading language resources. Your private typing data and voice recordings are <strong>never</strong> transmitted over the network.</p>
-                        <p><strong>1.2.</strong> If the app crashes, you may choose to share a report via e-mail. This report helps us investigate and improve the app. You can manually review the crash log before sending it.</p>
-                        <p><strong>1.3.</strong> Certain features like dictionary downloads or update checks require internet access to connect to our official servers. No personal data is shared during these connections.</p>
-                    </div>
-
-                    <div class="privacy-block">
-                        <h3>2. Google Play Specific Clauses</h3>
-                        <p>Usage of the app is also subject to <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a> regarding license verification and Play Store interactions.</p>
-                        <div class="privacy-image">
-                            <img src="assets/wena/pro/google_clauses.png" alt="Google Play Clauses" class="img-fluid">
-                        </div>
-                    </div>
-
-                    <div class="privacy-block">
-                        <h3>3. Permissions & Data Usage</h3>
-                        <div class="privacy-notice">
-                            <i class="bi bi-shield-check"></i>
-                            <div>
-                                <strong>We DO NOT collect or share personal information</strong> (e.g., name, location, email, device ID, or contacts).<br>
-                                <strong>We DO NOT transfer your personal typing data</strong> from your device to any third party.
-                            </div>
-                        </div>
-
-                        <div class="permission-list">
-                            <div class="permission-item">
-                                <h4><i class="bi bi-bell"></i> POST_NOTIFICATIONS</h4>
-                                <p>Used to notify you when a new app update is available or if an error occurs, ensuring you have the latest features and security fixes.</p>
-                            </div>
-                            <div class="permission-item">
-                                <h4><i class="bi bi-globe"></i> INTERNET</h4>
-                                <p>Used to check for app updates from our official server, download dictionary files (.dict) for auto-correction, and fetch optional emoji fonts (.ttf).</p>
-                            </div>
-                            <div class="permission-item">
-                                <h4><i class="bi bi-phone"></i> RECEIVE_BOOT_COMPLETED</h4>
-                                <p>Used to automatically reschedule periodic update checks and ensure keyboard services are ready after your device restarts.</p>
-                            </div>
-                            <div class="permission-item">
-                                <h4><i class="bi bi-activity"></i> VIBRATE</h4>
-                                <p>Used to provide haptic feedback (vibration) while typing, if enabled in settings.</p>
-                            </div>
-                            <div class="permission-item">
-                                <h4><i class="bi bi-book"></i> READ/WRITE_USER_DICTIONARY</h4>
-                                <p>Used locally to learn your typing style and save new words you add for better predictions. This data remains strictly on your device.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="privacy-block">
-                        <h3>4. Other App Capabilities</h3>
-                        <div class="permission-list">
-                            <div class="permission-item">
-                                <h4><i class="bi bi-gear"></i> FOREGROUND_SERVICE &amp; WAKE_LOCK</h4>
-                                <p>Used to ensure background tasks like dictionary downloads or update checks are completed without interruption.</p>
-                            </div>
-                            <div class="permission-item">
-                                <h4><i class="bi bi-check-circle"></i> CHECK_LICENSE</h4>
-                                <p>Used to verify the app's purchase status via the Google Play Store.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="privacy-block">
-                        <h3>5. Contact Us</h3>
-                        <p>If you have any questions, comments, or concerns about this Privacy Policy, send us a message at:</p>
-                        <div class="privacy-contact">
-                            <a href="mailto:kurdikebord@gmail.com" class="btn"><i class="bi bi-envelope"></i> kurdikebord@gmail.com</a>
-                            <a href="https://facebook.com/kurdikebord" target="_blank" class="btn btn-alt"><i class="bi bi-facebook"></i> Facebook</a>
-                            <a href="https://t.me/kurdikebord" target="_blank" class="btn btn-alt"><i class="bi bi-telegram"></i> Telegram</a>
-                        </div>
-                    </div>
-
+                <div class="privacy-block">
+                  <p class="fs-5">Goran Gharib, the copyright holder of Kurdish Keyboard (KurdiKebord | تەختەکلیلی کوردی), provides this "Privacy Policy" to help you understand how our application works and which permissions are used. We may update this Privacy Policy from time to time to reflect new features or regulatory changes.</p>
                 </div>
-            </div>
 
-        </div>
-    </section>
-    <!-- End Privacy Policy Content -->
-
-    <footer class="footer">
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="inner">
-                    <div class="row">
-                        <div class="col-12">
-                            <p dir="ltr">Designed By<a href="https://facebook.com/Goran9O" target="_blank"> GoRaN</a><br>© 2026 KurdiKebord</p>
-                        </div>
-                    </div>
+                <div class="privacy-block">
+                  <h3>1. General Clauses</h3>
+                  <p><strong>1.1.</strong> The app requests network access solely for functional purposes such as checking for app updates and downloading language resources. Your private typing data and voice recordings are <strong>never</strong> transmitted over the network.</p>
+                  <p><strong>1.2.</strong> If the app crashes, you may choose to share a report via e-mail. This report helps us investigate and improve the app. You can manually review the crash log before sending it.</p>
+                  <p><strong>1.3.</strong> Certain features like dictionary downloads or update checks require internet access to connect to our official servers. No personal data is shared during these connections.</p>
                 </div>
-            </div>
-        </div>
-    </footer>
 
-    <div class="get-it-now-wrapper">
-        <div class="get-it-now-dropdown">
-            <a href="https://play.google.com/store/apps/details?id=com.goran.kurdikeyboard" target="_blank" class="dropdown-option">
-                <i class="bi bi-unlock"></i> FREE Version
-            </a>
-            <a href="https://play.google.com/store/apps/details?id=goran.kurdikeyboard.pro" target="_blank" class="dropdown-option">
-                <i class="bi bi-star-fill"></i> PRO Version
-            </a>
-        </div>
-        <a href="javascript:void(0)" class="get-it-now-btn btn-hover" id="getItNowToggle">
-            <i class="bi bi-handshake"></i> Get It On Play Store
-        </a>
+                <div class="privacy-block">
+                  <h3>2. Google Play Specific Clauses</h3>
+                  <p>Usage of the app is also subject to <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a> regarding license verification and Play Store interactions.</p>
+                  <div class="text-center my-4">
+                    <img src="assets/wena/pro/google_clauses.png" alt="Google Play Clauses" class="img-fluid rounded-3">
+                  </div>
+                </div>
+
+                <div class="privacy-block">
+                  <h3>3. Permissions & Data Usage</h3>
+                  <div class="privacy-notice">
+                    <i class="bi bi-shield-check"></i>
+                    <div>
+                      <strong>We DO NOT collect or share personal information</strong> (e.g., name, location, email, device ID, or contacts).<br>
+                      <strong>We DO NOT transfer your personal typing data</strong> from your device to any third party.
+                    </div>
+                  </div>
+
+                  <div class="permission-list">
+                    <div class="permission-item">
+                      <h4><i class="bi bi-bell"></i> POST_NOTIFICATIONS</h4>
+                      <p>Used to notify you when a new app update is available or if an error occurs, ensuring you have the latest features and security fixes.</p>
+                    </div>
+                    <div class="permission-item">
+                      <h4><i class="bi bi-globe"></i> INTERNET</h4>
+                      <p>Used to check for app updates from our official server, download dictionary files (.dict) for auto-correction, and fetch optional emoji fonts (.ttf).</p>
+                    </div>
+                    <div class="permission-item">
+                      <h4><i class="bi bi-phone"></i> RECEIVE_BOOT_COMPLETED</h4>
+                      <p>Used to automatically reschedule periodic update checks and ensure keyboard services are ready after your device restarts.</p>
+                    </div>
+                    <div class="permission-item">
+                      <h4><i class="bi bi-activity"></i> VIBRATE</h4>
+                      <p>Used to provide haptic feedback (vibration) while typing, if enabled in settings.</p>
+                    </div>
+                    <div class="permission-item">
+                      <h4><i class="bi bi-book"></i> READ/WRITE_USER_DICTIONARY</h4>
+                      <p>Used locally to learn your typing style and save new words you add for better predictions. This data remains strictly on your device.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="privacy-block">
+                  <h3>4. Other App Capabilities</h3>
+                  <div class="permission-list">
+                    <div class="permission-item">
+                      <h4><i class="bi bi-gear"></i> FOREGROUND_SERVICE &amp; WAKE_LOCK</h4>
+                      <p>Used to ensure background tasks like dictionary downloads or update checks are completed without interruption.</p>
+                    </div>
+                    <div class="permission-item">
+                      <h4><i class="bi bi-check-circle"></i> CHECK_LICENSE</h4>
+                      <p>Used to verify the app's purchase status via the Google Play Store.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="privacy-block" id="contact">
+                  <h3>5. Contact Us</h3>
+                  <p>If you have any questions, comments, or concerns about this Privacy Policy, send us a message at:</p>
+                  <div class="privacy-contact text-center">
+                    <a href="https://facebook.com/kurdikebord" target="_blank" class="btn btn-alt"><i class="bi bi-facebook"></i> Facebook</a>
+                    <a href="https://tiktok.com/@kurdikebord" target="_blank" class="btn btn-alt"><i class="bi bi-tiktok"></i> TikTok</a>
+                    <a href="https://t.me/kurdikebord" target="_blank" class="btn btn-alt"><i class="bi bi-telegram"></i> Telegram</a>
+                    <div class="w-100"></div>
+                    <a href="mailto:kurdikebord@gmail.com" class="btn" style="max-width: 300px;"><i class="bi bi-envelope"></i> kurdikebord@gmail.com</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Privacy Policy Content-->
+        
+        <!-- ======= Footer =======-->
+        <footer class="footer pt-4 pb-4" dir="rtl">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-center">
+                <p class="mb-0">Designed By <a class="footer-author" href="https://facebook.com/Goran9O" target="_blank">GoRaN</a></p>
+                <p class="mb-0 small text-muted">&copy; 2026 KurdiKebord</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- End Footer-->
+        
+      </main>
     </div>
-
-    <a href="#" class="scroll-top btn-hover">
-        <i class="bi bi-chevron-up"></i>
-    </a>
-
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/count-up.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/tiny-slider.js"></script>
-    <script src="assets/js/glightbox.min.js"></script>
-    <script src="assets/js/imagesloaded.min.js"></script>
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script>
-        (function() {
-            var input = document.getElementById('theme-switch-input');
-            if (input) {
-                input.addEventListener('change', function() {
-                    if (this.checked) {
-                        document.body.classList.add('dark-mode');
-                        localStorage.setItem('theme', 'dark');
-                    } else {
-                        document.body.classList.remove('dark-mode');
-                        localStorage.setItem('theme', 'light');
-                    }
-                });
-                if (localStorage.getItem('theme') === 'dark') {
-                    document.body.classList.add('dark-mode');
-                    input.checked = true;
-                }
-            }
-        })();
-
-        (function() {
-            var wrapper = document.querySelector('.get-it-now-wrapper');
-            var toggle = document.getElementById('getItNowToggle');
-            if (wrapper && toggle) {
-                toggle.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    wrapper.classList.toggle('open');
-                });
-                document.addEventListener('click', function(e) {
-                    if (!wrapper.contains(e.target)) {
-                        wrapper.classList.remove('open');
-                    }
-                });
-            }
-        })();
-    </script>
-</body>
-
+    
+    <!-- ======= Floating Download Button =======-->
+    <div class="floating-download-wrapper" id="floatingDownload">
+      <div class="floating-download-dropdown">
+        <a href="https://play.google.com/store/apps/details?id=com.goran.kurdikeyboard" target="_blank" class="dropdown-option">
+          <i class="bi bi-unlock"></i> FREE Version
+        </a>
+        <a href="https://play.google.com/store/apps/details?id=goran.kurdikeyboard.pro" target="_blank" class="dropdown-option dropdown-option-pro">
+          <i class="bi bi-star-fill"></i> PRO Version
+        </a>
+      </div>
+      <a href="javascript:void(0)" class="floating-download-btn" id="floatingDownloadToggle">
+        <i class="bi bi-google-play"></i> Get It On Play Store
+      </a>
+    </div>
+    <!-- End Floating Download Button-->
+    
+    <!-- ======= Back to Top =======-->
+    <button id="back-to-top"><i class="bi bi-arrow-up-short"></i></button>
+    <!-- End Back to top-->
+    
+    <!-- ======= Javascripts =======-->
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/gsap/gsap.min.js"></script>
+    <script src="assets/vendors/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendors/isotope/isotope.pkgd.min.js"></script>
+    <script src="assets/vendors/glightbox/glightbox.min.js"></script>
+    <script src="assets/vendors/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendors/aos/aos.js"></script>
+    <script src="assets/vendors/purecounter/purecounter.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <!-- End JavaScripts-->
+  </body>
 </html>

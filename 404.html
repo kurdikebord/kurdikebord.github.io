@@ -1,126 +1,140 @@
 <!DOCTYPE html>
-<html class="no-js" lang="zxx">
-
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+<html lang="ku" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>404 - پەڕە نەدۆزرایەوە | KurdiKebord</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/x-icon" href="assets/wena/favicon.png" />
-
-    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/bootstrap-icons/bootstrap-icons.css" />
-    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css" />
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <link rel="stylesheet" href="assets/css/tiny-slider.css" />
-    <link rel="stylesheet" href="assets/css/glightbox.min.css" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-
-</head>
-
-<body>
-
-    <div class="preloader">
-        <div class="preloader-inner">
-            <div class="preloader-icon">
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </div>
-
-    <div class="nav-actions" style="position:fixed;top:20px;left:20px;z-index:99999">
-        <label class="theme-switch" aria-label="گۆڕینی دۆخ">
-            <input type="checkbox" id="theme-switch-input">
-            <span class="slider">
-                <svg class="sun-icon" viewBox="0 0 24 24" width="14" height="14">
-                    <path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zM12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72 1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
-                </svg>
-                <svg class="moon-icon" viewBox="0 0 24 24" width="14" height="14">
-                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
-                </svg>
-            </span>
-        </label>
-    </div>
-
-    <section class="error-page section">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 col-12 text-center">
-                    <div class="error-404-icon">
-                        <span class="error-404-number">4</span>
-                        <span class="error-404-zero">
-                            <i class="bi bi-emoji-frown"></i>
-                        </span>
-                        <span class="error-404-number">4</span>
-                    </div>
-                    <div class="error-text">
-                        <h2>پەڕە نەدۆزرایەوە</h2>
-                        <p>لەوانەیە ناونیشانەکەی هەڵەبێ یان سڕابێتەوە</p>
-                        <div class="button mt-4">
-                            <a href="index.html" class="btn">
-                                <i class="bi bi-house-door"></i> بچۆ پەڕەی سەرەکی
-                            </a>
-                        </div>
-                        <div class="button mt-3">
-                            <a href="https://play.google.com/store/apps/dev?id=7880948438175101730" target="_blank" class="btn btn-alt">
-                                <i class="bi bi-google-play"></i> بەرنامەکانمان لە گۆگڵ پلەی
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="inner">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="left text-center">
-                                <p>Designed By <a href="https://facebook.com/Goran9O" target="_blank">GoRaN</a> | &copy; 2026 KurdiKebord</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/count-up.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/tiny-slider.js"></script>
-    <script src="assets/js/glightbox.min.js"></script>
-    <script src="assets/js/imagesloaded.min.js"></script>
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    
+    <link rel="icon" href="assets/wena/favicon.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zain:wght@200;300;400;700;800;900&display=swap" rel="stylesheet">
+    
+    <link href="assets/vendors/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendors/bootstrap-icons/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="assets/css/onepage.css" rel="stylesheet">
+    
     <script>
-        (function() {
-            var input = document.getElementById('theme-switch-input');
-            if (input) {
-                input.addEventListener('change', function() {
-                    if (this.checked) {
-                        document.body.classList.add('dark-mode');
-                        localStorage.setItem('theme', 'dark');
-                    } else {
-                        document.body.classList.remove('dark-mode');
-                        localStorage.setItem('theme', 'light');
-                    }
-                });
-                if (localStorage.getItem('theme') === 'dark') {
-                    document.body.classList.add('dark-mode');
-                    input.checked = true;
-                }
-            }
-        })();
+      (function() {
+        const storedTheme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-bs-theme', storedTheme);
+      })();
     </script>
-</body>
 
+    <style>
+      body {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        min-height: 100vh;
+        background-color: var(--bs-body-bg);
+        color: var(--bs-body-color);
+      }
+      .error-page {
+        -webkit-box-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+      }
+      .error-404 {
+        font-size: 10rem;
+        font-weight: 900;
+        line-height: 1;
+        color: var(--bs-primary);
+      }
+      .error-404 .icon-img {
+        display: inline-block;
+        vertical-align: super;
+      }
+      .error-footer {
+        padding: 20px 0;
+        text-align: center;
+        font-size: 14px;
+        color: var(--inverse-color);
+      }
+      .error-page .btn-404 {
+        background-color: transparent !important;
+        color: #2ecc71 !important;
+        border: 2px solid #2ecc71 !important;
+        border-radius: 50rem;
+        padding: 10px 28px;
+        font-weight: 700;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+      }
+      .error-page .btn-404:hover {
+        background-color: #2ecc71 !important;
+        color: #fff !important;
+        border-color: #2ecc71 !important;
+        -webkit-transform: translateY(-2px);
+                transform: translateY(-2px);
+      }
+      [data-bs-theme=dark] .error-page .btn-404 {
+        background-color: transparent !important;
+        color: #2ecc71 !important;
+        border-color: #2ecc71 !important;
+      }
+      [data-bs-theme=dark] .error-page .btn-404:hover {
+        background-color: #2ecc71 !important;
+        color: #fff !important;
+        border-color: #2ecc71 !important;
+      }
+      .error-page .btn-404-primary {
+        background-color: var(--bs-primary) !important;
+        color: #fff !important;
+        border: 2px solid var(--bs-primary) !important;
+        border-radius: 50rem;
+        padding: 10px 28px;
+        font-weight: 700;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+      }
+      .error-page .btn-404-primary:hover {
+        background-color: var(--bs-primary-hover) !important;
+        border-color: var(--bs-primary-hover) !important;
+        color: #fff !important;
+        -webkit-transform: translateY(-2px);
+                transform: translateY(-2px);
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="error-page">
+      <div class="container text-center">
+        <div class="error-404 mb-3">
+          <span>4</span>
+          <span class="icon-img" style="font-size:6rem;line-height:1;">😢</span>
+          <span>4</span>
+        </div>
+        <h1 class="fw-bold mb-2">پەڕە نەدۆزرایەوە</h1>
+        <p class="text-muted mb-3">لەوانەیە ناونیشانەکەی هەڵەبێ یان سڕابێتەوە</p>
+        <div class="button mt-3">
+          <a class="btn btn-404-primary" href="index.html"><i class="bi bi-house-door ms-3"></i>بچۆ پەڕەی سەرەکی</a>
+        </div>
+        <div class="button mt-3">
+          <a class="btn btn-404" href="https://play.google.com/store/apps/dev?id=7880948438175101730" target="_blank"><i class="bi bi-google-play ms-3"></i>بەرنامەکانمان لە گۆگڵ پلەی</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="error-footer">
+      Designed By GoRaN &copy; 2026 KurdiKebord
+    </div>
+    
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/gsap/gsap.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    
+  </body>
 </html>
