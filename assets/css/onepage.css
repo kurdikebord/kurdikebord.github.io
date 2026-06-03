@@ -599,21 +599,21 @@ strong {
   color: var(--bs-white);
   text-decoration: none;
   text-align: left;
-  padding: 0.05rem 0.4rem;
+  padding: 0.15rem 0.8rem;
   border-radius: 50rem;
-  font-size: 0.7rem;
-  gap: 0.25rem !important;
+  font-size: 0.8rem;
+  gap: 0.4rem !important;
 }
 .btn-appvendor .app-icon i {
-  font-size: 14px;
+  font-size: 18px;
   color: inherit;
 }
 .btn-appvendor span {
-  font-size: 8px;
+  font-size: 9px;
   color: inherit;
 }
 .btn-appvendor .app-name {
-  font-size: 10px;
+  font-size: 12px;
 }
 .btn-appvendor.light {
   background-color: var(--bs-white) !important;
@@ -1629,8 +1629,12 @@ html[data-bs-theme=dark] .fbs__net-navbar .theme-toggle {
 
 @media (max-width: 575.98px) {
   .hero__v15 h1 {
-    font-size: 1.1rem;
+    font-size: 1rem;
     word-break: break-word;
+  }
+  .hero__v15 .typed_entry,
+  .hero__v15 .typed-cursor {
+    font-size: 0.85rem;
   }
   .hero__v15 .d-flex.gap-3 {
     -webkit-box-orient: horizontal;
