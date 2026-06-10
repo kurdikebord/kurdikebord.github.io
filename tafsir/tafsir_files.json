@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ASAN",
+    "name": "تەفسیری ئاسان",
+    "url": "https://kurdikebord.github.io/tafsir/tf_asan.json",
+    "fileName": "tf_asan.json"
+  },
+  {
+    "id": "REBAR",
+    "name": "تەفسیری ڕێبەر",
+    "url": "https://kurdikebord.github.io/tafsir/tf_rebar.json",
+    "fileName": "tf_rebar.json"
+  },
+  {
+    "id": "SALAHUDDIN",
+    "name": "تەفسیری سەڵاحەدین",
+    "url": "https://kurdikebord.github.io/tafsir/tf_salahuddin.json",
+    "fileName": "tf_salahuddin.json"
+  },
+  {
+    "id": "TAFSEER_4",
+    "name": "ناوی تەفسیری چوارەم",
+    "url": "https://kurdikebord.github.io/tafsir/tf_4.json",
+    "fileName": "tf_4.json"
+  },
+  {
+    "id": "TAFSEER_5",
+    "name": "ناوی تەفسیری پێنجەم",
+    "url": "https://kurdikebord.github.io/tafsir/tf_5.json",
+    "fileName": "tf_5.json"
+  },
+  {
+    "id": "RESERVE_1",
+    "name": "تەفسیری یەدەگی ١",
+    "url": "https://kurdikebord.github.io/tafsir/reserve_1.json",
+    "fileName": "reserve_1.json"
+  },
+  {
+    "id": "RESERVE_2",
+    "name": "تەفسیری یەدەگی ٢",
+    "url": "https://kurdikebord.github.io/tafsir/reserve_2.json",
+    "fileName": "reserve_2.json"
+  },
+  {
+    "id": "RESERVE_3",
+    "name": "تەفسیری یەدەگی ٣",
+    "url": "https://kurdikebord.github.io/tafsir/reserve_3.json",
+    "fileName": "reserve_3.json"
+  },
+  {
+    "id": "RESERVE_4",
+    "name": "تەفسیری یەدەگی ٤",
+    "url": "https://kurdikebord.github.io/tafsir/reserve_4.json",
+    "fileName": "reserve_4.json"
+  },
+  {
+    "id": "RESERVE_5",
+    "name": "تەفسیری یەدەگی ٥",
+    "url": "https://kurdikebord.github.io/tafsir/reserve_5.json",
+    "fileName": "reserve_5.json"
+  }
+]
