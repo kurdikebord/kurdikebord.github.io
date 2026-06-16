@@ -1,0 +1,38 @@
+[
+  {
+    "id": "asan",
+    "name": "تەفسیری ئاسان",
+    "fileName": "tf_asan.json",
+    "url": "https://kurdikebord.github.io/tafsir/tf_asan.json"
+  },
+  {
+    "id": "rebar",
+    "name": "تەفسیری ڕێبەر",
+    "fileName": "tf_rebar.json",
+    "url": "https://kurdikebord.github.io/tafsir/tf_rebar.json"
+  },
+  {
+    "id": "bamoki",
+    "name": "تەفسیری پوختە",
+    "fileName": "tf_bamoki.json",
+    "url": "https://kurdikebord.github.io/tafsir/tf_bamoki.json"
+  },
+  {
+    "id": "salahuddin",
+    "name": "تەفسیری سەڵاحەدین",
+    "fileName": "tf_salahuddin.json",
+    "url": "https://kurdikebord.github.io/tafsir/tf_salahuddin.json"
+  },
+  {
+    "id": "mokhtasar",
+    "name": "تەفسیری موختەسەر",
+    "fileName": "tf_mokhtasar.json",
+    "url": "https://kurdikebord.github.io/tafsir/tf_mokhtasar.json"
+  },
+  {
+    "id": "tayser",
+    "name": "تەفسیری تەیسیر",
+    "fileName": "tf_tayser.json",
+    "url": "https://kurdikebord.github.io/tafsir/tf_tayser.json"
+  }
+]
