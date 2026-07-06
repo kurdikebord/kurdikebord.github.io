@@ -1,79 +1,82 @@
 [
   {
     "id": "com.kurdikeyboard.theme.rukar1",
-    "title": "ڕووکار ١",
+    "title": "ڕووکاری ١",
     "author": "GoRaN",
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar1.flex",
+    "imageUrl": "https://kurdikebord.github.io/rukar/rukar1_img.png",
     "isNight": true
   },
   {
     "id": "com.kurdikeyboard.theme.rukar2",
-    "title": "ڕووکار ٢",
+    "title": "ڕووکاری ٢",
     "author": "GoRaN",
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar2.flex",
+    "imageUrl": "https://kurdikebord.github.io/rukar/rukar2_img.png",
     "isNight": true
   },
   {
     "id": "com.kurdikeyboard.theme.rukar3",
-    "title": "ڕووکار ٣",
+    "title": "ڕووکاری ٣",
     "author": "GoRaN",
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar3.flex",
+    "imageUrl": "https://kurdikebord.github.io/rukar/rukar3_img.png",
     "isNight": true
   },
   {
     "id": "com.kurdikeyboard.theme.rukar4",
-    "title": "ڕووکار ٤",
+    "title": "ڕووکاری ٤",
     "author": "GoRaN",
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar4.flex",
+    "imageUrl": "https://kurdikebord.github.io/rukar/rukar4_img.png",
     "isNight": true
   },
   {
     "id": "com.kurdikeyboard.theme.rukar5",
-    "title": "ڕووکار ٥",
+    "title": "ڕووکاری ٥",
     "author": "GoRaN",
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar5.flex",
+    "imageUrl": "https://kurdikebord.github.io/rukar/rukar5_img.png",
     "isNight": true
   },
   {
     "id": "com.kurdikeyboard.theme.rukar6",
-    "title": "ڕووکار ٦",
+    "title": "ڕووکاری ٦",
     "author": "GoRaN",
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar6.flex",
+    "imageUrl": "https://kurdikebord.github.io/rukar/rukar6_img.png",
     "isNight": true
   },
   {
     "id": "com.kurdikeyboard.theme.rukar7",
-    "title": "ڕووکار ٧",
+    "title": "ڕووکاری ٧",
     "author": "GoRaN",
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar7.flex",
+    "imageUrl": "https://kurdikebord.github.io/rukar/rukar7_img.png",
     "isNight": true
   },
   {
     "id": "com.kurdikeyboard.theme.rukar8",
-    "title": "ڕووکار ٨",
+    "title": "ڕووکاری ٨",
     "author": "GoRaN",
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar8.flex",
+    "imageUrl": "https://kurdikebord.github.io/rukar/rukar8_img.png",
     "isNight": true
   },
   {
     "id": "com.kurdikeyboard.theme.rukar9",
-    "title": "ڕووکار ٩",
+    "title": "ڕووکاری ٩",
     "author": "GoRaN",
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar9.flex",
+    "imageUrl": "https://kurdikebord.github.io/rukar/rukar9_img.png",
     "isNight": true
   },
   {
     "id": "com.kurdikeyboard.theme.rukar10",
-    "title": "ڕووکار ١٠",
+    "title": "ڕووکاری ١٠",
     "author": "GoRaN",
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar10.flex",
-    "isNight": true
-  },
-  {
-    "id": "com.kurdikeyboard.theme.rukar11",
-    "title": "ڕووکار ١١",
-    "author": "GoRaN",
-    "downloadUrl": "https://kurdikebord.github.io/rukar/rukar11.flex",
+    "imageUrl": "https://kurdikebord.github.io/rukar/rukar10_img.png",
     "isNight": true
   }
 ]
