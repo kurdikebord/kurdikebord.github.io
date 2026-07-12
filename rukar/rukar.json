@@ -5,7 +5,8 @@
     "author": "GoRaN",
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar1.flex",
     "imageUrl": "https://kurdikebord.github.io/rukar/rukar1img.png",
-    "isNight": false
+    "isNight": false,
+    "isPremium": false
   },
   {
     "id": "com.kurdikeyboard.theme.rukar2",
@@ -13,7 +14,8 @@
     "author": "GoRaN",
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar2.flex",
     "imageUrl": "https://kurdikebord.github.io/rukar/rukar2img.png",
-    "isNight": true
+    "isNight": true,
+    "isPremium": false
   },
   {
     "id": "com.kurdikeyboard.theme.rukar3",
@@ -21,7 +23,8 @@
     "author": "GoRaN",
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar3.flex",
     "imageUrl": "https://kurdikebord.github.io/rukar/rukar3img.png",
-    "isNight": true
+    "isNight": true,
+    "isPremium": true
   },
   {
     "id": "com.kurdikeyboard.theme.rukar4",
@@ -29,7 +32,8 @@
     "author": "GoRaN",
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar4.flex",
     "imageUrl": "https://kurdikebord.github.io/rukar/rukar4img.png",
-    "isNight": true
+    "isNight": false,
+    "isPremium": true
   },
   {
     "id": "com.kurdikeyboard.theme.rukar5",
@@ -37,7 +41,8 @@
     "author": "GoRaN",
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar5.flex",
     "imageUrl": "https://kurdikebord.github.io/rukar/rukar5img.png",
-    "isNight": true
+    "isNight": false,
+    "isPremium": true
   },
   {
     "id": "com.kurdikeyboard.theme.rukar6",
@@ -45,7 +50,8 @@
     "author": "GoRaN",
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar6.flex",
     "imageUrl": "https://kurdikebord.github.io/rukar/rukar6img.png",
-    "isNight": true
+    "isNight": false,
+    "isPremium": true
   },
   {
     "id": "com.kurdikeyboard.theme.rukar7",
@@ -53,7 +59,8 @@
     "author": "GoRaN",
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar7.flex",
     "imageUrl": "https://kurdikebord.github.io/rukar/rukar7img.png",
-    "isNight": true
+    "isNight": false,
+    "isPremium": true
   },
   {
     "id": "com.kurdikeyboard.theme.rukar8",
@@ -61,7 +68,8 @@
     "author": "GoRaN",
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar8.flex",
     "imageUrl": "https://kurdikebord.github.io/rukar/rukar8img.png",
-    "isNight": true
+    "isNight": false,
+    "isPremium": true
   },
   {
     "id": "com.kurdikeyboard.theme.rukar9",
@@ -69,7 +77,8 @@
     "author": "GoRaN",
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar9.flex",
     "imageUrl": "https://kurdikebord.github.io/rukar/rukar9img.png",
-    "isNight": true
+    "isNight": false,
+    "isPremium": true
   },
   {
     "id": "com.kurdikeyboard.theme.rukar10",
@@ -77,6 +86,7 @@
     "author": "GoRaN",
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar10.flex",
     "imageUrl": "https://kurdikebord.github.io/rukar/rukar10img.png",
-    "isNight": true
+    "isNight": false,
+    "isPremium": true
   }
 ]
