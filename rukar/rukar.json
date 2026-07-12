@@ -78,7 +78,7 @@
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar9.flex",
     "imageUrl": "https://kurdikebord.github.io/rukar/rukar9img.png",
     "isNight": false,
-    "isPremium": true
+    "isPremium": false
   },
   {
     "id": "com.kurdikeyboard.theme.rukar10",
@@ -87,6 +87,6 @@
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar10.flex",
     "imageUrl": "https://kurdikebord.github.io/rukar/rukar10img.png",
     "isNight": false,
-    "isPremium": true
+    "isPremium": false
   }
 ]
