@@ -672,7 +672,7 @@ html[data-theme="dark"] .navbar .navbar-toggler .hamburger-line {
 .header {
 	padding-top: 8rem;
 	padding-bottom: 9rem;
-	background-color: #fffef5;
+	background-color: #ffffff;
 	text-align: center;
 }
 
@@ -695,14 +695,14 @@ html[data-theme="dark"] .navbar .navbar-toggler .hamburger-line {
 .header-typing {
 	min-height: 2.25rem;
 	margin-bottom: 1.5rem;
-	color: #3763EB;
+	color: #dc3545;
 	font-weight: 600;
 	font-size: 1.35rem;
 	line-height: 2.25rem;
 }
 
 html[data-theme="dark"] .header-typing {
-	color: #7b9aff;
+	color: #ff6b6b;
 }
 
 @media (max-width: 575px) {
