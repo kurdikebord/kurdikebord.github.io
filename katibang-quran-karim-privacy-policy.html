@@ -297,6 +297,65 @@
             .permission-item {
                 padding: 18px;
             }
+            .privacy-contact .btn {
+                padding: 10px 20px;
+                font-size: 0.9rem;
+            }
+        }
+        @media (max-width: 480px) {
+            .privacy-page {
+                padding: 70px 0 40px;
+            }
+            .privacy-header-card {
+                padding: 28px 16px;
+            }
+            .privacy-header-card span {
+                font-size: 1.5rem;
+            }
+            .privacy-header-card p {
+                font-size: 0.9rem;
+            }
+            .privacy-block {
+                padding: 18px;
+                border-left-width: 3px;
+            }
+            .privacy-block h3 {
+                font-size: 1.3rem;
+            }
+            .privacy-block p {
+                font-size: 0.95rem;
+            }
+            .permission-item {
+                padding: 14px;
+            }
+            .permission-item h4 {
+                font-size: 1.1rem;
+            }
+            .permission-item p {
+                font-size: 0.9rem;
+            }
+            .privacy-notice {
+                padding: 16px;
+                gap: 10px;
+            }
+            .privacy-notice i {
+                font-size: 1.5rem;
+            }
+            .privacy-notice strong {
+                font-size: 1rem;
+            }
+            .privacy-contact {
+                gap: 8px;
+            }
+            .privacy-contact .btn {
+                padding: 8px 16px;
+                font-size: 0.85rem;
+                width: 100%;
+                justify-content: center;
+            }
+            .privacy-contact .w-100 {
+                display: none;
+            }
         }
     </style>
 </head>
@@ -429,17 +488,8 @@
         </div>
     </footer>
 
-    <a href="https://play.google.com/store/apps/details?id=com.goran.kurdikeyboard" target="_blank" id="downloadBtn" class="download-btn" aria-label="Download app">
-        <span class="offer-badge-float">FREE</span>
-        <span class="play-icon"><i class="fas fa-download"></i></span>
-        <span class="btn-text">
-            <span class="btn-sub">Download App</span>
-            <span class="btn-main">لە گۆگڵ پلەی</span>
-        </span>
-    </a>
-
-    <button onclick="topFunction()" id="myBtn">
-        <img src="wena/up-arrow.png" alt="Back to top">
+    <button onclick="topFunction()" id="myBtn" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
     </button>
 
     <script src="assets/js/bootstrap.min.js"></script>
