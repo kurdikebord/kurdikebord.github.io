@@ -31,6 +31,30 @@ Colors:
 
 
 /**************************/
+/*    Custom Font Face     */
+/**************************/
+@font-face {
+    font-family: "KurdiFont";
+    src: url("../fonts/kurdifont.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "KurdiFont";
+    src: url("../fonts/kurdifont.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "KurdiFont";
+    src: url("../fonts/kurdifont.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+/**************************/
 /*     General Styles     */
 /**************************/
 body,
@@ -41,7 +65,7 @@ html {
 
 body, p {
 	color: #565578; 
-	font: 400 1rem/1.625rem "Zain", "Open Sans", sans-serif;
+	font: 400 1rem/1.625rem "KurdiFont", "Zain", "Open Sans", sans-serif;
 }
 
 h1 {
@@ -2284,7 +2308,7 @@ html[data-theme="dark"] .footer .social-glass-item[data-brand="tiktok"]::before 
 	border-radius: 50px;
 	background: linear-gradient(135deg, #1a1a2e, #3763EB);
 	color: #ffffff;
-	font-family: "Zain", "Open Sans", sans-serif;
+	font-family: "KurdiFont", "Zain", "Open Sans", sans-serif;
 	font-weight: 700;
 	font-size: 0.75rem;
 	text-decoration: none;
@@ -3495,7 +3519,7 @@ html[data-theme="dark"] .ex-header .section-badge--teal {
 html[dir="rtl"] body,
 html[dir="rtl"] .form-control,
 html[dir="rtl"] .form-floating > label {
-	font-family: "Zain", "Noto Sans Arabic", "Open Sans", sans-serif;
+	font-family: "KurdiFont", "Zain", "Noto Sans Arabic", "Open Sans", sans-serif;
 }
 
 html[dir="rtl"] body {
