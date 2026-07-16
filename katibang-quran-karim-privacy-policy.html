@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Kati Bnag Quran Al Karim | Privacy Policy</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zain:wght@400;700;900&family=Noto+Sans+Arabic:wght@400;600&family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="assets/css/swiper.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+
+    <link rel="icon" href="wena/favicon.png">
+
+    <script>
+        (function() {
+            const savedTheme = localStorage.getItem('ioniq-theme');
+            const preferred = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            document.documentElement.dataset.theme = savedTheme || preferred;
+        })();
+    </script>
+
+    <style>
+        :root {
+            --privacy-bg: #f8fafc;
+            --privacy-card-bg: #ffffff;
+            --privacy-card-border: #e2e8f0;
+            --privacy-text: #475569;
+            --privacy-heading: #1e293b;
+            --privacy-border: #2ecc71;
+            --privacy-notice-bg: #e8f8f0;
+            --privacy-header-gradient: linear-gradient(135deg, #1a252f 0%, #0f172a 100%);
+            --privacy-shadow: rgba(0,0,0,0.06);
+            --privacy-hover-shadow: rgba(0,0,0,0.1);
+            --privacy-item-bg: #f8fafc;
+            --privacy-item-border: #e2e8f0;
+            --privacy-footer-bg: #1a252f;
+            --privacy-footer-text: #a0aec0;
+        }
+
+        html[data-theme="dark"] {
+            --privacy-bg: #121321;
+            --privacy-card-bg: #1e1f38;
+            --privacy-card-border: #2d2f4a;
+            --privacy-text: #c4c6df;
+            --privacy-heading: #f5f3ff;
+            --privacy-border: #2ecc71;
+            --privacy-notice-bg: rgba(46, 204, 113, 0.1);
+            --privacy-header-gradient: linear-gradient(135deg, #0f172a 0%, #080a1a 100%);
+            --privacy-shadow: rgba(0,0,0,0.2);
+            --privacy-hover-shadow: rgba(0,0,0,0.3);
+            --privacy-item-bg: rgba(255,255,255,0.03);
+            --privacy-item-border: rgba(255,255,255,0.08);
+            --privacy-footer-bg: #080a1a;
+            --privacy-footer-text: #6b6e8a;
+        }
+
+        body {
+            background: var(--privacy-bg);
+            transition: background 0.3s ease;
+        }
+        .privacy-page {
+            padding: 100px 0 80px;
+            min-height: 100vh;
+        }
+        .privacy-header-card {
+            background: var(--privacy-header-gradient);
+            padding: 50px 40px;
+            border-radius: 20px;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 40px;
+            box-shadow: 0 20px 60px rgba(15, 23, 42, 0.2);
+            position: relative;
+            overflow: hidden;
+        }
+        .privacy-header-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(46, 204, 113, 0.08) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        .privacy-header-card span {
+            font-size: 2.8rem;
+            font-weight: 900;
+            font-family: 'Zain', sans-serif;
+            display: block;
+            margin-bottom: 12px;
+            position: relative;
+        }
+        .privacy-header-card p {
+            color: #2ecc71;
+            font-style: italic;
+            margin: 0;
+            font-size: 1.1rem;
+            opacity: 0.9;
+            position: relative;
+        }
+        .privacy-block {
+            margin-bottom: 35px;
+            padding: 35px;
+            background: var(--privacy-card-bg);
+            border-radius: 16px;
+            box-shadow: 0 4px 24px var(--privacy-shadow);
+            border-left: 4px solid var(--privacy-border);
+            transition: all 0.3s ease;
+        }
+        .privacy-block:hover {
+            box-shadow: 0 8px 40px var(--privacy-hover-shadow);
+            transform: translateY(-2px);
+        }
+        .privacy-block h3 {
+            color: var(--privacy-heading);
+            font-family: 'Zain', sans-serif;
+            font-weight: 900;
+            font-size: 1.6rem;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid var(--privacy-card-border);
+            transition: color 0.3s ease;
+        }
+        .privacy-block p {
+            color: var(--privacy-text);
+            line-height: 1.8;
+            font-size: 1.05rem;
+            margin-bottom: 15px;
+            transition: color 0.3s ease;
+        }
+        .privacy-block strong {
+            color: var(--privacy-heading);
+        }
+        .privacy-block a {
+            color: #2ecc71;
+            font-weight: 600;
+        }
+        .privacy-block a:hover {
+            color: #27ae60;
+        }
+        .privacy-notice {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            padding: 24px;
+            background: var(--privacy-notice-bg);
+            border-radius: 12px;
+            border-left: 4px solid #2ecc71;
+            margin-bottom: 30px;
+            transition: background 0.3s ease;
+        }
+        .privacy-notice i {
+            font-size: 2rem;
+            color: #2ecc71;
+            margin-top: 3px;
+            flex-shrink: 0;
+        }
+        .privacy-notice div {
+            flex: 1;
+        }
+        .privacy-notice strong {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+        }
+        .permission-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .permission-item {
+            padding: 24px;
+            border-radius: 12px;
+            background: var(--privacy-item-bg);
+            border: 1px solid var(--privacy-item-border);
+            transition: all 0.3s ease;
+        }
+        .permission-item:hover {
+            border-color: rgba(46, 204, 113, 0.3);
+            box-shadow: 0 2px 12px rgba(46, 204, 113, 0.08);
+        }
+        .permission-item h4 {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--privacy-heading);
+            font-family: 'Zain', sans-serif;
+            font-weight: 900;
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+            transition: color 0.3s ease;
+        }
+        .permission-item h4 i {
+            color: #2ecc71;
+            font-size: 1.3rem;
+            width: 24px;
+            text-align: center;
+        }
+        .permission-item p {
+            margin: 0;
+            color: var(--privacy-text);
+            line-height: 1.7;
+        }
+        .privacy-gallery img {
+            border: 2px solid var(--privacy-item-border);
+            border-radius: 10px;
+            transition: transform 0.2s ease, border-color 0.3s ease;
+        }
+        .privacy-gallery img:hover {
+            transform: scale(1.05);
+            border-color: #2ecc71;
+        }
+        .privacy-contact {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 20px;
+        }
+        .privacy-contact .btn {
+            border-radius: 50rem;
+            padding: 12px 28px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .privacy-contact .btn i {
+            font-size: 1.1rem;
+        }
+        .privacy-contact .btn-facebook {
+            background: #1877f2;
+            color: #fff;
+        }
+        .privacy-contact .btn-facebook:hover {
+            background: #0c63d4;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(24, 119, 242, 0.4);
+        }
+        .privacy-contact .btn-tiktok {
+            background: #000;
+            color: #fff;
+        }
+        .privacy-contact .btn-tiktok:hover {
+            background: #222;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        }
+        .privacy-contact .btn-telegram {
+            background: #0088cc;
+            color: #fff;
+        }
+        .privacy-contact .btn-telegram:hover {
+            background: #006699;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 136, 204, 0.4);
+        }
+        .privacy-contact .btn-email {
+            background: linear-gradient(135deg, #1a252f 0%, #0f172a 100%);
+            color: #fff;
+        }
+        .privacy-contact .btn-email:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(15, 23, 42, 0.4);
+        }
+        .footer {
+            background: var(--privacy-footer-bg);
+            color: var(--privacy-footer-text);
+            padding: 30px 0;
+            transition: all 0.3s ease;
+        }
+        .footer-author {
+            color: #2ecc71 !important;
+            font-weight: 700;
+            text-decoration: none;
+        }
+        .footer-author:hover {
+            color: #27ae60 !important;
+        }
+        @media (max-width: 768px) {
+            .privacy-page {
+                padding: 80px 0 60px;
+            }
+            .privacy-header-card {
+                padding: 35px 24px;
+            }
+            .privacy-header-card span {
+                font-size: 2rem;
+            }
+            .privacy-block {
+                padding: 24px;
+            }
+            .permission-item {
+                padding: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbarExample" class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
+        <div class="container">
+            <a class="navbar-brand logo-text" href="index.html">KurdiKebord</a>
+            <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false" title="Toggle color theme">
+                <span class="theme-toggle__sun" aria-hidden="true"><i class="fas fa-sun"></i></span>
+                <span class="theme-toggle__thumb" aria-hidden="true"></span>
+                <span class="theme-toggle__moon" aria-hidden="true"><i class="fas fa-moon"></i></span>
+            </button>
+            <button class="navbar-toggler" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+                <span class="hamburger-line line-top"></span>
+                <span class="hamburger-line line-middle"></span>
+                <span class="hamburger-line line-bottom"></span>
+            </button>
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ms-auto navbar-nav-scroll">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#details">Details</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#pricing">Pricing</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                            <li><a class="dropdown-item" href="about.html">About</a></li>
+                            <li><div class="dropdown-divider"></div></li>
+                            <li><a class="dropdown-item" href="privacy-policy.html">Privacy Policy</a></li>
+                            <li><a class="dropdown-item active" href="katibang-quran-karim-privacy-policy.html">Quran Privacy Policy</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="privacy-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 mx-auto col-12">
+                        <div class="privacy-header-card">
+                            <span>Katibang Quran Al Karim</span>
+                            <p>Last Update: June 2026</p>
+                        </div>
+
+                        <div class="privacy-block">
+                            <p class="fs-5">Goran Gharib, the copyright holder of Katibang Quran Al Karim (کاتی بانگ | قورئانی پیرۆز), provides this "Privacy Policy" to help you understand how our application works and which permissions are used. We may update this policy from time to time, so please check back periodically.</p>
+                        </div>
+
+                        <div class="privacy-block">
+                            <h3>Used Permissions</h3>
+                            <div class="permission-list">
+                                <div class="permission-item">
+                                    <h4><i class="fas fa-globe"></i> INTERNET</h4>
+                                    <p>Required to work the app to play audio files online. The app also uses Wifi &amp; network permission as required for the functionality of the app.</p>
+                                </div>
+                                <div class="permission-item">
+                                    <h4><i class="fas fa-wifi"></i> ACCESS_WIFI_STATE</h4>
+                                    <p>Used to check network connectivity for streaming audio content and downloading updates.</p>
+                                </div>
+                                <div class="permission-item">
+                                    <h4><i class="fas fa-signal"></i> ACCESS_NETWORK_STATE</h4>
+                                    <p>Used to determine network availability and connection type for optimal audio streaming.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="privacy-block">
+                            <h3>Other App Capabilities</h3>
+                            <div class="permission-list">
+                                <div class="permission-item">
+                                    <h4><i class="fas fa-cogs"></i> FOREGROUND_SERVICE</h4>
+                                    <p>Used to continue playing audio in the background while using other apps.</p>
+                                </div>
+                                <div class="permission-item">
+                                    <h4><i class="fas fa-mobile-alt"></i> RECEIVE_BOOT_COMPLETED</h4>
+                                    <p>Used to reschedule background services after device restart.</p>
+                                </div>
+                                <div class="permission-item">
+                                    <h4><i class="fas fa-moon"></i> WAKE_LOCK</h4>
+                                    <p>Used to keep the device awake during audio playback to prevent interruptions.</p>
+                                </div>
+                                <div class="permission-item">
+                                    <h4><i class="fas fa-check-circle"></i> CHECK_LICENSE</h4>
+                                    <p>Used to verify the app's purchase status via the Google Play Store.</p>
+                                </div>
+                            </div>
+
+                        <div class="privacy-block">
+                            <h3>Personal Data</h3>
+                            <div class="privacy-notice">
+                                <i class="fas fa-shield-alt"></i>
+                                <div>
+                                    <strong>We DO NOT share personal information</strong> (e.g. name, address, telephone number, email address, location, device ID, contacts and personal device's user-dictionary).<br>
+                                    <strong>We DO NOT transfer</strong> this Personal Information from your device or Quran Al Karim's storage to any third party or external device.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="privacy-block" id="contact">
+                            <h3>Contact Us</h3>
+                            <p>If you have any questions, comments, or concerns about this Privacy Policy, send us a message at:</p>
+                            <div class="privacy-contact">
+                                <a href="https://facebook.com/kurdikebord" target="_blank" class="btn btn-facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
+                                <a href="https://tiktok.com/@kurdikebord" target="_blank" class="btn btn-tiktok"><i class="fab fa-tiktok"></i> TikTok</a>
+                                <a href="https://t.me/kurdikebord" target="_blank" class="btn btn-telegram"><i class="fab fa-telegram-plane"></i> Telegram</a>
+                                <div class="w-100"></div>
+                                <a href="mailto:kurdikebord@gmail.com" class="btn btn-email"><i class="fas fa-envelope"></i> kurdikebord@gmail.com</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer pt-4 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mb-0">Designed By <a class="footer-author" href="https://facebook.com/Goran9O" target="_blank">GoRaN</a></p>
+                    <p class="mb-0 small text-muted">&copy; 2026 KurdiKebord</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://play.google.com/store/apps/details?id=com.goran.kurdikeyboard" target="_blank" id="downloadBtn" class="download-btn" aria-label="Download app">
+        <span class="offer-badge-float">FREE</span>
+        <span class="play-icon"><i class="fas fa-download"></i></span>
+        <span class="btn-text">
+            <span class="btn-sub">Download App</span>
+            <span class="btn-main">لە گۆگڵ پلەی</span>
+        </span>
+    </a>
+
+    <button onclick="topFunction()" id="myBtn">
+        <img src="wena/up-arrow.png" alt="Back to top">
+    </button>
+
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/purecounter.min.js"></script>
+    <script src="assets/js/replaceme.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
