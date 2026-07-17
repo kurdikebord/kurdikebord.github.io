@@ -2302,15 +2302,15 @@ html[data-theme="dark"] .footer .social-glass-item[data-brand="tiktok"]::before 
 	z-index: 9999;
 	display: none;
 	align-items: center;
-	gap: 6px;
-	padding: 6px 12px;
+	gap: 8px;
+	padding: 10px 18px;
 	border: none;
 	border-radius: 50px;
 	background: linear-gradient(135deg, #1a1a2e, #3763EB);
 	color: #ffffff;
 	font-family: "KurdiFont", "Zain", "Open Sans", sans-serif;
 	font-weight: 700;
-	font-size: 0.75rem;
+	font-size: 1rem;
 	text-decoration: none;
 	box-shadow: 0 6px 24px rgba(55, 99, 235, 0.35);
 	cursor: pointer;
@@ -2330,23 +2330,23 @@ html[data-theme="dark"] .footer .social-glass-item[data-brand="tiktok"]::before 
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 22px;
-	height: 22px;
+	width: 30px;
+	height: 30px;
 	background: rgba(255, 255, 255, 0.15);
-	border-radius: 6px;
-	font-size: 0.8rem;
+	border-radius: 8px;
+	font-size: 1rem;
 	flex-shrink: 0;
 }
 
 .download-btn .offer-badge-float {
 	position: absolute;
-	top: -8px;
-	left: -4px;
+	top: -10px;
+	left: -6px;
 	background: #dc3545;
 	color: #ffffff;
-	font-size: 0.5rem;
+	font-size: 0.65rem;
 	font-weight: 800;
-	padding: 1px 8px;
+	padding: 2px 10px;
 	border-radius: 20px;
 	box-shadow: 0 4px 12px rgba(220, 53, 69, 0.4);
 	animation: badgeBounce 2s ease infinite;
@@ -2371,13 +2371,13 @@ html[data-theme="dark"] .footer .social-glass-item[data-brand="tiktok"]::before 
 }
 
 .download-btn .btn-text .btn-sub {
-	font-size: 0.55rem;
+	font-size: 0.75rem;
 	opacity: 0.8;
 	font-weight: 400;
 }
 
 .download-btn .btn-text .btn-main {
-	font-size: 0.75rem;
+	font-size: 0.95rem;
 	font-weight: 700;
 }
 
@@ -2407,20 +2407,20 @@ html[data-theme="dark"] .download-btn:hover {
 	.download-btn {
 		bottom: 16px;
 		right: 16px;
-		padding: 6px 12px;
-		font-size: 0.75rem;
+		padding: 8px 14px;
+		font-size: 0.85rem;
 		gap: 6px;
 	}
 	.download-btn .play-icon {
-		width: 24px;
-		height: 24px;
+		width: 26px;
+		height: 26px;
 		font-size: 0.85rem;
 	}
 	.download-btn .btn-text .btn-main {
-		font-size: 0.75rem;
+		font-size: 0.85rem;
 	}
 	.download-btn .btn-text .btn-sub {
-		font-size: 0.55rem;
+		font-size: 0.65rem;
 	}
 }
 
@@ -2430,17 +2430,17 @@ html[data-theme="dark"] .download-btn:hover {
 	bottom: 24px;
 	left: 24px;
 	display: none;
-	width: 38px;
-	height: 38px;
+	width: 48px;
+	height: 48px;
 	border: none;
 	border-radius: 50%;
 	outline: none;
 	background: linear-gradient(135deg, #1a1a2e, #3763EB);
 	cursor: pointer;
 	box-shadow: 0 6px 24px rgba(55, 99, 235, 0.35);
-	transition: all 0.25s ease;
+	transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 	color: #ffffff;
-	font-size: 0.9rem;
+	font-size: 1.1rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
