@@ -27,8 +27,8 @@
             --privacy-card-border: #e2e8f0;
             --privacy-text: #475569;
             --privacy-heading: #1e293b;
-            --privacy-border: #2ecc71;
-            --privacy-notice-bg: #e8f8f0;
+            --privacy-border: #64748b;
+            --privacy-notice-bg: #f1f5f9;
             --privacy-header-gradient: linear-gradient(135deg, #1a252f 0%, #0f172a 100%);
             --privacy-shadow: rgba(0,0,0,0.06);
             --privacy-hover-shadow: rgba(0,0,0,0.1);
@@ -44,8 +44,8 @@
             --privacy-card-border: #2d2f4a;
             --privacy-text: #c4c6df;
             --privacy-heading: #f5f3ff;
-            --privacy-border: #2ecc71;
-            --privacy-notice-bg: rgba(46, 204, 113, 0.1);
+            --privacy-border: #64748b;
+            --privacy-notice-bg: rgba(255, 255, 255, 0.05);
             --privacy-header-gradient: linear-gradient(135deg, #0f172a 0%, #080a1a 100%);
             --privacy-shadow: rgba(0,0,0,0.2);
             --privacy-hover-shadow: rgba(0,0,0,0.3);
@@ -53,6 +53,16 @@
             --privacy-item-border: rgba(255,255,255,0.08);
             --privacy-footer-bg: #080a1a;
             --privacy-footer-text: #6b6e8a;
+        }
+
+        html[data-theme="dark"] .social-btn--email {
+            background: #2d3a4d;
+            border-color: rgba(255, 255, 255, 0.08);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        html[data-theme="dark"] .social-btn--email:hover {
+            background: #2d3a4d;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
         }
 
         body {
@@ -81,7 +91,7 @@
             right: -50%;
             width: 100%;
             height: 100%;
-            background: radial-gradient(circle, rgba(46, 204, 113, 0.08) 0%, transparent 70%);
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.06) 0%, transparent 70%);
             pointer-events: none;
         }
         .privacy-header-card span {
@@ -93,7 +103,7 @@
             position: relative;
         }
         .privacy-header-card p {
-            color: #2ecc71;
+            color: rgba(255, 255, 255, 0.65);
             font-style: italic;
             margin: 0;
             font-size: 1.1rem;
@@ -134,11 +144,11 @@
             color: var(--privacy-heading);
         }
         .privacy-block a {
-            color: #2ecc71;
+            color: #3b82f6;
             font-weight: 600;
         }
         .privacy-block a:hover {
-            color: #27ae60;
+            color: #2563eb;
         }
         .privacy-notice {
             display: flex;
@@ -147,13 +157,13 @@
             padding: 24px;
             background: var(--privacy-notice-bg);
             border-radius: 12px;
-            border-left: 4px solid #2ecc71;
+            border-left: 4px solid #64748b;
             margin-bottom: 30px;
             transition: background 0.3s ease;
         }
         .privacy-notice i {
             font-size: 2rem;
-            color: #2ecc71;
+            color: #64748b;
             margin-top: 3px;
             flex-shrink: 0;
         }
@@ -178,8 +188,8 @@
             transition: all 0.3s ease;
         }
         .permission-item:hover {
-            border-color: rgba(46, 204, 113, 0.3);
-            box-shadow: 0 2px 12px rgba(46, 204, 113, 0.08);
+            border-color: rgba(100, 116, 139, 0.2);
+            box-shadow: 0 2px 12px rgba(100, 116, 139, 0.08);
         }
         .permission-item h4 {
             display: flex;
@@ -193,7 +203,7 @@
             transition: color 0.3s ease;
         }
         .permission-item h4 i {
-            color: #2ecc71;
+            color: var(--privacy-heading);
             font-size: 1.3rem;
             width: 24px;
             text-align: center;
@@ -210,62 +220,91 @@
         }
         .privacy-gallery img:hover {
             transform: scale(1.05);
-            border-color: #2ecc71;
+            border-color: #64748b;
+        }
+        .contact-desc {
+            text-align: center;
+            max-width: 520px;
+            margin-left: auto;
+            margin-right: auto;
+            color: var(--privacy-text);
         }
         .privacy-contact {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 12px;
-            margin-top: 20px;
+            gap: 20px;
+            margin-top: 32px;
         }
-        .privacy-contact .btn {
-            border-radius: 50rem;
-            padding: 12px 28px;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            border: none;
+        .social-btn {
+            position: relative;
+            border-radius: 100px;
+            padding: 16px 34px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            letter-spacing: 0.3px;
+            text-decoration: none;
             display: inline-flex;
             align-items: center;
-            gap: 8px;
+            gap: 14px;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            cursor: pointer;
+            transition: none;
         }
-        .privacy-contact .btn i {
-            font-size: 1.1rem;
-        }
-        .privacy-contact .btn-facebook {
-            background: #1877f2;
+        .social-btn,
+        .social-btn:link,
+        .social-btn:visited,
+        .privacy-block .social-btn:hover,
+        .privacy-block .social-btn:active {
             color: #fff;
         }
-        .privacy-contact .btn-facebook:hover {
-            background: #0c63d4;
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(24, 119, 242, 0.4);
+        .social-btn i {
+            font-size: 1.3rem;
         }
-        .privacy-contact .btn-tiktok {
-            background: #000;
-            color: #fff;
+        .social-btn:hover {
+            transform: none;
         }
-        .privacy-contact .btn-tiktok:hover {
-            background: #222;
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        .social-btn:hover i {
+            transform: none;
         }
-        .privacy-contact .btn-telegram {
+        .social-btn:active {
+            transform: none;
+        }
+        .social-btn--facebook {
+            background: #1a77f2;
+            border-color: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 6px 20px rgba(24, 119, 242, 0.35);
+        }
+        .social-btn--facebook:hover {
+            background: #1a77f2;
+            box-shadow: 0 6px 20px rgba(24, 119, 242, 0.35);
+        }
+        .social-btn--tiktok {
+            background: #0d0d0d;
+            border-color: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+        }
+        .social-btn--tiktok:hover {
+            background: #0d0d0d;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+        }
+        .social-btn--telegram {
             background: #0088cc;
-            color: #fff;
+            border-color: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 6px 20px rgba(0, 136, 204, 0.35);
         }
-        .privacy-contact .btn-telegram:hover {
-            background: #006699;
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(0, 136, 204, 0.4);
+        .social-btn--telegram:hover {
+            background: #0088cc;
+            box-shadow: 0 6px 20px rgba(0, 136, 204, 0.35);
         }
-        .privacy-contact .btn-email {
-            background: linear-gradient(135deg, #1a252f 0%, #0f172a 100%);
-            color: #fff;
+        .social-btn--email {
+            background: #1e293b;
+            border-color: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 6px 20px rgba(30, 41, 59, 0.3);
         }
-        .privacy-contact .btn-email:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(15, 23, 42, 0.4);
+        .social-btn--email:hover {
+            background: #1e293b;
+            box-shadow: 0 6px 20px rgba(30, 41, 59, 0.3);
         }
         .footer {
             background: var(--privacy-footer-bg);
@@ -274,12 +313,12 @@
             transition: all 0.3s ease;
         }
         .footer-author {
-            color: #2ecc71 !important;
+            color: #94a3b8 !important;
             font-weight: 700;
             text-decoration: none;
         }
         .footer-author:hover {
-            color: #27ae60 !important;
+            color: #ffffff !important;
         }
         @media (max-width: 768px) {
             .privacy-page {
@@ -297,8 +336,8 @@
             .permission-item {
                 padding: 18px;
             }
-            .privacy-contact .btn {
-                padding: 10px 20px;
+            .social-btn {
+                padding: 14px 24px;
                 font-size: 0.9rem;
             }
         }
@@ -345,16 +384,13 @@
                 font-size: 1rem;
             }
             .privacy-contact {
-                gap: 8px;
+                gap: 10px;
             }
-            .privacy-contact .btn {
-                padding: 8px 16px;
+            .social-btn {
+                padding: 14px 22px;
                 font-size: 0.85rem;
                 width: 100%;
                 justify-content: center;
-            }
-            .privacy-contact .w-100 {
-                display: none;
             }
         }
     </style>
@@ -447,6 +483,7 @@
                                     <p>Used to verify the app's purchase status via the Google Play Store.</p>
                                 </div>
                             </div>
+                        </div>
 
                         <div class="privacy-block">
                             <h3>Personal Data</h3>
@@ -461,13 +498,24 @@
 
                         <div class="privacy-block" id="contact">
                             <h3>Contact Us</h3>
-                            <p>If you have any questions, comments, or concerns about this Privacy Policy, send us a message at:</p>
+                            <p class="contact-desc">If you have any questions, comments, or concerns about this Privacy Policy, send us a message at:</p>
                             <div class="privacy-contact">
-                                <a href="https://facebook.com/kurdikebord" target="_blank" class="btn btn-facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
-                                <a href="https://tiktok.com/@kurdikebord" target="_blank" class="btn btn-tiktok"><i class="fab fa-tiktok"></i> TikTok</a>
-                                <a href="https://t.me/kurdikebord" target="_blank" class="btn btn-telegram"><i class="fab fa-telegram-plane"></i> Telegram</a>
-                                <div class="w-100"></div>
-                                <a href="mailto:kurdikebord@gmail.com" class="btn btn-email"><i class="fas fa-envelope"></i> kurdikebord@gmail.com</a>
+                                <a href="https://facebook.com/kurdikebord" target="_blank" class="social-btn social-btn--facebook" aria-label="Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <span>Facebook</span>
+                                </a>
+                                <a href="https://tiktok.com/@kurdikebord" target="_blank" class="social-btn social-btn--tiktok" aria-label="TikTok">
+                                    <i class="fab fa-tiktok"></i>
+                                    <span>TikTok</span>
+                                </a>
+                                <a href="https://t.me/kurdikebord" target="_blank" class="social-btn social-btn--telegram" aria-label="Telegram">
+                                    <i class="fab fa-telegram-plane"></i>
+                                    <span>Telegram</span>
+                                </a>
+                                <a href="mailto:kurdikebord@gmail.com" class="social-btn social-btn--email" aria-label="Email">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>kurdikebord@gmail.com</span>
+                                </a>
                             </div>
                         </div>
 
@@ -489,7 +537,7 @@
     </footer>
 
     <button onclick="topFunction()" id="myBtn" aria-label="Back to top">
-        <i class="fas fa-chevron-up"></i>
+        <i class="fas fa-arrow-up"></i>
     </button>
 
     <script src="assets/js/bootstrap.min.js"></script>
