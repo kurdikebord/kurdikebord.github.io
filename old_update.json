@@ -1,8 +1,9 @@
 {
   "is_forced": true,
-  "latest_version_code": 25,
-  "version_name": "1.2.2",
-  "download_url": "https://play.google.com/store/apps/details?id=goran.kurdikeyboard.pro",
-  "changelog": "• ئەم بەرنامەیە ڕاگیراوە چیتر بەردەست نابێت!
-• پێویستە وەشانی نوێ دابەزێنیت بۆ بەردەوامبون"
+  "latest_version_code": 50,
+  "version_name": "2.8.5",
+  "download_url": "https://play.google.com/store/apps/details?id=com.goran.kurdikeyboard",
+  "changelog": "• ئەم بەرنامەیە بەمزوانە ڕاگدەگیرێت لەمەودوا نوێکردنەوەی پێ ناگات! پێویستە وەشانی نوێ دابەزێنیت بۆ بەردەوامبون لە بەکارهێنانی بەرنامەکە
+
+• تێبینی: تایبەتمەندییە پێشکەوتوەکانی ئەم بەرنامە پڕۆیە بەخۆکاری کارا دەبن لە وەشانی نوێدا بۆ هەموو ئەو کەسانەی پیشتر بەرنامەکەیان کڕیوە پێویست بە دووبارە پارەدان ناکاتەوە."
 }
