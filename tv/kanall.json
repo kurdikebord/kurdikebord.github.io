@@ -28,9 +28,11 @@
     "name": "Kanal 8",
     "category": "هەواڵ",
     "logoUrl": "https://www.rudaw.net/Content/images/rudaw-logo.png",
-    "streamUrl": "https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8"
+    "streamUrl": "https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8",
+    "headers": {
+      "Referer": "https://channel8.com/"
+    }
   },
-
 
   {
     "id": "rudaw-tv",
