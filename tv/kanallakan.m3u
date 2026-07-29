@@ -142,7 +142,7 @@ https://live20.bozztv.com/giatv/giatv-DniaTV/DniaTV/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://api.hdbox.net/assets/36b145fd-e941-4144-8297-fcd7d2dc1312",Ranya HD
 https://avr.host247.net/Ranya/RanyaCity/playlist.m3u8
 
-#EXTINF:-1,یۆرۆ کورد
+#EXTINF:-1 tvg-logo="https://mixmedia.tv/wp-content/uploads/2022/08/derin.png",Euoro Kurd
 https://www.eurokurd.tv/proxy.php?tail=playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://mixmedia.tv/wp-content/uploads/2022/08/derin.png",Derin tv
@@ -239,10 +239,14 @@ https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_ch
 https://amg00793-bbcstudios-amg00793c3-lg-us-2528.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcearta-lgus/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://api.hdbox.net/assets/0313a7df-e5e2-4868-bf59-6452e057bb87",NAT GEO HD
 http://116.204.149.16/national_geographic_channel/index.m3u8
+
+#EXTM3U
+#EXT-X-STREAM-INF:AVERAGE-BANDWIDTH=10260000,BANDWIDTH=12820000,AUDIO="aac",SUBTITLES="subs",RESOLUTION=1920x1080,FRAME-RATE=25.000,CODECS="avc1.640028"
+http://stream02.vnet.am/NatGeoWild/tracks-v1a2/mono.m3u8
 #EXTINF:-1 tvg-logo="https://api.hdbox.net/assets/abb4daa2-ca8c-4b6d-95aa-f18ba6225a77",NAT GEO Wild HD
 http://43.250.127.193/live/play/WVZaRWF6SjJSemRuS3pCbVpFc3lWMll4YTBZeFlXc3dhVE41T0c5SFprZFBRVVZ5VTBaUU4wMUxSVDA9/1172121
 
-#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/zb-6Z5GhUv-wAMcZy7Zb9GX2Gk64bpRSkT0ja8buO77MUXTfEn5csigISOuzhDq5UWUDdopJ_A=s900-c-k-c0x00ffffff-no-rj",LOVE NATURE
+#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/zb-6Z5GhUv-wAMcZy7Zb9GX2Gk64bpRSkT0ja8buO77MUXTfEn5csigISOuzhDq5UWUDdopJ_A=s900-c-k-c0x00ffffff-no-rj",Wild Earth
 https://wildearth-plex.amagi.tv/masterR1080p.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/PU1etab.jpeg",LOVE NATURE
