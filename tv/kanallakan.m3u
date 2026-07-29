@@ -119,8 +119,6 @@ https://live.kirkuklive.live/hls/stream/index.m3u8
 https://183.bozztv.com/giatv/giatv-zhintv/zhintv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/1bdKB9z.jpeg",shna tv
 http://shnatv.ddns.net:1935/live/shnatv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://rashaba.com/assets/images/ch_logo/shana_v1.webp",shna doc
-https://cdn.karwan.tv/shna-tv-3/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4D0wqE5.png",MMN Documentary
 http://mmn.mypsx.net:1935/live/mmnhddocumentary/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://mixmedia.tv/wp-content/uploads/2022/08/qalqt.png",qalat tv
