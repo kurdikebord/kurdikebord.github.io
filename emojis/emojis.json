@@ -1,0 +1,38 @@
+[
+  {
+    "name": "گۆگڵ (NotoEmoji)",
+    "url": "https://kurdikebord.github.io/emojis/google17_emoji.ttf",
+    "previewUrl": "https://kurdikebord.github.io/emojis/google.png",
+    "size": "10.2 MB"
+  },
+  {
+    "name": "تویتەر (Twemoji)",
+    "url": "https://kurdikebord.github.io/emojis/twitter17.2_emoji.ttf",
+    "previewUrl": "https://kurdikebord.github.io/emojis/twitter.png",
+    "size": "9.2 MB"
+  },
+  {
+    "name": "سامسۆنگ (OneUI)",
+    "url": "https://kurdikebord.github.io/emojis/samsung8.5_emoji.ttf",
+    "previewUrl": "https://kurdikebord.github.io/emojis/samsung.png",
+    "size": "8.5 MB"
+  },
+  {
+    "name": "ئەپڵ (iOS)",
+    "url": "https://kurdikebord.github.io/emojis/ios18.4_emoji.ttf",
+    "previewUrl": "https://kurdikebord.github.io/emojis/apple.png",
+    "size": "15.4 MB"
+  },
+  {
+    "name": "ویندۆز",
+    "url": "https://kurdikebord.github.io/emojis/win3d15.1_emoji.ttf",
+    "previewUrl": "https://kurdikebord.github.io/emojis/windows.png",
+    "size": "6.1 MB"
+  },
+  {
+    "name": "جۆی‌پێکسڵ",
+    "url": "https://kurdikebord.github.io/emojis/joy10_emoji.ttf",
+    "previewUrl": "https://kurdikebord.github.io/emojis/joypixels.png",
+    "size": "7.8 MB"
+  }
+]
