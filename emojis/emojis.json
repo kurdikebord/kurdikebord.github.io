@@ -1,17 +1,5 @@
 [
   {
-    "name": "گۆگڵ (NotoEmoji)",
-    "url": "https://kurdikebord.github.io/emojis/google17_emoji.ttf",
-    "previewUrl": "https://kurdikebord.github.io/emojis/google.png",
-    "size": "23.9 MB"
-  },
-  {
-    "name": "تویتەر (Twemoji)",
-    "url": "https://kurdikebord.github.io/emojis/twitter17.2_emoji.ttf",
-    "previewUrl": "https://kurdikebord.github.io/emojis/twitter.png",
-    "size": "9.2 MB"
-  },
-  {
     "name": "سامسۆنگ (OneUI)",
     "url": "https://kurdikebord.github.io/emojis/samsung8.5_emoji.ttf",
     "previewUrl": "https://kurdikebord.github.io/emojis/samsung.png",
@@ -23,11 +11,24 @@
     "previewUrl": "https://kurdikebord.github.io/emojis/ios.png",
     "size": "33.6 MB"
   },
+
+  {
+    "name": "گۆگڵ (NotoEmoji)",
+    "url": "https://kurdikebord.github.io/emojis/google17_emoji.ttf",
+    "previewUrl": "https://kurdikebord.github.io/emojis/google.png",
+    "size": "23.9 MB"
+  },
   {
     "name": "ویندۆز",
-    "url": "https://kurdikebord.github.io/emojis/win3d15.1_emoji.ttf",
+    "url": "https://kurdikebord.github.io/emojis/win3d16_emoji.ttf",
     "previewUrl": "https://kurdikebord.github.io/emojis/win3d.png",
-    "size": "32.1 MB"
+    "size": "24.0 MB"
+  },
+  {
+    "name": "تویتەر (Twemoji)",
+    "url": "https://kurdikebord.github.io/emojis/twitter17.2_emoji.ttf",
+    "previewUrl": "https://kurdikebord.github.io/emojis/twitter.png",
+    "size": "9.2 MB"
   },
   {
     "name": "جۆی‌پێکسڵ",
