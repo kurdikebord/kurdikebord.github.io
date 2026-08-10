@@ -1,17 +1,18 @@
 [
   {
-    "id": "sunna-nabawiya",
-    "name": "Madina TV",
-    "category": "ئاینی",
-    "logoUrl": "https://api.hdbox.net/assets/baaf9d91-0ad1-46c2-afc9-c9871171cd60",
-    "streamUrl": "http://m.live.net.sa:1935/live/sunnah/playlist.m3u8"
-  },
-  {
     "id": "al-quran-al-kareem",
     "name": "Makkah TV",
     "category": "ئاینی",
     "logoUrl": "https://api.hdbox.net/assets/eb0fef8b-c042-432f-bc77-66168fcc089a",
-    "streamUrl": "http://m.live.net.sa:1935/live/quran/quran.m3u8"
+    "streamUrl": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-quran-tv/5ade268066b7ec605d753d973d37e0e5/index.mpd"
+  },
+
+  {
+    "id": "sunna-nabawiya",
+    "name": "Madina TV",
+    "category": "ئاینی",
+    "logoUrl": "https://api.hdbox.net/assets/baaf9d91-0ad1-46c2-afc9-c9871171cd60",
+    "streamUrl": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-sunna-tv/4c4285a859e7a6e9772b0c82a8095dc9/index.mpd"
   },
   {
     "id": "rudaw",
