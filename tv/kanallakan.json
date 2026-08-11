@@ -461,11 +461,11 @@
     "streamUrl": "http://mmn.mypsx.net:1935/live/mmnhddocumentary/playlist.m3u8"
   },
   {
-    "id": "newline-sport",
-    "name": "NewLine Sport",
+    "id": "mmn-movies",
+    "name": "MMN Movies",
     "category": "کوردی",
-    "logoUrl": "https://i.postimg.cc/NMzLHwJx/Picsart-26-02-25-03-00-36-935.jpg",
-    "streamUrl": "https://storelink.pro/live/25757863262751/27734699055639/1537194.ts"
+    "logoUrl": "https://i.imgur.com/4D0wqE5.png",
+    "streamUrl": "http://mmn.mypsx.net:1935/live/mmnhdmovies/playlist.m3u8"
   },
   {
     "id": "niroj-hd",
@@ -579,6 +579,18 @@
     "logoUrl": "https://mixmedia.tv/wp-content/uploads/202/08/a-kids.png",
     "streamUrl": "https://live20.bozztv.com/giatv/giatv-spikids4k2025/spikids4k2025/chunks.m3u8"
   },
+
+
+  {
+    "id": "nrt-kids",
+    "name": "NRT 3",
+    "category": "مناڵان",
+    "logoUrl": "https://i.imgur.com/ObiTIw3.jpeg",
+    "streamUrl": "http://188.72.5.30:8080/alsard/555666/5259
+"
+  },
+
+
   {
     "id": "znar-kids",
     "name": "znar kids",
@@ -604,7 +616,7 @@
     "id": "mmn-kids",
     "name": "MMN KIDS",
     "category": "مناڵان",
-    "logoUrl": "http://mmn.mypsx.net:1935/live/mmnhdkids/playlist.m3u8",
+    "logoUrl": "https://i.imgur.com/4D0wqE5.png",
     "streamUrl": "http://mmn.mypsx.net:1935/live/mmnhdkids/playlist.m3u8"
   },
   {
