@@ -496,25 +496,11 @@
     "streamUrl": "http://baskhd.ddns.net:40/live/BarinfamilyHD/mono.m3u8"
   },
   {
-    "id": "hormzyar-hd",
-    "name": "Hormzyar HD",
-    "category": "کوردی",
-    "logoUrl": "https://yt3.googleusercontent.com/Hge9Iuu9wtGq63Rvd4C5S21jUdCXBxBRupMQgpOyaWSNDHB5C-GuSrGnTKtuHI4E92Xht-laSQ=s160-c-k-c0x00ffffff-no-rj",
-    "streamUrl": "http://avrstream.com:1935/live/HormzyarHD/playlist.m3u8"
-  },
-  {
     "id": "ala-tv",
     "name": "Ala tv",
     "category": "کوردی",
     "logoUrl": "https://api.hdbox.net/assets/678c1be7-f66e-4df0-851e-3caeed04d7ed",
     "streamUrl": "http://avrstream.com:1935/live/ala-hd/playlist.m3u8"
-  },
-  {
-    "id": "dunia-tv",
-    "name": "Dunia tv",
-    "category": "کوردی",
-    "logoUrl": "https://play-lh.googleusercontent.com/uxdEL6pdNbr0hh9TBd-09gmiJIiBg8_5MhpZj5v7sGmJGSQC8YWeCY9_LCH4hnXTNVuC50zCijNv_sa90LmQpqU=w480-h960-rw",
-    "streamUrl": "https://live20.bozztv.com/giatv/giatv-DniaTV/DniaTV/playlist.m3u8"
   },
   {
     "id": "ranya-hd",
@@ -530,6 +516,48 @@
     "logoUrl": "https://mixmedia.tv/wp-content/uploads/2022/08/derin.png",
     "streamUrl": "http://baskhd.ddns.net:40/live/Derin/playlist.m3u8"
   },
+
+  {
+    "id": "kurdmax-tv",
+    "name": "KurdMax",
+    "category": "کوردی",
+    "logoUrl": "https://i.postimg.cc/DzVHcRsD/Picsart-26-02-19-15-58-19-016.jpg",
+    "streamUrl": "https://storelink.pro/live/25757863262751/27734699055639/1537123.ts"
+  },
+
+  {
+    "id": "nrt-2",
+    "name": "NRT 2",
+    "category": "کوردی",
+    "logoUrl": "https://i.postimg.cc/vZ7LpKCZ/Picsart-26-02-19-15-48-12-725.jpg",
+    "streamUrl": "https://storelink.pro/live/25757863262751/27734699055639/1536987.ts"
+  },
+
+  {
+    "id": "nrt-4",
+    "name": "NRT 4",
+    "category": "کوردی",
+    "logoUrl": "https://i.postimg.cc/fLPxcQSy/Picsart-26-02-19-15-52-45-314.jpg",
+    "streamUrl": "https://storelink.pro/live/25757863262751/27734699055639/1536988.ts"
+  },
+
+
+  {
+    "id": "minara-tv",
+    "name": "Minara TV",
+    "category": "کوردی",
+    "logoUrl": "https://i.postimg.cc/3w4p3bcp/Picsart-26-02-19-19-05-09-534.jpg",
+    "streamUrl": "https://storelink.pro/live/25757863262751/27734699055639/1536949.ts"
+  },
+
+  {
+    "id": "aro-tv",
+    "name": "ARO Family",
+    "category": "کوردی",
+    "logoUrl": "https://i.postimg.cc/D7Qsq3zZ/aro.png",
+    "streamUrl": "https://storelink.pro/live/25757863262751/27734699055639/1537022.ts"
+  },
+
   {
     "id": "afarin-baxcha",
     "name": "Afarin baxcha",
@@ -571,13 +599,6 @@
     "category": "مناڵان",
     "logoUrl": "https://api.hdbox.net/assets/2f9d05db-ebb2-4981-8042-059da2e4955a",
     "streamUrl": "http://avrstream.com:1935/live/kidcohd/playlist.m3u8"
-  },
-  {
-    "id": "kids",
-    "name": "kids",
-    "category": "مناڵان",
-    "logoUrl": "https://i.imgur.com/Scy6P.png",
-    "streamUrl": "https://5a8308add0b31.streamlock.net/atfal1.com/atfal2/chunklist_w807458924.m3u8"
   },
   {
     "id": "mmn-kids",
