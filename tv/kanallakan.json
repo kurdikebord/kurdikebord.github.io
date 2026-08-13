@@ -230,6 +230,24 @@
   },
 
   {
+    "id": "mirna-tv",
+    "name": "Mirna TV",
+    "category": "کوردی",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8420w61v51NRfFfgJkoZbnAqXR9dYk2HHA6e34iFgqA&s",
+    "streamUrl": "http://161.97.123.126:8081/stream/mirna/master.m3u8"
+  },
+
+
+  {
+    "id": "euro-kurd",
+    "name": "Euro Kurd",
+    "category": "کوردی",
+    "logoUrl": "https://www.eurokurd.tv/media/eurokurd_big_logo.jpg",
+    "streamUrl": "http://baskhd.ddns.net:40/live/Eurokurd/index.m3u8"
+  },
+
+
+  {
     "id": "4-kurd",
     "name": "4 Kurd",
     "category": "کوردی",
@@ -370,6 +388,15 @@
     "logoUrl": "https://i.postimg.cc/TY2nmpRL/essra2.png",
     "streamUrl": "https://live20.bozztv.com/giatv/giatv-esra2hd_kamalblbas/esra2hd_kamalblbas/chunks.m3u8"
   },
+
+  {
+    "id": "farmuda-tv",
+    "name": "Farmuda TV",
+    "category": "کوردی",
+    "logoUrl": "#",
+    "streamUrl": "https://avr.host247.net/live/FarmodaTV/playlist.m3u8"
+  },
+
   {
     "id": "peshang-tv",
     "name": "Peshang TV",
@@ -377,6 +404,8 @@
     "logoUrl": "https://stream.forcaroo.com/stream/hls/desktop.m3u8",
     "streamUrl": "https://stream.forcaroo.com/stream/hls/desktop.m3u8"
   },
+
+
   {
     "id": "spi-quran",
     "name": "SPI QURAN",
@@ -547,7 +576,7 @@
     "id": "bnar-family",
     "name": "Bnar Family",
     "category": "کوردی",
-    "logoUrl": "https://i.imgur.com/dA2z3ym.png",
+    "logoUrl": "https://rashaba.com/assets/images/ch_logo/bnar_family_v1.webp",
     "streamUrl": "https://cdn.karwan.tv/bnar-family/tracks-v1a1/mono.m3u8"
   },
 
@@ -564,7 +593,8 @@
     "name": "MiX Kurdy",
     "category": "کوردی",
     "logoUrl": "https://rashaba.com/assets/images/ch_logo/mix_v1.webp",
-    "streamUrl": "https://cdn.karwan.tv/bnar-family/tracks-v1a1/mono.m3u8"
+    "streamUrl": "https://avr.host247.net/live/Mix-kurdy/tracks-v1a1/mono.m3u8
+"
   },
 
   {
@@ -631,10 +661,18 @@
   },
 
   {
+    "id": "nrt-4",
+    "name": "NRT 4",
+    "category": "ئاینی",
+    "logoUrl": "https://i.postimg.cc/fLPxcQSy/Picsart-26-02-19-15-52-45-314.jpg",
+    "streamUrl": "https://storelink.pro/live/25757863262751/27734699055639/1536988.ts"
+  },
+
+  {
     "id": "dunya",
     "name": "Dunya HD",
     "category": "کوردی",
-    "logoUrl": "https://i.postimg.cc/fLPxcQSy/Picsart-26-02-19-15-52-45-314.jpg",
+    "logoUrl": "#",
     "streamUrl": "http://dunyahd.ddns.net/live/DunyaHd/tracks-v1a1/mono.m3u8"
   },
 
