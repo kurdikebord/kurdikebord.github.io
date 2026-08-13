@@ -4,7 +4,7 @@
     "name": "Makkah TV",
     "category": "ئاینی",
     "logoUrl": "https://api.hdbox.net/assets/eb0fef8b-c042-432f-bc77-66168fcc089a",
-    "streamUrl": "http://m.live.net.sa:1935/live/quran/playlist.m3u8"
+    "streamUrl": "https://win.holol.com/live/quran/playlist.m3u8"
   },
 
   {
@@ -128,6 +128,15 @@
     "logoUrl": "https://mixmedia.tv/wp-content/uploads/2022/08/payam.png",
     "streamUrl": "https://media2.streambrothers.com:1936/8218/8218/halabja88.m3u8"
   },
+
+  {
+    "id": "u-tv",
+    "name": "U TV",
+    "category": "کوردی",
+    "logoUrl": "https://mixmedia.tv/wp-content/uploads/2022/08/u2.png",
+    "streamUrl": "https://vsd115.okcdn.ru/dash/stream_3527542770279/stream.manifest/sig/oDygYJiIzDE/expires/1786684034994/srcIp/185.75.226.154/urls/185.226.55.86/clientType/0/srcAg/CHROME_ANDROID/mid/4728653618791/frag-high-7240429.dash"
+  },
+
   {
     "id": "u2-hd",
     "name": "U2 HD",
@@ -219,6 +228,16 @@
     "logoUrl": "https://i.imgur.com/NQJkswF.jpeg",
     "streamUrl": "http://avrstream.com:1935/live/AvarTv/playlist.m3u8"
   },
+
+
+  {
+    "id": "4-kurd",
+    "name": "4 Kurd",
+    "category": "کوردی",
+    "logoUrl": "https://i.imgur.com/EqRHNnf.jpeg",
+    "streamUrl": "https://4kuhls.persiana.live/hls/stream.m3u8"
+  },
+
   {
     "id": "kurd-channel",
     "name": "Kurd channel",
@@ -504,7 +523,7 @@
     "name": "Barin Family",
     "category": "کوردی",
     "logoUrl": "https://i.imgur.com/dA2z3ym.png",
-    "streamUrl": "http://baskhd.ddns.net:40/live/BarinfamilyHD/2026/08/13/03/57/56-06000.ts"
+    "streamUrl": "http://baskhd.ddns.net:40/live/BarinfamilyHD/mono.m3u8"
   },
   {
     "id": "ala-tv",
@@ -533,7 +552,7 @@
     "name": "KurdMax",
     "category": "کوردی",
     "logoUrl": "https://i.postimg.cc/DzVHcRsD/Picsart-26-02-19-15-58-19-016.jpg",
-    "streamUrl": "https://storelink.pro/live/25757863262751/27734699055639/1537123.ts"
+    "streamUrl": "http://167.233.166.131:8080/kurdmax-proxy/app/kurdmax-sorani1/medialist_917977731947844006_hls.m3u8"
   },
 
   {
@@ -549,7 +568,7 @@
     "name": "Dunya HD",
     "category": "کوردی",
     "logoUrl": "https://i.postimg.cc/fLPxcQSy/Picsart-26-02-19-15-52-45-314.jpg",
-    "streamUrl": "http://dunyahd.ddns.net/live/DunyaHd/tracks-v1a1/2026/08/13/03/52/37-06006.ts"
+    "streamUrl": "http://dunyahd.ddns.net/live/DunyaHd/tracks-v1a1/mono.m3u8"
   },
 
 
