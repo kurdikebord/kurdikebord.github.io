@@ -504,7 +504,7 @@
     "name": "Barin Family",
     "category": "کوردی",
     "logoUrl": "https://i.imgur.com/dA2z3ym.png",
-    "streamUrl": "http://baskhd.ddns.net:40/live/BarinfamilyHD/mono.m3u8"
+    "streamUrl": "http://baskhd.ddns.net:40/live/BarinfamilyHD/2026/08/13/03/57/56-06000.ts"
   },
   {
     "id": "ala-tv",
@@ -545,11 +545,11 @@
   },
 
   {
-    "id": "nrt-4",
-    "name": "NRT 4",
+    "id": "dunya",
+    "name": "Dunya HD",
     "category": "کوردی",
     "logoUrl": "https://i.postimg.cc/fLPxcQSy/Picsart-26-02-19-15-52-45-314.jpg",
-    "streamUrl": "https://storelink.pro/live/25757863262751/27734699055639/1536988.ts"
+    "streamUrl": "http://dunyahd.ddns.net/live/DunyaHd/tracks-v1a1/2026/08/13/03/52/37-06006.ts"
   },
 
 
