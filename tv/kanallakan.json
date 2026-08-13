@@ -202,39 +202,38 @@
   },
   {
     "id": "khak-hd",
-    "name": "khak HD",
+    "name": "Khak HD",
     "category": "کوردی",
     "logoUrl": "https://mixmedia.tv/wp-content/uploads/2023/08/xak-tv.png",
     "streamUrl": "http://khakhd.ddns.net:1935/stream/khakhd/playlist.m3u8"
   },
   {
-    "id": "halabjatv",
-    "name": "halabjatv",
+    "id": "halabja-tv",
+    "name": "Halabja TV",
     "category": "کوردی",
     "logoUrl": "https://mixmedia.tv/wp-content/uploads/2022/08/halabja.png",
     "streamUrl": "http://halabjatv.ddns.net:40/live/halabjatv/playlist.m3u8"
   },
   {
     "id": "sterk-tv",
-    "name": "Sterk tv",
+    "name": "Sterk TV",
     "category": "کوردی",
     "logoUrl": "https://i.imgur.com/qSaBZWT.png",
     "streamUrl": "https://zindi.sterk.tv/live/sterk.m3u8"
   },
   {
     "id": "avar-tv",
-    "name": "Avar tv",
+    "name": "Avar TV",
     "category": "کوردی",
     "logoUrl": "https://i.imgur.com/NQJkswF.jpeg",
     "streamUrl": "http://avrstream.com:1935/live/AvarTv/playlist.m3u8"
   },
 
-
   {
     "id": "4-kurd",
     "name": "4 Kurd",
     "category": "کوردی",
-    "logoUrl": "https://i.imgur.com/EqRHNnf.jpeg",
+    "logoUrl": "https://rashaba.com/assets/images/ch_logo/4kurd_music_v1.webp",
     "streamUrl": "https://4kuhls.persiana.live/hls/stream.m3u8"
   },
 
@@ -445,7 +444,7 @@
     "id": "redtv",
     "name": "REDTV",
     "category": "کوردی",
-    "logoUrl": "https://www.itsred.tv/content/uploads/2021/08/cropped-REDTV-ICON-1.jpg",
+    "logoUrl": "https://rashaba.com/assets/images/ch_logo/red_v1.webp",
     "streamUrl": "http://avrstream.com:1935/live/REDTV/playlist.m3u8"
   },
   {
@@ -518,6 +517,24 @@
     "logoUrl": "https://mixmedia.tv/wp-content/uploads/223/08/xak-tv.png",
     "streamUrl": "https://hlspackager.akamaized.net/live/DB/RONAHI_TV/HLS/RONAHI_TV.m3u8"
   },
+
+  {
+    "id": "niga-movies",
+    "name": "NiGa Movies",
+    "category": "کوردی",
+    "logoUrl": "https://rashaba.com/assets/images/ch_logo/niga-movie-v1.jpg",
+    "streamUrl": "https://live.kurdtips.uno/proxy.php?url=http%3A%2F%2Fline.127-cloudfront.xyz%2Flive%2Faeb4df2522%2Fdcee39b551%2F1858951.m3u8&amp;amp;amp;amp;ext=.m3u8"
+  },
+
+
+  {
+    "id": "barin-movies",
+    "name": "Barin Movies",
+    "category": "کوردی",
+    "logoUrl": "https://rashaba.com/assets/images/ch_logo/barin_movie_v1.webp",
+    "streamUrl": "https://cdn.karwan.tv/barin-movies/tracks-v1a1/mono.m3u8"
+  },
+
   {
     "id": "barin-family",
     "name": "Barin Family",
@@ -525,6 +542,56 @@
     "logoUrl": "https://i.imgur.com/dA2z3ym.png",
     "streamUrl": "http://baskhd.ddns.net:40/live/BarinfamilyHD/mono.m3u8"
   },
+
+  {
+    "id": "bnar-family",
+    "name": "Bnar Family",
+    "category": "کوردی",
+    "logoUrl": "https://i.imgur.com/dA2z3ym.png",
+    "streamUrl": "https://cdn.karwan.tv/bnar-family/tracks-v1a1/mono.m3u8"
+  },
+
+  {
+    "id": "bnar-movies",
+    "name": "Bnar Movies",
+    "category": "کوردی",
+    "logoUrl": "https://rashaba.com/assets/images/ch_logo/bnar_movie_v1.webp",
+    "streamUrl": "https://cdn.karwan.tv/bnar-movies/tracks-v1a1/mono.m3u8"
+  },
+
+  {
+    "id": "mix-kurdy",
+    "name": "MiX Kurdy",
+    "category": "کوردی",
+    "logoUrl": "https://rashaba.com/assets/images/ch_logo/mix_v1.webp",
+    "streamUrl": "https://cdn.karwan.tv/bnar-family/tracks-v1a1/mono.m3u8"
+  },
+
+  {
+    "id": "one-plus",
+    "name": "ONE PLUS",
+    "category": "کوردی",
+    "logoUrl": "https://rashaba.com/assets/images/ch_logo/one_plus_v1.webp",
+    "streamUrl": "https://lbgo.bozztv.com/ssh101/ssh101/oneplus4k/chunks.m3u8"
+  },
+
+  {
+    "id": "reng-tv",
+    "name": "RENG HD",
+    "category": "کوردی",
+    "logoUrl": "https://rashaba.com/assets/images/ch_logo/rang-v1.jpg",
+    "streamUrl": "https://live.kurdtips.uno/proxy.php?url=http%3A%2F%2Fline.127-cloudfront.xyz%2Flive%2Faeb4df2522%2Fdcee39b551%2F1859030.m3u8&amp;amp;ext=.m3u8"
+  },
+
+  {
+    "id": "soz-movies",
+    "name": "Soz Movies",
+    "category": "کوردی",
+    "logoUrl": "https://rashaba.com/assets/images/ch_logo/soz_v1.webp",
+    "streamUrl": "https://live20.bozztv.com/giatv/giatv-sozetv/sozetv/chunks.m3u8"
+  },
+
+
   {
     "id": "ala-tv",
     "name": "Ala tv",
@@ -533,10 +600,10 @@
     "streamUrl": "http://avrstream.com:1935/live/ala-hd/playlist.m3u8"
   },
   {
-    "id": "ranya-hd",
-    "name": "Ranya HD",
+    "id": "ranya-tv",
+    "name": "Ranya TV",
     "category": "کوردی",
-    "logoUrl": "https://api.hdbox.net/assets/36b145fd-e941-4144-8297-fcd7d2dc1312",
+    "logoUrl": "https://rashaba.com/assets/images/ch_logo/ranya_city_v1.png",
     "streamUrl": "https://avr.host247.net/Ranya/RanyaCity/playlist.m3u8"
   },
   {
@@ -595,6 +662,15 @@
     "logoUrl": "https://mixmedia.tv/wp-content/uploads/2022/10/Comp-1-0-00-00-00-1.png",
     "streamUrl": "http://afarintv2.flashmediacast.com:1935/afarinTV/livestream/playlist.m3u8"
   },
+
+  {
+    "id": "one-kids",
+    "name": "ONE Kids",
+    "category": "مناڵان",
+    "logoUrl": "https://rashaba.com/assets/images/ch_logo/one_kids_v1.webp",
+    "streamUrl": "https://lbgo.bozztv.com/ssh101/ssh101/onekids4k/chunks.m3u8"
+  },
+
   {
     "id": "afarin-kids",
     "name": "afarin kids",
