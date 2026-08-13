@@ -543,7 +543,7 @@
     "id": "ronahi-tv",
     "name": "RONAHI TV",
     "category": "کوردی",
-    "logoUrl": "https://mixmedia.tv/wp-content/uploads/223/08/xak-tv.png",
+    "logoUrl": "https://ronahi.tv/wp-content/uploads/2019/10/R-LOGO.png",
     "streamUrl": "https://hlspackager.akamaized.net/live/DB/RONAHI_TV/HLS/RONAHI_TV.m3u8"
   },
 
@@ -555,14 +555,12 @@
     "streamUrl": "https://live.kurdtips.uno/proxy.php?url=http%3A%2F%2Fline.127-cloudfront.xyz%2Flive%2Faeb4df2522%2Fdcee39b551%2F1858951.m3u8&amp;amp;amp;amp;ext=.m3u8"
   },
 
-
   {
     "id": "barin-movies",
     "name": "Barin Movies",
     "category": "کوردی",
     "logoUrl": "https://rashaba.com/assets/images/ch_logo/barin_movie_v1.webp",
-    "streamUrl": "https://cdn.karwan.tv/barin-movies/tracks-v1a1/mono.m3u8"
-  },
+    "streamUrl": "https://cdn.karwan.tv/barin-movies/tracks-v1a1/mono.m3u8"},
 
   {
     "id": "barin-family",
@@ -593,8 +591,7 @@
     "name": "MiX Kurdy",
     "category": "کوردی",
     "logoUrl": "https://rashaba.com/assets/images/ch_logo/mix_v1.webp",
-    "streamUrl": "https://avr.host247.net/live/Mix-kurdy/tracks-v1a1/mono.m3u8
-"
+    "streamUrl": "https://avr.host247.net/live/Mix-kurdy/playlist.m3u8"
   },
 
   {
