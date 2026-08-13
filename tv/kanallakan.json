@@ -299,6 +299,17 @@
     "streamUrl": "https://cdn.karwan.tv/gewher-kids/index.m3u8"
   },
 
+
+  {
+    "id": "gewher-tv",
+    "name": "Gewher TV",
+    "category": "کوردی",
+    "logoUrl": "https://mytvo.com/storage/channels/logos/gewher-kids-live-stream-logo.jpg",
+    "streamUrl": "https://cdn.karwan.tv/gewher-tv/tracks-v1a1/mono.m3u8"
+  },
+
+
+
   {
     "id": "bmc-tv",
     "name": "BMC TV",
@@ -530,7 +541,7 @@
     "name": "NRT 2",
     "category": "کوردی",
     "logoUrl": "https://i.postimg.cc/vZ7LpKCZ/Picsart-26-02-19-15-48-12-725.jpg",
-    "streamUrl": "https://storelink.pro/live/25757863262751/27734699055639/1536987.ts"
+    "streamUrl": "http://109.71.252.138/Nrt2/mpegts?token=yusfstore3434fyusfstore3434yusfstore3434yusfstore3434yusfstore3434fwestrqwerwefwefrwefwefwes&type=live"
   },
 
   {
