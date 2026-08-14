@@ -344,8 +344,6 @@
     "streamUrl": "https://cdn.karwan.tv/gewher-tv/tracks-v1a1/mono.m3u8"
   },
 
-
-
   {
     "id": "bmc-tv",
     "name": "BMC TV",
@@ -368,11 +366,12 @@
     "streamUrl": "https://live20.bozztv.com:443/giatv/giatv-rsunnat/rsunnat/chunks.m3u8"
   },
   {
-    "id": "naqshimedia",
-    "name": "NaqshiMedia",
-    "category": "ئاینی",
-    "logoUrl": "https://play-lh.googleusercontent.com/SaZobDSgO9rmgr80t2Z68AwMy6GKz1-E3Hf4O5tnt3hjUeu4gvs8V7xiav-B3-OAFbc=w480-h960-rw",
-    "streamUrl": "http://naqshi-media.com:1935/live/NaqshiMedia/playlist.m3u8"
+    "id": "asterasport",
+    "name": "Astrea Sport",
+    "category": "وەرزشی",
+    "isPremium": false,
+    "logoUrl": "https://github.com/sahanddler/pdf/raw/main/astera.png",
+    "streamUrl": "http://185.95.184.33:25461/live/120541/20364/149.m3u8"
   },
   {
     "id": "esra-tv",
