@@ -1062,8 +1062,9 @@
   },
   {
     "id": "irib-varzesh",
-    "name": "IRIB varzesh",
-    "category": "فارسی",
+    "name": "IRIB Varzesh",
+    "category": "وەرزشی",
+    "isPremium": true,
     "logoUrl": "https://i.imgur.com/n0lH7bG.png",
     "streamUrl": "https://live-aburayhan1102.telewebion.ir/ek/varzesh/live/1080p/index.m3u8"
   },
