@@ -369,7 +369,7 @@
     "id": "asterasport",
     "name": "Astrea Sport",
     "category": "وەرزشی",
-    "isPremium": false,
+    "isPremium": true,
     "logoUrl": "https://github.com/sahanddler/pdf/raw/main/astera.png",
     "streamUrl": "http://185.95.184.33:25461/live/120541/20364/149.m3u8"
   },
