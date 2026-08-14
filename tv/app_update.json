@@ -2,7 +2,7 @@
   "versionCode": 2,
   "versionName": "1.0.1",
   "updateUrl": "https://play.google.com/store/apps/details?id=com.goran.kurditv",
-  "force": true,
+  "force": false,
   "features": [
     "چارەسەرکردنی کێشەی کڕاش لە کاتی نوێکردنەوە",
     "زیادکردنی شاشەی نوێکردنەوەی بەزۆر (Force Update)",
