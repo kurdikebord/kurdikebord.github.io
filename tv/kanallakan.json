@@ -998,12 +998,13 @@
     "streamUrl": "http://116.204.149.16/national_geographic_channel/index.m3u8"
   },
   {
-    "id": "nat-geo-wild-hd",
-    "name": "NAT GEO Wild HD",
+    "id": "nat-geo-wild",
+    "name": "NAT GEO Wild",
     "category": "بەڵگەنامەیی",
-    "logoUrl": "https://api.hdbox.net/assets/abb4daa2-ca8c-4b6d-95aa-f18ba6225a77",
-    "streamUrl": "http://stream02.vnet.am/NatGeoWild/tracks-v1a2/mono.m3u8"
+    "logoUrl": "https://m.media-amazon.com/images/I/31aS1I5K2HL.jpg",
+    "streamUrl": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:3B:4A:A8&stream=1172121&extension=m3u8"
   },
+
   {
     "id": "wild-earth",
     "name": "Wild Earth",
