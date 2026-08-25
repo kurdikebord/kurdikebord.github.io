@@ -5,28 +5,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         
         <!-- SEO Meta Tags -->
-        <meta name="description" content="Privacy Policy | Kurdish Keyboard">
+        <meta name="description" content="Privacy Policy | Kurdish Keyboard | KurdiKebord">
         <meta name="author" content="Goran Gharib">
 
         <!-- OG Meta Tags -->
         <meta property="og:site_name" content="KurdiKebord" />
         <meta property="og:site" content="https://kurdikebord.github.io" />
         <meta property="og:title" content="Privacy Policy | KurdiKebord" />
-        <meta property="og:description" content="Privacy Policy for  Kurdish Keyboard App" />
+        <meta property="og:description" content="Privacy Policy for Kurdish Keyboard App" />
         <meta property="og:image" content="wena/header-illustration.svg" />
         <meta property="og:url" content="https://kurdikebord.github.io/privacy-policy.html" />
         <meta name="twitter:card" content="summary_large_image">
 
         <!-- Webpage Title -->
-        <title>Privacy Policy | Kurdish Keyboard</title>
+        <title>Privacy Policy | KurdiKebord</title>
         
+
         <!-- Styles -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
         <link href="assets/css/fontawesome-all.min.css" rel="stylesheet">
         <link href="assets/css/swiper.css" rel="stylesheet">
         <link href="assets/css/styles.css" rel="stylesheet">
         
-        <!-- Favicon  -->
+        <!-- Favicon -->
         <link rel="icon" href="wena/favicon.png">
 
         <!-- Apply theme before paint to avoid flash -->
@@ -40,157 +41,182 @@
         
         <style>
             :root {
+                --font-en: 'KurdiFont', sans-serif;
+                --font-ku: 'KurdiFont', sans-serif;
+                
+                --privacy-bg: #0f172a;
+                --privacy-card-bg: rgba(30, 41, 59, 0.7);
+                --privacy-card-border: rgba(255, 255, 255, 0.08);
+                --privacy-text: #94a3b8;
+                --privacy-heading: #f8fafc;
+                --privacy-accent: #3b82f6;
+                --privacy-accent-gradient: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+                --privacy-notice-bg: rgba(59, 130, 246, 0.08);
+                --privacy-notice-border: #3b82f6;
+                --privacy-header-gradient: linear-gradient(135deg, rgba(30, 41, 59, 0.9) 0%, rgba(15, 23, 42, 0.95) 100%);
+                --privacy-shadow: 0 10px 30px -10px rgba(0,0,0,0.5);
+                --privacy-hover-shadow: 0 20px 40px -15px rgba(59, 130, 246, 0.15);
+                --privacy-item-bg: rgba(15, 23, 42, 0.5);
+                --privacy-item-border: rgba(255, 255, 255, 0.05);
+                --privacy-footer-bg: #0b0f19;
+                --privacy-footer-text: #64748b;
+            }
+
+            html[data-theme="light"] {
                 --privacy-bg: #f8fafc;
                 --privacy-card-bg: #ffffff;
                 --privacy-card-border: #e2e8f0;
                 --privacy-text: #475569;
-                --privacy-heading: #1e293b;
-                --privacy-border: #64748b;
-                --privacy-notice-bg: #f1f5f9;
-                --privacy-header-gradient: linear-gradient(135deg, #1a252f 0%, #0f172a 100%);
-                --privacy-shadow: rgba(0,0,0,0.06);
-                --privacy-hover-shadow: rgba(0,0,0,0.1);
-                --privacy-item-bg: #f8fafc;
+                --privacy-heading: #0f172a;
+                --privacy-accent: #2563eb;
+                --privacy-notice-bg: #eff6ff;
+                --privacy-notice-border: #3b82f6;
+                --privacy-header-gradient: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+                --privacy-shadow: 0 10px 30px -10px rgba(0,0,0,0.05);
+                --privacy-hover-shadow: 0 20px 40px -15px rgba(37, 99, 235, 0.1);
+                --privacy-item-bg: #f1f5f9;
                 --privacy-item-border: #e2e8f0;
-                --privacy-footer-bg: #1a252f;
-                --privacy-footer-text: #a0aec0;
+                --privacy-footer-bg: #0f172a;
+                --privacy-footer-text: #94a3b8;
             }
 
-            html[data-theme="dark"] {
-                --privacy-bg: #121321;
-                --privacy-card-bg: #1e1f38;
-                --privacy-card-border: #2d2f4a;
-                --privacy-text: #c4c6df;
-                --privacy-heading: #f5f3ff;
-                --privacy-border: #64748b;
-                --privacy-notice-bg: rgba(255, 255, 255, 0.05);
-                --privacy-header-gradient: linear-gradient(135deg, #0f172a 0%, #080a1a 100%);
-                --privacy-shadow: rgba(0,0,0,0.2);
-                --privacy-hover-shadow: rgba(0,0,0,0.3);
-                --privacy-item-bg: rgba(255,255,255,0.03);
-                --privacy-item-border: rgba(255,255,255,0.08);
-                --privacy-footer-bg: #080a1a;
-                --privacy-footer-text: #6b6e8a;
+            body {
+                font-family: var(--font-en);
+                background-color: var(--privacy-bg);
+                color: var(--privacy-text);
             }
 
-            html[data-theme="dark"] .social-btn--email {
-                background: #2d3a4d;
-                border-color: rgba(255, 255, 255, 0.08);
-                box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
-            }
-            html[data-theme="dark"] .social-btn--email:hover {
-                background: #2d3a4d;
-                box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+            /* Kurdish typography rules */
+            html[lang="ku"] body,
+            html[dir="rtl"] body,
+            .lang-ku {
+                font-family: var(--font-ku) !important;
             }
 
             .privacy-page {
-                padding: 100px 0 80px;
+                padding: 120px 0 80px;
                 min-height: 100vh;
                 background: var(--privacy-bg);
                 transition: background 0.3s ease;
             }
+
             .privacy-header-card {
                 background: var(--privacy-header-gradient);
-                padding: 50px 40px;
-                border-radius: 20px;
+                padding: 60px 40px;
+                border-radius: 24px;
                 text-align: center;
                 color: #fff;
                 margin-bottom: 40px;
-                box-shadow: 0 20px 60px rgba(15, 23, 42, 0.2);
+                box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
                 position: relative;
                 overflow: hidden;
+                border: 1px solid var(--privacy-card-border);
+                backdrop-filter: blur(12px);
             }
             .privacy-header-card::before {
                 content: '';
                 position: absolute;
                 top: -50%;
                 right: -50%;
-                width: 100%;
-                height: 100%;
-                background: radial-gradient(circle, rgba(255, 255, 255, 0.06) 0%, transparent 70%);
+                width: 200%;
+                height: 200%;
+                background: radial-gradient(circle, rgba(59, 130, 246, 0.15) 0%, transparent 60%);
                 pointer-events: none;
             }
             .privacy-header-card span {
-                font-size: 2.8rem;
-                font-weight: 900;
-                font-family: 'KurdiFont', sans-serif;
+                font-size: 3rem;
+                font-weight: 800;
                 display: block;
-                margin-bottom: 12px;
+                margin-bottom: 14px;
                 position: relative;
+                letter-spacing: -0.02em;
             }
             .privacy-header-card p {
-                color: rgba(255, 255, 255, 0.65);
-                font-style: italic;
-                margin: 0;
+                color: #94a3b8;
                 font-size: 1.1rem;
-                opacity: 0.9;
+                margin: 0;
                 position: relative;
+                font-weight: 500;
             }
+
             .privacy-block {
-                margin-bottom: 35px;
-                padding: 35px;
+                margin-bottom: 30px;
+                padding: 40px;
                 background: var(--privacy-card-bg);
-                border-radius: 16px;
-                box-shadow: 0 4px 24px var(--privacy-shadow);
-                border-left: 4px solid var(--privacy-border);
-                transition: all 0.3s ease;
+                border-radius: 20px;
+                box-shadow: var(--privacy-shadow);
+                border: 1px solid var(--privacy-card-border);
+                border-left: 4px solid var(--privacy-accent);
+                transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+                backdrop-filter: blur(12px);
             }
             .privacy-block:hover {
-                box-shadow: 0 8px 40px var(--privacy-hover-shadow);
-                transform: translateY(-2px);
+                box-shadow: var(--privacy-hover-shadow);
+                transform: translateY(-3px);
+                border-color: rgba(59, 130, 246, 0.3);
             }
             .privacy-block h3 {
                 color: var(--privacy-heading);
-                font-family: 'KurdiFont', sans-serif;
-                font-weight: 900;
-                font-size: 1.6rem;
-                margin-bottom: 20px;
-                padding-bottom: 12px;
-                border-bottom: 2px solid var(--privacy-card-border);
+                font-weight: 800;
+                font-size: 1.65rem;
+                margin-bottom: 22px;
+                padding-bottom: 14px;
+                border-bottom: 1px solid var(--privacy-card-border);
                 transition: color 0.3s ease;
+                display: flex;
+                align-items: center;
+                gap: 12px;
             }
             .privacy-block p {
                 color: var(--privacy-text);
-                line-height: 1.8;
+                line-height: 1.85;
                 font-size: 1.05rem;
-                margin-bottom: 15px;
+                margin-bottom: 16px;
                 transition: color 0.3s ease;
+            }
+            .privacy-block p:last-child {
+                margin-bottom: 0;
             }
             .privacy-block strong {
                 color: var(--privacy-heading);
+                font-weight: 700;
             }
             .privacy-block a {
-                color: #3b82f6;
+                color: var(--privacy-accent);
                 font-weight: 600;
+                text-decoration: none;
+                transition: color 0.2s ease;
             }
             .privacy-block a:hover {
-                color: #2563eb;
+                color: #60a5fa;
+                text-decoration: underline;
             }
+
             .privacy-notice {
                 display: flex;
                 align-items: flex-start;
-                gap: 16px;
+                gap: 18px;
                 padding: 24px;
                 background: var(--privacy-notice-bg);
-                border-radius: 12px;
-                border-left: 4px solid #64748b;
+                border-radius: 16px;
+                border: 1px solid var(--privacy-notice-border);
+                border-left-width: 5px;
                 margin-bottom: 30px;
                 transition: background 0.3s ease;
             }
             .privacy-notice i {
-                font-size: 2rem;
-                color: #64748b;
-                margin-top: 3px;
+                font-size: 2.2rem;
+                color: var(--privacy-accent);
+                margin-top: 2px;
                 flex-shrink: 0;
-            }
-            .privacy-notice div {
-                flex: 1;
             }
             .privacy-notice strong {
                 display: block;
                 margin-bottom: 8px;
-                font-size: 1.1rem;
+                font-size: 1.15rem;
+                color: var(--privacy-heading);
             }
+
             .permission-list {
                 display: flex;
                 flex-direction: column;
@@ -198,40 +224,47 @@
             }
             .permission-item {
                 padding: 24px;
-                border-radius: 12px;
+                border-radius: 14px;
                 background: var(--privacy-item-bg);
                 border: 1px solid var(--privacy-item-border);
                 transition: all 0.3s ease;
             }
             .permission-item:hover {
-                border-color: rgba(46, 204, 113, 0.3);
-                box-shadow: 0 2px 12px rgba(46, 204, 113, 0.08);
+                border-color: rgba(59, 130, 246, 0.4);
+                transform: translateX(4px);
+            }
+            html[dir="rtl"] .permission-item:hover {
+                transform: translateX(-4px);
             }
             .permission-item h4 {
                 display: flex;
                 align-items: center;
-                gap: 10px;
+                gap: 12px;
                 color: var(--privacy-heading);
-                font-family: 'KurdiFont', sans-serif;
-                font-weight: 900;
-                font-size: 1.25rem;
-                margin-bottom: 10px;
-                transition: color 0.3s ease;
+                font-weight: 700;
+                font-size: 1.2rem;
+                margin-bottom: 12px;
             }
             .permission-item h4 i {
-                color: var(--privacy-heading);
-                font-size: 1.3rem;
-                width: 24px;
-                text-align: center;
+                color: var(--privacy-accent);
+                font-size: 1.2rem;
+                width: 28px;
+                height: 28px;
+                background: rgba(59, 130, 246, 0.1);
+                border-radius: 8px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
             }
             .permission-item p {
                 margin: 0;
                 color: var(--privacy-text);
                 line-height: 1.7;
             }
+
             .contact-desc {
                 text-align: center;
-                max-width: 520px;
+                max-width: 560px;
                 margin-left: auto;
                 margin-right: auto;
                 color: var(--privacy-text);
@@ -240,178 +273,123 @@
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
-                gap: 20px;
+                gap: 16px;
                 margin-top: 32px;
             }
             .social-btn {
-                position: relative;
-                border-radius: 100px;
-                padding: 16px 34px;
-                font-weight: 700;
+                border-radius: 99px;
+                padding: 14px 28px;
+                font-weight: 600;
                 font-size: 0.95rem;
-                letter-spacing: 0.3px;
-                text-decoration: none;
+                text-decoration: none !important;
                 display: inline-flex;
                 align-items: center;
-                gap: 14px;
-                border: 1px solid rgba(255, 255, 255, 0.15);
+                gap: 12px;
+                border: 1px solid rgba(255, 255, 255, 0.1);
                 cursor: pointer;
-                transition: none;
-            }
-            .social-btn,
-            .social-btn:link,
-            .social-btn:visited,
-            .privacy-block .social-btn:hover,
-            .privacy-block .social-btn:active {
-                color: #fff;
-            }
-            .social-btn i {
-                font-size: 1.3rem;
+                transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+                color: #fff !important;
             }
             .social-btn:hover {
-                transform: none;
+                transform: translateY(-2px);
+                box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
             }
-            .social-btn:hover i {
-                transform: none;
+            .social-btn--facebook { background: #1877f2; }
+            .social-btn--tiktok { background: #000000; border-color: rgba(255,255,255,0.2); }
+            .social-btn--telegram { background: #229ed9; }
+            .social-btn--email { background: #334155; }
+
+            /* RTL & Kurdish specific overrides */
+            html[dir="rtl"] .privacy-page {
+                direction: rtl;
             }
-            .social-btn:active {
-                transform: none;
+            html[dir="rtl"] .privacy-header-card,
+            html[dir="rtl"] .privacy-block,
+            html[dir="rtl"] .privacy-notice,
+            html[dir="rtl"] .permission-list,
+            html[dir="rtl"] .permission-item {
+                text-align: right;
             }
-            .social-btn--facebook {
-                background: #1a77f2;
-                border-color: rgba(255, 255, 255, 0.2);
-                box-shadow: 0 6px 20px rgba(24, 119, 242, 0.35);
+            html[dir="rtl"] .privacy-block {
+                border-left: 0;
+                border-right: 4px solid var(--privacy-accent);
             }
-            .social-btn--facebook:hover {
-                background: #1a77f2;
-                box-shadow: 0 6px 20px rgba(24, 119, 242, 0.35);
+            html[dir="rtl"] .privacy-notice {
+                border-left: 0;
+                border-right: 5px solid var(--privacy-notice-border);
             }
-            .social-btn--tiktok {
-                background: #0d0d0d;
-                border-color: rgba(255, 255, 255, 0.1);
-                box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+            html[dir="rtl"] .privacy-header-card,
+            html[dir="rtl"] .privacy-header-card .lang-ku {
+                text-align: center !important;
             }
-            .social-btn--tiktok:hover {
-                background: #0d0d0d;
-                box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+
+            /* Floating Language Switcher */
+            .privacy-language-switcher {
+                position: fixed;
+                right: 24px;
+                bottom: 24px;
+                z-index: 1050;
+                display: inline-flex;
+                align-items: center;
+                padding: 5px;
+                background: rgba(15, 23, 42, 0.85);
+                border: 1px solid rgba(255, 255, 255, 0.15);
+                border-radius: 999px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+                backdrop-filter: blur(16px);
+                -webkit-backdrop-filter: blur(16px);
             }
-            .social-btn--telegram {
-                background: #0088cc;
-                border-color: rgba(255, 255, 255, 0.2);
-                box-shadow: 0 6px 20px rgba(0, 136, 204, 0.35);
+            .privacy-language-switcher button {
+                border: 0;
+                background: transparent;
+                color: rgba(255, 255, 255, 0.7);
+                padding: 8px 18px;
+                border-radius: 999px;
+                font-weight: 600;
+                font-size: 0.9rem;
+                cursor: pointer;
+                transition: all 0.2s ease;
+                font-family: var(--font-en);
             }
-            .social-btn--telegram:hover {
-                background: #0088cc;
-                box-shadow: 0 6px 20px rgba(0, 136, 204, 0.35);
+            .privacy-language-switcher button#privacyLangKu {
+                font-family: var(--font-ku);
             }
-            .social-btn--email {
-                background: #1e293b;
-                border-color: rgba(255, 255, 255, 0.1);
-                box-shadow: 0 6px 20px rgba(30, 41, 59, 0.3);
+            .privacy-language-switcher button.active {
+                background: var(--privacy-accent);
+                color: #fff;
+                box-shadow: 0 4px 14px rgba(59, 130, 246, 0.4);
             }
-            .social-btn--email:hover {
-                background: #1e293b;
-                box-shadow: 0 6px 20px rgba(30, 41, 59, 0.3);
-            }
+
             .footer {
                 background: var(--privacy-footer-bg);
                 color: var(--privacy-footer-text);
-                padding: 30px 0;
-                transition: all 0.3s ease;
+                padding: 35px 0;
+                border-top: 1px solid var(--privacy-card-border);
             }
             .footer-author {
-                color: #94a3b8 !important;
+                color: var(--privacy-accent) !important;
                 font-weight: 700;
                 text-decoration: none;
             }
-            .footer-author:hover {
-                color: #ffffff !important;
-            }
+
             @media (max-width: 768px) {
-                .privacy-page {
-                    padding: 80px 0 60px;
-                }
-                .privacy-header-card {
-                    padding: 35px 24px;
-                }
-                .privacy-header-card span {
-                    font-size: 2rem;
-                }
-                .privacy-block {
-                    padding: 24px;
-                }
-                .permission-item {
-                    padding: 18px;
-                }
-                .social-btn {
-                    padding: 14px 24px;
-                    font-size: 0.9rem;
-                }
-            }
-            @media (max-width: 480px) {
-                .privacy-page {
-                    padding: 70px 0 40px;
-                }
-                .privacy-header-card {
-                    padding: 28px 16px;
-                }
-                .privacy-header-card span {
-                    font-size: 1.5rem;
-                }
-                .privacy-header-card p {
-                    font-size: 0.9rem;
-                }
-                .privacy-block {
-                    padding: 18px;
-                    border-left-width: 3px;
-                }
-                .privacy-block h3 {
-                    font-size: 1.3rem;
-                }
-                .privacy-block p {
-                    font-size: 0.95rem;
-                }
-                .permission-item {
-                    padding: 14px;
-                }
-                .permission-item h4 {
-                    font-size: 1.1rem;
-                }
-                .permission-item p {
-                    font-size: 0.9rem;
-                }
-                .privacy-notice {
-                    padding: 16px;
-                    gap: 10px;
-                }
-                .privacy-notice i {
-                    font-size: 1.5rem;
-                }
-                .privacy-notice strong {
-                    font-size: 1rem;
-                }
-                .privacy-contact {
-                    gap: 10px;
-                }
-                .social-btn {
-                    padding: 14px 22px;
-                    font-size: 0.85rem;
-                    width: 100%;
-                    justify-content: center;
-                }
+                .privacy-page { padding: 90px 0 60px; }
+                .privacy-header-card { padding: 40px 20px; }
+                .privacy-header-card span { font-size: 2.2rem; }
+                .privacy-block { padding: 25px 20px; }
+                .social-btn { width: 100%; justify-content: center; }
             }
         </style>
     </head>
     <body data-bs-spy="scroll" data-bs-target="#navbarExample">
+    <div class="privacy-language-switcher" aria-label="Privacy Policy language selector">
+        <button type="button" id="privacyLangKu" aria-label="Switch to Kurdish">کوردی</button>
+        <button type="button" id="privacyLangEn" class="active" aria-label="Switch to English">English</button>
+    </div>
 
         <!-- Navigation -->
         <nav id="navbarExample" class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
             <div class="container">
-
-                <!-- Image Logo -->
-                <!-- <a class="navbar-brand logo-image" href="index.html"><img src="wena/logo.svg" alt="Logo"></a> -->
-
-                <!-- Text Logo - Modern design -->
                 <a class="navbar-brand logo-text" href="index.html">KurdiKebord</a>
 
                 <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false" title="Toggle color theme">
@@ -458,94 +436,214 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-10 mx-auto col-12">
+
                             <div class="privacy-header-card">
-                                <span>Privacy Policy</span>
-                                <p>Last Updated: July 2026</p>
+                                <span class="lang-en">Privacy Policy<br><br></span>
+                                <span class="lang-ku">تایبەتمەندێتی ڕامیاری<br><br></span>
+                                <p class="lang-en">Last Update: 25/08/2026</p>
+                                <p class="lang-ku">دوایین نوێکردنەوە: ٢٠٢٦/٠٨/٢٥</p>
                             </div>
 
                             <div class="privacy-block">
-                                <p class="fs-5">Goran Gharib, the copyright holder of Kurdish Keyboard (تەختەکلیلی کوردی), provides this "Privacy Policy" to help you understand how our application works and which permissions are used. We may update this Privacy Policy from time to time to reflect new features or regulatory changes.</p>
+                                <p class="fs-5 lang-en">Goran Gharib at (Kurdish Free Apps), the copyright holder of Kurdish Keyboard (KurdiKebord), provides this Privacy Policy to explain what information the application collects, why it is used, how it is stored, and how users can delete their account and associated data. We may update this Privacy Policy when the application, its features, or applicable requirements change.</p>
+                                <p class="fs-5 lang-ku">گۆران غەریب لە (Kurdish Free Apps)، خاوەنی بەرنامەی تەختەکلیلی کوردی (KurdiKebord)، ئەم سیاسەتی تایبەتمەندییە پێشکەش دەکات بۆ ڕوونکردنەوەی ئەوەی کە چی زانیارییەک کۆدەکرێتەوە، بۆچی بەکاری دێت، چۆن هەڵدەگیرێت، وە بەکارهێنەر چۆن دەتوانێت زانیاری و داتای پەیوەندیدار بە هەژمارەکەی بسڕێتەوە.</p>
                             </div>
 
                             <div class="privacy-block">
-                                <h3>1. General Clauses</h3>
-                                <p><strong>1.1.</strong> The app requests network access solely for functional purposes such as checking for app updates and downloading language resources. Your private typing data and voice recordings are <strong>never</strong> transmitted over the network.</p>
-                                <p><strong>1.2.</strong> If the app crashes, you may choose to share a report via e-mail. This report helps us investigate and improve the app. You can manually review the crash log before sending it.</p>
-                                <p><strong>1.3.</strong> Certain features like dictionary downloads or update checks require internet access to connect to our official servers. No personal data is shared during these connections.</p>
+                                <h3 class="lang-en">1. Information We Collect</h3>
+                                <h3 class="lang-ku">١. ئەو زانیارییانەی کۆدەکرێتەوە</h3>
+                                <p class="lang-en">Kurdish Keyboard is designed to minimize the collection of personal information. When you use Google Sign-In to create or access an account, we receive and store only your <strong>email address</strong> and a unique <strong>Firebase Authentication user ID (UID)</strong> associated with your account.</p>
+                                <p class="lang-ku">تەختەکلیلی کوردی وا دیزاینکراوە کە زانیارییە کەسییەکانی بەکارهێنەر پاشەکەوت ناکات و هەڵناگرێت، کاتێک لەڕێی خزمەتگوزاری گۆگڵ Google Sign-In بۆ دروستکردن یان چوونەژوورەوەی هەژمارەکەت، تەنها <strong>ناونیشانی ئیمەیڵ</strong> و <strong>ناسنامەی بەکارهێنەری لە فایەربەیس Firebase Authentication (UID)</strong> ـێکی تایبەت بە هەژمارەکەت وەردەگیرێت.</p>
+                                <p class="lang-en">We do <strong>NOT</strong> collect your name, phone number, postal address, contacts, location, photos, files, passwords, or other personal information from your Google account.</p>
+                                <p class="lang-ku">ئێمە <strong>ناوی</strong> تۆ، ژمارەی تەلەفۆن، ناونیشانی پۆستی، پەیوەندییەکان (Contacts)، شوێن، وێنە، فایل، ووشەی نهێنی، یان هیچ زانیارییە کەسییەکی تری هەژماری Google ـەکەت کۆناکەینەوە.</p>
+                                <p class="lang-en">The Firebase UID is used to identify your account within our systems. It does not expose your Google account password to us.</p>
+                                <p class="lang-ku">Firebase UID بۆ ناسینەوەی هەژمارەکەت لە سیستەمەکەماندا بەکاردەهێنرێت، کە ئەمە بەهیچ شێوەیەک ووشەی نهێنی هەژماری Google ـەکەت بۆ ئێمە ئاشکرا ناکات.</p>
                             </div>
 
                             <div class="privacy-block">
-                                <h3>2. Google Play Specific Clauses</h3>
-                                <p>Usage of the app is also subject to <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a> regarding license verification and Play Store interactions.</p>
-                                    <img class="img-fluid" src="wena/pro/google_clauses.png" alt="hema">
+                                <h3 class="lang-en">2. Google Sign-In</h3>
+                                <h3 class="lang-ku">٢. چوونەژوورەوە لەڕێی گۆگڵ</h3>
+                                <p class="lang-en">We use Google Sign-In to provide secure account authentication. When you choose to sign in with Google, Google provides the information necessary for authentication, including your email address and an account identifier used by Firebase Authentication.</p>
+                                <p class="lang-ku">ئێمە خزمەتگوزاری Google Sign-In بەکاردەهێنین بۆ دابینکردنی ناسینەوەی پارێزراوی هەژمار، کاتێک بە خزمەتگوزاریەکەی گۆگڵ دەچیتە ژوورەوە، Google ئەو زانیارییە پێویستانەمان پێدەدات بۆ پشتڕاستکردنەوەی ناسنامە، لەوانە ناونیشانی ئیمەیڵ و ناسنامەی هەژمار کە فایەربەیس Firebase Authentication بەکاری دەهێنێت.</p>
+                                <p class="lang-en">Your email address and Firebase UID are used only for account authentication, account management, and determining whether your account is entitled to access features associated with a previous purchase or paid version of Kurdish Keyboard.</p>
+                                <p class="lang-ku">ناونیشانی ئیمەیڵ و ئایدی فایەربەیس Firebase UID ـەکەت تەنها بۆ پشتڕاستکردنەوەی هەژمار، بەڕێوەبردنی هەژمار، و دیاریکردنی ئەوەی کە ئایا هەژمارەکەت مافی دەستگەیشتن بە تایبەتمەندییەکانی پێشووتر یان وەشانی پارەدانی تەختەکلیلی کوردی هەیە یان نا، بەکاردەهێنرێن.</p>
+                                <p class="lang-en">We do not use Google account information for advertising, profiling, or unrelated purposes. We do not sell your personal information.</p>
+                                <p class="lang-ku">ئێمە زانیارییەکانی هەژماری گۆگڵ Google ـەکەت بۆ دروستکردنی پڕۆفایلی بازرگانی یان هیچ مەبەستێکی نەگونجاو بەکارناهێنین و ئێمە زانیارییە کەسییەکانت نافڕۆشین.</p>
+                                <p class="lang-en">Your use of Google services is also subject to <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's Privacy Policy</a>.</p>
+                                <p class="lang-ku">بەکارهێنانی خزمەتگوزارییەکانی گۆگڵ Google ـیش لەژێر <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">سیاسەتی تایبەتمەندی Google</a> خۆیدایە.</p>
                             </div>
+
                             <div class="privacy-block">
-                                <h3>3. Permissions & Data Usage</h3>
+                                <h3 class="lang-en">3. Cloud Firestore Data Storage</h3>
+                                <h3 class="lang-ku">٣. هەڵگرتنی داتا لە کلاودی فایەرستۆر</h3>
+                                <p class="lang-en">We use <strong>Google Cloud Firestore</strong> to store essential user account profiles and entitlement records. This includes your account UID, email address, subscription status, and app configuration settings needed to restore your premium features across devices.</p>
+                                <p class="lang-ku">ئێمە خزمەتگوزاری <strong>Google Cloud Firestore</strong> بەکاردەهێنین بۆ هەڵگرتنی زانیارییە بنەڕەتییەکانی هەژماری بەکارهێنەر و تۆمارەکانی دۆخی بەکارهێنان، ئەمەش پێکهاتووە لە ئایدی (UID) هەژمارەکەت، ناونیشانی ئیمەیڵ، دۆخی بەشداری، وە ڕێکخستنەکانی بەرنامە کە پێویستن بۆ گەڕاندنەوەی تایبەتمەندییە پێشکەوتووەکان لەسەر ئامێرە جیاوازەکانت.</p>
+                                <p class="lang-en">All data stored in Cloud Firestore is encrypted in transit and at rest using standard cloud security protocols.</p>
+                                <p class="lang-ku">سەرجەم داتاکان کە لە فایەرستۆر Cloud Firestore هەڵگیراون بەپێی ستانداردە ئەمنییەکان لەکاتی گواستنەوە و هەڵگرتندا تەشفیر (Encrypted) دەکرێن.</p>
+                            </div>
+
+                            <div class="privacy-block">
+                                <h3 class="lang-en">4. Push Notifications (Firebase Cloud Messaging - FCM)</h3>
+                                <h3 class="lang-ku">٤. ئاگادارکردنەوەکان (Firebase Cloud Messaging - FCM)</h3>
+                                <p class="lang-en">We use <strong>Firebase Cloud Messaging (FCM)</strong> to send critical service notifications, app updates, and account alerts to your device. FCM uses an anonymous FCM registration token generated by your device to route notifications.</p>
+                                <p class="lang-ku">ئێمە خزمەتگوزاری <strong>Firebase Cloud Messaging (FCM)</strong> بەکاردەهێنین بۆ ناردنی ئاگادارکردنەوە گرنگەکانی خزمەتگوزارییەکان، نوێکردنەوەکانی بەرنامەکە، وە ئاگادارکردنەوەکانی هەژمار بۆ ئامێرەکەت. FCM کۆدێکی نەناسراو (FCM Token) کە لەلایەن ئامێرەکەتەوە دروست دەکرێت بەکاردێنێت تەنها بۆ گەیاندنی ئاگادارکردنەوەکان.</p>
+                                <p class="lang-en">FCM tokens are used strictly for delivering push messages and are not linked to any personal data brokers or used for cross-app tracking.</p>
+                                <p class="lang-ku">کۆدەکانی FCM تەنها بۆ گەیاندنی پەیامەکانی ئاگادارکردنەوە بەکاردێن و پەیوەست نەکراون بە هیچ لایەنێکی بازرگانی داتا یان شوێنکەوتنی بەکارهێنەر.</p>
+                            </div>
+
+                            <div class="privacy-block">
+                                <h3 class="lang-en">5. Typing Data and Keyboard Privacy</h3>
+                                <h3 class="lang-ku">٥. داتای نووسین و تایبەتمەندێتی تەختەکلیل</h3>
                                 <div class="privacy-notice">
                                     <i class="fas fa-shield-alt"></i>
                                     <div>
-                                        <strong>We DO NOT collect or share personal information</strong> (e.g., name, location, email, device ID, or contacts).<br>
-                                        <strong>We DO NOT transfer your personal typing data</strong> from your device to any third party.
+                                        <strong class="lang-en">Your private typing data stays on your device.</strong>
+                                        <strong class="lang-ku">داتای تایبەتی نووسینەکەت لەسەر ئامێرەکەت دەمێنێتەوە.</strong>
+                                        <br>
+                                        <span class="lang-en">Kurdish Keyboard does not transmit your typed text or personal typing content to anywhere through the keyboard service.</span>
+                                        <span class="lang-ku">تەختەکلیلی کوردی لە ڕێگەی خزمەتگوزاری کیبۆردەوە دەقی نووسراو یان ناوەڕۆکی نووسینەکەت بۆ هیچ شوێنێک نانێرێت.</span>
                                     </div>
                                 </div>
 
                                 <div class="permission-list">
                                     <div class="permission-item">
-                                        <h4><i class="fas fa-bell"></i> POST_NOTIFICATIONS</h4>
-                                        <p>Used to notify you when a new app update is available or if an error occurs, ensuring you have the latest features and security fixes.</p>
+                                        <h4 class="lang-en"><i class="fas fa-book"></i> User Dictionary</h4>
+                                        <h4 class="lang-ku"><i class="fas fa-book"></i> فەرهەنگی بەکارهێنەر</h4>
+                                        <p class="lang-en">Words learned or added for typing assistance are stored locally on your device storage and are not uploaded to our servers through the keyboard service.</p>
+                                        <p class="lang-ku">ئەو وشانەی زیاد دەکرێن بۆ پێشنیاری ووشەکان لەکاتی نووسین، بە شێوەی ناوخۆیی لەسەر ئامێرەکەت هەڵدەگیرێت و لە ڕێگەی خزمەتگوزاری کیبۆردەوە بۆ سێرڤەرەکانمان بارناکرێن.</p>
                                     </div>
                                     <div class="permission-item">
-                                        <h4><i class="fas fa-globe"></i> INTERNET</h4>
-                                        <p>Used to check for app updates from our official server, download dictionary files (.dict) for auto-correction, and fetch optional emoji fonts (.ttf).</p>
-                                    </div>
-                                    <div class="permission-item">
-                                        <h4><i class="fas fa-mobile-alt"></i> RECEIVE_BOOT_COMPLETED</h4>
-                                        <p>Used to automatically reschedule periodic update checks and ensure keyboard services are ready after your device restarts.</p>
-                                    </div>
-                                    <div class="permission-item">
-                                        <h4><i class="fas fa-vibration"></i> VIBRATE</h4>
-                                        <p>Used to provide haptic feedback (vibration) while typing, if enabled in settings.</p>
-                                    </div>
-                                    <div class="permission-item">
-                                        <h4><i class="fas fa-book"></i> READ/WRITE_USER_DICTIONARY</h4>
-                                        <p>Used locally to learn your typing style and save new words you add for better predictions. This data remains strictly on your device.</p>
+                                        <h4 class="lang-en"><i class="fas fa-microphone"></i> Voice Typing (Google Voice Search)</h4>
+                                        <h4 class="lang-ku"><i class="fas fa-microphone"></i> گەڕانی دەنگی (خزمەتگوزاری دەنگی گۆگڵ)</h4>
+                                        <p class="lang-en">Voice typing functionality may use the relevant Android or third-party speech recognition service (Speech Recognition & Synthesis). Kurdish Keyboard does not use your voice recordings for profiling or advertising.</p>
+                                        <p class="lang-ku">تایبەتمەندی گەڕانی دەنگی لەوانەیە خزمەتگوزاری پەسەندکراوی دەنگی Android یان خزمەتگوزارییەکی لایەنی سێیەم بەکاربهێنێت (Speech Recognition & Synthesis)، تەختەکلیلی کوردی تۆمارە دەنگییەکانت بۆ دروستکردنی پڕۆفایل بەکارناهێنێت.</p>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="privacy-block">
-                                <h3>4. Other App Capabilities</h3>
+                                <h3 class="lang-en">6. App Permissions and Network Access</h3>
+                                <h3 class="lang-ku">٦. مۆڵەتەکانی بەرنامە و دەستگەیشتن بە تۆڕ</h3>
                                 <div class="permission-list">
                                     <div class="permission-item">
-                                        <h4><i class="fas fa-cogs"></i> FOREGROUND_SERVICE & WAKE_LOCK</h4>
-                                        <p>Used to ensure background tasks like dictionary downloads or update checks are completed without interruption.</p>
+                                        <h4 class="lang-en"><i class="fas fa-bell"></i> POST_NOTIFICATIONS</h4>
+                                        <h4 class="lang-ku"><i class="fas fa-bell"></i> POST_NOTIFICATIONS</h4>
+                                        <p class="lang-en">Used to notify you about relevant application events, such as available updates or FCM push alerts, where supported by the device and Android version.</p>
+                                        <p class="lang-ku">بۆ ئاگادارکردنەوەت لە كێشەو گرفتەکانی بەرنامەکە، وەک بەردەستبوونی نوێکردنەوە یان پەیامەکانی FCM، ئەگەر ئامێر و وەشانی Android پشتگیریی بکەن، بەکاردەهێنرێت.</p>
                                     </div>
                                     <div class="permission-item">
-                                        <h4><i class="fas fa-check-circle"></i> CHECK_LICENSE</h4>
-                                        <p>Used to verify the app's purchase status via the Google Play Store.</p>
+                                        <h4 class="lang-en"><i class="fas fa-globe"></i> INTERNET</h4>
+                                        <h4 class="lang-ku"><i class="fas fa-globe"></i> INTERNET</h4>
+                                        <p class="lang-en">Used for functions that require network access, such as account authentication, Cloud Firestore synchronization, FCM push notifications, update checks, and downloading optional dictionary language or emoji resources.</p>
+                                        <p class="lang-ku">بۆ ئەو کارانە بەکاردەهێنرێت کە پێویستیان بە ئینتەرنێت هەیە، وەک پشتڕاستکردنەوەی هەژمار، هاوبەشکردنی داتا لە Cloud Firestore، وەرگرتنی ئاگادارکردنەوەکانی FCM، پشکنینی نوێکردنەوە، وە داگرتنی فەرهەنگی دڵخوازی زمان یان ئیمۆجییەکان.</p>
+                                    </div>
+                                    <div class="permission-item">
+                                        <h4 class="lang-en"><i class="fas fa-mobile-alt"></i> RECEIVE_BOOT_COMPLETED</h4>
+                                        <h4 class="lang-ku"><i class="fas fa-mobile-alt"></i> RECEIVE_BOOT_COMPLETED</h4>
+                                        <p class="lang-en">Used to reschedule supported background tasks (like FCM background notification services) after your device restarts.</p>
+                                        <p class="lang-ku">بۆ دووبارە ڕێکخستنی کارە پشتگیریکراوەکانی پاشبنەما (وەک خزمەتگوزاری ئاگادارکردنەوەکانی FCM) دوای ڕیستارت بوونەوەی ئامێرەکەت بەکاردەهێنرێت.</p>
+                                    </div>
+                                    <div class="permission-item">
+                                        <h4 class="lang-en"><i class="fas fa-vibration"></i> VIBRATE</h4>
+                                        <h4 class="lang-ku"><i class="fas fa-vibration"></i> VIBRATE</h4>
+                                        <p class="lang-en">Used to provide optional haptic feedback while typing when enabled in the application settings.</p>
+                                        <p class="lang-ku">بۆ دابینکردنی وەڵامدانەوەی لەرینەوە لە کاتی نووسین، کاتێک لە ڕێکخستنەکانی بەرنامەدا چالاک کرابێت، بەکاردەهێنرێت.</p>
+                                    </div>
+                                    <div class="permission-item">
+                                        <h4 class="lang-en"><i class="fas fa-cogs"></i> FOREGROUND_SERVICE / WAKE_LOCK</h4>
+                                        <h4 class="lang-ku"><i class="fas fa-cogs"></i> FOREGROUND_SERVICE / WAKE_LOCK</h4>
+                                        <p class="lang-en">Used where necessary to allow supported background operations, such as downloads or update checks, to complete reliably.</p>
+                                        <p class="lang-ku">لەو شوێنانەی پێویستە بەکاردەهێنرێت بۆ ئەوەی کارە پشتگیریکراوەکانی پاشبنەما، وەک داگرتن یان پشکنینی نوێکردنەوە، بە شێوەی جێگیر تەواو ببن.</p>
+                                    </div>
+                                    <div class="permission-item">
+                                        <h4 class="lang-en"><i class="fas fa-image"></i> READ_MEDIA_IMAGES / READ_EXTERNAL_STORAGE</h4>
+                                        <h4 class="lang-ku"><i class="fas fa-image"></i> READ_MEDIA_IMAGES / READ_EXTERNAL_STORAGE</h4>
+                                        <p class="lang-en">Used only when you explicitly select a custom image from your gallery to set as a keyboard background theme. Photos are processed locally and are never uploaded to our servers.</p>
+                                        <p class="lang-ku">تەنها کاتێک بەکاردەهێنرێت کە خۆت بە شێوەیەکی ئاشکرا وێنەیەکی تایبەت لە گەلەرییەکەتدا هەڵدەبژێریت بۆ ئەوەی بیکەیتە باکگراوند (پاشبنەما)ـی کیبۆردەکەت، وێنەکان بە شێوەیەکی ناوخۆیی ڕێکدەخرێن و هەرگیز بۆ سێرڤەرەکانمان بارناکرێن.</p>
                                     </div>
                                 </div>
                             </div>
 
+                            <div class="privacy-block">
+                                <h3 class="lang-en">7. Firebase Crashlytics</h3>
+                                <h3 class="lang-ku">٧. ڕاپۆرتی هەڵەو لەکارکەوتن</h3>
+                                <p class="lang-en">We use <strong>Firebase Crashlytics</strong>, a crash reporting service provided by Google Firebase, to identify, diagnose, and fix application crashes, application errors, and technical stability issues.</p>
+                                <p class="lang-ku">ئێمە <strong>Firebase Crashlytics</strong>، کە خزمەتگوزارییەکی ڕاپۆرتکردنی هەڵەکان و شوێنی لەکارکەوتن Crash ـە لەلایەن Google Firebase ـەوە، بەکاردەهێنین بۆ دۆزینەوە و چارەسەرکردنی کێشەی وەستانی لەناکاو یان گرفتە تەکنیکییەکانی بەرنامەکە.</p>
+                                <p class="lang-en">When a crash occurs, Crashlytics automatically collects diagnostic information such as crash stack traces, app version, OS version, and hardware model. This is used solely to improve application performance.</p>
+                                <p class="lang-ku">کاتێک کێشەیەکی لەکارکەوتن ڕوودەدات، Crashlytics زانیارییە تەکنیکییەکان کۆدەکاتەوە وەک شوێنی لەکارکەوتن، وەشانی بەرنامە، وەشانی سیستەم، و مۆدێلی ئامێر، ئەمەش تەنها بۆ باشترکردنی ئەدای بەرنامەکەو چارەسەرکردنی گرفتەکان بەکاردێت.</p>
+                                <p class="lang-en">We do <strong>NOT</strong> use Crashlytics to collect or analyze your typed text content.</p>
+                                <p class="lang-ku">ئێمە Crashlytics بۆ کۆکردنەوە یان شیکردنەوەی ناوەڕۆکی دەقی نووسراو لە کیبۆردەکەوە بەکارناهێنین.</p>
+                            </div>
+
+                            <div class="privacy-block">
+                                <h3 class="lang-en">8. Data Sharing and 3-rd Parties</h3>
+                                <h3 class="lang-ku">٨. هاوبەشکردنی داتا و لایەنە سێیەمەکان</h3>
+                                <p class="lang-en">We do not sell, rent, or trade your personal information to any third parties.</p>
+                                <p class="lang-ku">ئێمە زانیارییە کەسییەکانت نافڕۆشین، بە کرێی نادەین، و ئاڵوگۆڕی پێ ناکەین لەگەڵ هیچ لایەنێکی سێیەمدا.</p>
+                                <p class="lang-en">We use Google Firebase services (Authentication, Cloud Firestore, FCM, and Crashlytics) strictly to deliver account features, database storage, push alerts, and app stability. These services handle data in accordance with <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's Privacy Policy</a>.</p>
+                                <p class="lang-ku">ئێمە خزمەتگوزارییەکانی Google Firebase (Authentication, Cloud Firestore, FCM, Crashlytics) بەکاردەهێنین تەنها بۆ کارپێکردنی هەژمار، هەڵگرتنی داتابەیس، ناردنی ئاگادارکردنەوە، و جێگیری بەرنامەکە. ئەم خزمەتگوزارییانە بەپێی <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">سیاسەتی تایبەتمەندی Google</a> مامەڵە لەگەڵ داتاکان دەکەن.</p>
+                            </div>
+
+                            <div class="privacy-block">
+                                <h3 class="lang-en">9. Account and Data Deletion</h3>
+                                <h3 class="lang-ku">٩. سڕینەوەی هەژمار و داتا</h3>
+                                <p class="lang-en">You can permanently delete your Kurdish Keyboard account, Firestore profile, and associated records directly from the User Profile section within the application.</p>
+                                <p class="lang-ku">دەتوانیت هەژماری تەختەکلیلی کوردی، پرۆفایلی فایەرستۆر، و تۆمارەکانی پەیوەندیدار بە شێوەی هەمیشەیی لە بەشی پرۆفایلی بەکارهێنەر لەناو بەرنامەکەدا بسڕیتەوە.</p>
+                                <p class="lang-en">If you no longer have access to the application, you can request full account and Firestore data deletion online via our dedicated <a href="https://kurdikebord.github.io/delete-account.html" target="_blank" rel="noopener noreferrer">(Account Deletion Page)</a> or by emailing us at <a href="mailto:kurdikeybord@gmail.com">kurdikeybord@gmail.com</a>.</p>
+                                <p class="lang-ku">ئەگەر ئیتر دەستت بە بەرنامەکە ناگات، دەتوانیت لە ڕێگەی ئینتەرنێتەوە داوای سڕینەوەی تەواوەتی هەژمار و داتاکانی فایەرستۆر بکەیت لە لاپەڕەی <a href="https://kurdikebord.github.io/delete-account.html" target="_blank" rel="noopener noreferrer">(سڕینەوەی هەژمار)</a> یان لە ڕێگەی ئیمەیڵ لە <a href="mailto:kurdikeybord@gmail.com">kurdikeybord@gmail.com</a>.</p>
+                                <p class="lang-en">Upon confirmation, your email address, Firebase UID, and Cloud Firestore records are completely purged from our active database.</p>
+                                <p class="lang-ku">دوای پشتڕاستکردنەوە، ناونیشانی ئیمەیڵ، Firebase UID، و تۆمارەکانی Cloud Firestore بە تەواوەتی لە داتابەیسە چالاکەکەمان دەسڕدرێنەوە.</p>
+                            </div>
+
+                            <div class="privacy-block">
+                                <h3 class="lang-en">10. Data Retention</h3>
+                                <h3 class="lang-ku">١٠. ماوەی هەڵگرتنی داتا</h3>
+                                <p class="lang-en">We retain your Cloud Firestore profile data only for as long as your account remains active. Upon requesting deletion, your data is erased immediately from production databases.</p>
+                                <p class="lang-ku">ئێمە داتاکانی پرۆفایلی Cloud Firestore تەنها بۆ ئەو ماوەیە هەڵدەگرین کە هەژمارەکەت چالاکە، لەگەڵ داواکردنی سڕینەوەدا، داتاکانت دەستبەجێ لە داتابەیسی سەرەکی پاک دەکرێنەوە.</p>
+                            </div>
+
+                            <div class="privacy-block">
+                                <h3 class="lang-en">11. Children's Privacy</h3>
+                                <h3 class="lang-ku">١١. تایبەتمەندێتی مناڵان</h3>
+                                <p class="lang-en">Kurdish Keyboard is not directed specifically to children. We do not knowingly collect personal information from children. If you believe a child has provided us with personal data, please contact us for immediate deletion.</p>
+                                <p class="lang-ku">تەختەکلیلی کوردی بە تایبەتی ئاراستەی مناڵان نەکراوە، ئێمە بە ئاگاداری زانیاری کەسی لە مناڵان کۆناکەینەوە. ئەگەر پێت وایە مناڵێک داتای کەسی ناردووە، پەیوەندیمان پێوە بکە بۆ سڕینەوەی دەستبەجێ.</p>
+                            </div>
+
+                            <div class="privacy-block">
+                                <h3 class="lang-en">12. Google Play</h3>
+                                <h3 class="lang-ku">١٢. گۆگڵ پلەی</h3>
+                                <p class="lang-en">Kurdish Keyboard is distributed through Google Play. Purchases and app downloads are governed by Google's terms and services.</p>
+                                <p class="lang-ku">تەختەکلیلی کوردی لە ڕێگەی گۆگڵ پلەی بڵاودەکرێتەوە، کڕینەکان و داگرتنی بەرنامەکە لەژێر مەرج و خزمەتگوزارییەکانی Google ـدان.</p>
+                            </div>
+
+                            <div class="privacy-block">
+                                <h3 class="lang-en">13. Changes to This Privacy Policy</h3>
+                                <h3 class="lang-ku">١٣. گۆڕانکاری لەم سیاسەتی تایبەتمەندییەدا</h3>
+                                <p class="lang-en">We may update this Privacy Policy when features change or regulatory requirements mandate. The latest version will always be posted on this page with an updated revision date.</p>
+                                <p class="lang-ku">لەوانەیە ئەم سیاسەتی تایبەتمەندییە نوێ بکەینەوە کاتێک تایبەتمەندییەکان یان پێداویستییە یاساییەکان دەگۆڕێن، نوێترین زانیاری هەمیشە لەم لاپەڕەیەدا لەگەڵ بەرواری دوایین گۆڕانکاری بڵاودەکرێتەوە.</p>
+                            </div>
+
                             <div class="privacy-block" id="contact">
-                                <h3>5. Contact Us</h3>
-                                <p class="contact-desc">If you have any questions, comments, or concerns about this Privacy Policy, send us a message at:</p>
+                                <h3 class="lang-en">14. Contact Us</h3>
+                                <h3 class="lang-ku">١٤. پەیوەندیمان پێوە بکە</h3>
+                                <p class="contact-desc lang-en">If you have any questions or concerns regarding this Privacy Policy or your data, reach out through the following channels:</p>
+                                <p class="contact-desc lang-ku">ئەگەر پرسیار یان نیگەرانییەکت هەیە سەبارەت بەم سیاسەتە یان داتاکانت، دەتوانیت لە ڕێگەی ئەم لینکانەی خوارەوە پەیوەندیمان پێوە بکەیت:</p>
                                 <div class="privacy-contact">
-                                    <a href="https://facebook.com/kurdikebord" target="_blank" class="social-btn social-btn--facebook" aria-label="Facebook">
+                                    <a href="https://facebook.com/KurdiApp" target="_blank" rel="noopener noreferrer" class="social-btn social-btn--facebook" aria-label="Facebook">
                                         <i class="fab fa-facebook-f"></i>
                                         <span>Facebook</span>
                                     </a>
-                                    <a href="https://tiktok.com/@kurdikebord" target="_blank" class="social-btn social-btn--tiktok" aria-label="TikTok">
+                                    <a href="https://tiktok.com/@kurdiapp" target="_blank" rel="noopener noreferrer" class="social-btn social-btn--tiktok" aria-label="TikTok">
                                         <i class="fab fa-tiktok"></i>
                                         <span>TikTok</span>
                                     </a>
-                                    <a href="https://t.me/kurdikebord" target="_blank" class="social-btn social-btn--telegram" aria-label="Telegram">
+                                    <a href="https://t.me/kurdiapps" target="_blank" rel="noopener noreferrer" class="social-btn social-btn--telegram" aria-label="Telegram">
                                         <i class="fab fa-telegram-plane"></i>
                                         <span>Telegram</span>
                                     </a>
-                                    <a href="mailto:kurdikebord@gmail.com" class="social-btn social-btn--email" aria-label="Email">
+                                    <a href="mailto:kurdikeybord@gmail.com" class="social-btn social-btn--email" aria-label="Email">
                                         <i class="fas fa-envelope"></i>
-                                        <span>kurdikebord@gmail.com</span>
+                                        <span>kurdikeybord@gmail.com</span>
                                     </a>
                                 </div>
                             </div>
@@ -559,7 +657,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12 text-center">
-                            <p class="mb-0">Designed By <a class="footer-author" href="https://facebook.com/Goran9O" target="_blank">GoRaN</a></p>
+                            <p class="mb-0">Designed By <a class="footer-author" href="https://facebook.com/Goran9O" target="_blank" rel="noopener noreferrer">GoRaN</a></p>
                             <p class="mb-0 small text-muted">&copy; 2026 KurdiKebord</p>
                         </div>
                     </div>
@@ -578,5 +676,63 @@
         <script src="assets/js/purecounter.min.js"></script>
         <script src="assets/js/replaceme.min.js"></script>
         <script src="assets/js/scripts.js"></script>
+
+        <script>
+            (function () {
+                const root = document.documentElement;
+                const kuButton = document.getElementById('privacyLangKu');
+                const enButton = document.getElementById('privacyLangEn');
+                const kuItems = document.querySelectorAll('.lang-ku');
+                const enItems = document.querySelectorAll('.lang-en');
+
+                function setPrivacyLanguage(lang) {
+                    const isKurdish = lang === 'ku';
+
+                    root.lang = isKurdish ? 'ku' : 'en';
+                    root.dir = isKurdish ? 'rtl' : 'ltr';
+
+                    kuItems.forEach(function (el) {
+                        el.style.setProperty(
+                            'display',
+                            isKurdish ? 'revert' : 'none',
+                            'important'
+                        );
+                    });
+
+                    enItems.forEach(function (el) {
+                        el.style.setProperty(
+                            'display',
+                            isKurdish ? 'none' : 'revert',
+                            'important'
+                        );
+                    });
+
+                    kuButton.classList.toggle('active', isKurdish);
+                    enButton.classList.toggle('active', !isKurdish);
+
+                    kuButton.setAttribute('aria-pressed', String(isKurdish));
+                    enButton.setAttribute('aria-pressed', String(!isKurdish));
+
+                    try {
+                        localStorage.setItem('privacy-policy-language', lang);
+                    } catch (e) {}
+                }
+
+                kuButton.addEventListener('click', function () {
+                    setPrivacyLanguage('ku');
+                });
+
+                enButton.addEventListener('click', function () {
+                    setPrivacyLanguage('en');
+                });
+
+                let savedLanguage = 'en';
+                try {
+                    savedLanguage = localStorage.getItem('privacy-policy-language') || 'en';
+                } catch (e) {}
+
+                setPrivacyLanguage(savedLanguage === 'ku' ? 'ku' : 'en');
+            })();
+        </script>
     </body>
 </html>

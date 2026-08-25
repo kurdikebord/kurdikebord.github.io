@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!-- SEO Meta Tags -->
+        <meta name="description" content="Delete Account & Data | Kurdish Keyboard | KurdiKebord">
+        <meta name="author" content="Goran Gharib">
+
+        <!-- OG Meta Tags -->
+        <meta property="og:site_name" content="KurdiKebord" />
+        <meta property="og:site" content="https://kurdikebord.github.io" />
+        <meta property="og:title" content="Delete Account | KurdiKebord" />
+        <meta property="og:description" content="Request Account and Data Deletion for Kurdish Keyboard" />
+        <meta property="og:image" content="wena/header-illustration.svg" />
+        <meta property="og:url" content="https://kurdikebord.github.io/delete-account.html" />
+        <meta name="twitter:card" content="summary_large_image">
+
+        <!-- Webpage Title -->
+        <title>Delete Account & Data | Kurdish Keyboard</title>
+        
+        <!-- Styles -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/fontawesome-all.min.css" rel="stylesheet">
+        <link href="assets/css/swiper.css" rel="stylesheet">
+        <link href="assets/css/styles.css" rel="stylesheet">
+        
+        <!-- Favicon -->
+        <link rel="icon" href="wena/favicon.png">
+
+        <!-- Apply theme before paint to avoid flash -->
+        <script>
+            (function() {
+                const savedTheme = localStorage.getItem('ioniq-theme');
+                const preferred = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                document.documentElement.dataset.theme = savedTheme || preferred;
+            })();
+        </script>
+        
+        <style>
+            :root {
+                --font-en: 'KurdiFont', sans-serif;
+                --font-ku: 'KurdiFont', sans-serif;
+                
+                --privacy-bg: #0f172a;
+                --privacy-card-bg: rgba(30, 41, 59, 0.7);
+                --privacy-card-border: rgba(255, 255, 255, 0.08);
+                --privacy-text: #94a3b8;
+                --privacy-heading: #f8fafc;
+                --privacy-accent: #ef4444; /* Red theme accent for deletion action */
+                --privacy-accent-gradient: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+                --privacy-notice-bg: rgba(239, 68, 68, 0.08);
+                --privacy-notice-border: #ef4444;
+                --privacy-header-gradient: linear-gradient(135deg, rgba(30, 41, 59, 0.9) 0%, rgba(15, 23, 42, 0.95) 100%);
+                --privacy-shadow: 0 10px 30px -10px rgba(0,0,0,0.5);
+                --privacy-hover-shadow: 0 20px 40px -15px rgba(239, 68, 68, 0.15);
+                --privacy-item-bg: rgba(15, 23, 42, 0.5);
+                --privacy-item-border: rgba(255, 255, 255, 0.05);
+                --privacy-footer-bg: #0b0f19;
+                --privacy-footer-text: #64748b;
+            }
+
+            html[data-theme="light"] {
+                --privacy-bg: #f8fafc;
+                --privacy-card-bg: #ffffff;
+                --privacy-card-border: #e2e8f0;
+                --privacy-text: #475569;
+                --privacy-heading: #0f172a;
+                --privacy-accent: #dc2626;
+                --privacy-notice-bg: #fef2f2;
+                --privacy-notice-border: #ef4444;
+                --privacy-header-gradient: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+                --privacy-shadow: 0 10px 30px -10px rgba(0,0,0,0.05);
+                --privacy-hover-shadow: 0 20px 40px -15px rgba(220, 38, 38, 0.1);
+                --privacy-item-bg: #f1f5f9;
+                --privacy-item-border: #e2e8f0;
+                --privacy-footer-bg: #0f172a;
+                --privacy-footer-text: #94a3b8;
+            }
+
+            body {
+                font-family: var(--font-en);
+                background-color: var(--privacy-bg);
+                color: var(--privacy-text);
+            }
+
+            /* Kurdish typography rules */
+            html[lang="ku"] body,
+            html[dir="rtl"] body,
+            .lang-ku {
+                font-family: var(--font-ku) !important;
+            }
+
+            .privacy-page {
+                padding: 120px 0 80px;
+                min-height: 100vh;
+                background: var(--privacy-bg);
+                transition: background 0.3s ease;
+            }
+
+            .privacy-header-card {
+                background: var(--privacy-header-gradient);
+                padding: 60px 40px;
+                border-radius: 24px;
+                text-align: center;
+                color: #fff;
+                margin-bottom: 40px;
+                box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+                position: relative;
+                overflow: hidden;
+                border: 1px solid var(--privacy-card-border);
+                backdrop-filter: blur(12px);
+            }
+            .privacy-header-card::before {
+                content: '';
+                position: absolute;
+                top: -50%;
+                right: -50%;
+                width: 200%;
+                height: 200%;
+                background: radial-gradient(circle, rgba(239, 68, 68, 0.15) 0%, transparent 60%);
+                pointer-events: none;
+            }
+            .privacy-header-card span {
+                font-size: 3rem;
+                font-weight: 800;
+                display: block;
+                margin-bottom: 14px;
+                position: relative;
+                letter-spacing: -0.02em;
+            }
+            .privacy-header-card p {
+                color: #94a3b8;
+                font-size: 1.1rem;
+                margin: 0;
+                position: relative;
+                font-weight: 500;
+            }
+
+            .privacy-block {
+                margin-bottom: 30px;
+                padding: 40px;
+                background: var(--privacy-card-bg);
+                border-radius: 20px;
+                box-shadow: var(--privacy-shadow);
+                border: 1px solid var(--privacy-card-border);
+                border-left: 4px solid var(--privacy-accent);
+                transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+                backdrop-filter: blur(12px);
+            }
+            .privacy-block:hover {
+                box-shadow: var(--privacy-hover-shadow);
+                transform: translateY(-3px);
+                border-color: rgba(239, 68, 68, 0.3);
+            }
+            .privacy-block h3 {
+                color: var(--privacy-heading);
+                font-weight: 800;
+                font-size: 1.65rem;
+                margin-bottom: 22px;
+                padding-bottom: 14px;
+                border-bottom: 1px solid var(--privacy-card-border);
+                transition: color 0.3s ease;
+                display: flex;
+                align-items: center;
+                gap: 12px;
+            }
+            .privacy-block p {
+                color: var(--privacy-text);
+                line-height: 1.85;
+                font-size: 1.05rem;
+                margin-bottom: 16px;
+                transition: color 0.3s ease;
+            }
+            .privacy-block p:last-child {
+                margin-bottom: 0;
+            }
+            .privacy-block strong {
+                color: var(--privacy-heading);
+                font-weight: 700;
+            }
+            .privacy-block a {
+                color: var(--privacy-accent);
+                font-weight: 600;
+                text-decoration: none;
+                transition: color 0.2s ease;
+            }
+            .privacy-block a:hover {
+                color: #f87171;
+                text-decoration: underline;
+            }
+
+            .privacy-notice {
+                display: flex;
+                align-items: flex-start;
+                gap: 18px;
+                padding: 24px;
+                background: var(--privacy-notice-bg);
+                border-radius: 16px;
+                border: 1px solid var(--privacy-notice-border);
+                border-left-width: 5px;
+                margin-bottom: 30px;
+                transition: background 0.3s ease;
+            }
+            .privacy-notice i {
+                font-size: 2.2rem;
+                color: var(--privacy-accent);
+                margin-top: 2px;
+                flex-shrink: 0;
+            }
+            .privacy-notice strong {
+                display: block;
+                margin-bottom: 8px;
+                font-size: 1.15rem;
+                color: var(--privacy-heading);
+            }
+
+            .permission-list {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+            }
+            .permission-item {
+                padding: 24px;
+                border-radius: 14px;
+                background: var(--privacy-item-bg);
+                border: 1px solid var(--privacy-item-border);
+                transition: all 0.3s ease;
+            }
+            .permission-item:hover {
+                border-color: rgba(239, 68, 68, 0.4);
+                transform: translateX(4px);
+            }
+            html[dir="rtl"] .permission-item:hover {
+                transform: translateX(-4px);
+            }
+            .permission-item h4 {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                color: var(--privacy-heading);
+                font-weight: 700;
+                font-size: 1.2rem;
+                margin-bottom: 12px;
+            }
+            .permission-item h4 i {
+                color: var(--privacy-accent);
+                font-size: 1.2rem;
+                width: 28px;
+                height: 28px;
+                background: rgba(239, 68, 68, 0.1);
+                border-radius: 8px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .permission-item p {
+                margin: 0;
+                color: var(--privacy-text);
+                line-height: 1.7;
+            }
+
+            .contact-desc {
+                text-align: center;
+                max-width: 560px;
+                margin-left: auto;
+                margin-right: auto;
+                color: var(--privacy-text);
+            }
+            .privacy-contact {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 16px;
+                margin-top: 32px;
+            }
+            .social-btn {
+                border-radius: 99px;
+                padding: 14px 28px;
+                font-weight: 600;
+                font-size: 0.95rem;
+                text-decoration: none !important;
+                display: inline-flex;
+                align-items: center;
+                gap: 12px;
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                cursor: pointer;
+                transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+                color: #fff !important;
+            }
+            .social-btn:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+            }
+            .social-btn--email { background: #dc2626; }
+            .social-btn--telegram { background: #229ed9; }
+            .social-btn--facebook { background: #1877f2; }
+
+            /* RTL & Kurdish specific overrides */
+            html[dir="rtl"] .privacy-page {
+                direction: rtl;
+            }
+            html[dir="rtl"] .privacy-header-card,
+            html[dir="rtl"] .privacy-block,
+            html[dir="rtl"] .privacy-notice,
+            html[dir="rtl"] .permission-list,
+            html[dir="rtl"] .permission-item {
+                text-align: right;
+            }
+            html[dir="rtl"] .privacy-block {
+                border-left: 0;
+                border-right: 4px solid var(--privacy-accent);
+            }
+            html[dir="rtl"] .privacy-notice {
+                border-left: 0;
+                border-right: 5px solid var(--privacy-notice-border);
+            }
+            html[dir="rtl"] .privacy-header-card,
+            html[dir="rtl"] .privacy-header-card .lang-ku {
+                text-align: center !important;
+            }
+
+            /* Floating Language Switcher */
+            .privacy-language-switcher {
+                position: fixed;
+                right: 24px;
+                bottom: 24px;
+                z-index: 1050;
+                display: inline-flex;
+                align-items: center;
+                padding: 5px;
+                background: rgba(15, 23, 42, 0.85);
+                border: 1px solid rgba(255, 255, 255, 0.15);
+                border-radius: 999px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+                backdrop-filter: blur(16px);
+                -webkit-backdrop-filter: blur(16px);
+            }
+            .privacy-language-switcher button {
+                border: 0;
+                background: transparent;
+                color: rgba(255, 255, 255, 0.7);
+                padding: 8px 18px;
+                border-radius: 999px;
+                font-weight: 600;
+                font-size: 0.9rem;
+                cursor: pointer;
+                transition: all 0.2s ease;
+                font-family: var(--font-en);
+            }
+            .privacy-language-switcher button#privacyLangKu {
+                font-family: var(--font-ku);
+            }
+            .privacy-language-switcher button.active {
+                background: var(--privacy-accent);
+                color: #fff;
+                box-shadow: 0 4px 14px rgba(239, 68, 68, 0.4);
+            }
+
+            .footer {
+                background: var(--privacy-footer-bg);
+                color: var(--privacy-footer-text);
+                padding: 35px 0;
+                border-top: 1px solid var(--privacy-card-border);
+            }
+            .footer-author {
+                color: var(--privacy-accent) !important;
+                font-weight: 700;
+                text-decoration: none;
+            }
+
+            @media (max-width: 768px) {
+                .privacy-page { padding: 90px 0 60px; }
+                .privacy-header-card { padding: 40px 20px; }
+                .privacy-header-card span { font-size: 2.2rem; }
+                .privacy-block { padding: 25px 20px; }
+                .social-btn { width: 100%; justify-content: center; }
+            }
+        </style>
+    </head>
+    <body data-bs-spy="scroll" data-bs-target="#navbarExample">
+    <div class="privacy-language-switcher" aria-label="Language selector">
+        <button type="button" id="privacyLangKu" aria-label="Switch to Kurdish">کوردی</button>
+        <button type="button" id="privacyLangEn" class="active" aria-label="Switch to English">English</button>
+    </div>
+
+        <!-- Navigation -->
+        <nav id="navbarExample" class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
+            <div class="container">
+                <a class="navbar-brand logo-text" href="index.html">KurdiKebord</a>
+
+                <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false" title="Toggle color theme">
+                    <span class="theme-toggle__sun" aria-hidden="true"><i class="fas fa-sun"></i></span>
+                    <span class="theme-toggle__thumb" aria-hidden="true"></span>
+                    <span class="theme-toggle__moon" aria-hidden="true"><i class="fas fa-moon"></i></span>
+                </button>
+
+                <button class="navbar-toggler" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+                    <span class="hamburger-line line-top"></span>
+                    <span class="hamburger-line line-middle"></span>
+                    <span class="hamburger-line line-bottom"></span>
+                </button>
+
+                <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                    <ul class="navbar-nav ms-auto navbar-nav-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#details">Details</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                                <li><a class="dropdown-item" href="about.html">About</a></li>
+                                <li><a class="dropdown-item" href="privacy.html">Privacy Policy</a></li>
+                                <li><div class="dropdown-divider"></div></li>
+                                <li><a class="dropdown-item active" href="delete-account.html">Delete Account</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <section class="privacy-page">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10 mx-auto col-12">
+
+                            <div class="privacy-header-card">
+                                <span class="lang-en">Delete Account & Data<br><br></span>
+                                <span class="lang-ku">سڕینەوەی هەژمار و داتاکان<br><br></span>
+                                <p class="lang-en">Kurdish Keyboard (KurdiKebord)</p>
+                                <p class="lang-ku">تەختەکلیلی کوردی (KurdiKebord)</p>
+                            </div>
+
+                            <div class="privacy-notice">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                <div>
+                                    <strong class="lang-en">Important Notice Regarding Account Deletion</strong>
+                                    <strong class="lang-ku">ئاگادارییەکی گرنگ سەبارەت بە سڕینەوەی هەژمار</strong>
+                                    <span class="lang-en">Deleting your account is permanent and irreversible. Once deleted, your account credentials, premium entitlement access, and stored Firestore profile data will be completely purged from our database.</span>
+                                    <span class="lang-ku">بۆ زانیاریت سڕینەوەی هەژمارەکەت کارێکی هەمیشەیییە و ناگەڕێتەوە پاش سڕینەوەیان، داتاکانی چوونەژوورەوە، دەستگەیشتن بە تایبەتمەندییە پێشکەوتووەکان و پرۆفایلی بەکارهێنەریت بە تەواوەتی لەناو داتابەیسەکەماندا پاک دەکرێتەوە.</span>
+                                </div>
+                            </div>
+
+                            <div class="privacy-block">
+                                <h3 class="lang-en">1. How to Delete Account In-App</h3>
+                                <h3 class="lang-ku">١. چۆنیەتی سڕینەوەی هەژمار لەناو بەرنامەکەدا</h3>
+                                <p class="lang-en">The easiest and fastest way to delete your account and associated data is directly inside the Kurdish Keyboard app:</p>
+                                <p class="lang-ku">ئاسانترین و خێراترین ڕێگا بۆ سڕینەوەی هەژمار و داتاکانت، ڕاستەوخۆ لەناو بەرنامەی تەختەکلیلی کوردی:</p>
+                                
+                                <div class="permission-list">
+                                    <div class="permission-item">
+                                        <h4 class="lang-en"><i class="fas fa-mobile-alt"></i> Step 1: Open App Settings</h4>
+                                        <h4 class="lang-ku"><i class="fas fa-mobile-alt"></i> هەنگاوی ١: ڕێکخستنی بەرنامەکە بکەرەوە</h4>
+                                        <p class="lang-en">Open the <strong>Kurdish Keyboard</strong> app on your Android device and navigate to the <strong>Account / Profile Settings</strong> tab.</p>
+                                        <p class="lang-ku">بەرنامەی <strong>تەختەکلیلی کوردی</strong> لەسەر ئامێرەکەت بکەرەوە و بڕۆ ناو بەشی <strong>ڕێکخستنەکانی هەژمار / پرۆفایل</strong>.</p>
+                                    </div>
+                                    <div class="permission-item">
+                                        <h4 class="lang-en"><i class="fas fa-user-slash"></i> Step 2: Request Deletion</h4>
+                                        <h4 class="lang-ku"><i class="fas fa-user-slash"></i> هەنگاوی ٢: داوای سڕینەوە بکە</h4>
+                                        <p class="lang-en">Tap on <strong>Delete Account</strong> at the bottom of the profile section. Confirm your decision when the security prompt appears.</p>
+                                        <p class="lang-ku">لە بەشی پرۆفایل لەخوار ناونیشانی ئیمەیڵەکەت پەنجە بنێ بە دوگمەی <strong>سڕینەوەی هەژمار</strong>، بڕیارەکەت پشتڕاست بکەرەوە کاتێک شاشەی دڵنیاکردنەوە دەردەکەوێت کرتە بکە لە دوگمەی <strong>سڕینەوە</strong> .</p>
+                                    </div>
+                                    <div class="permission-item">
+                                        <h4 class="lang-en"><i class="fas fa-check-circle"></i> Step 3: Automated Purge</h4>
+                                        <h4 class="lang-ku"><i class="fas fa-check-circle"></i> هەنگاوی ٣: سڕینەوەی خۆکار</h4>
+                                        <p class="lang-en">Your Firebase Authentication user identity and Cloud Firestore profile will be permanently wiped out immediately.</p>
+                                        <p class="lang-ku">ناسنامەی بەکارهێنەری فایەربەیس (Firebase Auth) و پرۆفایلی بەکارهێنەریت دەستبەجێ بە شێوەیەکی هەمیشەیی دەسڕدرێنەوە.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="privacy-block">
+                                <h3 class="lang-en">2. Request Deletion via Email (If app is uninstalled)</h3>
+                                <h3 class="lang-ku">٢. داواکردنی سڕینەوە لەڕێی ئیمەیڵ (ئەگەر بەرنامەکەت سڕیوەتەوە)</h3>
+                                <p class="lang-en">If you no longer have access to the app or have already uninstalled it, you can request manual data deletion by contacting our support team:</p>
+                                <p class="lang-ku">ئەگەر ئیتر دەستت بە بەرنامەکە ناگات یان بەرنامەکەت سڕیوەتەوە، دەتوانیت بە دەستی داوای سڕینەوەی داتاکانت بکەیت لەڕێی پەیوەندیکردن بە تیمی پشتیوانی:</p>
+                                <p class="lang-en">Send an email to <strong><a href="mailto:kurdikeybord@gmail.com">kurdikeybord@gmail.com</a></strong> from the Google email address registered with your Kurdish Keyboard account.</p>
+                                <p class="lang-ku">ئیمەیڵێک بنێرە بۆ <strong><a href="mailto:kurdikeybord@gmail.com">kurdikeybord@gmail.com</a></strong> لەو ناونیشانی ئیمەیڵەی گۆگڵ کە پێشتر پێی چویتە ژوورەوە بۆ بەرنامەی تەختەکلیلی کوردی.</p>
+                                <p class="lang-en">Include the subject line: <strong>"Account Deletion Request - KurdiKebord"</strong>.</p>
+                                <p class="lang-ku">لە سەردێڕی ئیمەیڵەکە بنووسە: <strong>"داواکاری سڕینەوەی هەژمار - تەختەکلیلی کوردی"</strong>.</p>
+                                <p class="lang-en">Upon verification, your account record and stored data will be completely deleted within <strong>48 hours</strong>.</p>
+                                <p class="lang-ku">دوای پشتڕاستکردنەوە هەژمارەکەت و سەرجەم داتا هەڵگیراوەکان لە ماوەی <strong>٤٨ کاتژمێردا</strong> بە تەواوەتی دەسڕدرێنەوە.</p>
+                            </div>
+
+                            <div class="privacy-block">
+                                <h3 class="lang-en">3. What Data Is Deleted?</h3>
+                                <h3 class="lang-ku">٣. چ داتایەک دەسڕێتەوە؟</h3>
+                                <p class="lang-en">When account deletion is processed, the following data is permanently erased from our production servers:</p>
+                                <p class="lang-ku">کاتێک سڕینەوەی هەژمار ئەنجام دەدرێت، ئەم داتایانەی خوارەوە بۆ هەمیشە لە سێرڤەرە چالاکەکانمان دەسڕدرێنەوە:</p>
+                                
+                                <div class="permission-list">
+                                    <div class="permission-item">
+                                        <h4 class="lang-en"><i class="fas fa-user-shield"></i> Account Identifiers</h4>
+                                        <h4 class="lang-ku"><i class="fas fa-user-shield"></i> ناسنامەکانی هەژمار</h4>
+                                        <p class="lang-en">Your registered email address and unique Firebase Authentication UID.</p>
+                                        <p class="lang-ku">ناونیشانی ئیمەیڵی تۆمارکراو و ئایدی تایبەتی فایەربەیس (Firebase Authentication UID).</p>
+                                    </div>
+                                    <div class="permission-item">
+                                        <h4 class="lang-en"><i class="fas fa-database"></i> Cloud Firestore Profile Data</h4>
+                                        <h4 class="lang-ku"><i class="fas fa-database"></i> داتای پرۆفایلی بەکارهێنەر</h4>
+                                        <p class="lang-en">All your sync configurations, preference records, and entitlement permissions stored in Google Cloud Firestore.</p>
+                                        <p class="lang-ku">سەرجەم زانیارییەکانی هاوبەشکردن، ڕێکخستنەکان، و مافی دەستگەیشتن کە لە Google Cloud Firestore هەڵگیراون.</p>
+                                    </div>
+                                    <div class="permission-item">
+                                        <h4 class="lang-en"><i class="fas fa-bell-slash"></i> Push Notification Tokens</h4>
+                                        <h4 class="lang-ku"><i class="fas fa-bell-slash"></i> کۆدەکانی ئاگادارکردنەوە</h4>
+                                        <p class="lang-en">Your device's FCM messaging token associated with your profile.</p>
+                                        <p class="lang-ku">کۆدی ئاگادارکردنەوەی FCM کە بە ئامێر و پرۆفایلەکەتەوە بەستراوەتەوە.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="privacy-block">
+                                <h3 class="lang-en">4. Data Retention Policy</h3>
+                                <h3 class="lang-ku">٤. یاسای هەڵگرتن و سڕینەوەی داتا</h3>
+                                <p class="lang-en">We do not retain backup copies of deleted user accounts. Once your account is deleted in-app or via an email request, the data cannot be restored or retrieved by anyone.</p>
+                                <p class="lang-ku">ئێمە هیچ کۆپییەکی یەدەگ (Backup) لە هەژمارە سڕاوەکان ناهێڵینەوە، هەرکاتێک هەژمارەکەت لەناو بەرنامەکە یان لەڕێی ئیمەیڵەوە سڕدرایەوە، داتاکانت بە هیچ شێوەیەک توانای گەڕانەوەیان نییەو ناکرێنەوە.</p>
+                            </div>
+
+                            <div class="privacy-block" id="contact">
+                                <h3 class="lang-en">5. Contact Support</h3>
+                                <h3 class="lang-ku">٥. پەیوەندی بە پشتیوانی</h3>
+                                <p class="contact-desc lang-en">If you encounter any issues during the account deletion process, please contact us:</p>
+                                <p class="contact-desc lang-ku">ئەگەر ڕووبەڕووی هەر کێشەیەک بوویتەوە لە کاتی سڕینەوەی هەژمارەکەتدا، دەتوانیت پەیوەندیمان پێوە بکەیت:</p>
+                                <div class="privacy-contact">
+                                    <a href="mailto:kurdikeybord@gmail.com" class="social-btn social-btn--email" aria-label="Email">
+                                        <i class="fas fa-envelope"></i>
+                                        <span>kurdikeybord@gmail.com</span>
+                                    </a>
+                                    <a href="https://t.me/kurdiapps" target="_blank" rel="noopener noreferrer" class="social-btn social-btn--telegram" aria-label="Telegram">
+                                        <i class="fab fa-telegram-plane"></i>
+                                        <span>Telegram</span>
+                                    </a>
+                                    <a href="https://facebook.com/KurdiApp" target="_blank" rel="noopener noreferrer" class="social-btn social-btn--facebook" aria-label="Facebook">
+                                        <i class="fab fa-facebook-f"></i>
+                                        <span>Facebook</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer pt-4 pb-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <p class="mb-0">Designed By <a class="footer-author" href="https://facebook.com/Goran9O" target="_blank" rel="noopener noreferrer">GoRaN</a></p>
+                            <p class="mb-0 small text-muted">&copy; 2026 KurdiKebord</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </main>
+
+        <!-- Back To Top Button -->
+        <button onclick="topFunction()" id="myBtn" aria-label="Back to top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+
+        <!-- Scripts -->
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/swiper.min.js"></script>
+        <script src="assets/js/purecounter.min.js"></script>
+        <script src="assets/js/replaceme.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+
+        <script>
+            (function () {
+                const root = document.documentElement;
+                const kuButton = document.getElementById('privacyLangKu');
+                const enButton = document.getElementById('privacyLangEn');
+                const kuItems = document.querySelectorAll('.lang-ku');
+                const enItems = document.querySelectorAll('.lang-en');
+
+                function setPrivacyLanguage(lang) {
+                    const isKurdish = lang === 'ku';
+
+                    root.lang = isKurdish ? 'ku' : 'en';
+                    root.dir = isKurdish ? 'rtl' : 'ltr';
+
+                    kuItems.forEach(function (el) {
+                        el.style.setProperty(
+                            'display',
+                            isKurdish ? 'revert' : 'none',
+                            'important'
+                        );
+                    });
+
+                    enItems.forEach(function (el) {
+                        el.style.setProperty(
+                            'display',
+                            isKurdish ? 'none' : 'revert',
+                            'important'
+                        );
+                    });
+
+                    kuButton.classList.toggle('active', isKurdish);
+                    enButton.classList.toggle('active', !isKurdish);
+
+                    kuButton.setAttribute('aria-pressed', String(isKurdish));
+                    enButton.setAttribute('aria-pressed', String(!isKurdish));
+
+                    try {
+                        localStorage.setItem('privacy-policy-language', lang);
+                    } catch (e) {}
+                }
+
+                kuButton.addEventListener('click', function () {
+                    setPrivacyLanguage('ku');
+                });
+
+                enButton.addEventListener('click', function () {
+                    setPrivacyLanguage('en');
+                });
+
+                let savedLanguage = 'en';
+                try {
+                    savedLanguage = localStorage.getItem('privacy-policy-language') || 'en';
+                } catch (e) {}
+
+                setPrivacyLanguage(savedLanguage === 'ku' ? 'ku' : 'en');
+            })();
+        </script>
+    </body>
+</html>
