@@ -1,7 +1,7 @@
 {
-  "is_forced": true,
-  "latest_version_code": 50,
-  "version_name": "3.0.0",
+  "is_forced": false,
+  "latest_version_code": 60,
+  "version_name": "3.0.3",
   "download_url": "https://play.google.com/store/apps/details?id=com.goran.kurdikeyboard",
   "changelog": "• ئەم بەرنامەیە بەمزوانە ڕادەگیرێت و چیتر نوێکردنەوەی پێ ناگات! 
 پێویستە وەشانی نوێ دابەزێنیت بۆ بەردەوامبون لە بەکارهێنانی بەرنامەکە
