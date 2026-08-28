@@ -1,10 +1,13 @@
 {
   "is_forced": true,
-  "latest_version_code": 55,
-  "version_name": "3.0.1",
+  "latest_version_code": 56,
+  "version_name": "3.0.2",
   "download_url": "https://play.google.com/store/apps/details?id=com.goran.kurdikeyboard",
   "changelog": "• زیادکردنی وەڵامدەرەوەی زیرەک (AI)
 
+• چاککردنی کێشەی سفر بوونەوەی ڕێکخستنەکان
+• چاکسازی گشتی لەبەشی پرۆفایلی بەکارهێنەر
+• چارەسەرکردنی پیتی (ژ) + وەستانی لەناکاو
 • وەرگێڕانی ڕاستەوخۆ بۆ 240 زمان
 • چاکسازی گشتی لەبەشی زیکرەکان و ئیمۆجی
 • توانای گۆڕینی شوێنی بەشەکانی ئیمۆجی
