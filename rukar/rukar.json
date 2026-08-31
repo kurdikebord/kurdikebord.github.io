@@ -111,8 +111,6 @@
     "isPremium": true
   },
 
-
-
   {
     "id": "com.kurdikeyboard.theme.rukar13",
     "title": "ڕووکاری ١٣",
@@ -121,5 +119,25 @@
     "imageUrl": "https://kurdikebord.github.io/rukar/rukar13img.png",
     "isNight": false,
     "isPremium": false
+  },
+
+  {
+    "id": "com.kurdikeyboard.theme.rukar14",
+    "title": "ڕووکاری ١٤",
+    "author": "GoRaN",
+    "downloadUrl": "https://kurdikebord.github.io/rukar/rukar14.flex",
+    "imageUrl": "https://kurdikebord.github.io/rukar/rukar14img.png",
+    "isNight": false,
+    "isPremium": false
+  },
+
+  {
+    "id": "com.kurdikeyboard.theme.rukar15",
+    "title": "ڕووکاری ١٥",
+    "author": "GoRaN",
+    "downloadUrl": "https://kurdikebord.github.io/rukar/rukar15.flex",
+    "imageUrl": "https://kurdikebord.github.io/rukar/rukar15img.png",
+    "isNight": true,
+    "isPremium": true
   }
 ]
