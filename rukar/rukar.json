@@ -77,8 +77,8 @@
     "author": "GoRaN",
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar9.flex",
     "imageUrl": "https://kurdikebord.github.io/rukar/rukar9img.png",
-    "isNight": false,
-    "isPremium": false
+    "isNight": true,
+    "isPremium": true
   },
 
   {
@@ -87,7 +87,7 @@
     "author": "GoRaN",
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar10.flex",
     "imageUrl": "https://kurdikebord.github.io/rukar/rukar10img.png",
-    "isNight": false,
+    "isNight": true,
     "isPremium": false
   },
 
@@ -97,8 +97,8 @@
     "author": "GoRaN",
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar11.flex",
     "imageUrl": "https://kurdikebord.github.io/rukar/rukar11img.png",
-    "isNight": false,
-    "isPremium": true
+    "isNight": true,
+    "isPremium": false
   },
 
   {
@@ -107,7 +107,7 @@
     "author": "GoRaN",
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar12.flex",
     "imageUrl": "https://kurdikebord.github.io/rukar/rukar12img.png",
-    "isNight": false,
+    "isNight": true,
     "isPremium": true
   },
 
@@ -117,8 +117,8 @@
     "author": "GoRaN",
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar13.flex",
     "imageUrl": "https://kurdikebord.github.io/rukar/rukar13img.png",
-    "isNight": false,
-    "isPremium": false
+    "isNight": true,
+    "isPremium": true
   },
 
   {
@@ -127,8 +127,8 @@
     "author": "GoRaN",
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar14.flex",
     "imageUrl": "https://kurdikebord.github.io/rukar/rukar14img.png",
-    "isNight": false,
-    "isPremium": false
+    "isNight": true,
+    "isPremium": true
   },
 
   {
@@ -137,8 +137,8 @@
     "author": "GoRaN",
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar15.flex",
     "imageUrl": "https://kurdikebord.github.io/rukar/rukar15img.png",
-    "isNight": false,
-    "isPremium": true
+    "isNight": true,
+    "isPremium": false
   },
 
 
@@ -148,8 +148,8 @@
     "author": "GoRaN",
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar16.flex",
     "imageUrl": "https://kurdikebord.github.io/rukar/rukar16img.png",
-    "isNight": false,
-    "isPremium": true
+    "isNight": true,
+    "isPremium": false
   },
 
   {
@@ -159,6 +159,6 @@
     "downloadUrl": "https://kurdikebord.github.io/rukar/rukar17.flex",
     "imageUrl": "https://kurdikebord.github.io/rukar/rukar17img.png",
     "isNight": false,
-    "isPremium": true
+    "isPremium": false
   }
 ]
