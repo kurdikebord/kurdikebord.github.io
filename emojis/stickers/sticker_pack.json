@@ -1,11 +1,22 @@
 {
   "packs": [
     {
-      "id": "pack_1",
-      "name": "مراوییە زەردەکە",
+      "id": "duck_pack",
+      "name": "مراوی",
       "zip_file": "duck.zip",
-      "cover": "1.tgs",
-      "stickers": ["1.gif", "2.gif", "3.gif"]
+      "cover": "1.tgs"
+    },
+    {
+      "id": "kurdi1_pack",
+      "name": "کوردی",
+      "zip_file": "kurdi1.zip",
+      "cover": "1.webp"
+    },
+    {
+      "id": "zikr1_pack",
+      "name": "زیکرەکان",
+      "zip_file": "zikr1.zip",
+      "cover": "1.webp"
     }
   ]
 }
