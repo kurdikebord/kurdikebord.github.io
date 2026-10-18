@@ -1,0 +1,11 @@
+{
+  "packs": [
+    {
+      "id": "pack_1",
+      "name": "مراوییە زەردەکە",
+      "zip_file": "duck.zip",
+      "cover": "1.tgs",
+      "stickers": ["1.gif", "2.gif", "3.gif"]
+    }
+  ]
+}
