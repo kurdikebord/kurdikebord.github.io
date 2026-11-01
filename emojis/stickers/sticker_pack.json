@@ -1,12 +1,6 @@
 {
   "packs": [
     {
-      "id": "duck_pack",
-      "name": "مراوی",
-      "zip_file": "duck.zip",
-      "cover": "1.tgs"
-    },
-    {
       "id": "kurdi1_pack",
       "name": "کوردی",
       "zip_file": "kurdi1.zip",
