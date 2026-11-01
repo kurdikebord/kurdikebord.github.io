@@ -2,19 +2,19 @@
   "packs": [
     {
       "id": "kurdi1_pack",
-      "name": "",
+      "name": "کوردی",
       "zip_file": "kurdi1.zip",
       "cover": "kurdi1.webp"
     },
     {
       "id": "kurdi2_pack",
-      "name": "",
+      "name": "پێکەنین",
       "zip_file": "kurdi2.zip",
       "cover": "kurdi2.png"
     },
     {
       "id": "zikr1_pack",
-      "name": "",
+      "name": "زیکرەکان",
       "zip_file": "zikr1.zip",
       "cover": "zikr1.webp"
     }
